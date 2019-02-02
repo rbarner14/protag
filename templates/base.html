@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% title block %}PAGE TITLE HERE {% title endblock %}</title>
+</head>
+<body>
+    {% content block %}
+    <h1>Welcome to ProTag</h1>
+    <form>
+        Song Name: <input type="text" name="songname">
+        <br>
+        Producer Name: <input type="text" name="producername">
+        <br>
+        Performer Name: <input type="text" name="performername">
+    </form>
+    {% content endblock %}
+</body>
+
+<footer>
+    {% footer block %}
+    {% footer endblock %}
+</footer>
+</html>

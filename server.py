@@ -24,7 +24,7 @@ def index():
         return render_template("homepage.html")
 
 # SH: should be POST method
-@app.route("/get-user-search", methods=["POST"])
+@app.route("/get-user-search", methods=["GET"])
 def get_user_search():
 
     # Get the name that the user submitted (from request.args).
@@ -40,12 +40,12 @@ def get_user_search():
     #     return redirect("/")
     # else: 
     #     session['name'] = name
-        if song_name: 
-            return render_template("search_result.html");
-        elif producer_name:
-            return render_template("producer_page.html");
-        elif performer_name:
-            return render_template("performer_page.html");
+    if song_name: 
+        return render_template("search_result.html");
+    elif producer_name:
+        return render_template("producer_page.html");
+    elif performer_name:
+        return render_template("performer_page.html");
 
     # After the name has been added to the session, 
     # redirect to the /top-melons route.

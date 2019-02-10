@@ -31,11 +31,19 @@ SEARCH_URL = "https://genius.com/api/search/artist?page=1&q="
 # %s will be replaced with the artists' name  
 SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
 artist_name = "" 
+songs_url_list = []
 
 with open('play_results_3.csv', 'w') as f:
     f.write("artist_id, artist_name, song_title, performer_name\n")
 
 
+def get_songs_url_list(artist_id):
+  for i in range(31):
+    song_url = SONGS_URL % (artist_id, i)
+    songs_url_list.append(song_url)
+  print(songs_url_list)
+
+  
 
 # define function get_artist_id takes one argument artist_name that is passed in
 # at command line
@@ -110,6 +118,7 @@ if __name__ == '__main__':
   # songs variable is bound to the function call of get_songs that takes in the
   # artist_id as a parameter
   songs = get_songs(artist_id, page_number)
+  get_songs_url_list(artist_id)
 
   with open('play_results_3.csv', 'a') as f:
     for song in songs:

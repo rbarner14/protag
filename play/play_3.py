@@ -27,8 +27,8 @@ SEARCH_URL = "https://genius.com/api/search/artist?page=1&q="
 # the page of JSON needed for gathering artists' songs they have produced and 
 # the performers of those songs
 # %s will be replaced with the artists' name  
-SONGS_URL = "https://genius.com/api/artists/%s/songs?page=1&sort=popularity"
-
+SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
+SONGS_URLS = []
 
 # define function get_artist_id takes one argument artist_name that is passed in
 # at command line
@@ -47,7 +47,6 @@ def get_artist_id(artist_name):
   # browser to facilitate human interpretation
   j = r.json()
 
-
   # j['response']['sections'] is a list containing data we need in the json 
   # that is unpacked with a for loop
   for section in j['response']['sections']:
@@ -63,10 +62,10 @@ def get_artist_id(artist_name):
 
 
 # function get_songs is defined that takes in a single argument "artist_id"
-def get_songs(artist_id):
+def get_songs(artist_id, page_number):
   # the variable url is bound to the variable SONGS_URL defined above 
   # the %s in the SONGS_URL is replaced by the artist_id passed in this function
-  url = SONGS_URL % artist_id
+  url = SONGS_URL % (artist_id, page_number)
   # the artists' songs url is printed to the console
   print(url)
   # the variable r is bound to the requests method .get() that takes in the url
@@ -94,12 +93,13 @@ if __name__ == '__main__':
   # artist name to feed in get_artist_id function = string argument of artist name 
   # entered when running file at command line
   artist_name = sys.argv[1]
+  page_number = sys.argv[2]
   # artist_id variable is bound to the function call of get_artist_id with the
   # passed in artist_name as a variable
   artist_id = get_artist_id(artist_name)
   # songs variable is bound to the function call of get_songs that takes in the
   # artist_id as a parameter
-  songs = get_songs(artist_id)
+  songs = get_songs(artist_id, page_number)
   # since get_songs returns a list "songs", unpack list with for loop 
   for s in songs:
     # for every song title in songs list, print the song title 

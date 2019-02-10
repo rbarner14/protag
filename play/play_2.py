@@ -27,7 +27,9 @@ SEARCH_URL = "https://genius.com/api/search/artist?page=1&q="
 # the page of JSON needed for gathering artists' songs they have produced and 
 # the performers of those songs
 # %s will be replaced with the artists' name  
-SONGS_URL = "https://genius.com/api/artists/%s/songs?page=1&sort=popularity"
+SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
+page_number = 1; 
+songs = [];
 
 
 # define function get_artist_id takes one argument artist_name that is passed in
@@ -63,10 +65,10 @@ def get_artist_id(artist_name):
 
 
 # function get_songs is defined that takes in a single argument "artist_id"
-def get_songs(artist_id):
+def get_songs(artist_id, page_number):
   # the variable url is bound to the variable SONGS_URL defined above 
   # the %s in the SONGS_URL is replaced by the artist_id passed in this function
-  url = SONGS_URL % artist_id
+  url = SONGS_URL % (artist_id, page_number)
   # the artists' songs url is printed to the console
   print(url)
   # the variable r is bound to the requests method .get() that takes in the url
@@ -74,16 +76,30 @@ def get_songs(artist_id):
   r = requests.get(url)
   # a variable j is defined to jsonfiy the output from the get request defined
   # as r above
-  j = r.json()
+  return r.json()
 
-  # songs is a variable bound to an empty string
-  songs = []
-  # the list at the key j['response']['songs']
-  for song in j['response']['songs']:
-    # add song title which is the value at the key title in the song dictionary
-    songs.append(song['title'])
-  # return list of songs
-  return songs
+
+def crawl_pages(artist_id):
+
+  j = get_songs(artist_id)['response']['songs'];
+  jr = get_songs(artist_id)['response']['next_page'];
+  subsongs = []
+
+  if jr != null:
+    # songs is a variable bound to an empty string
+    # the list at the key j['response']['songs']
+    for song in j:
+      # add song title which is the value at the key title in the song dictionary
+      subsongs.append(song['title'])
+    # return list of songs
+    page_number += 1
+    songs.append(subsongs)
+
+    return songs[-1]
+
+
+  else: 
+    return "Search complete."
 
 
 # runs python at command line without calling functions

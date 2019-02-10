@@ -18,6 +18,8 @@ import sys
 import requests
 # import time to enable sleep function to slow crawl 
 import time
+# library with os object to open csv
+import os
 
 # json representation immitating search from nav bar on any genius page 
 # url for this variable concluded from recording search on genius with developer 
@@ -28,9 +30,10 @@ SEARCH_URL = "https://genius.com/api/search/artist?page=1&q="
 # the performers of those songs
 # %s will be replaced with the artists' name  
 SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
+artist_name = "" 
 
 with open('play_results_3.csv', 'w') as f:
-    f.write("Songs\n")
+    f.write("artist_id, artist_name, song_title, performer_name\n")
 
 
 
@@ -57,6 +60,7 @@ def get_artist_id(artist_name):
     # conditional is ran:
     # if the type key value in section is "artist"...???
     if section['type'] == 'artist':
+        artist_name = section['hits'][0]['result']['name'].title()
         break
   # return the value at key id for the artist id which is the first value in 
   # the hits list; hits refers to "search hits", or the results that returned
@@ -85,11 +89,10 @@ def get_songs(artist_id, page_number):
   for song in j['response']['songs']:
     # add song title which is the value at the key title in the song dictionary
     song_title = song['title']
-    song_artist = song['primary_artist']['name']
-    songs.append(f"{song_title} - {song_artist}")
+    performer_name = song['primary_artist']['name']
+    songs.append(f"{artist_id}-{artist_name}-{song_title}-{performer_name}")
   # return list of songs
   return songs
-
 
 
 # runs python at command line without calling functions
@@ -107,12 +110,17 @@ if __name__ == '__main__':
   # songs variable is bound to the function call of get_songs that takes in the
   # artist_id as a parameter
   songs = get_songs(artist_id, page_number)
-  # since get_songs returns a list "songs", unpack list with for loop
-  with open('play_results_3.csv', 'a') as f: 
-    for s in songs:
-      # for every song title in songs list, print the song title 
-      f.write(s + "\n")
-      print(s)
 
+  with open('play_results_3.csv', 'a') as f:
+    for song in songs:
+      split_songs = song.split("-")
+      f.write(str(split_songs[0]) + " , " + str(split_songs[1]) + " , " + str(split_songs[2]) + " , " + str(split_songs[3]) + "\n")
+  # # since get_songs returns a list "songs", unpack list with for loop
+  # with open('play_results_3.csv', 'a') as f: 
+  for s in songs:
+    # for every song title in songs list, print the song title 
+    # f.write(s + "\n")
+    print(s)
+  # os.system("open " + "play_results_3.csv")
 
 

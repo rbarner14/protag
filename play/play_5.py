@@ -33,7 +33,7 @@ SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
 artist_name = "" 
 songs_url_list = []
 
-with open('play_results_5.csv', 'w') as f:
+with open('play_results_6.csv', 'w') as f:
     f.write("artist_id, artist_name, song_title, performer_name\n")
 
 
@@ -98,7 +98,7 @@ def get_songs(artist_id):
       # add song title which is the value at the key title in the song dictionary
       song_title = song['title'].rstrip()
       performer_name = song['primary_artist']['name'].rstrip()
-      songs.append(f"{artist_id}-{artist_name}-{song_title}-{performer_name}")
+      songs.append(f"{artist_id}|{artist_name}|{song_title}|{performer_name}")
     time.sleep(5)
     # return list of songs
   return songs
@@ -121,9 +121,9 @@ if __name__ == '__main__':
   get_songs_url_list(artist_id)
   songs = get_songs(artist_id)
 
-  with open('play_results_5.csv', 'a') as f:
+  with open('play_results_6.csv', 'a') as f:
     for song in songs:
-      split_songs = song.split("-")
+      split_songs = song.split("|")
       f.write(str(split_songs[0]) + " , " + str(split_songs[1]) + " , " + str(split_songs[2]) + " , " + str(split_songs[3]) + "\n")
   # # since get_songs returns a list "songs", unpack list with for loop
   # with open('play_results_3.csv', 'a') as f: 

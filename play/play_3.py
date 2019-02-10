@@ -28,7 +28,11 @@ SEARCH_URL = "https://genius.com/api/search/artist?page=1&q="
 # the performers of those songs
 # %s will be replaced with the artists' name  
 SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
-SONGS_URLS = []
+
+with open('play_results_3.csv', 'w') as f:
+    f.write("Songs\n")
+
+
 
 # define function get_artist_id takes one argument artist_name that is passed in
 # at command line
@@ -80,9 +84,12 @@ def get_songs(artist_id, page_number):
   # the list at the key j['response']['songs']
   for song in j['response']['songs']:
     # add song title which is the value at the key title in the song dictionary
-    songs.append(song['title'])
+    song_title = song['title']
+    song_artist = song['primary_artist']['name']
+    songs.append(f"{song_title} - {song_artist}")
   # return list of songs
   return songs
+
 
 
 # runs python at command line without calling functions
@@ -100,10 +107,12 @@ if __name__ == '__main__':
   # songs variable is bound to the function call of get_songs that takes in the
   # artist_id as a parameter
   songs = get_songs(artist_id, page_number)
-  # since get_songs returns a list "songs", unpack list with for loop 
-  for s in songs:
-    # for every song title in songs list, print the song title 
-    print(s)
+  # since get_songs returns a list "songs", unpack list with for loop
+  with open('play_results_3.csv', 'a') as f: 
+    for s in songs:
+      # for every song title in songs list, print the song title 
+      f.write(s + "\n")
+      print(s)
 
 
 

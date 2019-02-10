@@ -96,8 +96,8 @@ def get_songs(artist_id):
   # the list at the key j['response']['songs']
     for song in j['response']['songs']:
       # add song title which is the value at the key title in the song dictionary
-      song_title = song['title']
-      performer_name = song['primary_artist']['name']
+      song_title = song['title'].rstrip()
+      performer_name = song['primary_artist']['name'].rstrip()
       songs.append(f"{artist_id}-{artist_name}-{song_title}-{performer_name}")
     time.sleep(5)
     # return list of songs

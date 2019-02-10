@@ -33,13 +33,13 @@ SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
 artist_name = "" 
 songs_url_list = []
 
-with open('play_results_3.csv', 'w') as f:
+with open('play_results_5.csv', 'w') as f:
     f.write("artist_id, artist_name, song_title, performer_name\n")
 
 
 def get_songs_url_list(artist_id):
-  for i in range(31):
-    song_url = SONGS_URL % (artist_id, i)
+  for i in range(3):
+    song_url = SONGS_URL % (artist_id, i+1)
     songs_url_list.append(song_url)
   print(songs_url_list)
 
@@ -78,28 +78,29 @@ def get_artist_id(artist_name):
 
 
 # function get_songs is defined that takes in a single argument "artist_id"
-def get_songs(artist_id, page_number):
+def get_songs(artist_id):
   # the variable url is bound to the variable SONGS_URL defined above 
   # the %s in the SONGS_URL is replaced by the artist_id passed in this function
-  url = SONGS_URL % (artist_id, page_number)
+  songs = []
+  for url in songs_url_list:
   # the artists' songs url is printed to the console
-  print(url)
+    print(url)
   # the variable r is bound to the requests method .get() that takes in the url
   # as a parameter (a get request to read content @ url fed in)
-  r = requests.get(url)
+    r = requests.get(url)
   # a variable j is defined to jsonfiy the output from the get request defined
   # as r above
-  j = r.json()
+    j = r.json()
 
   # songs is a variable bound to an empty string
-  songs = []
   # the list at the key j['response']['songs']
-  for song in j['response']['songs']:
-    # add song title which is the value at the key title in the song dictionary
-    song_title = song['title']
-    performer_name = song['primary_artist']['name']
-    songs.append(f"{artist_id}-{artist_name}-{song_title}-{performer_name}")
-  # return list of songs
+    for song in j['response']['songs']:
+      # add song title which is the value at the key title in the song dictionary
+      song_title = song['title']
+      performer_name = song['primary_artist']['name']
+      songs.append(f"{artist_id}-{artist_name}-{song_title}-{performer_name}")
+    time.sleep(5)
+    # return list of songs
   return songs
 
 
@@ -111,16 +112,16 @@ if __name__ == '__main__':
   # artist name to feed in get_artist_id function = string argument of artist name 
   # entered when running file at command line
   artist_name = sys.argv[1]
-  page_number = sys.argv[2]
+  # page_number = sys.argv[2]
   # artist_id variable is bound to the function call of get_artist_id with the
   # passed in artist_name as a variable
   artist_id = get_artist_id(artist_name)
   # songs variable is bound to the function call of get_songs that takes in the
   # artist_id as a parameter
-  songs = get_songs(artist_id, page_number)
   get_songs_url_list(artist_id)
+  songs = get_songs(artist_id)
 
-  with open('play_results_3.csv', 'a') as f:
+  with open('play_results_5.csv', 'a') as f:
     for song in songs:
       split_songs = song.split("-")
       f.write(str(split_songs[0]) + " , " + str(split_songs[1]) + " , " + str(split_songs[2]) + " , " + str(split_songs[3]) + "\n")

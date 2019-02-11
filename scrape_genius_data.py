@@ -9,16 +9,14 @@ SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
 SONG_URL = "https://genius.com/api/songs/"
 PERFOMER_URL = "https://genius.com/api/songs/"
 ALBUM_URL = "https://genius.com/api/albums/"
-songs_by_producer_urls = []
-song_urls = []
 
 # refactor to add things to dictionary list; create it to a json
 # figure out how to re
 
-def get_songs_url_list(artist_id):
+def get_songs_url_list(producer_id):
 
     for i in range(2):
-        song_url = SONGS_URL % (artist_id, i+1)
+        song_url = SONGS_URL % (producer_id, i+1)
         songs_by_producer_urls.append(song_url)
 
     print(songs_by_producer_urls)
@@ -73,6 +71,8 @@ def get_producer_image_url(producer_name):
 def get_song_data(producer_id):
 
     songs = []
+    song_urls = []
+
     for url in songs_by_producer_urls:
         print(url)
 
@@ -118,7 +118,7 @@ def get_performer_data(producer_id):
 ################################################################################
 
 if __name__ == '__main__':
-    producer_list = open("producer_list.txt")
+    producer_list = open("producer_list_test.txt")
 
     with open('producer_data_scrape_txt.txt', 'w') as f:
         f.write("artist_id, producer_name, producer_img_url\n")
@@ -138,7 +138,8 @@ if __name__ == '__main__':
         genius_producer_name = get_genius_producer_name(producer_name)
         producer_id = get_producer_id(producer_name)
         producer_image_url = get_producer_image_url(producer_name)
-
+        songs_by_producer_urls = []
+        
         get_songs_url_list(producer_id)
 
         songs = get_song_data(producer_id)

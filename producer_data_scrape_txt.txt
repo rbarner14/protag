@@ -1,0 +1,2 @@
+artist_id, producer_name, producer_img_url
+The Neptunes | 4617 | https://images.genius.com/e310e157ac97069d8038b853fe6d9362.1000x1000x1.jpgCardo | 27259 | https://s3.amazonaws.com/rapgenius/4ccedb63a37fd69496b98132dc4ae4c5.jpeg

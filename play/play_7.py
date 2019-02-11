@@ -36,10 +36,10 @@ artist_name = ""
 songs_url_list = []
 
 with open('play_results_7_txt.txt', 'w') as f:
-    f.write("artist_id, artist_name, song_title, song_id, performer_name, album_art_url\n")
+    f.write("artist_id, artist_name, song_id, song_title, performer_id, performer_name, artist_img_url, album_art_url\n")
 
 with open('play_results_7_csv.csv', 'w') as g:
-    g.write("artist_id, artist_name, song_title, song_id, performer_name, album_art_url\n")
+    g.write("artist_id, artist_name, song_id, song_title, performer_id, performer_name, artist_img_url, album_art_url\n")
 
 
 def get_songs_url_list(artist_id):
@@ -102,11 +102,13 @@ def get_songs(artist_id):
   # should only be 1 dictionary of songs in this list
     for song in j['response']['songs']: 
       # add song title which is the value at the key title in the song dictionary
+      song_id = song['id']
       song_title = song['title'].rstrip()
+      performer_id = song['primary_artist']['id']
       performer_name = song['primary_artist']['name'].rstrip()
-      song_id = song['primary_artist']['id']
-      album_art_url = song['primary_artist']['image_url'].rstrip()
-      songs.append(f"{artist_id}|{artist_name}|{song_title}|{song_id}|{performer_name}|{album_art_url}")
+      artist_img_url = song['primary_artist']['image_url'].rstrip()
+      album_art_url = song['song_art_image_thumbnail_url'].rstrip()
+      songs.append(f"{artist_id}|{artist_name}|{song_id}|{song_title}|{performer_id}|{performer_name}|{artist_img_url}|{album_art_url}")
     
     time.sleep(5)
     # return list of songs
@@ -133,12 +135,12 @@ if __name__ == '__main__':
   with open('play_results_7_txt.txt', 'a') as f:
     for song in songs:
       split_songs = song.split("|")
-      f.write(str(split_songs[0]) + " | " + str(split_songs[1]) + " | " + str(split_songs[2]) + " | " + str(split_songs[3]) + " | " + str(split_songs[4]) + " | " + str(split_songs[5]) + "\n")
+      f.write(str(split_songs[0]) + " | " + str(split_songs[1]) + " | " + str(split_songs[2]) + " | " + str(split_songs[3]) + " | " + str(split_songs[4]) + " | " + str(split_songs[5])+ " | " + str(split_songs[6]) + " | " + str(split_songs[7]) + "\n")
 
   with open('play_results_7_csv.csv', 'a') as g:
     for song in songs:
       split_songs = song.split("|")
-      g.write(str(split_songs[0]) + " , " + str(split_songs[1]) + " , " + str(split_songs[2]) + " , " + str(split_songs[3]) + " , " + str(split_songs[4]) + " , " + str(split_songs[5]) + "\n")
+      g.write(str(split_songs[0]) + " , " + str(split_songs[1]) + " , " + str(split_songs[2]) + " , " + str(split_songs[3]) + " , " + str(split_songs[4]) + " , " + str(split_songs[5]) + " , " + str(split_songs[6]) + " , " + str(split_songs[7]) + "\n")
 
   # # since get_songs returns a list "songs", unpack list with for loop
   # with open('play_results_3.csv', 'a') as f: 

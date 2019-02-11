@@ -12,7 +12,8 @@ ALBUM_URL = "https://genius.com/api/albums/"
 songs_by_producer_urls = []
 song_urls = []
 
-
+# refactor to add things to dictionary list; create it to a json
+# figure out how to re
 
 def get_songs_url_list(artist_id):
 
@@ -95,7 +96,7 @@ def get_song_data(producer_id):
         song_id = j2['response']['song']['id']
         song_title = j2['response']['song']['title']
         release_date = j2['response']['song']['release_date']
-        # album_id = j2['response']['song']['album']['id']
+        album_id = j2['response']['song']['album']
         # release_year = j2['response']['song']['album']['release_date_components']['year']
         # release_month = j2['response']['song']['album']['release_date_components']['month']
         # release_day =j2['response']['song']['album']['release_date_components']['day']
@@ -109,6 +110,9 @@ def get_song_data(producer_id):
     return songs
 
 def get_album_data(producer_id):
+    pass
+
+def get_performer_data(producer_id):
     pass
 
 ################################################################################
@@ -141,11 +145,17 @@ if __name__ == '__main__':
 
 
         with open('producer_data_scrape_txt.txt', 'a') as f:
-            f.write(genius_producer_name + " | " + str(producer_id) + " | " + producer_image_url
+            f.write(
+                str(producer_id) + " | " + genius_producer_name + " | " + 
+                producer_image_url +
+                "\n"
             )
 
         with open('producer_data_scrape_csv.csv', 'a') as f:
-            f.write(genius_producer_name + " , " + str(producer_id) + " , " + producer_image_url
+            f.write(
+                str(producer_id) + " , " + genius_producer_name + " , " + 
+                producer_image_url +
+                "\n"
             )
 
         with open('song_data_scrape_txt.txt', 'a') as f:

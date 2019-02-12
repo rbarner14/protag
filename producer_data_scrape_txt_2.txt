@@ -1,0 +1,2 @@
+artist_id, producer_name, producer_img_url
+95489 | Murda Beatz | https://images.genius.com/f65daa648424befbde6c0a158d71fce0.467x467x1.png

@@ -114,20 +114,27 @@ def get_song_data(producer_id):
         else: 
             apple_music_player_url = ""
 
-        if j2['response']['song']['release_date_components']['year'] != None:
-            release_year = j2['response']['song']['release_date_components']['year']
+        if j2['response']['song']['release_date_components'] != None:
+            if j2['response']['song']['release_date_components']['year']:
+                release_year = j2['response']['song']['release_date_components']['year']
+            else: 
+                release_year = ""
+
+            if j2['response']['song']['release_date_components']['month'] != None:
+                release_month = j2['response']['song']['release_date_components']['month']
+            else: 
+                release_month = ""
+
+            if j2['response']['song']['release_date_components']['day'] != None:
+                release_day =j2['response']['song']['release_date_components']['day']
+            else: 
+                release_day = ""
+
         else: 
             release_year = ""
-
-        if j2['response']['song']['release_date_components']['month'] != None:
-            release_month = j2['response']['song']['release_date_components']['month']
-        else: 
             release_month = ""
-
-        if j2['response']['song']['release_date_components']['day'] != None:
-            release_day =j2['response']['song']['release_date_components']['day']
-        else: 
             release_day = ""
+            perfomer_id = ""
 
         if j2['response']['song']['primary_artist']['id'] != None:
             performer_id = j2['response']['song']['primary_artist']['id']
@@ -147,12 +154,6 @@ def get_song_data(producer_id):
         time.sleep(1)
 
     return songs
-
-def get_album_data(producer_id):
-    pass
-
-def get_performer_data(producer_id):
-    pass
 
 ################################################################################
 

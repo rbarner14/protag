@@ -15,7 +15,7 @@ class Producer(db.Model):
 
     __tablename__ = "producers"
 
-    producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
+    producer_id = db.Column(db.Integer, db.ForeignKey('produce_songs.producer_id'), nullable=False, primary_key=True)
     producer_name = db.Column(db.String(50), nullable=False)
     img_url = db.Column(db.Text, nullable=True) # DOUBLE CHECK THIS
     bio = db.Column(db.Text, nullable=True)
@@ -31,7 +31,7 @@ class Performer(db.Model):
 
     __tablename__ = "performers"
 
-    performer_id = db.Column(db.Integer, nullable=False, primary_key=True)
+    performer_id = db.Column(db.Integer, db.ForeignKey('produce_songs.performer_id'), nullable=False, primary_key=True)
     performer_name = db.Column(db.String(50), nullable=False)
     img_url = db.Column(db.Text, nullable=True)
     bio = db.Column(db.Text, nullable=True)
@@ -47,8 +47,8 @@ class Song(db.Model):
 
     __tablename__ = "songs"
 
-    song_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    song_name = db.Column(db.String(50), db.ForeignKey('humans.human_id'), nullable=False)
+    song_id = db.Column(db.Integer, db.ForeignKey('songs.song_id'), nullable=False, primary_key=True)
+    song_name = db.Column(db.String(50), nullable=False)
     media_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
     release_year = db.Column(db.DateTime, nullable=True)
@@ -66,8 +66,8 @@ class Album(db.Model):
 
     __tablename__ = "albums"
 
-    album_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    album_title = db.Column(db.String(50), db.ForeignKey('humans.human_id'), nullable=False)
+    album_id = db.Column(db.Integer, db.ForeignKey('produce_songs.album_id'), nullable=False, primary_key=True)
+    album_title = db.Column(db.String(50), nullable=False)
     album_art_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
     release_year = db.Column(db.DateTime, nullable=True)
@@ -80,6 +80,21 @@ class Album(db.Model):
         return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
 
+class ProduceSong(db.Model):
+    """Animal model."""
+
+    __tablename__ = "produce_songs"
+
+    event_id = db.Column(db.Integer, autoincrement=True, nullable=False, primary_key=True)
+    producer_id = db.Column(db.Integer, nullable=False)
+    performer_id = db.Column(db.Integer, nullable=False)
+    song_id = db.Column(db.Integer, nullable=False)
+    album_id = db.Column(db.Integer, nullable=True)
+
+    def __repr__(self):
+        """Provide helpful representation when printed."""
+
+        return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
 # may add Users class in 3.0
 

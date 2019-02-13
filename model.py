@@ -8,6 +8,7 @@ db = SQLAlchemy()
 
 ##############################################################################
 # Compose ORM
+# relying on Genius' ids
 
 class Producer(db.Model):
     """Producer model."""
@@ -15,7 +16,7 @@ class Producer(db.Model):
     __tablename__ = "producers"
 
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    producer_name = db.Column(db.String(25), nullable=False)
+    producer_name = db.Column(db.String(50), nullable=False)
     img_url = db.Column(db.Text, nullable=True) # DOUBLE CHECK THIS
     bio = db.Column(db.Text, nullable=True)
 
@@ -25,14 +26,30 @@ class Producer(db.Model):
         return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} img_url={self.img_url} bio={self.bio}>" # pyflakes does not like f-string; it prefers .format()
 
 
+class Performer(db.Model):
+    """Animal model."""
+
+    __tablename__ = "performers"
+
+    performer_id = db.Column(db.Integer, nullable=False, primary_key=True)
+    performer_name = db.Column(db.String(50), nullable=False)
+    img_url = db.Column(db.Text, nullable=True)
+    bio = db.Column(db.Text, nullable=True)
+
+    def __repr__(self):
+        """Provide helpful representation when printed."""
+
+        return f"<Performer performer_id={self.performer_id} performer_name={self.song_name} media_url={self.media_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+
+
 class Song(db.Model):
     """Animal model."""
 
     __tablename__ = "songs"
 
-    song_id = db.Column(db.Integer, autoincrement=True, nullable=False, primary_key=True)
-    song_name = db.Column(db.Integer, db.ForeignKey('humans.human_id'), nullable=False)
-    media_url = db.Column(db.String(100), nullable=True)
+    song_id = db.Column(db.Integer, nullable=False, primary_key=True)
+    song_name = db.Column(db.String(50), db.ForeignKey('humans.human_id'), nullable=False)
+    media_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
     release_year = db.Column(db.DateTime, nullable=True)
     release_month = db.Column(db.DateTime, nullable=True)
@@ -44,14 +61,14 @@ class Song(db.Model):
         return f"<Song song_id={self.song_id} song_name={self.song_name} media_url={self.media_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
 
-class Song(db.Model):
+class Album(db.Model):
     """Animal model."""
 
-    __tablename__ = "songs"
+    __tablename__ = "albums"
 
-    song_id = db.Column(db.Integer, autoincrement=True, nullable=False, primary_key=True)
-    song_name = db.Column(db.Integer, db.ForeignKey('humans.human_id'), nullable=False)
-    media_url = db.Column(db.String(100), nullable=True)
+    album_id = db.Column(db.Integer, nullable=False, primary_key=True)
+    album_title = db.Column(db.String(50), db.ForeignKey('humans.human_id'), nullable=False)
+    album_art_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
     release_year = db.Column(db.DateTime, nullable=True)
     release_month = db.Column(db.DateTime, nullable=True)
@@ -60,10 +77,11 @@ class Song(db.Model):
     def __repr__(self):
         """Provide helpful representation when printed."""
 
-        return f"<Song song_id={self.song_id} song_name={self.song_name} media_url={self.media_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+        return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
 
 
+# may add Users class in 3.0
 
 ##############################################################################
 # Helper functions

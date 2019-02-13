@@ -1,0 +1,159 @@
+artist_id, producer_name, producer_img_url
+487071 | Joell Ortiz x !llmind | https://images.genius.com/afa3eac5a9efcd08050504b3ffc124c6.630x420x1.jpg
+73934 | Lamar "Mars" Edwards | https://images.genius.com/56c4b09a868468c3a5aa02bcc4cf46dd.320x320x1.jpg
+215175 | 16yrold | https://images.genius.com/a1ecc23af6874651ff4a2e784eb04ca0.350x350x1.png
+1706060 | 2tall the Prodigee | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1702507 | Casanova & 30 Roc | https://assets.genius.com/images/default_avatar_300.png?1549919799
+984904 | 808-Ray | https://images.genius.com/d0215f2ebf32919bcbf1a810885f3b24.884x884x1.jpg
+2024 | 88-Keys | https://images.genius.com/360635cdfcf95f9046a45600abd5bb5c.570x427x1.jpg
+267905 | 904TEZZO | https://images.genius.com/507de74618913b0c4da39fdc7bbca2c6.816x816x1.jpg
+2194 | 9th Wonder | https://images.genius.com/3bac08dcd927e23d8d0e41d27f713b40.304x304x1.jpg
+1268970 | SEB P | https://images.genius.com/db47c518c2cd423055adda79289d4e83.1000x1000x1.jpg
+74563 | Andreao "Fanatic" Heard | https://images.genius.com/2db7c02ca0c9ff488c00b776f5cc4d52.392x392x1.jpg
+513334 | A$AP P on the Boards | https://images.genius.com/b754ae3e62a7aca55eafe4350572b354.600x300x1.jpg
+27635 | A$AP Ty Beats | https://images.genius.com/da470ae876fd241688c76e7180577a1b.600x600x1.jpg
+22698 | AraabMUZIK | https://s3.amazonaws.com/rapgenius/araabmuzik.png
+27469 | Ayatollah | https://images.genius.com/1bc073b947e04f4b6cf5a6794ea9450c.500x333x1.jpg
+55967 | Team Backpack | https://images.genius.com/8c93ca4d1ac394bca65aa6478153a24e.512x511x1.jpg
+27665 | Bangladesh | https://s3.amazonaws.com/rapgenius/preview-style-suite-bangladesh.jpg
+1267249 | Based1 | https://images.genius.com/1dad4f5391ac0e8394f5d2ad2cb21c07.437x437x1.jpg
+995172 | Bass Santana | https://images.genius.com/f5ca5e9f1c375f854f02365742715f85.652x652x1.jpg
+27611 | Beat Billionaire | https://s3.amazonaws.com/rapgenius/1375688344_music_feature1-1.jpg
+31947 | Beat Butcha | https://s3.amazonaws.com/rapgenius/171.aspx.jpg
+349123 | Big Head Todd and The Monsters | https://images.genius.com/6bd739959646b12caa8368729226f3de.1000x1000x1.jpg
+491 | Big K.R.I.T. | https://images.genius.com/0e16b62076c990c85eee504deedb7985.393x393x1.jpg
+575891 | Bijan Amir | https://images.genius.com/ff710ec740535c85eeae6d12a0bd9f18.728x728x1.jpg
+1047132 | Bink Woods Dre | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1060785 | BL$$D | https://images.genius.com/8477469b45ad52f5dda762e089cafeb0.959x959x1.jpg
+27639 | Black Metaphor | https://images.genius.com/1f565ba500d73eae302cb6256efa5e48.1000x1000x1.jpg
+1134021 | BNYX® | https://images.genius.com/0996d325e627638ed553e9426a7a0500.1000x1000x30.gif
+45465 | Bobby Johnson Beats | https://images.genius.com/dec172cc315efd1f0f98e29181f5fae3.320x320x1.jpg
+63610 | Bobby Kritical | https://images.genius.com/6dbbe27802cccffacd7f56eeaccde173.320x180x40.gif
+662 | Boi-1da | https://images.genius.com/f1b95b403a63c49b2248d0e5c153092a.858x858x1.jpg
+80137 | Sketchy Bongo | https://images.genius.com/aa6ece56a8533055fc109bb00261d0b2.300x300x1.jpg
+143593 | BrassTracks | https://images.genius.com/c52a776fa9f1b7902f7cc6a24b926b23.400x400x1.jpg
+649865 | Yung Buda | https://images.genius.com/ea4c05f42a565c1d2c6875c0a6195c8b.1000x1000x1.jpg
+577 | Buddah Bless | https://images.genius.com/28a8bc7da6b468ceb3ea14331b285e42.1000x1000x1.jpg
+986854 | Burd & Keyz | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1013170 | BYOU$ (Producer) | https://images.genius.com/1f9d0d743a83d3f720c78be84798e7b9.1000x1000x1.png
+34909 | CaptainCrunch | https://images.genius.com/e787a4a8fa6fe8941c90f7fb3fffad6c.411x411x1.png
+18379 | Alex Cardiak | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1297752 | Payroll Giovanni & Cardo | https://images.genius.com/be0554e77d2d91df223358e288b2f660.640x640x1.jpg
+13046 | Carnage | https://images.genius.com/7d6e5f01849867884f14b7ec1c5daa68.1000x1000x1.jpg
+28455 | CashMoneyAP | https://images.genius.com/3d77f1d53e8ebbadb4c77505462b0e07.633x633x1.jpg
+552001 | CBMIX | https://images.genius.com/4cd33d13c84b272fb2c75e600c4b0ac6.720x720x1.jpg
+52203 | Charlie Heat | https://images.genius.com/37a39f4f1e64fc3a82ebb98df7a50b6b.600x600x1.jpg
+675937 | Charlie Shuffler | https://images.genius.com/219530b6336fe48b83e94bb23951342d.1000x1000x1.jpg
+19829 | Chase N. Cashe | https://s3.amazonaws.com/rapgenius/chasen.jpg
+1281878 | Z Money & ChaseTheMoney | https://assets.genius.com/images/default_avatar_300.png?1549919799
+366454 | Cheeze Beatz | https://images.genius.com/7d2caeb3dae0551a264bd12b6691a5dc.300x300x1.jpg
+33062 | Childish Major | https://images.genius.com/7364d7796faf84122e52803b1de98e2b.398x398x1.png
+1687278 | Young Chop & Chopsquad DJ | https://assets.genius.com/images/default_avatar_300.png?1549919799
+13585 | Daft Punk | https://images.genius.com/a508888fd6a96cadcf835ecf95b1c1ae.1000x1000x1.jpg
+11546 | Chuck Inglish | https://s3.amazonaws.com/rapgenius/1355734859_Chuck-Inglish.jpg
+21456 | Chuck Strangers | https://s3.amazonaws.com/rapgenius/chuckstrangers.jpg
+1083097 | Ciscosquad | https://images.genius.com/c84e5b085d737170afc26f6f5e580907.598x598x1.jpg
+848 | LL Cool J | https://images.genius.com/9e00cf56336ec8915e2fa3b2b2e7502d.377x377x1.jpg
+7462 | Cory Mo | https://images.genius.com/em9xiqdki8vtwl1xomql8jflv.620x411x1.jpg
+683137 | Cris Dinero | https://images.genius.com/411a0d75f0ccc903c870c1dcc2b17d7b.500x500x1.jpg
+86919 | DDot Omen | https://images.genius.com/eec4aa80cfa25ece7115c212b03cbef6.646x646x1.jpg
+37215 | D.A. Doman | https://images.genius.com/13e41c6e4dff19865290a051fde3b389.1000x1000x1.png
+34340 | Da Honorable C.N.O.T.E. | https://images.genius.com/53cb8c331baff691ea15d3e7d4b93265.440x440x1.jpg
+1134250 | Hoodrich Pablo Juan & Danny Wolf | https://images.genius.com/d6f25e184b061e134ad7d617e19f51f0.1000x1000x1.jpg
+638688 | Daringer | https://images.genius.com/64b9e8b11ba8b78db72db801e1417c4f.400x400x1.jpg
+383 | David Banner | https://s3.amazonaws.com/rapgenius/david-banner1.jpg
+643219 | Take a Daytrip | https://images.genius.com/ba11d5d858e91c6986a796663b38409f.960x960x1.jpg
+862 | Dee Money | https://images.genius.com/7fe703b58fc6f92a6270345ea84b837f.439x439x1.jpg
+39592 | Deko | https://images.genius.com/cebdfdd0e05c4f28504c7e30481e99c1.1000x661x1.jpg
+5214 | DJ Babu | https://images.genius.com/5b2b18d7ca18f7359da293bf6722de9a.360x240x1.jpg
+29947 | DJ Burn One | https://images.genius.com/33ef473f3e5113da3125164fa66f7c6f.600x400x1.jpg
+26234 | DJ Chose | https://images.genius.com/0b542f615232b7fb609d32c01d211af4.687x687x1.jpg
+27474 | DJ Dahi | https://images.genius.com/b40c29059d5e6320523e2f226803264e.722x516x1.jpg
+663701 | DJ Flippp | https://images.genius.com/158832f12f373b527e42259f89d3cc19.799x799x1.jpg
+15870 | DJ Hoppa | https://images.genius.com/ccc6a4aaa6aaa68eb1cfd1dcada98cf9.470x220x1.jpg
+348422 | DJ Jazzy Jeff & The Fresh Prince | https://images.genius.com/83fc310f152432c7c9711177fb7a8383.1000x1000x1.jpg
+24741 | DJ Khalil | https://images.genius.com/24c292dad556d96c51a790774c09d0e4.351x351x1.jpg
+9662 | DJ Mark the 45 King | https://images.genius.com/9c6ff5d171d7433992958eb327cd7868.300x300x1.jpg
+29780 | Mustard | https://s3.amazonaws.com/filepicker-images-rapgenius/a5Gy2GnyR0ijw96H739w_dj-mustard-bw-2016-billboard-1548.jpg
+2260 | DJ Premier | https://images.genius.com/b02fc7027210379901d3de0bcfe08683.892x892x1.jpg
+217 | DJ Quik | https://images.genius.com/fa79d33164ec9252f55417487aa4c34f.260x260x1.jpg
+27511 | DJ Spinz | https://images.genius.com/dff71569f49a11e6d55b092a71c09e9a.720x720x1.jpg
+1602238 | DNA Music | https://images.genius.com/6b619d728c972bf8859409904f4c99e7.591x591x1.jpg
+1259866 | Dnyc3 (of League Of Starz) | https://assets.genius.com/images/default_avatar_300.png?1549919799
+23691 | DJ Don Cannon | https://images.genius.com/6156ca1935801d31a89bde5dfcc39d91.1000x1000x1.jpg
+11845 | Dot Da Genius | https://s3.amazonaws.com/rapgenius/Scoop_DotDaGenius.jpg
+63770 | DP Beats | https://images.genius.com/da7b74a33046ce63bedcc6b5284e06f3.750x750x1.jpg
+123 | Dr. Dre | https://images.genius.com/bf3badae49c33b583126057638078bd8.576x576x1.jpg
+7898 | Drumma Boy | https://images.genius.com/fefaad430e14dcfa99a537dad167eec0.721x721x1.jpg
+1035355 | Dtb des | https://assets.genius.com/images/default_avatar_300.png?1549919799
+577228 | Dubba-AA | https://images.genius.com/fb4e09fd7f13da9ca8b74cdc947bd946.427x427x1.png
+44079 | Dun Deal | https://s3.amazonaws.com/rapgenius/1381449877_avatars-000050543007-r6a5gq-t500x500.jpg
+4463 | E-A-Ski | https://images.genius.com/bf9a70ee0b81faa0266b18e5750321d5.398x398x1.png
+686 | Earl Sweatshirt | https://images.genius.com/35cf52234fc34700d5c9bee71ee23922.1000x1000x1.jpg
+991297 | EarlThePearll | https://images.genius.com/40e6b14f29f25569f160674765818607.1000x1000x1.jpg
+1070 | El-P | https://images.genius.com/7b4d16e61a07d0ffa7ef424aabc05d50.1000x608x1.jpg
+14777 | Elite | https://images.genius.com/5fbda8ecf10964f411746a9e716b5e91.340x223x1.png
+3608 | Erick Sermon | https://s3.amazonaws.com/rapgenius/8692113.jpg
+17102 | Erick Arc Elliott | https://images.genius.com/72428869c092d6753b997639ac5b3517.400x400x1.jpg
+680624 | Fish Narc | https://images.genius.com/f3597a5983c68f58be9b7d8acf306227.778x778x1.jpg
+681077 | FKi 1st | https://images.genius.com/d155da1c2b4a28fd26fc02495d587d5c.750x750x1.jpg
+681077 | FKi 1st | https://images.genius.com/d155da1c2b4a28fd26fc02495d587d5c.750x750x1.jpg
+100291 | Sub Focus | https://images.genius.com/142ddc347600d956a893f0fb981d2d7b.496x372x1.jpg
+24434 | FreshThPharmacy | https://images.genius.com/788e999912f31563ad96b8bf0ee1338a.750x750x1.jpg
+99899 | GAWVI | https://images.genius.com/fc496a1c56a097629923c2dca2da54ac.761x761x1.jpg
+1007524 | Ginseng | https://images.genius.com/c7580c5866cc1f8e6e7bfbdb30f7cf55.400x400x1.jpg
+984361 | H. Money Bags | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1349738 | Jay Critch & Harry Fraud | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1152755 | Haven Beats | https://images.genius.com/63f78e60eade0f04740966134328f131.288x288x1.jpg
+1555 | Havoc | https://s3.amazonaws.com/rapgenius/2648754045_b7d3646560.jpg
+560785 | Hector Soundz | https://assets.genius.com/images/default_avatar_300.png?1549919799
+2524 | Hi-Tek | https://images.genius.com/cd24e0e32411bb5265766c1190465548.786x786x1.png
+21188 | Hit-Boy | https://s3.amazonaws.com/rapgenius/hit-boy.jpg
+1324131 | Hoodzone | https://images.genius.com/0a33af20a9ec15921fa7d674f06b7810.400x400x1.jpg
+44685 | HUMbeats | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1309939 | IllaDaProducer | https://images.genius.com/e3e56b30f8c2ff9e0d4597b748b39eb8.1000x1000x1.jpg
+18595 | Iman Omari | https://images.genius.com/79ca10d14594716292f984b5411d658f.795x795x1.jpg
+224 | J Dilla | https://images.genius.com/5203dcbed195911f265d2f74faa01647.450x450x1.jpg
+27626 | J.R. Rotem | https://images.genius.com/e626b67e825493a4760771940dc8939c.353x353x1.jpg
+572674 | Cam O'bi | https://images.genius.com/4a69e4b0d7ab72f32a7c0adb9d002296.313x313x1.jpg
+1364922 | Jabz (Producer) | https://assets.genius.com/images/default_avatar_300.png?1549919799
+17746 | Jahlil Beats | https://images.genius.com/39e3d4a9a208f9c1f0090316a74faec0.761x761x1.jpg
+6021 | Jake One | https://s3.amazonaws.com/rapgenius/jake_one_003.png
+680273 | AD & Sorry Jaynari | https://images.genius.com/22548ebd580a8b365df785239356aeee.599x599x1.jpg
+3264 | Jermaine Dupri | https://images.genius.com/5fbdd9050c73a61f7597865e67c645f2.464x464x1.jpg
+27258 | Johnny Juliano | https://s3.amazonaws.com/rapgenius/Johnny-Juliano.jpg
+38886 | JP Did This 1 | https://images.genius.com/a7a01ac40bf402709e081ae7a30741e5.640x640x1.jpg
+43421 | June James | https://images.genius.com/3ff8944fa9fdc76b396c3a7e0cf81a3b.500x500x1.jpg
+1954 | Just Blaze | https://images.genius.com/5cca6bc6b1297475c8bd2a4df6411c97.1000x1000x1.jpg
+34925 | K-Def | https://images.genius.com/bf85363c85416031f322fbce8f3fbc13.320x254x1.jpg
+557559 | K. Swisha | https://images.genius.com/7ae21fc5224783a8cbe16f557fc7ecbf.400x400x1.jpg
+27689 | K.E. on the Track | https://images.genius.com/f44f4da1b80b3f499c88046cb199072d.1000x1000x1.jpg
+27640 | Kane Beatz | https://images.genius.com/950bf6e5d6aba1f6278a858bd5731fa1.472x308x1.jpg
+72 | Kanye West | https://images.genius.com/3a5e35c68e9ed7bf9a2a63bfa51b261e.675x675x1.jpg
+36198 | KC Da Beatmonster | https://images.genius.com/9ea929b0fe2b277dd964ddf8a8cbd274.957x957x1.jpg
+1439530 | KEY! & Kenny Beats | https://images.genius.com/c9d37f0f4280b35f9baabfad50899b17.1000x1000x1.jpg
+698 | Kevin McCall | https://images.genius.com/dc474965c85fc1ff8098634c82f6b64f.677x677x1.jpg
+7570 | Khrysis | https://images.genius.com/c305247121485a7b99d4f217fd89ced5.342x222x1.jpg
+634529 | KitschKrieg | https://images.genius.com/b02fd3f08bcafe1177ed356635a6248f.420x420x23.gif
+573490 | KOP Karbeen | https://assets.genius.com/images/default_avatar_300.png?1549919799
+170 | Kurupt | https://images.genius.com/e051ff42cc180d489d4e1b4e3e2906cd.333x333x1.jpg
+1056 | Large Professor | https://s3.amazonaws.com/rapgenius/1362857140_11.jpg
+40475 | League of Starz | https://images.genius.com/adc32a9e13f900fd79cf65b34512d37c.500x288x1.png
+28628 | Lee Bannon | https://s3.amazonaws.com/rapgenius/Lee%20Bannon.png
+2268 | Lex Luger | https://images.genius.com/d6b9ba63642dd038b56c47136109da73.432x432x1.jpg
+44575 | London on da Track | https://images.genius.com/fcb14975af51a27a0ffb278a7524c81d.400x400x1.jpg
+1169351 | Louie Bandz | https://images.genius.com/8c6087f0c046fc4f9152d694b92bd7a4.257x257x1.jpg
+30761 | LT Moe | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1192941 | BadComedian | https://images.genius.com/3d05428eedaa9c5d19370db06cf4adfc.496x496x1.jpg
+580572 | Maaly Raw | https://images.genius.com/f4402f50b5207c85b0bf7f96e3523e81.500x500x1.jpg
+580572 | Maaly Raw | https://images.genius.com/f4402f50b5207c85b0bf7f96e3523e81.500x500x1.jpg
+42536 | Bassi Maestro | https://images.genius.com/cc9cabe2c6f1aa658ae7b247fe3869a2.999x999x1.jpg
+36352 | Mally Mall | https://s3.amazonaws.com/rapgenius/jazz-lazer-future-2.jpg
+146 | Mannie Fresh | https://s3.amazonaws.com/rapgenius/1302472115_Mannie%20Fresh.jpg
+7856 | Marco Polo | https://s3.amazonaws.com/rapgenius/up-marco_polo.jpg
+970188 | Marii Beatz | https://images.genius.com/fbb7ca1274dc5809f247de606cc28e63.449x449x1.jpg
+31168 | Mark Henry | https://assets.genius.com/images/default_avatar_300.png?1549919799
+1402544 | Marshmello & Anne-Marie | https://images.genius.com/2b1e53cd2dc7a91b34d82b0228152fad.800x800x1.jpg
+22499 | Matt Martians | https://images.genius.com/bb28fd4b02c8df32caa62586acc530ed.473x473x1.jpg
+1227872 | MaxoKoolin | https://images.genius.com/20e2dbf7408f265b452e1099329fa4a4.900x900x1.jpg
+14166 | MeLo-X | https://images.genius.com/bdc7e9fd068d36d42b032f7d84b3fc3e.615x409x1.jpg

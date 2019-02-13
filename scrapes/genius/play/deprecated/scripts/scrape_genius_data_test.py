@@ -15,7 +15,7 @@ ALBUM_URL = "https://genius.com/api/albums/"
 
 def get_songs_url_list(producer_id):
 
-    for i in range(32):
+    for i in range(2):
         song_url = SONGS_URL % (producer_id, i+1)
         songs_by_producer_urls.append(song_url)
 
@@ -158,18 +158,18 @@ def get_song_data(producer_id):
 ################################################################################
 
 if __name__ == '__main__':
-    producer_list = open("producer_list_all.txt")
+    producer_list = open("producer_list_test.txt")
 
-    with open('producer_data_scrape_txt_all.txt', 'w') as f:
+    with open('producer_data_scrape_txt_test.txt', 'w') as f:
         f.write("artist_id, producer_name, producer_img_url\n")
 
-    with open('producer_data_scrape_csv_all.csv', 'w') as f:
+    with open('producer_data_scrape_csv_test.csv', 'w') as f:
         f.write("artist_id, producer_name, producer_img_url\n")
 
-    with open('song_data_scrape_txt_all.txt', 'w') as f:
+    with open('song_data_scrape_txt_test.txt', 'w') as f:
         f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
 
-    with open('song_data_scrape_csv_all.csv', 'w') as f:
+    with open('song_data_scrape_csv_test.csv', 'w') as f:
         f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
 
     for producer in producer_list:
@@ -185,21 +185,21 @@ if __name__ == '__main__':
         songs = get_song_data(producer_id)
 
 
-        with open('producer_data_scrape_txt_all.txt', 'a') as f:
+        with open('producer_data_scrape_txt_test.txt', 'a') as f:
             f.write(
                 str(producer_id) + " | " + genius_producer_name + " | " + 
                 producer_image_url +
                 "\n"
             )
 
-        with open('producer_data_scrape_csv_all.csv', 'a') as f:
+        with open('producer_data_scrape_csv_test.csv', 'a') as f:
             f.write(
                 str(producer_id) + " , " + genius_producer_name + " , " + 
                 producer_image_url +
                 "\n"
             )
 
-        with open('song_data_scrape_txt_all.txt', 'a') as f:
+        with open('song_data_scrape_txt_test.txt', 'a') as f:
             for song in songs:
                 split_songs = song.split("^")
                 f.write(
@@ -211,7 +211,7 @@ if __name__ == '__main__':
                     "\n"
                 )
 
-        with open('song_data_scrape_csv_all.csv', 'a') as f:
+        with open('song_data_scrape_csv_test.csv', 'a') as f:
             for song in songs:
                 split_songs = song.split("^")
                 f.write(

@@ -160,6 +160,47 @@ def get_produce_song_data(producer_id, songs_by_producer_urls):
 
     return songs
 
+def get_events_data(producer_id, songs_by_producer_urls):
+
+    events = [] # list to parse for csv/txt output
+    song_urls = generate_data(songs_by_producer_urls)
+
+    # loop through song url list created, returning nulls for keys 
+    # that do not exist
+    for url in song_urls:
+        print(url)
+
+        r2 = requests.get(url)
+        j2 = r2.json()
+
+        song_json = j2['response']['song']
+
+        # value at key could be none, these conditional spaces replace them with
+        # an empty string
+        performer = song_json['primary_artist']
+        performer_id = performer.get('id', "")
+
+        song_id = song_json.get('id', "")
+        
+        album = song_json.get('album',"")
+
+        if album != None:
+            album_id = album.get('id', "")
+            album_title = album.get('name', "")
+            cover_art_url = album.get('cover_art_url', "")
+        else:
+            album_id = ""
+            album_title = ""
+            cover_art_url = ""
+
+        performer_id = performer.get('id', "")
+            
+        songs.append(f"{producer_id}^{performer_id}^{song_id}^{album_id}")
+
+        time.sleep(1)
+
+    return events
+
 def get_song_data(songs_by_producer_urls):
 
     songs = [] # list to parse for csv/txt output
@@ -262,13 +303,17 @@ def get_album_data(songs_by_producer_urls):
         # an empty string
         
         album = song_json.get('album',"")
-        album_release_date_components = album.get("release_date_components", "")
+
+        if album != "" and album != None:
+            album_release_date_components = song_json['album']['release_date_components']
+        else:
+            album_release_date_components = None
+
 
         if album != None:
             album_id = album.get('id', "")
             album_title = album.get('name', "")
             cover_art_url = album.get('cover_art_url', "")
-            album_release_year = 
         else:
             album_id = ""
             album_title = ""
@@ -303,7 +348,12 @@ def populate_producer_data(filename, delimiter):
             producer_rows = data.split("^")
             f.write(str(producer_id) + delimiter + delimiter.join(producer_rows) + "\n")
 
-# append ('a') data to song file already created
+def populate_events_data(filename, delimiter):
+    with open(filename, 'a') as f:
+        for event in events:
+            event_rows = song.split("^")
+            f.write(delimiter.join(event_rows) + "\n")
+
 def populate_produce_song_data(filename, delimiter):
     with open(filename, 'a') as f:
         for song in produce_songs:
@@ -334,10 +384,11 @@ def populate_album_data(filename, delimiter):
 
 if __name__ == '__main__':
     # list of producers to read for crawling; could also import
-    producer_list = open("producer_list_hb_run.txt")
+    producer_list = open("producer_list_hb_run_test.txt")
 
     # file headers
     producer_columns = ["producer_id", "producer_name", "producer_img_url"]
+    events_columns = ["producer_id", "performer_id", "song_id", "album_id"]
     produce_song_columns = ["song_id", "song_title", "album_id", "album_title", 
                     "cover_art_url", "performer_id", "performer_name", 
                     "performer_img_url", "release_date", "release_year", 
@@ -365,20 +416,23 @@ if __name__ == '__main__':
 
 
     # create and write to csvs & text files; csvs for better view of txt python will use
-    write_headers("producer_data_hb_run.txt", producer_columns, "|")
-    write_headers("producer_data_hb_run.csv", producer_columns, ",")
+    write_headers("producer_data_hb_run_test.txt", producer_columns, "|")
+    write_headers("producer_data_hb_run_test.csv", producer_columns, ",")
 
-    write_headers("produce_song_data_hb_run.txt", produce_song_columns, "|")
-    write_headers("produce_song_data_hb_run.csv", produce_song_columns, ",")
+    write_headers("events_data_hb_run_test.txt", events_columns, "|")
+    write_headers("events_data_hb_run_test.csv", events_columns, ",")
 
-    write_headers("song_data_hb_run.txt", song_columns, "|")
-    write_headers("song_data_hb_run.csv", song_columns, ",")
+    write_headers("produce_song_data_hb_run_test.txt", produce_song_columns, "|")
+    write_headers("produce_song_data_hb_run_test.csv", produce_song_columns, ",")
 
-    write_headers("performer_data_hb_run.txt", performer_columns, "|")
-    write_headers("performer_data_hb_run.csv", performer_columns, ",")
+    write_headers("song_data_hb_run_test.txt", song_columns, "|")
+    write_headers("song_data_hb_run_test.csv", song_columns, ",")
 
-    write_headers("album_data_hb_run.txt", album_columns, "|")
-    write_headers("album_data_hb_run.csv", album_columns, ",")
+    write_headers("performer_data_hb_run_test.txt", performer_columns, "|")
+    write_headers("performer_data_hb_run_test.csv", performer_columns, ",")
+
+    write_headers("album_data_hb_run_test.txt", album_columns, "|")
+    write_headers("album_data_hb_run_test.csv", album_columns, ",")
 
     # producer data
     for producer in producer_list:
@@ -391,26 +445,30 @@ if __name__ == '__main__':
             producer_data = get_producer_data(producer_id)
             songs_by_producer_urls = get_songs_url_list(producer_id)
 
+            events = get_events_data(producer_id, songs_by_producer_urls)
             produce_songs = get_produce_song_data(producer_id, songs_by_producer_urls)
-            songs = get_produce_song_data(songs_by_producer_urls)
+            songs = get_song_data(songs_by_producer_urls)
             performers = get_performer_data(songs_by_producer_urls)
             albums = get_album_data(songs_by_producer_urls)
 
             # gather and populate csv and txt files with producer and song data
-            populate_producer_data("producer_data_hb_run.txt", "|")
-            populate_producer_data("producer_data_hb_run.csv", ",")
+            populate_producer_data("producer_data_hb_run_test.txt", "|")
+            populate_producer_data("producer_data_hb_run_test.csv", ",")
 
-            populate_produce_song_data("produce_song_data_hb_run.txt", "|")
-            populate_produce_song_data("produce_song_data_hb_run.csv", ",")
+            populate_events_data("events_data_hb_run_test.txt", "|")
+            populate_events_data("events_data_hb_run_test.csv", ",")
 
-            populate_song_data("song_data_hb_run.txt", "|")
-            populate_song_data("song_data_hb_run.csv", ",")
+            populate_produce_song_data("produce_song_data_hb_run_test.txt", "|")
+            populate_produce_song_data("produce_song_data_hb_run_test.csv", ",")
 
-            populate_performer_data("performer_data_hb_run.txt", "|")
-            populate_performer_data("performer_data_hb_run.csv", ",")
+            populate_song_data("song_data_hb_run_test.txt", "|")
+            populate_song_data("song_data_hb_run_test.csv", ",")
 
-            populate_album_data("album_data_hb_run.txt", "|")
-            populate_album_data("album_data_hb_run.csv", ",")
+            populate_performer_data("performer_data_hb_run_test.txt", "|")
+            populate_performer_data("performer_data_hb_run_test.csv", ",")
+
+            populate_album_data("album_data_hb_run_test.txt", "|")
+            populate_album_data("album_data_hb_run_test.csv", ",")
 
             # print song to console for progress tracking
             for s in songs:
@@ -423,25 +481,28 @@ if __name__ == '__main__':
             songs_by_producer_urls = get_songs_url_list(producer_id)
 
             produce_songs = get_produce_song_data(producer_id, songs_by_producer_urls)
-            songs = get_produce_song_data(songs_by_producer_urls)
+            songs = get_song_data(songs_by_producer_urls)
             performers = get_performer_data(songs_by_producer_urls)
             albums = get_album_data(songs_by_producer_urls)
 
             # gather and populate csv and txt files with producer and song data
-            populate_producer_data("producer_data_hb_run.txt", "|")
-            populate_producer_data("producer_data_hb_run.csv", ",")
+            populate_producer_data("producer_data_hb_run_test.txt", "|")
+            populate_producer_data("producer_data_hb_run_test.csv", ",")
 
-            populate_produce_song_data("produce_song_data_hb_run.txt", "|")
-            populate_produce_song_data("produce_song_data_hb_run.csv", ",")
+            populate_producer_data("producer_data_hb_run_test.txt", "|")
+            populate_producer_data("producer_data_hb_run_test.csv", ",")
 
-            populate_song_data("song_data_hb_run.txt", "|")
-            populate_song_data("song_data_hb_run.csv", ",")
+            populate_produce_song_data("produce_song_data_hb_run_test.txt", "|")
+            populate_produce_song_data("produce_song_data_hb_run_test.csv", ",")
 
-            populate_performer_data("performer_data_hb_run.txt", "|")
-            populate_performer_data("performer_data_hb_run.csv", ",")
+            populate_song_data("song_data_hb_run_test.txt", "|")
+            populate_song_data("song_data_hb_run_test.csv", ",")
 
-            populate_album_data("album_data_hb_run.txt", "|")
-            populate_album_data("album_data_hb_run.csv", ",")
+            populate_performer_data("performer_data_hb_run_test.txt", "|")
+            populate_performer_data("performer_data_hb_run_test.csv", ",")
+
+            populate_album_data("album_data_hb_run_test.txt", "|")
+            populate_album_data("album_data_hb_run_test.csv", ",")
 
             # print song to console for progress tracking
             for s in songs:

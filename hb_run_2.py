@@ -143,10 +143,10 @@ def get_produce_song_data(producer_id, songs_by_producer_urls):
         else: 
             song_release_date_components = ""
         
-        if release_date_components != "":
-            song_release_year = release_date_components.get('year', "")
-            song_release_month = release_date_components.get('month', "")
-            song_release_day = release_date_components.get('day', "")
+        if song_release_date_components != "":
+            song_release_year = song_release_date_components.get('year', "")
+            song_release_month = song_release_date_components.get('month', "")
+            song_release_day = song_release_date_components.get('day', "")
         else: 
             song_release_year = ""
             song_release_month = ""

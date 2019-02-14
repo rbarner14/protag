@@ -1,1 +1,5 @@
-producer_id|producer_name|producer_img_url|bio
+producer_id|producer_name|producer_img_url
+95489|Murda Beatz|https://images.genius.com/f65daa648424befbde6c0a158d71fce0.467x467x1.png
+80137|Sketchy Bongo|https://images.genius.com/aa6ece56a8533055fc109bb00261d0b2.300x300x1.jpg
+1531675|KILLY & WondaGurl|https://assets.genius.com/images/default_avatar_300.png?1550074849
+4617|The Neptunes|https://images.genius.com/e310e157ac97069d8038b853fe6d9362.1000x1000x1.jpg

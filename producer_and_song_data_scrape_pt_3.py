@@ -164,10 +164,10 @@ if __name__ == '__main__':
     # create and write to csvs & text files; csvs for better view of txt python will use
     # producer data
     with open('producer_data_scrape_txt_3.txt', 'w') as f:
-        f.write("producer_id, producer_name, producer_img_url\n")
+        f.write("producer_id, producer_name, producer_img_url, bio\n")
 
     with open('producer_data_scrape_csv_3.csv', 'w') as f:
-        f.write("producer_id, producer_name, producer_img_url\n")
+        f.write("producer_id, producer_name, producer_img_url, bio\n")
 
     #song data
     with open('song_data_scrape_txt_3.txt', 'w') as f:

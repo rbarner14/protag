@@ -195,7 +195,7 @@ def get_events_data(producer_id, songs_by_producer_urls):
 
         performer_id = performer.get('id', "")
             
-        songs.append(f"{producer_id}^{performer_id}^{song_id}^{album_id}")
+        events.append(f"{producer_id}^{performer_id}^{song_id}^{album_id}")
 
         time.sleep(1)
 

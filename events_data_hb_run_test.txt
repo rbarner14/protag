@@ -1,0 +1,1 @@
+producer_id|performer_id|song_id|album_id

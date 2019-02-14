@@ -136,29 +136,28 @@ def get_song_data(producer_id, songs_by_producer_urls):
 
     return songs
 
-def write_headers(filenames, headers, delimiters):
+def write_headers(filename, headers, delimiter):
+        # w = write to new file
+    with open(filename, 'w') as f:
+        f.write(delimiter.join(headers))
+
+def populate_producer_data(filenames):
     i = 1
     if i > len(filenames):
-        f = open(filenames[i], 'w')
-        f.write(delimiters[i].join(headers))
+        # a = append to already created file
+        with open(filenames[i], 'a') as f:
+            for data in producer_data:
+                producer_rows = data.split("^")
+                f.write(str(producer_id) + delimiters[i] + delimiters[i].join(producer_rows) + "\n")
         i += 1
 
-def populate_producer_data(filenames, rows):
+def populate_song_data(filenames):
     i = 1
     if i > len(filenames):
-        f = open(filenames[i], 'a'):
-        for data in producer_data:
-            rows = data.split("^")
-            f.write(str(producer_id) + "|" + "|".join(song_parts) + "\n")
-        i += 1
-
-def populate_song_data(filenames, rows):
-    i = 1
-    if i > len(filenames):
-        f = open(filenames[i], 'a'):
-        for song in songs:
-            rows = data.split("^")
-            f.write(str(producer_id) + "|" + "|".join(song_parts) + "\n")
+        with open(filenames[i], 'a') as f:
+            for song in songs:
+                song_rows = songs.split("^")
+                f.write(delimiters[i].join(song_rows) + "\n")
         i += 1
 
 
@@ -177,26 +176,27 @@ if __name__ == '__main__':
     song_filenames = ["song_data.txt", "song_data.csv"]
     delimiters = ["|", ","] 
 
-    write_headers(song_filenames, song_columns)
-    write_headers(producer_filenames, producer_columns)
-
-    populate_data()
+    write_headers("producer_data.txt", producer_columns, "|")
+    write_headers("producer_data.csv", producer_columns, ",")
+    write_headers("song_data.txt", song_columns, "|")
+    write_headers("song_data.csv", song_columns, ",")
 
     # create and write to csvs & text files; csvs for better view of txt python will use
     # producer data
-    write_headers("producer_data_scrape_rd.txt", )
-    with open('producer_data_scrape_rd.txt', 'w') as f:
-        f.write("producer_id, producer_name, producer_img_url, bio\n")
 
-    with open('producer_data_scrape_rd.csv', 'w') as f:
-        f.write("producer_id, producer_name, producer_img_url, bio\n")
+    # write_headers("producer_data_scrape_rd.txt", )
+    # with open('producer_data_scrape_rd.txt', 'w') as f:
+    #     f.write("producer_id, producer_name, producer_img_url, bio\n")
 
-    #song data
-    with open('song_data_scrape_rd.txt', 'w') as f:
-        f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
+    # with open('producer_data_scrape_rd.csv', 'w') as f:
+    #     f.write("producer_id, producer_name, producer_img_url, bio\n")
 
-    with open('song_data_scrape_rd.csv', 'w') as f:
-        f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
+    # #song data
+    # with open('song_data_scrape_rd.txt', 'w') as f:
+    #     f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
+
+    # with open('song_data_scrape_rd.csv', 'w') as f:
+    #     f.write("song_id, song_title, album_id, performer_id, release_date, release_year, release_month, release_day, apple_music_player_url\n")
 
 
     for producer in producer_list:
@@ -213,27 +213,33 @@ if __name__ == '__main__':
 
             songs = get_song_data(producer_id, songs_by_producer_urls)
 
+
+            populate_producer_data(producer_filenames)
+            populate_song_data(song_filenames)
+
+
             # pipe delimited text file which will be parsed by separate script
-            with open('producer_data_scrape_txt_3.txt', 'a') as f:
-                for data in producer_data:
-                    producer_data_components = data.split("^")
-                    f.write(
-                        str(producer_id) + "|" + str(producer_data_components[0]) + 
-                        "|" + str(producer_data_components[1]) + "|" + 
-                        str(producer_data_components[2]) +
-                        "\n"
-                    )
+            # with open('producer_data_scrape_txt_3.txt', 'a') as f:
+            #     for data in producer_data:
+            #         producer_data_components = data.split("^")
+            #         f.write(
+            #             str(producer_id) + "|" + str(producer_data_components[0]) + 
+            #             "|" + str(producer_data_components[1]) + "|" + 
+            #             str(producer_data_components[2]) +
+            #             "\n"
+            #         )
 
             # csv for better view and problem diagnosis than 
             # that achieved through txt file
-            with open('producer_data_scrape_csv_3.csv', 'a') as f:
-                for data in producer_data:
-                    f.write(
-                        str(producer_id) + "," + str(producer_data_components[0]) + 
-                        "," + str(producer_data_components[1]) + "," + 
-                        str(producer_data_components[2]) +
-                        "\n"
-                    )
+
+            # with open('producer_data_scrape_csv_3.csv', 'a') as f:
+            #     for data in producer_data:
+            #         f.write(
+            #             str(producer_id) + "," + str(producer_data_components[0]) + 
+            #             "," + str(producer_data_components[1]) + "," + 
+            #             str(producer_data_components[2]) +
+            #             "\n"
+            #         )
 
 
             # with open('song_data_scrape_txt_3.txt', 'a') as f:
@@ -241,17 +247,17 @@ if __name__ == '__main__':
             #         song_parts = song.split("^")
             #         f.write("|".join(song_parts) + "\n")
 
-            with open('song_data_scrape_csv_3.csv', 'a') as f:
-                for song in songs:
-                    split_songs = song.split("^")
-                    f.write(
-                        str(split_songs[0]) + "," + str(split_songs[1]) + "," + 
-                        str(split_songs[2]) + "," + str(split_songs[3]) + "," +
-                        str(split_songs[4]) + "," + str(split_songs[5]) + "," +
-                        str(split_songs[6]) + "," + str(split_songs[7]) + "," +
-                        str(split_songs[8]) +
-                        "\n"
-                    )
+            # with open('song_data_scrape_csv_3.csv', 'a') as f:
+            #     for song in songs:
+            #         split_songs = song.split("^")
+            #         f.write(
+            #             str(split_songs[0]) + "," + str(split_songs[1]) + "," + 
+            #             str(split_songs[2]) + "," + str(split_songs[3]) + "," +
+            #             str(split_songs[4]) + "," + str(split_songs[5]) + "," +
+            #             str(split_songs[6]) + "," + str(split_songs[7]) + "," +
+            #             str(split_songs[8]) +
+            #             "\n"
+            #         )
 
             # print song to console for progress tracking
             for s in songs:

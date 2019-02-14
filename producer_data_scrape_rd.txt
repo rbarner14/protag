@@ -1,1 +1,0 @@
-producer_id, producer_name, producer_img_url, bio

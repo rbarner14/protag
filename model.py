@@ -15,15 +15,22 @@ class Producer(db.Model):
 
     __tablename__ = "producers"
 
-    producer_id = db.Column(db.Integer, db.ForeignKey('produce_songs.producer_id'), nullable=False, primary_key=True)
+    producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     producer_name = db.Column(db.String(50), nullable=False)
-    img_url = db.Column(db.Text, nullable=True) # DOUBLE CHECK THIS
+    img_url = db.Column(db.Text, nullable=True)
     bio = db.Column(db.Text, nullable=True)
+
+    songs = db.relationship("Song", secondary="produce_songs", backref="producers")
 
     def __repr__(self):
         """Provide helpful representation when printed."""
 
         return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} img_url={self.img_url} bio={self.bio}>" # pyflakes does not like f-string; it prefers .format()
+
+    @classmethod
+    def get_producers_songs(cls, producer_name):
+
+        return cls.query.filter(cls.producer_name == producer_name).options(db.joinedload("songs")).first()
 
 
 class Performer(db.Model):
@@ -31,7 +38,7 @@ class Performer(db.Model):
 
     __tablename__ = "performers"
 
-    performer_id = db.Column(db.Integer, db.ForeignKey('produce_songs.performer_id'), nullable=False, primary_key=True)
+    performer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     performer_name = db.Column(db.String(50), nullable=False)
     img_url = db.Column(db.Text, nullable=True)
     bio = db.Column(db.Text, nullable=True)
@@ -47,7 +54,7 @@ class Song(db.Model):
 
     __tablename__ = "songs"
 
-    song_id = db.Column(db.Integer, db.ForeignKey('songs.song_id'), nullable=False, primary_key=True)
+    song_id = db.Column(db.Integer, nullable=False, primary_key=True)
     song_name = db.Column(db.String(50), nullable=False)
     media_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
@@ -66,7 +73,7 @@ class Album(db.Model):
 
     __tablename__ = "albums"
 
-    album_id = db.Column(db.Integer, db.ForeignKey('produce_songs.album_id'), nullable=False, primary_key=True)
+    album_id = db.Column(db.Integer, nullable=False, primary_key=True)
     album_title = db.Column(db.String(50), nullable=False)
     album_art_url = db.Column(db.Text, nullable=True)
     release_date = db.Column(db.DateTime, nullable=True)
@@ -86,10 +93,10 @@ class ProduceSong(db.Model):
     __tablename__ = "produce_songs"
 
     event_id = db.Column(db.Integer, autoincrement=True, nullable=False, primary_key=True)
-    producer_id = db.Column(db.Integer, nullable=False)
-    performer_id = db.Column(db.Integer, nullable=False)
-    song_id = db.Column(db.Integer, nullable=False)
-    album_id = db.Column(db.Integer, nullable=True)
+    producer_id = db.Column(db.Integer, db.ForeignKey('producers.producer_id'), nullable=False)
+    performer_id = db.Column(db.Integer, db.ForeignKey('performers.performer_id'), nullable=False)
+    song_id = db.Column(db.Integer, db.ForeignKey('songs.song_id'), nullable=False)
+    album_id = db.Column(db.Integer, db.ForeignKey('albums.album_id'), nullable=True)
 
     def __repr__(self):
         """Provide helpful representation when printed."""

@@ -134,27 +134,27 @@ def get_produce_song_data(producer_id, songs_by_producer_urls):
             cover_art_url = ""
 
         if song_json['release_date'] != None:
-            release_date = song_json.get('release_date', "")
+            song_release_date = song_json.get('release_date', "")
         else: 
-            release_date = ""
+            song_release_date = ""
 
         if song_json['release_date_components'] != None:
-            release_date_components = song_json.get('release_date_components', "")
+            song_release_date_components = song_json.get('release_date_components', "")
         else: 
-            release_date_components = ""
+            song_release_date_components = ""
         
         if release_date_components != "":
-            release_year = release_date_components.get('year', "")
-            release_month = release_date_components.get('month', "")
-            release_day = release_date_components.get('day', "")
+            song_release_year = release_date_components.get('year', "")
+            song_release_month = release_date_components.get('month', "")
+            song_release_day = release_date_components.get('day', "")
         else: 
-            release_year = ""
-            release_month = ""
-            release_day = ""
+            song_release_year = ""
+            song_release_month = ""
+            song_release_day = ""
 
         performer_id = performer.get('id', "")
             
-        songs.append(f"{song_id}^{song_title}^{album_id}^{album_title}^{cover_art_url}^{performer_id}^{performer_name}^{performer_img_url}^{release_date}^{release_year}^{release_month}^{release_day}^{apple_music_player_url}^{producer_id}")
+        songs.append(f"{song_id}^{song_title}^{album_id}^{album_title}^{cover_art_url}^{performer_id}^{performer_name}^{performer_img_url}^{song_release_date}^{song_release_year}^{song_release_month}^{song_release_day}^{apple_music_player_url}^{producer_id}")
 
         time.sleep(1)
 
@@ -351,7 +351,7 @@ def populate_producer_data(filename, delimiter):
 def populate_events_data(filename, delimiter):
     with open(filename, 'a') as f:
         for event in events:
-            event_rows = song.split("^")
+            event_rows = event.split("^")
             f.write(delimiter.join(event_rows) + "\n")
 
 def populate_produce_song_data(filename, delimiter):
@@ -391,8 +391,8 @@ if __name__ == '__main__':
     events_columns = ["producer_id", "performer_id", "song_id", "album_id"]
     produce_song_columns = ["song_id", "song_title", "album_id", "album_title", 
                     "cover_art_url", "performer_id", "performer_name", 
-                    "performer_img_url", "release_date", "release_year", 
-                    "release_month", "release_day", "apple_music_player_url",
+                    "performer_img_url", "song_release_date", "song_release_year", 
+                    "song_release_month", "song_release_day", "apple_music_player_url",
                     "producer_id"]
     song_columns = ["song_id", "song_title", "song_release_date", 
                     "song_release_year", "song_release_month", 
@@ -480,6 +480,7 @@ if __name__ == '__main__':
             producer_data = get_producer_data(producer_id)
             songs_by_producer_urls = get_songs_url_list(producer_id)
 
+            events = get_events_data(producer_id, songs_by_producer_urls)
             produce_songs = get_produce_song_data(producer_id, songs_by_producer_urls)
             songs = get_song_data(songs_by_producer_urls)
             performers = get_performer_data(songs_by_producer_urls)

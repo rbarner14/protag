@@ -1,1 +1,1 @@
-song_id|song_title|album_id|album_title|cover_art_url|performer_id|performer_name|performer_img_url|release_date|release_year|release_month|release_day|apple_music_player_url|producer_id
+song_id|song_title|album_id|album_title|cover_art_url|performer_id|performer_name|performer_img_url|song_release_date|song_release_year|song_release_month|song_release_day|apple_music_player_url|producer_id

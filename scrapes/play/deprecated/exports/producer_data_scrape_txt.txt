@@ -1,0 +1,4 @@
+artist_id, producer_name, producer_img_url
+95489 | Murda Beatz | https://images.genius.com/f65daa648424befbde6c0a158d71fce0.467x467x1.png
+1000140 | MobSquad Nard | https://images.genius.com/109aed1a51928cfff439e2eabed19174.718x718x1.jpg
+27822 | Zaytoven | https://images.genius.com/05d12a4bdd0f48cf5505f47598cb1895.479x479x1.jpg

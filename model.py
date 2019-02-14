@@ -30,6 +30,7 @@ class Producer(db.Model):
     @classmethod
     def get_producers_songs(cls, producer_name):
 
+        # why .first()
         return cls.query.filter(cls.producer_name == producer_name).options(db.joinedload("songs")).first()
 
 
@@ -43,11 +44,17 @@ class Performer(db.Model):
     img_url = db.Column(db.Text, nullable=True)
     bio = db.Column(db.Text, nullable=True)
 
+    songs = db.relationship("Song", secondary="produce_songs", backref="producers")
+
     def __repr__(self):
         """Provide helpful representation when printed."""
 
         return f"<Performer performer_id={self.performer_id} performer_name={self.song_name} media_url={self.media_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
+    @classmethod
+    def get_performer_producerss(cls, performer_name):
+
+    return cls.query.filter(cls.performer_name == performer_name).options(db.joinedload("producers")).first()
 
 class Song(db.Model):
     """Animal model."""

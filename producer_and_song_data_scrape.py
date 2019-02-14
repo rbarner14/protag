@@ -9,7 +9,7 @@ SONGS_URL = "https://genius.com/api/artists/%s/songs?page=%s&sort=popularity"
 SONG_URL = "https://genius.com/api/songs/"
 ARTIST_URL = "https://genius.com/api/artists/"
 ALBUM_URL = "https://genius.com/api/albums/"
-NUM_SONG_PAGES = 32
+NUM_SONG_PAGES = 2
 
 # adds to song url list (created in app call), return 1st 32 pages of producer's 
 # song discography, sorted by views on Genius (popularity)
@@ -39,21 +39,21 @@ def get_producer_id(producer_name):
     search_hits = first_search_section['hits']
 
     if page_response == 200 and first_search_section['type'] == 'artist' and len(search_hits) != 0:
-        genius_performer_id = search_hits[0]['result']['id']
+        producer_id = search_hits[0]['result']['id']
     else:
-        genius_performer_id = "id not found"
+        producer_id = "id not found"
         print(f"no {producer_name} found")
 
-    return genius_performer_id
+    return producer_id
 
 
 # return a "^" separated string of producer's name, img url and bio (long text)
 # returning empty strings if values at keys do not exist
-def get_producer_data(producer_name):
+def get_producer_data(producer_id):
 
     producer_data = []
 
-    url = ARTIST_URL + str(get_producer_id(producer_name))
+    url = ARTIST_URL + str(producer_id)
 
     r = requests.get(url)
     j = r.json()
@@ -110,15 +110,28 @@ def get_song_data(producer_id, songs_by_producer_urls):
 
 
         performer = song_json['primary_artist']
+        performer_id = performer.get('id', "")
+        performer_name = performer.get('name', "")
+
+        if performer['image_url'] != None:
+            performer_img_url = performer.get('image_url', "")
+        else:
+            performer_img_url = ""
+
         song_id = song_json.get('id', "")
         song_title = song_json.get('title', "")
         apple_music_player_url = song_json.get('apple_music_player_url', "")
+        
         album = song_json.get('album',"")
 
         if album != None:
             album_id = album.get('id', "")
+            album_title = album.get('name', "")
+            cover_art_url = album.get('cover_art_url', "")
         else:
             album_id = ""
+            album_title = ""
+            cover_art_url = ""
 
         if song_json['release_date'] != None:
             release_date = song_json.get('release_date', "")
@@ -136,7 +149,7 @@ def get_song_data(producer_id, songs_by_producer_urls):
 
         performer_id = performer.get('id', "")
             
-        songs.append(f"{song_id}^{song_title}^{album_id}^{performer_id}^{release_date}^{release_year}^{release_month}^{release_day}^{apple_music_player_url}")
+        songs.append(f"{song_id}^{song_title}^{album_id}^{album_title}^{cover_art_url}^{performer_id}^{performer_name}^{performer_img_url}^{release_date}^{release_year}^{release_month}^{release_day}^{apple_music_player_url}^{producer_id}")
 
         time.sleep(1)
 
@@ -167,40 +180,77 @@ def populate_song_data(filename, delimiter):
 
 if __name__ == '__main__':
     # list of producers to read for crawling; could also import
-    producer_list = open("producer_list_test.txt")
+    producer_list = open("producer_list.txt")
 
     # file headers
     producer_columns = ["producer_id", "producer_name", "producer_img_url"]
-    song_columns = ["song_id", "song_title", "album_id", "performer_id", 
-                    "release_date", "release_year", "release_month", 
-                    "release_day", "apple_music_player_url"]
+    song_columns = ["song_id", "song_title", "album_id", "album_title", 
+                    "cover_art_url", "performer_id", "performer_name", 
+                    "performer_img_url", "release_date", "release_year", 
+                    "release_month", "release_day", "apple_music_player_url",
+                    "producer_id"]
+    producer_name_exceptions = {
+                                "Menace\n": 639900,
+                                "WondaGurl\n": 50896,
+                                "Missy Elliott\n": 1529,
+                                "Bongo\n": 283439,
+                                "The Heatmakerz\n": 1529, 
+                                "!llmind\n": 10418, 
+                                "1500 or Nothin'\n": 33494, 
+                                "Lamar Edwards\n": 73934
+                            }
+
 
     # create and write to csvs & text files; csvs for better view of txt python will use
-    write_headers("producer_data.txt", producer_columns, "|")
-    write_headers("producer_data.csv", producer_columns, ",")
-    write_headers("song_data.txt", song_columns, "|")
-    write_headers("song_data.csv", song_columns, ",")
+    write_headers("producer_data_redo.txt", producer_columns, "|")
+    write_headers("producer_data_redo.csv", producer_columns, ",")
+    write_headers("song_data_redo.txt", song_columns, "|")
+    write_headers("song_data_redo.csv", song_columns, ",")
 
     # producer data
     for producer in producer_list:
         # producer name populated from provided list
         producer_name = producer
+        # do not start data gathering process unless artist search returns hits            
+        if producer_name in producer_name_exceptions:
+            producer_id = producer_name_exceptions[producer_name]
 
-        # do not start data gathering process unless artist search returns hits
-        if get_producer_id(producer_name) != "id not found":
-            producer_id = get_producer_id(producer_name)
-            producer_data = get_producer_data(producer_name)
+            producer_data = get_producer_data(producer_id)
             songs_by_producer_urls = get_songs_url_list(producer_id)
 
             songs = get_song_data(producer_id, songs_by_producer_urls)
 
             # gather and populate csv and txt files with producer and song data
-            populate_producer_data("producer_data.txt", "|")
-            populate_producer_data("producer_data.csv", ",")
+            populate_producer_data("producer_data_redo.txt", "|")
+            populate_producer_data("producer_data_redo.csv", ",")
 
-            populate_song_data("song_data.txt", "|")
-            populate_song_data("song_data.csv", ",")
+            populate_song_data("song_data_redo.txt", "|")
+            populate_song_data("song_data_redo.csv", ",")
 
             # print song to console for progress tracking
             for s in songs:
-                print(s) 
+                print(s)
+
+        elif get_producer_id(producer_name) != "id not found":
+            producer_id = get_producer_id(producer_name)
+
+            producer_data = get_producer_data(producer_id)
+            songs_by_producer_urls = get_songs_url_list(producer_id)
+
+            songs = get_song_data(producer_id, songs_by_producer_urls)
+
+            # gather and populate csv and txt files with producer and song data
+            populate_producer_data("producer_data_redo.txt", "|")
+            populate_producer_data("producer_data_redo.csv", ",")
+
+            populate_song_data("song_data_redo.txt", "|")
+            populate_song_data("song_data_redo.csv", ",")
+
+            # print song to console for progress tracking
+            for s in songs:
+                print(s)
+
+
+
+
+

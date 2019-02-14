@@ -17,18 +17,17 @@ class Producer(db.Model):
 
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     producer_name = db.Column(db.String(50), nullable=False)
-    img_url = db.Column(db.Text, nullable=True)
-    bio = db.Column(db.Text, nullable=True)
+    producer_img_url = db.Column(db.Text, nullable=True)
 
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
 
     def __repr__(self):
         """Provide helpful representation when printed."""
 
-        return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} img_url={self.img_url} bio={self.bio}>" # pyflakes does not like f-string; it prefers .format()
+        return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url}>" # pyflakes does not like f-string; it prefers .format()
 
     @classmethod
-    def get_producers_songs(cls, producer_name):
+    def get_producer_songs(cls, producer_name):
 
         # why .first()
         return cls.query.filter(cls.producer_name == producer_name).options(db.joinedload("songs")).first()
@@ -41,20 +40,19 @@ class Performer(db.Model):
 
     performer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     performer_name = db.Column(db.String(50), nullable=False)
-    img_url = db.Column(db.Text, nullable=True)
-    bio = db.Column(db.Text, nullable=True)
+    performer_img_url = db.Column(db.Text, nullable=True)
 
-    songs = db.relationship("Song", secondary="produce_songs", backref="producers")
+    songs = db.relationship("Song", secondary="produce_songs", backref="performers")
 
     def __repr__(self):
         """Provide helpful representation when printed."""
 
-        return f"<Performer performer_id={self.performer_id} performer_name={self.song_name} media_url={self.media_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+        return f"<Performer performer_id={self.performer_id} performer_name={self.performer_name} performer_img_url={self.performer_img_url}>"
 
     @classmethod
-    def get_performer_producerss(cls, performer_name):
+    def get_performer_songs(cls, performer_name):
 
-    return cls.query.filter(cls.performer_name == performer_name).options(db.joinedload("producers")).first()
+    return cls.query.filter(cls.performer_name == performer_name).options(db.joinedload("songs")).first()
 
 class Song(db.Model):
     """Animal model."""

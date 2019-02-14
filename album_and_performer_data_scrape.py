@@ -3,7 +3,7 @@ import time
 
 
 ALBUM_URL = "https://genius/com/api/albums/"
-ARTIST_URL = "https://genius/com/api/albums/"
+PERFORMER_URL = "https://genius/com/api/artists/"
 
 # 
 def get_album_data(): 
@@ -53,7 +53,7 @@ def get_performer_data():
     performer_data = []
 
     for line in performer_id_list:
-        r = requests.get(ALBUM_URL + line)
+        r = requests.get(PERFORMER_URL + line)
         j = r.json()
 
         performer_id = line

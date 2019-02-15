@@ -1,1 +1,41 @@
 song_id|song_title|song_release_date|song_release_year|song_release_month|song_release_day|apple_music_player_url
+2145913|Antidote|2015-06-23|2015|6|23|https://genius.com/songs/2145913/apple_music_player
+703732|Company|2015-02-13|2015|2|13|https://genius.com/songs/703732/apple_music_player
+2973484|No Favors|2017-02-03|2017|2|3|https://genius.com/songs/2973484/apple_music_player
+685070|Used To|2015-02-13|2015|2|13|https://genius.com/songs/685070/apple_music_player
+3876999|CAN'T SAY|2018-08-03|2018|8|3|https://genius.com/songs/3876999/apple_music_player
+731783|Bitch Better Have My Money|2015-03-26|2015|3|26|https://genius.com/songs/731783/apple_music_player
+2290813|90210|2015-09-02|2015|9|2|https://genius.com/songs/2290813/apple_music_player
+703429|All Your Fault|2015-02-24|2015|2|24|https://genius.com/songs/703429/apple_music_player
+3876996|NO BYSTANDERS|2018-08-03|2018|8|3|https://genius.com/songs/3876996/apple_music_player
+2826952|​the ends|2016-09-02|2016|9|2|https://genius.com/songs/2826952/apple_music_player
+182405|Crown|2013-07-04|2013|7|4|https://genius.com/songs/182405/apple_music_player
+2849772|​sweet sweet|2016-09-02|2016|9|2|https://genius.com/songs/2849772/apple_music_player
+499855|Days Before Rodeo: The Prayer|2014-08-18|2014|8|18|https://genius.com/songs/499855/apple_music_player
+3209331|Feelings Mutual|2017-08-25|2017|8|25|https://genius.com/songs/3209331/apple_music_player
+3209336|How to Talk|2017-08-25|2017|8|25|https://genius.com/songs/3209336/apple_music_player
+153015|Uptown|2013-05-21|2013|5|21|https://genius.com/songs/153015/apple_music_player
+2888831|Money Man|2016-10-21|2016|10|21|https://genius.com/songs/2888831/apple_music_player
+2456827|Scott and Ramona|2016-04-15|2016|4|15|https://genius.com/songs/2456827/apple_music_player
+2894281|RERUN|2018-10-11|2018|10|11|https://genius.com/songs/2894281/apple_music_player
+206132|Teen Spirit|2013-08-15|2013|8|15|https://genius.com/songs/206132/apple_music_player
+724284|Never Catch Me|2015-09-04|2015|9|4|https://genius.com/songs/724284/apple_music_player
+3209338|Malfunction|2017-08-25|2017|8|25|https://genius.com/songs/3209338/apple_music_player
+691607|High Fashion|2015-01-27|2015|1|27|https://genius.com/songs/691607/apple_music_player
+3097951|Blowing Smoke|2017-05-26|2017|5|26|https://genius.com/songs/3097951/apple_music_player
+2938694|I Decided. [Tracklist + Album Art]|2017-02-03|2017|2|3|https://genius.com/songs/2938694/apple_music_player
+1862903|Freaky|2015-09-16|2015|9|16|https://genius.com/songs/1862903/apple_music_player
+146977|Trouble|||||https://genius.com/songs/146977/apple_music_player
+3097975|Money Problems / Benz Truck|2017-05-26|2017|5|26|https://genius.com/songs/3097975/apple_music_player
+3138028|Hasta Luego|2017-06-29|2017|6|29|https://genius.com/songs/3138028/apple_music_player
+2893569|Braille|2016-10-27|2016|10|27|https://genius.com/songs/2893569/apple_music_player
+3563908|Doomsday|2018-03-06|2018|3|6|https://genius.com/songs/3563908/apple_music_player
+2829210|Hot Sauce|2016-09-02|2016|9|2|https://genius.com/songs/2829210/apple_music_player
+2297764|I'm Good|2015-09-05|2015|9|5|https://genius.com/songs/2297764/apple_music_player
+148152|God Level|||||https://genius.com/songs/148152/apple_music_player
+3553770|Too Gone|2018-03-30|2018|3|30|https://genius.com/songs/3553770/apple_music_player
+3768792|Get Geeked|2018-11-30|2018|11|30|https://genius.com/songs/3768792/apple_music_player
+3952657|ANTI EVERYBODY|2018-09-14|2018|9|14|https://genius.com/songs/3952657/apple_music_player
+3060692|Lady in Yellow|2017-05-26|2017|5|26|https://genius.com/songs/3060692/apple_music_player
+2360995|I Ain't Fukin Wit Cha|2015-12-14|2015|12|14|https://genius.com/songs/2360995/apple_music_player
+3599119|Holding It Down|2018-03-23|2018|3|23|https://genius.com/songs/3599119/apple_music_player

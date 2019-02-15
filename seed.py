@@ -1,5 +1,5 @@
 import datetime
-from sqlalchemy import func
+from sqlalchemy import func # will use when adding log-in functionality
 
 from model import Producer, Performer, Song, Album, ProduceSong, connect_to_db, db
 from server import app
@@ -81,7 +81,7 @@ def load_songs(song_filename):
         else:
             song_release_day = None
 
-        song = Performer(song_id=song_id, 
+        song = Song(song_id=song_id, 
                 song_title=song_title, 
                 song_release_date=song_release_date, 
                 song_release_year=song_release_year, 
@@ -128,7 +128,7 @@ def load_albums(album_filename):
         else:
             album_release_day = None
 
-        album = Performer(album_id=album_id, 
+        album = Album(album_id=album_id, 
                 album_title=album_title, 
                 cover_art_url=cover_art_url, 
                 album_release_year=album_release_year, 
@@ -147,14 +147,14 @@ def load_albums(album_filename):
 
 def load_events(event_filename):
     """Load events from events.txt into database."""
-    
+
     print("Events")
 
     for i, row in enumerate(open(event_filename)):
         row = row.rstrip()
         producer_id, performer_id, song_id, album_id = row.split("|")
 
-        song = Performer(producer_id=producer_id, 
+        song = ProduceSong(producer_id=producer_id, 
                 performer_id=performer_id, 
                 song_id=song_id, 
                 album_id=album_id)

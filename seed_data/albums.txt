@@ -1,4 +1,3 @@
-album_id|album_title|cover_art_url|album_release_year|album_release_month|album_release_day
 491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
 119674|If You're Reading This It's Too Late|https://images.genius.com/bcf01db777c6e5c46eddb1031a2008d1.1000x1000x1.jpg|2015|2|13
 287219|I Decided.|https://images.genius.com/74cd28ef5c9f93715d79175cd8e5e81f.500x500x1.jpg|2017|2|3

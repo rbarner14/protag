@@ -1,4 +1,3 @@
-performer_id|performer_name|performer_img_url
 20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
 130|Drake|https://images.genius.com/d88b9e6b78704998334786ea8fef35b8.1000x1000x1.jpg
 492|Big Sean|https://images.genius.com/a4fc4d424642d59a40b43128491b23ed.586x586x1.jpg

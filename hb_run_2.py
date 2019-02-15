@@ -21,7 +21,6 @@ def get_songs_url_list(producer_id):
         song_url = SONGS_URL % (producer_id, i+1)
         urls.append(song_url)
 
-    print(urls)
     return urls
 
 # get producer id
@@ -100,6 +99,7 @@ def get_produce_song_data(producer_id, songs_by_producer_urls):
     # loop through song url list created, returning nulls for keys 
     # that do not exist
     for url in song_urls:
+
         print(url)
 
         r2 = requests.get(url)
@@ -168,6 +168,7 @@ def get_events_data(producer_id, songs_by_producer_urls):
     # loop through song url list created, returning nulls for keys 
     # that do not exist
     for url in song_urls:
+
         print(url)
 
         r2 = requests.get(url)
@@ -209,6 +210,7 @@ def get_song_data(songs_by_producer_urls):
     # loop through song url list created, returning nulls for keys 
     # that do not exist
     for url in song_urls:
+
         print(url)
 
         r2 = requests.get(url)
@@ -257,6 +259,7 @@ def get_performer_data(songs_by_producer_urls):
     # loop through song url list created, returning nulls for keys 
     # that do not exist
     for url in song_urls:
+
         print(url)
 
         r2 = requests.get(url)
@@ -292,6 +295,7 @@ def get_album_data(songs_by_producer_urls):
     # loop through song url list created, returning nulls for keys 
     # that do not exist
     for url in song_urls:
+
         print(url)
 
         r2 = requests.get(url)
@@ -404,14 +408,14 @@ if __name__ == '__main__':
                      "album_release_day"]
 
     producer_name_exceptions = {
-                                "Menace\n": 639900,
-                                "WondaGurl\n": 50896,
-                                "Missy Elliott\n": 1529,
-                                "Bongo\n": 283439,
-                                "The Heatmakerz\n": 1529, 
-                                "!llmind\n": 10418, 
-                                "1500 or Nothin'\n": 33494, 
-                                "Lamar Edwards\n": 73934
+                                "Menace\n": "639900",
+                                "WondaGurl\n": "50896",
+                                "Missy Elliott\n": "1529",
+                                "Bongo\n": "283439",
+                                "The Heatmakerz\n": "27663", 
+                                "!llmind\n": "10418", 
+                                "1500 or Nothin'\n": "33494", 
+                                "Lamar Edwards\n": "73934"
                             }
 
 

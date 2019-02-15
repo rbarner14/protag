@@ -44,6 +44,8 @@ def get_producer_id(producer_name):
         producer_id = "id not found"
         print(f"no {producer_name} found")
 
+    time.sleep(1)
+
     return producer_id
 
 
@@ -404,14 +406,14 @@ if __name__ == '__main__':
                      "album_release_day"]
 
     producer_name_exceptions = {
-                                "Menace\n": 639900,
-                                "WondaGurl\n": 50896,
-                                "Missy Elliott\n": 1529,
-                                "Bongo\n": 283439,
-                                "The Heatmakerz\n": 1529, 
-                                "!llmind\n": 10418, 
-                                "1500 or Nothin'\n": 33494, 
-                                "Lamar Edwards\n": 73934
+                                "Menace\n": "639900",
+                                "WondaGurl\n": "50896",
+                                "Missy Elliott\n": "1529",
+                                "Bongo\n": "283439",
+                                "The Heatmakerz\n": "27663", 
+                                "!llmind\n": "10418", 
+                                "1500 or Nothin'\n": "33494", 
+                                "Lamar Edwards\n": "73934"
                             }
 
 

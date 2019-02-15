@@ -9,10 +9,10 @@ album_id|album_title|cover_art_url|album_release_year|album_release_month|album_
 110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
 347955|Luv Is Rage 2|https://images.genius.com/01ecec6354fe061901f305a6a11ee524.1000x1000x1.jpg|2017|8|25
 22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
-"160640|Cozy Tapes, Vol. 1: Friends|https://images.genius.com/bb498d327c020c240c2489256f22c120.1000x1000x1.jpg|2016|10|31"
+160640|Cozy Tapes, Vol. 1: Friends|https://images.genius.com/bb498d327c020c240c2489256f22c120.1000x1000x1.jpg|2016|10|31"
 149228|Lil Uzi Vert Vs. The World|https://images.genius.com/ae47e2a7642e50b84083e2e838fd4770.1000x1000x1.jpg|2016|4|15
 459148|QUAVO HUNCHO|https://images.genius.com/39a1f9d0d1403b9749469ec36ad251e9.1000x1000x1.jpg|2018|10|11
-"345439|We Run This, Vol. 13|https://images.genius.com/d830c23645d7f7af55dc88ee034e1954.800x800x1.jpg|2017|None|None"
+345439|We Run This, Vol. 13|https://images.genius.com/d830c23645d7f7af55dc88ee034e1954.800x800x1.jpg|2017|None|None"
 326050|True to Self|https://images.genius.com/25f27b933ed193df22a7f3a349b8e081.1000x1000x1.jpg|2017|5|26
 126701|Slime Season|https://images.genius.com/e7c67a01f872ff7f8c60b34a636ec3f4.500x500x1.jpg|2015|9|16
 461853|DiCaprio 2|https://images.genius.com/a24486c6e4c335d50ce79fdcf7bef5ac.1000x1000x1.jpg|2018|11|26

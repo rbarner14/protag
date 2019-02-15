@@ -1,4 +1,4 @@
-"""Models and database functions for makingmusic db."""
+"""Models and database functions for music db."""
 
 from flask_sqlalchemy import SQLAlchemy
 
@@ -85,8 +85,7 @@ class Album(db.Model):
 
     album_id = db.Column(db.Integer, nullable=False, primary_key=True)
     album_title = db.Column(db.String(50), nullable=False)
-    album_art_url = db.Column(db.Text, nullable=True)
-    album_release_date = db.Column(db.DateTime, nullable=True)
+    cover_art_url = db.Column(db.Text, nullable=True)
     album_release_year = db.Column(db.DateTime, nullable=True)
     album_release_month = db.Column(db.DateTime, nullable=True)
     album_release_day = db.Column(db.DateTime, nullable=True)
@@ -95,7 +94,7 @@ class Album(db.Model):
 
     def __repr__(self):
 
-        return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+        return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
     @classmethod
     def get_album_producers(cls, album_title):
@@ -123,7 +122,7 @@ class ProduceSong(db.Model):
 # Helper functions
 
 def init_app():
-    # So that we can use Flask-SQLAlchemy, we'll make a Flask app.
+    # A Flask app is made to use Flask-SQLAlchemy
     from flask import Flask
     app = Flask(__name__)
 
@@ -132,10 +131,10 @@ def init_app():
 
 
 def connect_to_db(app):
-    """Connect the database to our Flask app."""
+    """Connect the database to Flask app."""
 
-    # Configure to use our database.
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:///animals'
+    # Configure to use database.
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:///music'
     app.config['SQLALCHEMY_ECHO'] = False
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.app = app
@@ -143,7 +142,12 @@ def connect_to_db(app):
 
 
 if __name__ == "__main__":
-    # As a convenience, if we run this module interactively, it will leave
-    # you in a state of being able to work with the database directly.
+    # Added for module interactive convenience to work directly with database.
 
     init_app()
+
+
+
+
+
+

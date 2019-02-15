@@ -629,3 +629,140 @@ album_id|album_title|cover_art_url|album_release_year|album_release_month|album_
 322217|out•landiSH|https://assets.genius.com/images/default_cover_art.png?1550160033|||
 32013|ArtOfficial Mixtape|https://images.genius.com/9abcf6825440d256b435244d7f47dbe5.800x800x1.jpg|2013|1|11
 497035|Snoop Dogg Presents: The West Coast Blueprint|https://images.genius.com/e2f858ce2e3e1526a1ceeb02be51f0c9.522x522x1.jpg|2010|2|23
+4345|Graduation|https://images.genius.com/db8cf20e3bf2357483e4e5b2d5921eb8.1000x1000x1.jpg|2007|9|11
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+29201|Hotel California|https://images.genius.com/a501663aebbea0f7f4915a62e3080585.640x640x1.jpg|2013|1|1
+38013|The Man With the Iron Fists (Original Motion Picture Soundtrack)|https://images.genius.com/1099602f270ab30b875aaefd31405473.608x608x1.jpg|2012|10|22
+1550|Exclusive|https://images.genius.com/8d74c85f105377027c717a92d47649dc.640x640x1.jpg|2007|11|6
+24877|Stay Trippy|https://images.genius.com/9ba2fd5f840219170a36ee872796658c.1000x1000x1.jpg|2013|4|27
+33273|Extra Lasers|https://images.genius.com/6064ad68b3a05d49650aa973fff2bff4.500x500x1.jpg|2011|5|5
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+4069|Kingdom Come|https://images.genius.com/4371d45b1c52d7dc87e4204ae0aa8373.900x900x1.jpg|2006|11|21
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+16925|Black Panties|https://images.genius.com/e3065989e766d66572455e378fdc16f7.1000x1000x1.jpg|2013|12|10
+19231|F.A.M.E.|https://images.genius.com/f72e241a9ed4067a0f97014d542f613d.1000x1000x1.jpg|2011|3|18
+9857|LAX|https://images.genius.com/bba1920bee43a618432ce43748293ec6.1000x1000x1.jpg|2008|8|26
+320876|Us or Else: Letter to the System|https://images.genius.com/4a3af1ad50f638f4b221d88c280afff5.680x680x1.jpg|2016|12|16
+108787|Paperwork: The Motion Picture|https://images.genius.com/0aedeee6f38d44bf87bbee70cb36cca3.640x640x1.jpg|2014|10|21
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+127819|Still Brazy|https://images.genius.com/61ec7386b0b8decc595f9278be9606da.1000x1000x1.jpg|2016|6|14
+130714|Da' Nic|https://images.genius.com/f7d616764951f22c74ff6ffd7e509fa5.640x640x1.jpg|2015|9|11
+19604|Based on a T.R.U. Story|https://images.genius.com/0855f72cd21e5220ad89c1cc26c16d73.957x957x1.jpg|2012|8|14
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+9852|Doctor’s Advocate|https://images.genius.com/8733b8e495bb8c50e53cd1da0aada2cb.1000x1000x1.jpg|2006|11|14
+8806|Phrenology|https://images.genius.com/3b63864c76b254cbac7ffb7d3e83f789.600x600x1.jpg|2002|11|26
+320876|Us or Else: Letter to the System|https://images.genius.com/4a3af1ad50f638f4b221d88c280afff5.680x680x1.jpg|2016|12|16
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+14087|Fuck Da City Up|https://images.genius.com/c4a42649ba1a4f401f2ed78317e312fc.1000x1000x1.jpg|2012|1|1
+163823|Slauson Boy 2|https://images.genius.com/9016be3fd695466ba15ec387744a2cef.600x600x1.jpg|2016|8|15
+78280|Victory Lap|https://images.genius.com/72e0788bf9888110c8f963aa527a1c50.600x600x1.jpg|2018|2|16
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+10827|Purp & Patron: The Hangover|https://images.genius.com/9cb20d1b358d4aa81552492ba838d34f.750x750x1.jpg|2011|1|31
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+|||||
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+78280|Victory Lap|https://images.genius.com/72e0788bf9888110c8f963aa527a1c50.600x600x1.jpg|2018|2|16
+163823|Slauson Boy 2|https://images.genius.com/9016be3fd695466ba15ec387744a2cef.600x600x1.jpg|2016|8|15
+78280|Victory Lap|https://images.genius.com/72e0788bf9888110c8f963aa527a1c50.600x600x1.jpg|2018|2|16
+163823|Slauson Boy 2|https://images.genius.com/9016be3fd695466ba15ec387744a2cef.600x600x1.jpg|2016|8|15
+|||||
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+341712|Neva Left|https://images.genius.com/60bf707949edab977c5ad8da61ef82a2.1000x1000x1.jpg|2017|5|19
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+25420|Trouble Man: Heavy Is the Head|https://images.genius.com/6c270013a37f81fa5c7f0606f8824d12.300x300x1.png|2012|12|18
+44683|Come As You Are|https://s3.amazonaws.com/rapgenius/Audio_Push_Come_As_You_Are-front-large.jpg|2013|None|None
+9857|LAX|https://images.genius.com/bba1920bee43a618432ce43748293ec6.1000x1000x1.jpg|2008|8|26
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+15983|California Republic|https://images.genius.com/4df2274fd6c2945603a7115c9c9d1284.500x500x1.jpg|2012|4|5
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+108787|Paperwork: The Motion Picture|https://images.genius.com/0aedeee6f38d44bf87bbee70cb36cca3.640x640x1.jpg|2014|10|21
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+375264|Make America Crip Again - EP|https://images.genius.com/922ec31d9fecb22a0842e9ee65d6ee7c.637x637x1.jpg|2017|10|27
+123716|The Prescription |https://images.genius.com/23ff7ffb705ca053890ac1ccd9360188.500x500x1.jpg|2015|None|None
+149918|Bankroll Mafia|https://images.genius.com/304fe9bb5fd2f7d0287fa60a8eb11bc1.398x398x1.png|2016|None|None
+152605|DIME TRAP|https://images.genius.com/762209f629de50995145f116f95b5ea9.750x750x1.jpg|2018|10|5
+325315|Return of the Cool|https://images.genius.com/aa5d9e39e235f459b88d0f0dfeeb9c09.630x630x1.jpg|2017|1|13
+162530|Us Or Else|https://images.genius.com/c5de385a72ab3f343496cb34df9c6487.996x1000x1.png|2016|9|23
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+328114|The King & I|https://images.genius.com/1b16050ecad72d7c17ed077dbac518b7.600x600x1.jpg|2017|5|19
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+1678|Finding Forever|https://images.genius.com/da89ed2094b9a8d542d03ed39ea208e1.1000x1000x1.jpg|2007|7|31
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+429733|Dreamin' Out Loud|https://images.genius.com/f0f6dace005a9034eb66cd5d2e9a58e2.600x600x1.jpg|2018|5|18
+123716|The Prescription |https://images.genius.com/23ff7ffb705ca053890ac1ccd9360188.500x500x1.jpg|2015|None|None
+8795|Game Theory|https://images.genius.com/e1df5a47164b92136a7e28ca98ef2314.1000x1000x1.jpg|2006|8|29
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+8806|Phrenology|https://images.genius.com/3b63864c76b254cbac7ffb7d3e83f789.600x600x1.jpg|2002|11|26
+44683|Come As You Are|https://s3.amazonaws.com/rapgenius/Audio_Push_Come_As_You_Are-front-large.jpg|2013|None|None
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+128882|In My Mind|https://images.genius.com/687dc12c80c28a3d847bb71bcfcdcf2d.1000x1000x1.jpg|2016|2|19
+|||||
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+334389|Tom Clancy's Ghost Recon: Wildlands (Original Soundtrack) |https://images.genius.com/7ef938baba0c81d078dabbd1c96bd766.450x450x1.jpg|2017|None|None
+6424|Justified|https://images.genius.com/9faaab5f9f2b59102e8a4d0252b46132.1000x1000x1.jpg|2002|11|5
+11655|Hoodmorning (No Typo): Candy Coronas|https://images.genius.com/c7e8ae0f47986bad415f5d58fc0b2281.320x320x1.jpg|2011|7|29
+221639|Hustle Gang – H.G.O.E. (Hustle Gang Over Errrrythang)|https://images.genius.com/66de7b08d2c5eaec565b8d9aa85d66a1.500x500x1.jpg|2016|None|None
+429733|Dreamin' Out Loud|https://images.genius.com/f0f6dace005a9034eb66cd5d2e9a58e2.600x600x1.jpg|2018|5|18
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+|||||
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+7130|5.0|https://images.genius.com/3455d80c0949060bbaa5eccb85982765.900x900x1.jpg|2010|None|None
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+23812|Beautifully Human: Words and Sounds Vol. 2|https://images.genius.com/a6a0bf87417f34555a11f3588c915a99.1000x1000x1.jpg|2004|8|31
+906|Blazing Arrow|https://images.genius.com/373565a29d8d2d390d51fe1458c836f7.800x800x1.jpg|2002|None|None
+235073|Revealed|https://images.genius.com/b1cd8a40c4700ffddb44bb0ecd7c0788.500x500x1.jpg|2008|None|None
+20023|GMB|https://images.genius.com/6cb14535094f1aad8cf68505e1b9d3f1.630x630x1.jpg|2012|None|None
+419484|T.K.O. (The Knock Out)|https://images.genius.com/8b3d69e6a41f468c6ada9ab8d0d807fb.600x600x1.jpg|2018|4|20
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+128030|Mollywood 3: The Relapse (B-Side)|https://images.genius.com/063f502efdbb339e3872ba76a3b978be.950x950x1.jpg|2015|None|None
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+334714|I Am What I Am|https://images.genius.com/3a1555217af46441a957e1e281266f1f.750x750x1.jpg|2017|3|10
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+424703|200 KM/H In the Wrong Lane (10th Anniversary Edition)|https://images.genius.com/c399227bc03d970b8f2a1088bb1bc2ac.1000x1000x1.jpg|2012|11|12
+|||||
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+8806|Phrenology|https://images.genius.com/3b63864c76b254cbac7ffb7d3e83f789.600x600x1.jpg|2002|11|26
+129950|More than a Game: Music Inspired by the Film |https://images.genius.com/0ab8f985f047cd61a94db4436b692609.1000x1000x1.jpg|2008|None|None
+144047|Smoove Jones|https://images.genius.com/8feadb0f1330409d4cb3e44851bd4fa2.640x640x1.jpg|2016|2|14
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+229384|City of No Reply|https://images.genius.com/5f9b3f282bf6084ba0f575b78d5431bc.1000x1000x1.jpg|2017|6|2
+8806|Phrenology|https://images.genius.com/3b63864c76b254cbac7ffb7d3e83f789.600x600x1.jpg|2002|11|26
+8818|The Tipping Point|https://images.genius.com/ee01ec21594252fe4e712a36605fdcc1.1000x1000x1.jpg|2004|7|13
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+14393|New Jack City II|https://images.genius.com/34c2538ac7e17ddded8f995339818677.640x640x1.jpg|2009|None|None
+334714|I Am What I Am|https://images.genius.com/3a1555217af46441a957e1e281266f1f.750x750x1.jpg|2017|3|10
+4079|MTV Unplugged|https://images.genius.com/a7449b38b8eab47232b379bc442a5f10.1000x1000x1.jpg|2001|12|18
+129950|More than a Game: Music Inspired by the Film |https://images.genius.com/0ab8f985f047cd61a94db4436b692609.1000x1000x1.jpg|2008|None|None
+127679|Mollywood 3: The Relapse (A-Side)|https://images.rapgenius.com/067f61cd9f8d4bafeaa5ff6d90c81eb8.950x950x1.jpg|2015|None|None
+10827|Purp & Patron: The Hangover|https://images.genius.com/9cb20d1b358d4aa81552492ba838d34f.750x750x1.jpg|2011|1|31
+175401|Bobby Valentino|https://images.genius.com/8ebe128e432376b50e16590467b4c01c.1000x1000x1.png|2005|4|26
+36521|Arms & Hammers|https://images.genius.com/1379984cca36592a4c8f08a232a58fa6.500x500x1.jpg|2011|2|22
+|||||
+144047|Smoove Jones|https://images.genius.com/8feadb0f1330409d4cb3e44851bd4fa2.640x640x1.jpg|2016|2|14
+46745|Tiffany Evans|https://images.genius.com/b6dab8b17b458d1b9a23539194b331cf.640x640x1.jpg|2008|None|None
+|||||
+6317|King Of Hearts|https://images.genius.com/ca704568fc9f1edeb32a545388e07fb2.500x500x1.jpg|2011|7|5
+64230|Understand Me (EP)|https://images.genius.com/2fb841981d824d69093a77309827b08c.400x400x1.jpg|2013|None|None
+36890|B.O.A.T.S. II #METIME|https://s3.amazonaws.com/rapgenius/UMG_cvrart_00602537507474_01_RGB72_1500x1500_13UAAIM70647.1200x1200-75.jpg|2013|9|9
+8985|The Greatest Story Never Told|https://images.genius.com/af4025d67875bf5404a4f8df1787e394.500x498x1.jpg|2011|2|15
+|||||
+|||||
+|||||
+|||||
+15120|Unexpected Arrival|https://images.genius.com/b5c48c049a3377961f7e5e26f0645cb8.960x922x1.jpg|2012|3|20

@@ -629,3 +629,140 @@ performer_id|performer_name|performer_img_url
 1049627|Iindnhadslhajkhdfssd|https://assets.genius.com/images/default_avatar_300.png?1550160033
 46522|DIY|https://images.genius.com/11781a089243b477e434597919538ac4.1000x1000x1.jpg
 46|Snoop Dogg|https://images.genius.com/8c99dd335733f9c3cf16f57c9f589cfb.361x361x1.jpg
+72|Kanye West|https://images.genius.com/3a5e35c68e9ed7bf9a2a63bfa51b261e.675x675x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+554|Tyga|https://images.genius.com/bf240156bf229b0d64755f527126e748.646x646x1.jpg
+72|Kanye West|https://images.genius.com/3a5e35c68e9ed7bf9a2a63bfa51b261e.675x675x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+147|Lupe Fiasco|https://images.genius.com/b67b7f5bfbd7eb8c5c334fa8b05a2432.400x400x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+535|R. Kelly|https://images.genius.com/e54b7a47c059f99afc5429a8709acf02.400x400x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+1450|YG|https://images.genius.com/f57b70a21f00871254b1e65b69389543.1000x1000x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+14325|2 Chainz|https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+339|Mýa|https://images.genius.com/126a19af8105309f25e794a276aef504.1000x1000x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+1263|Nipsey Hussle|https://images.genius.com/58d10de4f7f958180d41f8eb65bcb33e.412x412x1.jpg
+453|Asher Roth|https://images.genius.com/d2428ce0d129ae1116dae83c31fd96ce.800x450x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+46|Snoop Dogg|https://images.genius.com/8c99dd335733f9c3cf16f57c9f589cfb.361x361x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+1981|Audio Push|https://images.genius.com/6b3bf30610270a41edd39aae22c27dc7.600x600x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+46|Snoop Dogg|https://images.genius.com/8c99dd335733f9c3cf16f57c9f589cfb.361x361x1.jpg
+998|B-Real|https://images.genius.com/a62c5a7a2bd35606ac0c14c7e2ef2ba4.799x799x1.jpg
+344083|Bankroll Mafia|https://images.genius.com/304fe9bb5fd2f7d0287fa60a8eb11bc1.398x398x1.png
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+607646|Nick Grant|https://images.genius.com/572b6c5f19dffa118f97667474d36a9c.1000x1000x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+1066210|Faith Evans & The Notorious B.I.G.|https://images.genius.com/fbb2bc9b7c1073d54afbd27ee9639cee.345x345x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+607646|Nick Grant|https://images.genius.com/572b6c5f19dffa118f97667474d36a9c.1000x1000x1.jpg
+998|B-Real|https://images.genius.com/a62c5a7a2bd35606ac0c14c7e2ef2ba4.799x799x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+1981|Audio Push|https://images.genius.com/6b3bf30610270a41edd39aae22c27dc7.600x600x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+1955|BJ the Chicago Kid|https://images.genius.com/af6ab7cce8af2e6ecd2342d0fa842b7d.189x189x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+334|Justin Timberlake|https://images.genius.com/64fa37d5da3cc33fb232d6e00d93e148.398x398x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+50175|Hustle Gang|https://images.genius.com/77521e5040e36b57e987293a822ba37d.1000x1000x1.jpg
+607646|Nick Grant|https://images.genius.com/572b6c5f19dffa118f97667474d36a9c.1000x1000x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+148|Nelly|https://images.genius.com/8acc2c921ff6defb4a5463597263ff0e.750x750x1.png
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+1731|Jill Scott|https://s3.amazonaws.com/rapgenius/JILL-SCOTT.jpg
+215|Blackalicious|https://s3.amazonaws.com/rapgenius/Blackalicious.jpg
+27940|Deitrick Haddon|https://images.genius.com/102683632e96d5070e5aaef5e6d64551.400x400x1.jpg
+475|Pac Div|https://s3.amazonaws.com/rapgenius/pac_div.jpg
+339|Mýa|https://images.genius.com/126a19af8105309f25e794a276aef504.1000x1000x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+9477|Problem|https://images.genius.com/c4005e254f231b7ae838ab00e001de5f.421x421x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+1265998|RaRa|https://images.genius.com/fcb08f18c686fee131c53adba3d11104.750x750x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+79055|​t.A.T.u.|https://images.genius.com/099e4ac74be67439828c48da7c7d2a54.438x438x1.jpg
+1258194|Marqus Clae|https://images.genius.com/ec38216d1811584faf0336751fdc11f8.549x549x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+85|T.I.|https://images.genius.com/68262ccdcbffb87427d31b0d6085c2e3.400x400x1.jpg
+339|Mýa|https://images.genius.com/126a19af8105309f25e794a276aef504.1000x1000x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+20850|Amber Coffman|https://images.genius.com/dcec8ee3e9d7f5a42756248bcc360847.675x675x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+244|The Roots|https://images.genius.com/2b8a39a05e20e8dcae3983f1438dbcdc.831x831x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+745|Bow Wow|https://images.genius.com/614882a739214b1f5b83cfac37dadea2.800x800x1.png
+1265998|RaRa|https://images.genius.com/fcb08f18c686fee131c53adba3d11104.750x750x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+1057|Tank|https://s3.amazonaws.com/rapgenius/tank-11222010.jpg
+9477|Problem|https://images.genius.com/c4005e254f231b7ae838ab00e001de5f.421x421x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+415|Bobby V|https://images.genius.com/28908f3d3166b0ed5a6601f5a85bdab3.400x400x1.jpg
+5360|Strong Arm Steady|https://images.genius.com/ed3767e2d5c63bfc5c0a9e1d27a59f51.1000x1000x1.jpg
+14325|2 Chainz|https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg
+339|Mýa|https://images.genius.com/126a19af8105309f25e794a276aef504.1000x1000x1.jpg
+74866|Tiffany Evans|https://images.genius.com/70403b199f53f5ccc9761e1d588325d1.1000x1000x1.jpg
+698|Kevin McCall|https://images.genius.com/dc474965c85fc1ff8098634c82f6b64f.677x677x1.jpg
+196|Lloyd|https://images.genius.com/741bd9fb28a902a24fa8008ba3d6e261.467x467x1.jpg
+9477|Problem|https://images.genius.com/c4005e254f231b7ae838ab00e001de5f.421x421x1.jpg
+14325|2 Chainz|https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg
+583|Saigon|https://s3.amazonaws.com/rapgenius/1374583262_saigon.jpg
+1195637|Jessica Jolia|https://images.genius.com/e12262080225199df0f84c706afb6447.1000x1000x1.jpg
+619291|T. Hayes|https://images.genius.com/69cf8cb1169c8f1d152642dc67487736.853x853x1.jpg
+167339|Ill Intent|https://images.genius.com/e36c5622107203d00f0d3358b5113118.1000x1000x1.jpg
+167339|Ill Intent|https://images.genius.com/e36c5622107203d00f0d3358b5113118.1000x1000x1.jpg
+736|Diggy|https://images.genius.com/e0d894086161e0eea8ef2335740aab7b.860x860x1.jpg

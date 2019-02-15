@@ -29,12 +29,11 @@ class Producer(db.Model):
     @classmethod
     def get_producer_songs(cls, producer_name):
 
-        # why .first()
         return cls.query.filter(cls.producer_name == producer_name).options(db.joinedload("songs")).first()
 
 
 class Performer(db.Model):
-    """Animal model."""
+    """Performer model."""
 
     __tablename__ = "performers"
 
@@ -45,7 +44,6 @@ class Performer(db.Model):
     songs = db.relationship("Song", secondary="produce_songs", backref="performers")
 
     def __repr__(self):
-        """Provide helpful representation when printed."""
 
         return f"<Performer performer_id={self.performer_id} performer_name={self.performer_name} performer_img_url={self.performer_img_url}>"
 
@@ -56,7 +54,7 @@ class Performer(db.Model):
 
 
 class Song(db.Model):
-    """Animal model."""
+    """Song model."""
 
     __tablename__ = "songs"
 
@@ -68,40 +66,43 @@ class Song(db.Model):
     song_release_month = db.Column(db.DateTime, nullable=True)
     song_release_day = db.Column(db.DateTime, nullable=True)
 
-    producers = db.relationship("Producer", secondary="")
+    producers = db.relationship("Producer", secondary="produce_songs", backref="songs")
 
     def __repr__(self):
-        """Provide helpful representation when printed."""
 
-        return f"<Song song_id={self.song_id} song_name={self.song_title} media_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
+        return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
 
     @classmethod
-    def get_producer_songs(cls, producer_name):
+    def get_song_producers(cls, song_title):
 
-        # why .first()
-        return cls.query.filter(cls.song_name == producer_name).options(db.joinedload("producers")).all()
+        return cls.query.filter(cls.song_title == song_title).options(db.joinedload("producers")).all()
 
 class Album(db.Model):
-    """Animal model."""
+    """Album model."""
 
     __tablename__ = "albums"
 
     album_id = db.Column(db.Integer, nullable=False, primary_key=True)
     album_title = db.Column(db.String(50), nullable=False)
     album_art_url = db.Column(db.Text, nullable=True)
-    release_date = db.Column(db.DateTime, nullable=True)
-    release_year = db.Column(db.DateTime, nullable=True)
-    release_month = db.Column(db.DateTime, nullable=True)
-    release_day = db.Column(db.DateTime, nullable=True)
+    album_release_date = db.Column(db.DateTime, nullable=True)
+    album_release_year = db.Column(db.DateTime, nullable=True)
+    album_release_month = db.Column(db.DateTime, nullable=True)
+    album_release_day = db.Column(db.DateTime, nullable=True)
+
+    producers = db.relationship("Producer", secondary="produce_songs", backref="albums")
 
     def __repr__(self):
-        """Provide helpful representation when printed."""
 
         return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
 
+    @classmethod
+    def get_album_producers(cls, album_title):
+
+        return cls.query.filter(cls.album_title == album_title).options(db.joinedload("producers")).all()
 
 class ProduceSong(db.Model):
-    """Animal model."""
+    """ProduceSong model."""
 
     __tablename__ = "produce_songs"
 
@@ -112,9 +113,8 @@ class ProduceSong(db.Model):
     album_id = db.Column(db.Integer, db.ForeignKey('albums.album_id'), nullable=True)
 
     def __repr__(self):
-        """Provide helpful representation when printed."""
 
-        return f"<Album album_id={self.album_id} album_title={self.album_title} album_art_url={self.album_art_url} release_date={self.release_date} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+        return f"<ProduceSong event_id={self.event_id} producer_id={self.producer_id} performer_id={self.performer_id} song_id={self.song_id} album_id={self.album_id}>"
 
 # may add Users class in 3.0
 

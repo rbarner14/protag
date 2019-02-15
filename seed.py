@@ -39,12 +39,12 @@ def load_performers(performer_filename):
         row = row.rstrip()
         performer_id, producer_name, performer_img_url = row.split("|")
 
-        performer = Performer(producer_id=producer_id,
-                    producer_name=producer_name,
-                    producer_img_url=producer_img_url)
+        performer = Performer(performer_id=performer_id,
+                    performer_name=performer_name,
+                    performer_img_url=performer_img_url)
 
         # add to the session
-        db.session.add(producer)
+        db.session.add(performer)
 
         # provided for progress tracking (print every 10 lines)
         if i % 10 == 0:
@@ -61,3 +61,17 @@ def load_songs(song_filename):
 
 
 def load_events(event_filename):
+
+
+
+if __name__ == "__main__":
+    connect_to_db(app)
+    db.create_all()
+
+    user_filename = "seed_data/u.user"
+    movie_filename = "seed_data/u.item"
+    rating_filename = "seed_data/u.data"
+    load_producers(user_filename)
+    load_performers(movie_filename)
+    load_ratings(rating_filename)
+    set_val_user_id()

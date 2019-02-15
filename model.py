@@ -15,6 +15,7 @@ class Producer(db.Model):
 
     __tablename__ = "producers"
 
+    # primary keys are inherently unique
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     producer_name = db.Column(db.String(50), nullable=False)
     producer_img_url = db.Column(db.Text, nullable=True)

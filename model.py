@@ -55,6 +55,7 @@ class Performer(db.Model):
 
 
 class Song(db.Model):
+
     """Song model."""
 
     __tablename__ = "songs"
@@ -95,7 +96,7 @@ class Album(db.Model):
 
     def __repr__(self):
 
-        return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.release_year} release_month={self.release_month} release_day={self.release_day}>"
+        return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.album_release_year} release_month={self.album_release_month} release_day={self.album_release_day}>"
 
     @classmethod
     def get_album_producers(cls, album_title):

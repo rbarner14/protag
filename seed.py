@@ -68,10 +68,14 @@ if __name__ == "__main__":
     connect_to_db(app)
     db.create_all()
 
-    user_filename = "seed_data/u.user"
-    movie_filename = "seed_data/u.item"
-    rating_filename = "seed_data/u.data"
+    producer_filename = "seed_data/u.user"
+    performers_filename = "seed_data/u.item"
+    albums_filename = "seed_data/u.data"
+    albums_filename = "seed_data/u.data"
+    albums_filename = "seed_data/u.data"
     load_producers(user_filename)
     load_performers(movie_filename)
-    load_ratings(rating_filename)
+    load_albums(rating_filename)
+    load_songs(rating_filename)
+    load_events(rating_filename)
     set_val_user_id()

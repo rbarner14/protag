@@ -490,8 +490,8 @@ if __name__ == '__main__':
             populate_producer_data("producer_data_hb_run_test.txt", "|")
             populate_producer_data("producer_data_hb_run_test.csv", ",")
 
-            populate_producer_data("producer_data_hb_run_test.txt", "|")
-            populate_producer_data("producer_data_hb_run_test.csv", ",")
+            populate_events_data("events_data_hb_run_test.txt", "|")
+            populate_events_data("events_data_hb_run_test.csv", ",")
 
             populate_produce_song_data("produce_song_data_hb_run_test.txt", "|")
             populate_produce_song_data("produce_song_data_hb_run_test.csv", ",")

@@ -67,7 +67,7 @@ class Song(db.Model):
     song_release_month = db.Column(db.DateTime, nullable=True)
     song_release_day = db.Column(db.DateTime, nullable=True)
 
-    producers = db.relationship("Producer", secondary="produce_songs", backref="songs")
+    # producers = db.relationship("Producer", secondary="produce_songs", backref="songs")
 
     def __repr__(self):
 

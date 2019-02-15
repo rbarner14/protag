@@ -61,24 +61,28 @@ def load_songs(song_filename):
 
         # The date is in the file as string; this converts it to an actual 
         # datetime object.
-        if song_release_date_str:
-            song_release_date = datetime.datetime.strptime(song_release_date_str, "%y-%m-%d")
+        if song_release_date_str and song_release_month_str not in("None", "None""):
+            song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y-%m-%d")
         else:
             song_release_date = None
 
-        if song_release_year_str:
-            song_release_year = datetime.datetime.strptime(song_release_year_str, "%y")
+        if song_release_year_str and song_release_year_str not in("None", "None""):
+            song_release_year = datetime.datetime.strptime(song_release_year_str, "%Y")
         else:
             song_release_year = None
 
-        if song_release_month_str:
+        if song_release_month_str and song_release_month_str not in("None", "None""):
             song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
         else:
             song_release_month = None
 
-        if song_release_month_str:
-            song_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
-        else:
+        if song_release_day_str and song_release_day_str not in("None", "None""):
+            if len(song_release_day_str) == 1:
+                song_release_day_new = "0" + song_release_day_str
+                song_release_day = datetime.datetime.strptime(song_release_day_new, "%d")
+            else:
+                song_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
+        else: 
             song_release_day = None
 
         song = Song(song_id=song_id, 
@@ -113,20 +117,25 @@ def load_albums(album_filename):
         row = row.rstrip()
         album_id, album_title, cover_art_url, album_release_year_str, album_release_month_str, album_release_day_str = row.split("|")
 
-        if album_release_year_str:
-            album_release_year = datetime.datetime.strptime(album_release_year_str, "%y")
+        if album_release_year_str and album_release_year_str not in("None", "None""):
+            album_release_year = datetime.datetime.strptime(album_release_year_str, "%Y")
         else:
             album_release_year = None
 
-        if album_release_month_str:
+        if album_release_month_str and album_release_month_str not in("None", "None""):
             album_release_month = datetime.datetime.strptime(album_release_month_str, "%m")
         else:
             album_release_month = None
 
-        if album_release_day_str:
-            album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
-        else:
+        if album_release_day_str and album_release_day_str not in("None", "None""):
+            if len(album_release_day_str) == 1:
+                album_release_day_str = "0" + album_release_day_str
+                album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
+            else:
+                album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
+        else: 
             album_release_day = None
+
 
         album = Album(album_id=album_id, 
                 album_title=album_title, 
@@ -169,18 +178,17 @@ def load_events(event_filename):
     db.session.commit()
 
 
-
 if __name__ == "__main__":
     connect_to_db(app)
     db.create_all()
 
     producer_filename = "seed_data/producers.txt"
-    performers_filename = "seed_data/performers.txt"
-    songs_filename = "seed_data/songs.txt"
-    albums_filename = "seed_data/albums.txt"
-    events_filename = "seed_data/events.txt"
+    performer_filename = "seed_data/performers.txt"
+    song_filename = "seed_data/songs.txt"
+    album_filename = "seed_data/albums.txt"
+    event_filename = "seed_data/events.txt"
     load_producers(producer_filename)
-    load_performers(performers_filename)
-    load_songs(songs_filename)
-    load_albums(albums_filename)
-    load_events(events_filename)
+    load_performers(performer_filename)
+    load_songs(song_filename)
+    load_albums(album_filename)
+    load_events(event_filename)

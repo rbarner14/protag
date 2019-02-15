@@ -51,7 +51,7 @@ class Performer(db.Model):
     @classmethod
     def get_performer_songs(cls, performer_name):
 
-    return cls.query.filter(cls.performer_name == performer_name).options(db.joinedload("songs")).first()
+        return cls.query.filter(cls.performer_name == performer_name).options(db.joinedload("songs")).first()
 
 
 class Song(db.Model):
@@ -134,7 +134,7 @@ def connect_to_db(app):
     """Connect the database to Flask app."""
 
     # Configure to use database.
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:///music'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///music' # creates database when entering psql music at commandline
     app.config['SQLALCHEMY_ECHO'] = False
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.app = app
@@ -143,7 +143,9 @@ def connect_to_db(app):
 
 if __name__ == "__main__":
     # Added for module interactive convenience to work directly with database.
-
+    
+    from server import app
+    connect_to_db(app)
     init_app()
 
 

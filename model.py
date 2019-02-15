@@ -119,16 +119,6 @@ class ProduceSong(db.Model):
 # may add Users class in 3.0
 
 ##############################################################################
-# Helper functions
-
-def init_app():
-    # A Flask app is made to use Flask-SQLAlchemy
-    from flask import Flask
-    app = Flask(__name__)
-
-    connect_to_db(app)
-    print("Connected to DB.")
-
 
 def connect_to_db(app):
     """Connect the database to Flask app."""
@@ -146,7 +136,7 @@ if __name__ == "__main__":
     
     from server import app
     connect_to_db(app)
-    init_app()
+    print("Connected to DB.")
 
 
 

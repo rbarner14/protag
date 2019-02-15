@@ -1,7 +1,7 @@
 import datetime
 from sqlalchemy import func
 
-from model import Producer, Performer, Song, Album, ProduceSong
+from model import Producer, Performer, Song, Album, ProduceSong, connect_to_db, db
 from server import app
 
 def load_producers(producer_filename):
@@ -36,7 +36,7 @@ def load_performers(performer_filename):
 
     for i, row in enumerate(open(performer_filename)):
         row = row.rstrip()
-        performer_id, producer_name, performer_img_url = row.split("|")
+        performer_id, performer_name, performer_img_url = row.split("|")
 
         performer = Performer(performer_id=performer_id,
                     performer_name=performer_name,
@@ -114,17 +114,17 @@ def load_albums(album_filename):
         album_id, album_title, cover_art_url, album_release_year_str, album_release_month_str, album_release_day_str = row.split("|")
 
         if album_release_year_str:
-            album_release_year = datetime.datetime.strptime(song_release_year_str, "%y")
+            album_release_year = datetime.datetime.strptime(album_release_year_str, "%y")
         else:
             album_release_year = None
 
         if album_release_month_str:
-            album_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
+            album_release_month = datetime.datetime.strptime(album_release_month_str, "%m")
         else:
             album_release_month = None
 
         if album_release_day_str:
-            album_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
+            album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
         else:
             album_release_day = None
 
@@ -147,12 +147,12 @@ def load_albums(album_filename):
 
 def load_events(event_filename):
     """Load events from events.txt into database."""
-
+    
     print("Events")
 
     for i, row in enumerate(open(event_filename)):
         row = row.rstrip()
-        producer_id, perfomer_id, song_id, album_id = row.split("|")
+        producer_id, performer_id, song_id, album_id = row.split("|")
 
         song = Performer(producer_id=producer_id, 
                 performer_id=performer_id, 
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     albums_filename = "seed_data/albums.txt"
     events_filename = "seed_data/events.txt"
     load_producers(producer_filename)
-    load_performers(performer_filename)
-    load_songs(song_filename)
-    load_albums(album_filename)
-    load_events(event_filename)
+    load_performers(performers_filename)
+    load_songs(songs_filename)
+    load_albums(albums_filename)
+    load_events(events_filename)

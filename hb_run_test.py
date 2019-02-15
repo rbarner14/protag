@@ -134,9 +134,9 @@ def get_produce_song_data(producer_id, songs_by_producer_urls):
             cover_art_url = ""
 
         if song_json['release_date'] != None:
-            release_date = song_json.get('release_date', "")
+            song_release_date = song_json.get('release_date', "")
         else: 
-            release_date = ""
+            song_release_date = ""
 
         if song_json['release_date_components'] != None:
             song_release_date_components = song_json.get('release_date_components', "")

@@ -1,45 +1,33 @@
-from flask import Flask, redirect, request, render_template, session, flash
-from flask_debugtoolbar import DebugToolbarExtension
 from jinja2 import StrictUndefined
+
+from flask import Flask, redirect, render_template, request, session, flash
+from flask_debugtoolbar import DebugToolbarExtension
+
+from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong
 
 
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 app.jinja_env.auto_reload = True
 
-# Required to use Flask sessions and the debug toolbar
+# Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
 
-# Getting our list of MOST LOVED MELONS
 
-# YOUR ROUTES GO HERE
 @app.route("/")
 def index():
 
-    # Check if a name is in the session, and if so, 
-    # redirect to the /top-melons route.
-    # if 'name' in session:
-    #     return redirect("/top-melons")
-    # else: 
         return render_template("homepage.html")
 
-# SH: should be POST method
-@app.route("/get-user-search", methods=["GET"])
+
+@app.route("/get-user-search", methods=["POST"])
 def get_user_search():
 
     # Get the name that the user submitted (from request.args).
-    song_name = request.args.get("songname")
-    producer_name = request.args.get("producername")
-    performer_name = request.args.get("performername")
+    song_name = request.args.get("song_title")
+    producer_name = request.args.get("producer_name")
+    performer_name = request.args.get("performer_name")
 
-    # Add the user’s name to the session.
-    # if not name:
-        # if we have an existing name in the session, remove it
-        # if name in session:
-        #     del session['name']
-    #     return redirect("/")
-    # else: 
-    #     session['name'] = name
     if song_name: 
         return render_template("search_result.html");
     elif producer_name:
@@ -47,37 +35,13 @@ def get_user_search():
     elif performer_name:
         return render_template("performer_page.html");
 
-    # After the name has been added to the session, 
-    # redirect to the /top-melons route.
-    # return redirect("/top-melons")
-
-
-# @app.route("/top-melons")
-# def display_most_loved_melons():
-
-#     # Enable Jinja's access to dictionaries in MOST_LOVED_MELONS
-#     melons = MOST_LOVED_MELONS.values()
-#     username = session.get('name')
-    
-#     # Check if there is a name stored in the session already. 
-#     # If so, render the template top-melons.html. 
-#     # If not, redirect back to the homepage.
-#     if username != None: 
-#         return render_template("top-melons.html", 
-#                         loved_melons=melons,
-#                         name=username)
-#     else:
-#         return redirect("/")
-
 
 if __name__ == "__main__":
-    # We have to set debug=True here, since it has to be True at the
-    # point that we invoke the DebugToolbarExtension
+    # debug=True as it has to be True at when DebugToolbarExtension is invoked.
     
-    # Set to false for smooth redirect to top-melons??
     app.debug = True
 
-    # Use the DebugToolbar
+    # Using the DebugToolbar.
     DebugToolbarExtension(app)
 
     app.run(host="0.0.0.0")

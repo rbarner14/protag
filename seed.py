@@ -57,11 +57,29 @@ def load_songs(song_filename):
 
     for i, row in enumerate(open(song_filename)):
         row = row.rstrip()
-        song_id, song_title, song_release_date, song_release_year, song_release_month, song_release_day, apple_music_player_url = row.split("|")
+        song_id, song_title, song_release_date_str, song_release_year_str, song_release_month_str, song_release_day_str, apple_music_player_url = row.split("|")
 
         # The date is in the file as string; this converts it to an actual 
         # datetime object.
-        
+        if song_release_date_str:
+            song_release_date = datetime.datetime.strptime(song_release_date_str, "%y-%m-%d")
+        else:
+            song_release_date = None
+
+        if song_release_year_str:
+            song_release_year = datetime.datetime.strptime(song_release_year_str, "%y")
+        else:
+            song_release_year = None
+
+        if song_release_month_str:
+            song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
+        else:
+            song_release_month = None
+
+        if song_release_month_str:
+            song_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
+        else:
+            song_release_day = None
 
         song = Performer(song_id=song_id, 
                 song_title=song_title, 
@@ -93,7 +111,22 @@ def load_albums(album_filename):
 
     for i, row in enumerate(open(album_filename)):
         row = row.rstrip()
-        album_id, album_title, cover_art_url, album_release_year, album_release_month, album_release_day = row.split("|")
+        album_id, album_title, cover_art_url, album_release_year_str, album_release_month_str, album_release_day_str = row.split("|")
+
+        if album_release_year_str:
+            album_release_year = datetime.datetime.strptime(song_release_year_str, "%y")
+        else:
+            album_release_year = None
+
+        if album_release_month_str:
+            album_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
+        else:
+            album_release_month = None
+
+        if album_release_day_str:
+            album_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
+        else:
+            album_release_day = None
 
         album = Performer(album_id=album_id, 
                 album_title=album_title, 

@@ -61,23 +61,25 @@ def load_songs(song_filename):
 
         # The date is in the file as string; this converts it to an actual 
         # datetime object.
-        if song_release_date_str and song_release_month_str not in("None", "None""):
+        # Corrects for None and None" values
+        if song_release_date_str and song_release_month_str not in('None', 'None"'):
             song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y-%m-%d")
         else:
             song_release_date = None
 
-        if song_release_year_str and song_release_year_str not in("None", "None""):
+        if song_release_year_str and song_release_year_str not in('None', 'None"'):
             song_release_year = datetime.datetime.strptime(song_release_year_str, "%Y")
         else:
             song_release_year = None
 
-        if song_release_month_str and song_release_month_str not in("None", "None""):
+        if song_release_month_str and song_release_month_str not in('None', 'None"'):
             song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
         else:
             song_release_month = None
 
-        if song_release_day_str and song_release_day_str not in("None", "None""):
+        if song_release_day_str and song_release_day_str not in('None', 'None"'):
             if len(song_release_day_str) == 1:
+                # if day value is one digit, a 0 is added to it for proper datetime conversion
                 song_release_day_new = "0" + song_release_day_str
                 song_release_day = datetime.datetime.strptime(song_release_day_new, "%d")
             else:
@@ -117,17 +119,17 @@ def load_albums(album_filename):
         row = row.rstrip()
         album_id, album_title, cover_art_url, album_release_year_str, album_release_month_str, album_release_day_str = row.split("|")
 
-        if album_release_year_str and album_release_year_str not in("None", "None""):
+        if album_release_year_str and album_release_year_str not in('None', 'None"'):
             album_release_year = datetime.datetime.strptime(album_release_year_str, "%Y")
         else:
             album_release_year = None
 
-        if album_release_month_str and album_release_month_str not in("None", "None""):
+        if album_release_month_str and album_release_month_str not in('None', 'None"'):
             album_release_month = datetime.datetime.strptime(album_release_month_str, "%m")
         else:
             album_release_month = None
 
-        if album_release_day_str and album_release_day_str not in("None", "None""):
+        if album_release_day_str and album_release_day_str not in('None', 'None"'):
             if len(album_release_day_str) == 1:
                 album_release_day_str = "0" + album_release_day_str
                 album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
@@ -162,6 +164,9 @@ def load_events(event_filename):
     for i, row in enumerate(open(event_filename)):
         row = row.rstrip()
         producer_id, performer_id, song_id, album_id = row.split("|")
+
+        if not album_id:
+            album_id = None
 
         song = ProduceSong(producer_id=producer_id, 
                 performer_id=performer_id, 

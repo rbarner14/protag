@@ -17,7 +17,12 @@ app.secret_key = "ABC"
 @app.route("/")
 def index():
 
+        search_str = request.form["search_str"]
+
+        result = ProduceSong.filter_by().all()
+
         return render_template("homepage.html")
+
 
 
 # @app.route("/get-user-search", methods=["POST"])
@@ -34,21 +39,39 @@ def index():
 #         return render_template("producer_page.html");
 #     elif performer_name:
 #         return render_template("performer_page.html");
+
+# @app.route("/songs")
+# def songs():
+#     """Show list of movies."""
+
+#     search_results = (db.session
+#               .query(ProduceSong)
+#               .join(Songs)
+#               .group_by(Songs.song_title)
+#               .filter(Songs.song_title == search_str)
+#               .all())
+    
+#     return render_template("search_list.html", search_results=search_results)
+
+
 @app.route("/producers")
-def movie_list():
+def producer_list():
     """Show list of movies."""
 
     producers = Producer.query.order_by('producer_name').all()
     return render_template("producer_list.html", producers=producers)
 
 
-@app.route("/producer/<producer_name>", methods=["GET"])
-def producer_detail(producer_name):
+@app.route("/producers/<int:producer_id>", methods=["GET"])
+def producer_detail(producer_id):
 
-    producer = Producer.query.get(producer_name)
+    producer = Producer.query.get(producer_id)
+
+    songs = Producer.query.get(producer_id).songs
 
     return render_template("producer.html",
-                            producer_name=producer)
+                            producer=producer, 
+                            songs=songs)
 
 
 if __name__ == "__main__":

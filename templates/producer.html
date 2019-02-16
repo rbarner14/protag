@@ -6,5 +6,16 @@
 <body>
     <h1 align = "center">{{producer.producer_name}}</h1>
 
+    {% if producer.songs %}
+    <h2>Songs</h2>
+    <ul>
+      {% for song in producer.songs %}
+        <li>
+          <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
 </body>
 </html>

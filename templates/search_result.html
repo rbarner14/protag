@@ -5,5 +5,10 @@
 </head>
 <body>
     <h1 align = "center"> Search Result</h1>
+    {% for result in search_results %}
+        <li>
+            <a href="/result/{{ result.song_title }}">{{ result.song_title }}</a>
+        </li>
+    {% endfor %}
 </body>
 </html>

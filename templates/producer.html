@@ -20,9 +20,8 @@
 
     {% for album in producer.albums %}
       <div class='album-div'>
-        <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
         <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-      </div>
+        <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
     {% endfor %}
 
     </ul>

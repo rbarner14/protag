@@ -74,12 +74,9 @@ def producer_detail(producer_id):
 
     songs = Producer.query.get(producer_id).songs
 
-    albums = Producer.query.get(producer_id).albums
-
     return render_template("producer.html",
                             producer=producer, 
-                            songs=songs,
-                            albums=albums)
+                            songs=songs)
 
 
 if __name__ == "__main__":

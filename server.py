@@ -20,23 +20,28 @@ def index():
         return render_template("homepage.html")
 
 
-@app.route("/get-user-search", methods=["POST"])
-def get_user_search():
+# @app.route("/get-user-search", methods=["POST"])
+# def get_user_search():
 
-    # Get the name that the user submitted (from request.args).
-    song_name = request.args.get("song_title")
-    producer_name = request.args.get("producer_name")
-    performer_name = request.args.get("performer_name")
+#     # Get the name that the user submitted (from request.args).
+#     song_name = request.args.get("song_title")
+#     producer_name = request.args.get("producer_name")
+#     performer_name = request.args.get("performer_name")
 
-    if song_name: 
-        return render_template("search_result.html");
-    elif producer_name:
-        return render_template("producer_page.html");
-    elif performer_name:
-        return render_template("performer_page.html");
+#     if song_name: 
+#         return render_template("search_result.html");
+#     elif producer_name:
+#         return render_template("producer_page.html");
+#     elif performer_name:
+#         return render_template("performer_page.html");
 
-@app.route("/producer/<int:producer_name>", methods=["GET"])
+@app.route("/producer/<producer_name>", methods=["GET"])
+def producer_detail(producer_name):
 
+    producer = Producer.query.filter_by(producer_name=producer_name).first()
+
+    return render_template("producer_page.html",
+                            producer_name=producer)
 
 
 if __name__ == "__main__":
@@ -50,3 +55,18 @@ if __name__ == "__main__":
     DebugToolbarExtension(app)
 
     app.run(host="0.0.0.0")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

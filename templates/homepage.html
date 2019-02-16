@@ -4,12 +4,27 @@
 ProTag
 {% title endblock%}
 
+{% head block%}
+<script type="text/javascript">
+
+    function dosearch() {
+        var sf=document.searchform;
+        var submitto = sf.sengines.options[sf.sengines.selectedIndex].value + escape(sf.searchterms.value);
+        
+        window.location.href = submitto;
+        
+        return false;
+    }
+    
+</script>
+{% head endblock%}
+
 {% content block %}
     <h1 align = "center">Welcome to ProTag</h1>
     <form name="searchform" onSubmit="return dosearch();">
     Search: 
     <select name="sengines">
-    <option value="/" selected>Producer</option>
+    <option value="http://www.google.com/search?q=" selected>Producer</option>
     <option value="http://www.altavista.com/web/results?q=">Performer</option>
     <option value="http://www.dogpile.com/info.dogpl/search/web/">Song</option>
     </select>

@@ -19,20 +19,23 @@ def index():
 
         return render_template("homepage.html")
 
+
 @app.route("/search_result", methods=['GET'])
 def return_search_result():
 
-        search_str = request.form.get("search_str")
+        search_str = request.args.get("search_str")
 
-        producers = Producer.query.filter(Producer.producer_name == search_str )
+        producers = Producer.query.filter_by(producer_name=search_str).all()
+
+        # producers = Producer.query.filter_by(producer_name=search_str).all()
         # producers = Producer.query.filter(Producer.producer_name.like('%' + search_str + '%')).all()
         # performers = Performer.query.filter(Performer.performer_name.like('%' + search_str + '%')).all()
         # songs = Song.query.filter(Song.song_title.like('%' + search_str + '%')).all()
         # albums = Album.query.filter(Album.album_title.like('%' + search_str + '%')).all()
 
+
         return render_template("search_result.html",
-                                search_str=search_str,
-                                producers=producers, )
+                                producers=producers)
                                 # performers=performers,
                                 # songs=songs,
                                 # albums=albums)

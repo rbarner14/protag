@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ProTag - {{producer.producer_name}}</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+    {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
+
+{% block content %}
     <h1 align = "center">{{producer.producer_name}}</h1>
 
     {% if producer.songs %}
@@ -22,10 +21,9 @@
       <div class='album-div'>
         <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
         <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+
     {% endfor %}
 
     </ul>
   {% endif %}
-
-</body>
-</html>
+{% endblock %}

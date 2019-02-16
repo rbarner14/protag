@@ -25,50 +25,22 @@ def return_search_result():
 
         search_str = request.args.get("search_str")
 
-        producers = Producer.query.filter_by(producer_name=search_str).all()
-
-        # producers = Producer.query.filter_by(producer_name=search_str).all()
-        # producers = Producer.query.filter(Producer.producer_name.like('%' + search_str + '%')).all()
-        # performers = Performer.query.filter(Performer.performer_name.like('%' + search_str + '%')).all()
-        # songs = Song.query.filter(Song.song_title.like('%' + search_str + '%')).all()
-        # albums = Album.query.filter(Album.album_title.like('%' + search_str + '%')).all()
-
+        if len(search_str) > 0:
+            producers = Producer.query.filter(Producer.producer_name.like('%{}%'.format(search_str))).all()
+            performers = Performer.query.filter(Performer.performer_name.like('%{}%'.format(search_str))).all()
+            songs = Song.query.filter(Song.song_title.like('%{}%'.format(search_str))).all()
+            albums = Album.query.filter(Album.album_title.like('%{}%'.format(search_str))).all()
+        else:
+            producers = None
+            performers = None
+            songs = None
+            albums = None
 
         return render_template("search_result.html",
-                                producers=producers)
-                                # performers=performers,
-                                # songs=songs,
-                                # albums=albums)
-
-
-
-# @app.route("/get-user-search", methods=["POST"])
-# def get_user_search():
-
-#     # Get the name that the user submitted (from request.args).
-#     song_name = request.args.get("song_title")
-#     producer_name = request.args.get("producer_name")
-#     performer_name = request.args.get("performer_name")
-
-#     if song_name: 
-#         return render_template("search_result.html");
-#     elif producer_name:
-#         return render_template("producer_page.html");
-#     elif performer_name:
-#         return render_template("performer_page.html");
-
-# @app.route("/songs")
-# def songs():
-#     """Show list of movies."""
-
-#     search_results = (db.session
-#               .query(ProduceSong)
-#               .join(Songs)
-#               .group_by(Songs.song_title)
-#               .filter(Songs.song_title == search_str)
-#               .all())
-    
-#     return render_template("search_list.html", search_results=search_results)
+                                producers=producers,
+                                performers=performers,
+                                songs=songs,
+                                albums=albums)
 
 
 @app.route("/producers")

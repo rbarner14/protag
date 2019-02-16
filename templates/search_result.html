@@ -4,11 +4,47 @@
     <title>ProTag - Search Result</title>
 </head>
 <body>
-    <h1 align = "center"> Search Result</h1>
-    {% for producer in producers %}
-        <li>
-            <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-        </li>
-    {% endfor %}
+    <h1 align = "center"> ProTag Search Result</h1>
+
+    {% if producers or performers or songs or albums %}
+        {% if producers %}
+            Producers
+            {% for producer in producers %}
+                <li>
+                    <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        {% if performers %}
+            Performers
+            {% for performer in performers %}
+                <li>
+                    <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        {% if songs %}
+            Songs
+            {% for song in songs %}
+                <li>
+                    <a href="/albums/{{ song.song_id }}">{{ song.song_title }}</a> <!-- add song performer -->
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        {% if albums %}
+            Albums
+            {% for album in albums %}
+                <li>
+                    <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
+                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    {% else %}
+        Sorry!  <a href="/">Try again?</a>
+    {% endif%} 
 </body>
 </html>

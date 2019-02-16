@@ -7,25 +7,15 @@ ProTag
 {% block content %}
     <h1 align = "center">Welcome to ProTag</h1>
 
-<!-- 
-    <form action="/search_result" method="GET">
-        <input type=hidden name=command value=Search>
-        <input type=hidden name=file value="search_str"> 
-
-        Search For: <input type=text size=45 name=request> -->
-
-        <!-- search bar -->
-<!--         <input type=submit value=Search><br> -->
-
-        <!-- drop-down menu -->
-<!--         Search By: <select id=ViewName name=ViewName> -->
-
-        <!-- options in drop-down menu -->
-<!--         <option>Producer</option>
-        <option>Performer</option>
-        <option>Song</option>
-        <option>Album</option>
-    </form> -->
+    <!-- value = name on bar; name = value to be entered and used as variable for script -->
+    <form method="GET" action="/search_result">
+      <div align = "center" class="form-group">
+        <input id="field-name" class="form-control" type="text" name="search_str">
+        <br>
+        <input type="submit" value="ProTag It!" class="btn btn-primary">
+        <input type="submit" value="I'm Feeling Musical" class="btn btn-primary">
+      </div>
+    </form>
 
 {% endblock %}
 

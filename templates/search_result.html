@@ -5,9 +5,9 @@
 </head>
 <body>
     <h1 align = "center"> Search Result</h1>
-    {% for result in results %}
+    {% for producer in producers %}
         <li>
-            <a href="/result/{{ result.song_title }}">{{ result.song_title }}</a>
+            <a href="/producers/{{ producer.producer_name }}">{{ producer.producer_name }}</a>
         </li>
     {% endfor %}
 </body>

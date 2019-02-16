@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% title block %}PAGE TITLE HERE {% title endblock %}</title>
-    <head>{% head block%}PUT HEAD HERE{% head endblock %}</head>
+    <title>{% block title %}PAGE TITLE HERE {% endblock %}</title>
+    <head>{% block head %}PUT HEAD HERE{% endblock %}</head>
 </head>
 <body>
-    {% content block %}
+    {% block content %}
     PUT YOUR BODY HERE.
-    {% content endblock %}
+    {% endblock %}
 </body>
 
 <footer>
-    {% footer block %}
+    {% block footer%}
+    <br>
     PUT YOUR FOOTER HERE.
-    {% footer endblock %}
+    {% endblock %}
 </footer>
 </html>

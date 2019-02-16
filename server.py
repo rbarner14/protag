@@ -34,13 +34,20 @@ def index():
 #         return render_template("producer_page.html");
 #     elif performer_name:
 #         return render_template("performer_page.html");
+@app.route("/producers")
+def movie_list():
+    """Show list of movies."""
+
+    producers = Producer.query.order_by('producer_name').all()
+    return render_template("producer_list.html", producers=producers)
+
 
 @app.route("/producer/<producer_name>", methods=["GET"])
 def producer_detail(producer_name):
 
-    producer = Producer.query.filter_by(producer_name=producer_name).first()
+    producer = Producer.query.get(producer_name)
 
-    return render_template("producer_page.html",
+    return render_template("producer.html",
                             producer_name=producer)
 
 

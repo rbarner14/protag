@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
-{% title block%}
+{% block title %}
 ProTag
-{% title endblock%}
+{% endblock%}
 
-{% head block%}
-<script type="text/javascript">
+{% block head%}
+<!-- <script type="text/javascript">
 
     function dosearch() {
         var sf=document.searchform;
@@ -15,21 +15,21 @@ ProTag
         
         return false;
     }
-    
-</script>
-{% head endblock%}
 
-{% content block %}
+</script> -->
+{% endblock%}
+
+{% block content %}
     <h1 align = "center">Welcome to ProTag</h1>
-    <form name="searchform" onSubmit="return dosearch();">
+    <form name="searchform" onSubmit="">
     Search: 
     <select name="sengines">
     <option value="http://www.google.com/search?q=" selected>Producer</option>
-    <option value="http://www.altavista.com/web/results?q=">Performer</option>
-    <option value="http://www.dogpile.com/info.dogpl/search/web/">Song</option>
+    <option value="http://www.google.com/search?q=">Performer</option>
+    <option value="http://www.google.com/search?q">Song</option>
     </select>
     For: 
     <input type="text" name="searchterms">
     <input type="submit" name="SearchSubmit" value="Search">
     </form>
-{% content endblock %}
+{% endblock %}

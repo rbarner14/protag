@@ -35,6 +35,9 @@ def get_user_search():
     elif performer_name:
         return render_template("performer_page.html");
 
+@app.route("/producer/<int:producer_name>", methods=["GET"])
+
+
 
 if __name__ == "__main__":
     # debug=True as it has to be True at when DebugToolbarExtension is invoked.

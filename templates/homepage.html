@@ -1,38 +1,20 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>ProTag</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% title block%}
+ProTag
+{% title endblock%}
+
+{% content block %}
     <h1 align = "center">Welcome to ProTag</h1>
-    <form action="/get-user-search" method = "GET">
-        <input type="radio" name="song" value="song"> Song
-        <br>
-        <input type="radio" name="producer" value="producer"> Producer
-        <br>
-        <input type="radio" name="performer" value="performer"> Artist
-        <input type='submit'>
+    <form name="searchform" onSubmit="return dosearch();">
+    Search: 
+    <select name="sengines">
+    <option value="/" selected>Producer</option>
+    <option value="http://www.altavista.com/web/results?q=">Performer</option>
+    <option value="http://www.dogpile.com/info.dogpl/search/web/">Song</option>
+    </select>
+    For: 
+    <input type="text" name="searchterms">
+    <input type="submit" name="SearchSubmit" value="Search">
     </form>
-</body>
-</html> -->
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ProTag</title>
-</head>
-<body>
-    <h1 align = "center">Welcome to ProTag</h1>
-    <form action="/get-user-search" method = "GET">
-        Song Name: <input type="text" name="songname">
-        <br>
-        Producer Name: <input type="text" name="producername">
-        <br>
-        Performer Name: <input type="text" name="performername">
-        <br>
-        <input type='submit'>
-    </form>
-</body>
-</html>
+{% content endblock %}

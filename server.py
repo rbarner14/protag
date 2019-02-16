@@ -17,11 +17,16 @@ app.secret_key = "ABC"
 @app.route("/")
 def index():
 
-        search_str = request.form["search_str"]
-
-        result = ProduceSong.filter_by().all()
-
         return render_template("homepage.html")
+
+@app.route("/search_result")
+def return_search_result():
+
+        search_str = request.form.get("search_str")
+
+        results = Song.query.filter(song_title=search_str).all()
+
+        return render_template("search_result.html",results=results)
 
 
 

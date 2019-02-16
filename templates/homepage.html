@@ -21,7 +21,7 @@ ProTag
 
 {% block content %}
     <h1 align = "center">Welcome to ProTag</h1>
-    <form name="searchform" onSubmit="">
+<!--     <form name="searchform" onSubmit="">
     Search: 
     <select name="sengines">
     <option value="http://www.google.com/search?q=" selected>Producer</option>
@@ -31,5 +31,47 @@ ProTag
     For: 
     <input type="text" name="searchterms">
     <input type="submit" name="SearchSubmit" value="Search">
+    </form> -->
+<!-- 
+    <form method="POST" action="/search_result">
+    <label for="field-name">Name</label>
+    <input id="field-name" class="form-control" type="text" name="name">
+  </div>
+  <div class="form-group">
+    <label for="field-email">Email</label>
+    <input id="field-email" class="form-control" type="text" name="email">
+  </div>
+    <input type="submit" name="SearchSubmit" value="Search">
+  </div>
+</form> -->
+
+    <form action="/search_result" method="GET">
+        <input type=hidden name=command value=Search>
+        <input type=hidden name=file value="search_str"> 
+
+        Search For: <input type=text size=45 name=request>
+
+        <!-- search bar -->
+        <input type=submit value=Search><br>
+
+        <!-- drop-down menu -->
+        Search By: <select id=ViewName name=ViewName>
+
+        <!-- options in drop-down menu -->
+        <option>Producer</option>
+        <option>Performer</option>
+        <option>Song</option>
+        <option>Album</option>
     </form>
 {% endblock %}
+
+
+
+
+
+
+
+
+
+
+

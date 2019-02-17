@@ -9,21 +9,31 @@
         <ul>
         <!-- alt = message when hovering over -->
         <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
-
-        <h2>Songs</h2>
+<!--         <h2>Songs</h2>
           {% for song in producer.songs %}
             <li>
               <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
             </li>
-          {% endfor %}
+          {% endfor %} -->
 
       <h2>Albums</h2>
-        {% for album in producer.albums %}
-          <div class='album-div'>
-            <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-            <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
-        {% endfor %}
-
+    {% for year in album_years %}
+            {{year}}
+            {% for album in producer.albums %}
+                {% if album.album_release_year == year %}
+                  <div class='album-div'>
+                    <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
+                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+                    {% for song in album.songs %} 
+                        {% if producer in song.producers %}
+                        <li>
+                        <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+    {% endfor %}
     </ul>
   {% endif %}
 {% endblock %}

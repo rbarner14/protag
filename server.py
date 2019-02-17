@@ -57,8 +57,14 @@ def producer_detail(producer_id):
 
     producer = Producer.query.get(producer_id)
 
+    albums = producer.albums # list
+
+    album_years = set([album.album_release_year for album in albums])
+    print(album_years)
+
     return render_template("producer.html",
-                            producer=producer
+                            producer=producer,
+                            album_years=album_years
                            )
 
 

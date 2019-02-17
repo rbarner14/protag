@@ -56,12 +56,66 @@ def producer_detail(producer_id):
 
     producer = Producer.query.get(producer_id)
 
-    songs = Producer.query.get(producer_id).songs
-
     return render_template("producer.html",
-                            producer=producer, 
-                            songs=songs)
+                            producer=producer
+                           )
 
+
+@app.route("/performers")
+def performer_list():
+    """Show list of movies."""
+
+    performers = Performer.query.order_by('performer_name').all()
+
+    return render_template("performer_list.html", performers=performers)
+
+
+@app.route("/performers/<int:performer_id>", methods=["GET"])
+def performer_detail(performer_id):
+
+    performer = Performer.query.get(performer_id)
+
+    return render_template("performer.html",
+                            performer=performer)
+
+
+@app.route("/songs")
+def song_list():
+    """Show list of movies."""
+
+    songs = Song.query.order_by('song_title').all()
+
+    return render_template("song_list.html", songs=songs)
+
+
+@app.route("/songs/<int:song_id>", methods=["GET"])
+def song_detail(song_id):
+
+    song = Song.query.get(song_id)
+
+    return render_template("song.html",
+                            song=song)
+
+
+@app.route("/songs")
+def song_list():
+    """Show list of movies."""
+
+    songs = Song.query.order_by('song_title').all()
+
+    return render_template("song_list.html", songs=songs)
+
+
+@app.route("/songs/<int:song_id>", methods=["GET"])
+def song_detail(song_id):
+
+    song = Song.query.get(song_id)
+    
+    return render_template("song.html",
+                            song=song)
+
+
+################################################################################
 
 if __name__ == "__main__":
     # debug=True as it has to be True at when DebugToolbarExtension is invoked.

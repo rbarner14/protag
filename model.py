@@ -44,6 +44,7 @@ class Performer(db.Model):
     performer_img_url = db.Column(db.Text, nullable=True)
 
     songs = db.relationship("Song", secondary="produce_songs", backref="performers")
+    albums = db.relationship("Album", secondary="produce_songs", backref="performers")
 
     def __repr__(self):
 
@@ -92,6 +93,8 @@ class Album(db.Model):
     album_release_year = db.Column(db.DateTime, nullable=True)
     album_release_month = db.Column(db.DateTime, nullable=True)
     album_release_day = db.Column(db.DateTime, nullable=True)
+
+    songs = db.relationship("Song", secondary="produce_songs", backref="albums")
 
     def __repr__(self):
 

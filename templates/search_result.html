@@ -29,7 +29,7 @@
             Songs
             {% for song in songs %}
                 <li>
-                    <a href="/albums/{{ song.song_id }}">{{ song.song_title }}</a> <!-- add song performer -->
+                    <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> <!-- add song performer -->
                 </li>
             {% endfor %}
         {% endif %}

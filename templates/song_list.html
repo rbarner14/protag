@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+    {% block title %}ProTag - Songs{% endblock %}
+
+{% block content %}
+    <h1 align = "center">Songs</h1>
+
+    {% for song in songs %}
+        <li>
+            <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+        </li>
+    {% endfor %}
+{% endblock %}

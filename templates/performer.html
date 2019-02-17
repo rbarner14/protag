@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+    {% block title %}ProTag - {{performer.performer_name}}{% endblock %}
+
+{% block content %}
+    <h1 align = "center">{{performer.performer_name}}</h1>
+
+    {% if performer.albums %}
+
+      {% for album in performer.albums %}
+        <div class='album-div'>
+          <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
+          <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+
+      {% endfor %}
+
+    </ul>
+  {% endif %}
+{% endblock %}
+</body>
+</html>

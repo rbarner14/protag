@@ -40,7 +40,8 @@ def return_search_result():
                                 producers=producers,
                                 performers=performers,
                                 songs=songs,
-                                albums=albums)
+                                albums=albums
+                               )
 
 
 @app.route("/producers")
@@ -76,7 +77,8 @@ def performer_detail(performer_id):
     performer = Performer.query.get(performer_id)
 
     return render_template("performer.html",
-                            performer=performer)
+                            performer=performer
+                          )
 
 
 @app.route("/songs")
@@ -85,7 +87,9 @@ def song_list():
 
     songs = Song.query.order_by('song_title').all()
 
-    return render_template("song_list.html", songs=songs)
+    return render_template("song_list.html", 
+                            songs=songs
+                          )
 
 
 @app.route("/songs/<int:song_id>", methods=["GET"])
@@ -94,25 +98,29 @@ def song_detail(song_id):
     song = Song.query.get(song_id)
 
     return render_template("song.html",
-                            song=song)
+                            song=song
+                           )
 
 
-@app.route("/songs")
-def song_list():
+@app.route("/albums")
+def album_list():
     """Show list of movies."""
 
-    songs = Song.query.order_by('song_title').all()
+    albums = Album.query.order_by('album_title').all()
 
-    return render_template("song_list.html", songs=songs)
+    return render_template("album_list.html", 
+                            albums=albums
+                          )
 
 
-@app.route("/songs/<int:song_id>", methods=["GET"])
-def song_detail(song_id):
+@app.route("/albums/<int:album_id>", methods=["GET"])
+def album_detail(album_id):
 
-    song = Song.query.get(song_id)
+    album = Album.query.get(album_id)
     
-    return render_template("song.html",
-                            song=song)
+    return render_template("album.html",
+                            album=album
+                          )
 
 
 ################################################################################

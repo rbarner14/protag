@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+    {% block title %}ProTag - Albums{% endblock %}
+
+{% block content %}
+    <h1 align = "center">Albums</h1>
+    {% for album in albums %}
+        <li>
+            <img src="{{ album.cover_art_url }}" width="50" height="50" alt="{{ album.album_title }}">
+            <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+        </li>
+    {% endfor %}
+{% endblock %}

@@ -2,9 +2,15 @@
 <html>
 <head>
     <title>{% block title %}PAGE TITLE HERE {% endblock %}</title>
-    <head></head>
 </head>
 <body>
+    <div class="topnav">
+      <a class="active" href="/">Home</a>
+      <a href="/performers">Performers</a>
+      <a href="/producers">Producers</a>
+      <a href="/songs">Songs</a>
+      <a href="/albums">Albums</a>
+    </div>
     {% block content %}PUT YOUR BODY HERE.{% endblock %}
 </body>
 

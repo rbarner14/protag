@@ -4,9 +4,10 @@
 
 {% block content %}
     <h1 align = "center">{{song.song_title}}</h1>
-    Producers:
+    <h2>Producers:</h2>
       {% for producer in song.producers %}
         <li>
+          <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">
           <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
         </li>
       {% endfor %}

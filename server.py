@@ -5,7 +5,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong
 
-
+# create Flask app
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 app.jinja_env.auto_reload = True
@@ -23,13 +23,16 @@ def index():
 @app.route("/search_result", methods=['GET'])
 def return_search_result():
 
+        # search string user enters gathered from the form on the homepage
         search_str = request.args.get("search_str")
 
+        # return the producer(s), performer(s), song(s), and album(s) 
+        # that match the search string (not case-sensitive), alphabetized
         if len(search_str) > 0:
-            producers = Producer.query.filter(Producer.producer_name.like('%{}%'.format(search_str))).all()
-            performers = Performer.query.filter(Performer.performer_name.like('%{}%'.format(search_str))).all()
-            songs = Song.query.filter(Song.song_title.like('%{}%'.format(search_str))).all()
-            albums = Album.query.filter(Album.album_title.like('%{}%'.format(search_str))).all()
+            producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
+            performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
+            songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).all()
+            albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).all()
         else:
             producers = None
             performers = None
@@ -46,21 +49,22 @@ def return_search_result():
 
 @app.route("/producers")
 def producer_list():
-    """Show list of movies."""
+    """Show list of producers."""
 
+    # query for all producers in database; return results alphabetized
     producers = Producer.query.order_by('producer_name').all()
+
     return render_template("producer_list.html", producers=producers)
 
 
+# each producer page's url will include the producer's database id
 @app.route("/producers/<int:producer_id>", methods=["GET"])
 def producer_detail(producer_id):
 
+
     producer = Producer.query.get(producer_id)
-
     albums = producer.albums # list
-
     album_years = set([album.album_release_year for album in albums])
-    print(album_years)
 
     return render_template("producer.html",
                             producer=producer,
@@ -70,13 +74,15 @@ def producer_detail(producer_id):
 
 @app.route("/performers")
 def performer_list():
-    """Show list of movies."""
+    """Show list of performers."""
 
+    # query for all producers in database; return results alphabetized    
     performers = Performer.query.order_by('performer_name').all()
 
     return render_template("performer_list.html", performers=performers)
 
 
+# each performer's page's url will include the performer's database id
 @app.route("/performers/<int:performer_id>", methods=["GET"])
 def performer_detail(performer_id):
 
@@ -89,7 +95,7 @@ def performer_detail(performer_id):
 
 @app.route("/songs")
 def song_list():
-    """Show list of movies."""
+    """Show list of songs."""
 
     songs = Song.query.order_by('song_title').all()
 
@@ -98,6 +104,7 @@ def song_list():
                           )
 
 
+# each song's page's url will include the song's database id
 @app.route("/songs/<int:song_id>", methods=["GET"])
 def song_detail(song_id):
 
@@ -110,7 +117,7 @@ def song_detail(song_id):
 
 @app.route("/albums")
 def album_list():
-    """Show list of movies."""
+    """Show list of albums."""
 
     albums = Album.query.order_by('album_title').all()
 
@@ -118,7 +125,7 @@ def album_list():
                             albums=albums
                           )
 
-
+# each album's page's url will include the album's database id
 @app.route("/albums/<int:album_id>", methods=["GET"])
 def album_detail(album_id):
 

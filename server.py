@@ -1,9 +1,12 @@
+# for feeding variables to templates
 from jinja2 import StrictUndefined
 
+# for helpful debugging
 from flask import Flask, redirect, render_template, request, session, flash
 from flask_debugtoolbar import DebugToolbarExtension
 
-from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong
+#tables for jquery
+from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
 
 # create Flask app
 app = Flask(__name__)
@@ -64,7 +67,8 @@ def producer_detail(producer_id):
 
     producer = Producer.query.get(producer_id)
     albums = producer.albums # list
-    album_years = set([album.album_release_year for album in albums])
+    # returns the album release years in descending chronological order
+    album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
     return render_template("producer.html",
                             producer=producer,

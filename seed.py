@@ -119,46 +119,36 @@ def load_albums(album_filename):
         row = row.rstrip()
         album_id, album_title, cover_art_url, album_release_year_str, album_release_month_str, album_release_day_str = row.split("|")
 
-        # if album_release_year_str and album_release_year_str not in('None', 'None"', ''):
-        #     album_release_year = datetime.datetime.strptime(album_release_year_str, "%Y")
-        # else:
-        #     album_release_year = None
+        if not album_release_year_str or album_release_year_str in('None', 'None"', ''):
+            album_release_year_str = None
 
-        # if album_release_month_str and album_release_month_str not in('None', 'None"', ''):
-        #     if len(album_release_day_str) == 1:
-        #         album_release_month_str = "0" + album_release_month_str
-        #         album_release_month = datetime.datetime.strptime(album_release_month_str, "%m")
-        #     else:
-        #         album_release_month = datetime.datetime.strptime(album_release_month_str, "%m")
-        # else:
-        #     album_release_month = None
+        if not album_release_month_str or album_release_month_str in('None', 'None"', ''):
+            album_release_month_str = None
+        else:
+            if len(album_release_month_str) == 1:
+                album_release_month_str = "0" + album_release_month_str
 
-        # if album_release_day_str and album_release_day_str not in('None', 'None"', ''):
-        #     if len(album_release_day_str) == 1:
-        #         album_release_day_str = "0" + album_release_day_str
-        #         album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
-        #     else:
-        #         album_release_day = datetime.datetime.strptime(album_release_day_str, "%d")
-        # else: 
-        #     album_release_day = None
-
-        if not album_release_year_str and album_release_year_str in('None', 'None"', ''):
-            album_release_year_prelim = None
-
-        if not album_release_year_str and album_release_year_str in('None', 'None"', ''):
-            album_release_year_prelim = None
+        if not album_release_day_str or album_release_day_str in('None', 'None"', ''):
+            album_release_day_str = None
+        else:
+            if len(album_release_day_str) == 1:
+                album_release_day_str = "0" + album_release_day_str
 
         if album_release_year_str and album_release_month_str and album_release_day_str:
-            album_release_date_str = " ".join(list(album_release_year_str, album_release_month_str, album_release_day_str)
-            album_release_date = datetime.datetime.strptime(album_release_date_str, '%Y %m %d')
-            album_release_year = strftime('%Y')
+            album_release_date_str = " ".join([album_release_year_str, album_release_month_str, album_release_day_str])
+            album_release_date = datetime.datetime.strptime(album_release_date_str, "%Y %m %d")
+            # album_release_year = album_release_date.strftime("%Y")
+            # album_release_month = album_release_date.strftime("%m")
+            # album_release_day = album_release_date.strftime("%d")
 
         album = Album(album_id=album_id, 
                 album_title=album_title, 
-                cover_art_url=cover_art_url, 
-                album_release_year=album_release_year, 
-                album_release_month=album_release_month, 
-                album_release_day=album_release_day)
+                cover_art_url=cover_art_url,
+                album_release_date=album_release_date) 
+
+                # album_release_year=album_release_date., 
+                # album_release_month=album_release_month, 
+                # album_release_day=album_release_day)
 
         db.session.add(album)
 

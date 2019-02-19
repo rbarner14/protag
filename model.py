@@ -90,15 +90,17 @@ class Album(db.Model):
     album_id = db.Column(db.Integer, nullable=False, primary_key=True)
     album_title = db.Column(db.String(50), nullable=False)
     cover_art_url = db.Column(db.Text, nullable=True)
-    album_release_year = db.Column(db.DateTime, nullable=True)
-    album_release_month = db.Column(db.DateTime, nullable=True)
-    album_release_day = db.Column(db.DateTime, nullable=True)
+    album_release_date = db.Column(db.DateTime, nullable=True)
+    # album_release_year = db.Column(db.DateTime, nullable=True)
+    # album_release_month = db.Column(db.DateTime, nullable=True)
+    # album_release_day = db.Column(db.DateTime, nullable=True)
 
     songs = db.relationship("Song", secondary="produce_songs", backref="albums")
 
     def __repr__(self):
 
-        return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.album_release_year} release_month={self.album_release_month} release_day={self.album_release_day}>"
+        # return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.album_release_year} release_month={self.album_release_month} release_day={self.album_release_day}>"
+        return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_date={self.album_release_date}>"
 
     @classmethod
     def get_album_producers(cls, album_title):

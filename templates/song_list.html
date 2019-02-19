@@ -6,7 +6,7 @@
 
     {% for song in songs %}
         <li>
-            <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+            <a href="/songs/{{ song.song_id }}">{{ song.song_title }} - {{song.performers[0].performer_name}}</a>
         </li>
     {% endfor %}
 {% endblock %}

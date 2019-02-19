@@ -64,7 +64,7 @@ def producer_list():
 @app.route("/producers/<int:producer_id>", methods=["GET"])
 def producer_detail(producer_id):
 
-
+    # joinedload reduces # of queries run for output
     producer = Producer.query.options(db.joinedload("albums")
                                         .joinedload("songs")
                                         .joinedload("producers")
@@ -93,10 +93,17 @@ def performer_list():
 @app.route("/performers/<int:performer_id>", methods=["GET"])
 def performer_detail(performer_id):
 
-    performer = Performer.query.get(performer_id)
+    performer = Performer.query.options(db.joinedload("albums")
+                                          .joinedload("songs")
+                                          .joinedload("producers")
+                                      ).get(performer_id)
+    albums = performer.albums
+
+    album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
     return render_template("performer.html",
-                            performer=performer
+                            performer=performer,
+                            album_years=album_years
                           )
 
 
@@ -104,7 +111,8 @@ def performer_detail(performer_id):
 def song_list():
     """Show list of songs."""
 
-    songs = Song.query.order_by('song_title').all()
+    songs = Song.query.options(db.joinedload("performers")
+                              ).order_by('song_title').all()
 
     return render_template("song_list.html", 
                             songs=songs
@@ -115,7 +123,7 @@ def song_list():
 @app.route("/songs/<int:song_id>", methods=["GET"])
 def song_detail(song_id):
 
-    song = Song.query.get(song_id)
+    song = Song.query.options(db.joinedload("producers")).get(song_id)
 
     return render_template("song.html",
                             song=song

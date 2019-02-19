@@ -1,0 +1,21 @@
+producer_id|producer_name|producer_img_url
+33699|KAYTRANADA|https://images.genius.com/5dc2e2521d285b09feb31673b034a28e.1000x1000x1.jpg
+36198|KC Da Beatmonster|https://images.genius.com/9ea929b0fe2b277dd964ddf8a8cbd274.957x957x1.jpg
+1439530|KEY! & Kenny Beats|https://images.genius.com/c9d37f0f4280b35f9baabfad50899b17.1000x1000x1.jpg
+698|Kevin McCall|https://images.genius.com/dc474965c85fc1ff8098634c82f6b64f.677x677x1.jpg
+7570|Khrysis|https://images.genius.com/c305247121485a7b99d4f217fd89ced5.342x222x1.jpg
+634529|KitschKrieg|https://images.genius.com/b02fd3f08bcafe1177ed356635a6248f.420x420x23.gif
+573490|KOP Karbeen|https://assets.genius.com/images/default_avatar_300.png?1550179390
+170|Kurupt|https://images.genius.com/e051ff42cc180d489d4e1b4e3e2906cd.333x333x1.jpg
+1056|Large Professor|https://s3.amazonaws.com/rapgenius/1362857140_11.jpg
+40475|League of Starz|https://images.genius.com/adc32a9e13f900fd79cf65b34512d37c.500x288x1.png
+28628|Lee Bannon|https://s3.amazonaws.com/rapgenius/Lee%20Bannon.png
+2268|Lex Luger|https://images.genius.com/d6b9ba63642dd038b56c47136109da73.432x432x1.jpg
+44575|London on da Track|https://images.genius.com/fcb14975af51a27a0ffb278a7524c81d.400x400x1.jpg
+1169351|Louie Bandz|https://images.genius.com/8c6087f0c046fc4f9152d694b92bd7a4.257x257x1.jpg
+30761|LT Moe|https://assets.genius.com/images/default_avatar_300.png?1550179390
+1192941|BadComedian|https://images.genius.com/3d05428eedaa9c5d19370db06cf4adfc.496x496x1.jpg
+580572|Maaly Raw|https://images.genius.com/f4402f50b5207c85b0bf7f96e3523e81.500x500x1.jpg
+42536|Bassi Maestro|https://images.genius.com/cc9cabe2c6f1aa658ae7b247fe3869a2.999x999x1.jpg
+36352|Mally Mall|https://s3.amazonaws.com/rapgenius/jazz-lazer-future-2.jpg
+146|Mannie Fresh|https://s3.amazonaws.com/rapgenius/1302472115_Mannie%20Fresh.jpg

@@ -4,6 +4,7 @@
     <title>{% block title %}PAGE TITLE HERE {% endblock %}</title>
 </head>
 <body>
+  <!-- navigation bar -->
     <div class="topnav">
       <a class="active" href="/">Home</a>
       <a href="/performers">Performers</a>
@@ -15,7 +16,10 @@
 </body>
 
 <footer>
-    {% block footer%}    
+  <!-- attribution link & trademark -->
+    {% block footer%}   
+    <br>
+    <br> 
     Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a>!
     {% endblock %}
 </footer>

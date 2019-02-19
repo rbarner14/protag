@@ -1,24 +1,23 @@
 {% extends "base.html" %}
 
-    {% block title %}ProTag - {{album.album_title}}{% endblock %}
+    {% block title %}ProTag - {{ album.album_title }}{% endblock %}
 
+<!-- Show album's producers, and head page with album name and performer -->
 {% block content %}
-    <h1 align = "center">{{album.album_title}}</h1>
+    <h1 align = "center">{{ album.album_title }} - {{ album.performers[0].performer_name }}</h1>
     <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
     <br>
-    <h2> Producers: </h2>
-      {% for producer in album.producers %}
-        <li>
-          <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-        </li>
-      {% endfor %}
     <h2> Songs: </h2>
       {% for song in album.songs %}
         <li>
           <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
-        </li>
+          <br>
+            produced by:
+            {% for producer in song.producers%} 
+            <li>
+              <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+              {% endfor %}
+              <br>
+              <br>
       {% endfor %}
-    </ul>
 {% endblock %}
-</body>
-</html>

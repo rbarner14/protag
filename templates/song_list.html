@@ -3,7 +3,8 @@
 
 {% block content %}
     <h1 align = "center">Songs</h1>
-
+<!-- Show every song and song's primary performer -->
+<!-- for loop to handle songs with mulitple performers -->
     {% for song in songs %}
         <li>
             <a href="/songs/{{ song.song_id }}">{{ song.song_title }} - {{song.performers[0].performer_name}}</a>

@@ -20,6 +20,7 @@ class Producer(db.Model):
     producer_name = db.Column(db.String(50), nullable=False)
     producer_img_url = db.Column(db.Text, nullable=True)
 
+    # establish relationships
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
     albums = db.relationship("Album", secondary="produce_songs", backref="producers")
 
@@ -70,9 +71,6 @@ class Song(db.Model):
     song_release_month = db.Column(db.DateTime, nullable=True)
     song_release_day = db.Column(db.DateTime, nullable=True)
 
-    # # no need for this line as a relationship already exists in producers
-    # producers = db.relationship("Producer", secondary="produce_songs", backref="songs")
-
     def __repr__(self):
 
         return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
@@ -81,6 +79,7 @@ class Song(db.Model):
     def get_song_producers(cls, song_title):
 
         return cls.query.filter(cls.song_title == song_title).options(db.joinedload("producers")).all()
+
 
 class Album(db.Model):
     """Album model."""
@@ -91,9 +90,6 @@ class Album(db.Model):
     album_title = db.Column(db.String(50), nullable=False)
     cover_art_url = db.Column(db.Text, nullable=True)
     album_release_date = db.Column(db.DateTime, nullable=True)
-    # album_release_year = db.Column(db.DateTime, nullable=True)
-    # album_release_month = db.Column(db.DateTime, nullable=True)
-    # album_release_day = db.Column(db.DateTime, nullable=True)
 
     songs = db.relationship("Song", secondary="produce_songs", backref="albums")
 
@@ -106,6 +102,7 @@ class Album(db.Model):
     def get_album_producers(cls, album_title):
 
         return cls.query.filter(cls.album_title == album_title).options(db.joinedload("producers")).all()
+
 
 class ProduceSong(db.Model):
     """ProduceSong model."""
@@ -122,7 +119,10 @@ class ProduceSong(db.Model):
 
         return f"<ProduceSong event_id={self.event_id} producer_id={self.producer_id} performer_id={self.performer_id} song_id={self.song_id} album_id={self.album_id}>"
 
+
 # may add Users class in 3.0
+
+
 
 ##############################################################################
 
@@ -130,7 +130,8 @@ def connect_to_db(app):
     """Connect the database to Flask app."""
 
     # Configure to use database.
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///music' # creates database when entering psql music at commandline
+    # Creates database when entering psql music at commandline.
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///music' 
     app.config['SQLALCHEMY_ECHO'] = False
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.app = app

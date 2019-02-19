@@ -3,6 +3,7 @@
 
 {% block content %}
     <h1 align = "center">Albums</h1>
+    <!-- Return album and cover art and album's performer -->
     {% for album in albums %}
         <li>
             <img src="{{ album.cover_art_url }}" width="50" height="50" alt="{{ album.album_title }}">

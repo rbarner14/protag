@@ -11,25 +11,29 @@
         <img src="{{ performer.performer_img_url }}" width="250" height="200" alt="{{ performer.performer_name }}">
 
       <h2>Albums</h2>
-    {% for year in album_years %}
-            <h2>{{year}}</h2>
-            {% for album in performer.albums %}
-                {% if album.album_release_date.strftime("%Y") == year %}
-                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
-                    <br>
-                    <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-                    {% for song in album.songs %} 
-                        {% if performer in song.performers %}
-                        <li>
-                        <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>, produced by <a href="/producers/{{ song.producers[0].producer_id }}">{{ song.producers[0].producer_name }}
-                        </li>
-                        {% endif %}
-                    {% endfor %}
-                    <br>
-                {% endif %}
-            {% endfor %}
-    {% endfor %}
-  {% endif %}
+      {% for year in album_years %}
+              <h2>{{year}}</h2>
+              {% for album in performer.albums %}
+                  {% if album.album_release_date.strftime("%Y") == year %}
+                      <h3><a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a></h3>
+                      <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
+                      {% for song in album.songs %} 
+                          <li>
+                          <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+                          <br>
+                          produced by
+                          <br>
+                          <li>
+                            <!-- consider for loop & accumulator for better producer display -->
+                          {% for producer in song.producers %} 
+                          <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}
+                          </li>
+                          {% endfor %}
+                      {% endfor %}
+                      <br>
+                  {% endif %}
+              {% endfor %}
+      {% endfor %}
+    {% endif %}
 {% endblock %}
-</body>
-</html>
+<!-- add songs not on albums and songs/albums without release dates -->

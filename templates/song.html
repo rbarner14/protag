@@ -2,9 +2,10 @@
 
     {% block title %}ProTag - {{song.song_title}}{% endblock %}
 
+<!-- Show song's producers, and head page with song name and performer -->
 {% block content %}
     <h1 align = "center">{{song.song_title}} - {{song.performers[0].performer_name}}</h1>
-    <h2>Producers:</h2>
+    <h3>Produced by:</h3>
       {% for producer in song.producers %}
         <li>
           <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">

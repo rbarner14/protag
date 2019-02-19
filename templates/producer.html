@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+    <!-- title each tab with the producer's name -->
     {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
 
 {% block content %}
@@ -8,6 +8,7 @@
     {% if producer.songs %}
         <ul>
         <!-- alt = message when hovering over -->
+        <!-- producer's image -->
         <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
 
       <h2>Albums</h2>

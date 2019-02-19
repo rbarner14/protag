@@ -65,7 +65,10 @@ def producer_list():
 def producer_detail(producer_id):
 
 
-    producer = Producer.query.get(producer_id)
+    producer = Producer.query.options(db.joinedload("albums")
+                                        .joinedload("songs")
+                                        .joinedload("producers")
+                                      ).get(producer_id)
     albums = producer.albums # list
     # returns the album release years in descending chronological order
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)

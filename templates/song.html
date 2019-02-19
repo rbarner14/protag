@@ -3,7 +3,7 @@
     {% block title %}ProTag - {{song.song_title}}{% endblock %}
 
 {% block content %}
-    <h1 align = "center">{{song.song_title}}</h1>
+    <h1 align = "center">{{song.song_title}} - {{song.performers[0].performer_name}}</h1>
     <h2>Producers:</h2>
       {% for producer in song.producers %}
         <li>

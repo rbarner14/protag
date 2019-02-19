@@ -1,6 +1,7 @@
-import datetime
+import datetime #imported for string to datetime conversions
 from sqlalchemy import func # will use when adding log-in functionality
 
+# import tables created in model.py
 from model import Producer, Performer, Song, Album, ProduceSong, connect_to_db, db
 from server import app
 
@@ -11,7 +12,10 @@ def load_producers(producer_filename):
 
     # Complete the for loop defined for every line in producer_filename.
     for i, row in enumerate(open(producer_filename)):
+        #strip each row of white space
         row = row.rstrip()
+        # assign variables to strings from file, using the pipe character
+        # as a delimitor
         producer_id, producer_name, producer_img_url = row.split("|")
 
         producer = Producer(producer_id=producer_id,
@@ -137,18 +141,12 @@ def load_albums(album_filename):
         if album_release_year_str and album_release_month_str and album_release_day_str:
             album_release_date_str = " ".join([album_release_year_str, album_release_month_str, album_release_day_str])
             album_release_date = datetime.datetime.strptime(album_release_date_str, "%Y %m %d")
-            # album_release_year = album_release_date.strftime("%Y")
-            # album_release_month = album_release_date.strftime("%m")
-            # album_release_day = album_release_date.strftime("%d")
 
         album = Album(album_id=album_id, 
                 album_title=album_title, 
                 cover_art_url=cover_art_url,
-                album_release_date=album_release_date) 
-
-                # album_release_year=album_release_date., 
-                # album_release_month=album_release_month, 
-                # album_release_day=album_release_day)
+                album_release_date=album_release_date
+                ) 
 
         db.session.add(album)
 

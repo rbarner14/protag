@@ -1,0 +1,16 @@
+producer_id|producer_name|producer_img_url
+7856|Marco Polo|https://s3.amazonaws.com/rapgenius/up-marco_polo.jpg
+970188|Marii Beatz|https://images.genius.com/fbb7ca1274dc5809f247de606cc28e63.449x449x1.jpg
+31168|Mark Henry|https://assets.genius.com/images/default_avatar_300.png?1550179390
+1402544|Marshmello & Anne-Marie|https://images.genius.com/2b1e53cd2dc7a91b34d82b0228152fad.800x800x1.jpg
+22499|Matt Martians|https://images.genius.com/bb28fd4b02c8df32caa62586acc530ed.473x473x1.jpg
+1227872|MaxoKoolin|https://images.genius.com/20e2dbf7408f265b452e1099329fa4a4.900x900x1.jpg
+14166|MeLo-X|https://images.genius.com/bdc7e9fd068d36d42b032f7d84b3fc3e.615x409x1.jpg
+639900|Menace|https://images.rapgenius.com/avatars/medium/1d04f2dbd7e5a9548c20e671afe71c5e
+982789|Menoh Beats|https://images.genius.com/20e45ef1b3018085c41039c936a87659.800x800x1.png
+980465|21 Savage & Metro Boomin|https://images.genius.com/d80415ba54e748cced97ffd872f1a482.630x630x1.jpg
+70|MF DOOM|https://images.genius.com/263743633b6e58854e753b25dca6beab.430x430x1.jpg
+1615875|Michael Mora|https://assets.genius.com/images/default_avatar_300.png?1550179390
+7161|Mike Dean|https://images.genius.com/886dffb3248cadf5e151f3e92dcca1eb.785x785x1.jpg
+29978|Mike WiLL Made-It|https://images.genius.com/1d29ef19a466f4bf49282b4d020cb593.895x895x1.jpg
+36862|Mike Zombie|https://images.genius.com/00e26af546bb07f8238f436ce805ea5b.620x450x1.jpg

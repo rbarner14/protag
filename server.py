@@ -61,7 +61,7 @@ def producer_list():
 
 
 # each producer page's url will include the producer's database id
-@app.route("/producers/<int:producer_id>", methods=["GET"])
+@app.route("/producers/<int:producer_id>")
 def producer_detail(producer_id):
 
     # joinedload reduces # of queries run for output
@@ -78,8 +78,11 @@ def producer_detail(producer_id):
                             album_years=album_years
                           )
 
+
 @app.route('/melon-types.json')
 def melon_types_data():
+
+    producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
 
     data_dict = {
                 "labels": [
@@ -102,7 +105,9 @@ def melon_types_data():
                         ]
                     }]
             }
-    
+
+
+
     return jsonify(data_dict)
 
 @app.route("/performers")

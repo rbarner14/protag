@@ -28,7 +28,7 @@
             <h2>Songs</h2>
             {% for song in songs %}
                 <li>
-                    <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> <!-- add song performer -->
+                    <a href="/songs/{{ song.song_id }}">{{ song.song_title }} - {{ song.performers[0].performer_name }}</a> <!-- add song performer -->
                 </li>
             {% endfor %}
         {% endif %}
@@ -38,7 +38,7 @@
             {% for album in albums %}
                 <li>
                     <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
-                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
+                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }} - {{ album.performers[0].performer_name }}</a>
                 </li>
             {% endfor %}
         {% endif %}

@@ -21,6 +21,10 @@ class Producer(db.Model):
     producer_img_url = db.Column(db.Text, nullable=True)
 
     # establish relationships
+    # the Producer class has an albums attribute that is a list of Album objects 
+    # using the relationship defined and "produce_song" as the association table 
+    # attributes are plural to communicate cardinaltiy: a Producer can have 
+    # many songs and albums
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
     albums = db.relationship("Album", secondary="produce_songs", backref="producers")
 
@@ -91,7 +95,7 @@ class Album(db.Model):
     cover_art_url = db.Column(db.Text, nullable=True)
     album_release_date = db.Column(db.DateTime, nullable=True)
 
-    songs = db.relationship("Song", secondary="produce_songs", backref="albums")
+    songs = db.relationship("Song", secondary="produce_songs", backref="album")
 
     def __repr__(self):
 
@@ -114,6 +118,14 @@ class ProduceSong(db.Model):
     performer_id = db.Column(db.Integer, db.ForeignKey('performers.performer_id'), nullable=False)
     song_id = db.Column(db.Integer, db.ForeignKey('songs.song_id'), nullable=False)
     album_id = db.Column(db.Integer, db.ForeignKey('albums.album_id'), nullable=True)
+
+    # because there is only one performer per song, a 1 to 1 relationship is 
+    # established with performer
+    # ProduceSong has an attribute performer that is a Performer object 
+    # using the produce_songs reference (there is a direct relationship) between
+    # performer and ProduceSong which is the performer_id
+    # performer can have multiple songs
+    performer = db.relationship("Performer", backref="events")
 
     def __repr__(self):
 

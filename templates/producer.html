@@ -1,8 +1,11 @@
 {% extends "base.html" %}
     <!-- title each tab with the producer's name -->
+    <!-- Minified version  -->
+
     {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
 
 {% block content %}
+
     <h1 align = "center">{{producer.producer_name}}</h1>
 
     {% if producer.songs %}
@@ -10,6 +13,54 @@
         <!-- alt = message when hovering over -->
         <!-- producer's image -->
         <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
+
+  <div class="melon-chart">
+    <canvas id="donutChart"></canvas>
+    <div id="donutLegend" class="chart-legend"></div>
+  </div>
+
+<!-- Chart 2 -->
+
+  <script>
+    const options = {
+      responsive: true
+    };
+
+    // Make Donut Chart of percent of different types of Melons
+    let ctx_donut = $("#donutChart").get(0).getContext("2d");
+
+    $.get("/melon-types.json", function (data) {
+      let myDonutChart = new Chart(ctx_donut, {
+                                              type: 'doughnut',
+                                              data: data,
+                                              options: options
+                                            });
+      $('#donutLegend').html(myDonutChart.generateLegend());
+    });
+</script>
+
+
+    <!-- Chart -->
+    <div class="container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+
+        // new chart element
+        let massPopChart = new Chart(myChart, {
+            type:"bar",// bar, horizontalBar, pie, line, donut, radar, polarArea
+            data: {
+                labels:['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'], //list of artist names
+                datasets:[{
+                    label: 'Population', //'Number of Songs'
+                    data: [617594, 181045, 153060, 106519, 105162, 95072] //numbers of songs
+                }]
+            },
+            options: {}
+        })
+    </script>
 
 <!-- return every song producer has producer by album and year -->
       <h2>Albums</h2>

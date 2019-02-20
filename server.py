@@ -2,7 +2,7 @@
 from jinja2 import StrictUndefined
 
 # for helpful debugging
-from flask import Flask, redirect, render_template, request, session, flash
+from flask import Flask, redirect, render_template, request, session, flash, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
 
 #tables for jquery
@@ -76,8 +76,34 @@ def producer_detail(producer_id):
     return render_template("producer.html",
                             producer=producer,
                             album_years=album_years
-                           )
+                          )
 
+@app.route('/melon-types.json')
+def melon_types_data():
+
+    data_dict = {
+                "labels": [
+                    "Christmas Melon",
+                    "Crenshaw",
+                    "Yellow Watermelon"
+                ],
+                "datasets": [
+                    {
+                        "data": [300, 50, 100],
+                        "backgroundColor": [
+                            "#FF6384",
+                            "#36A2EB",
+                            "#FFCE56"
+                        ],
+                        "hoverBackgroundColor": [
+                            "#FF6384",
+                            "#36A2EB",
+                            "#FFCE56"
+                        ]
+                    }]
+            }
+    
+    return jsonify(data_dict)
 
 @app.route("/performers")
 def performer_list():

@@ -7,6 +7,36 @@
     <h1 align = "center">{{ album.album_title }} - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h1>
     <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
     <br>
+
+<br>
+<br>
+Distribution of songs on {{ album.album_title }} by producer
+  <div class="melon-chart">
+    <canvas id="donutChart"></canvas>
+    <div id="donutLegend" class="chart-legend"></div>
+  </div>
+
+<!-- Chart 2 -->
+  <script>
+    const options = {
+      responsive: true
+    };
+
+    // Make Donut Chart of percent of different types of Melons
+    let ctx_donut = $("#donutChart").get(0).getContext("2d");
+
+    $.get("/album-frequency.json", function (data) {
+      let myDonutChart = new Chart(ctx_donut, {
+                                              type: 'doughnut',
+                                              data: data,
+                                              options: options
+                                            });
+      // $('#donutLegend').html(myDonutChart.generateLegend());
+    });
+</script>
+
+
+
     <h2> Songs: </h2>
       {% for song in album.songs %}
         <li>

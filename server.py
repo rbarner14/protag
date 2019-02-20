@@ -240,7 +240,9 @@ def song_detail(song_id):
 def album_list():
     """Show list of albums."""
 
-    albums = Album.query.order_by('album_title').all()
+    albums = Album.query.options(db.joinedload("producers")
+                                   .joinedload("songs")
+                                  ).order_by('album_title').all()
 
     return render_template("album_list.html", 
                             albums=albums
@@ -251,10 +253,62 @@ def album_list():
 def album_detail(album_id):
 
     album = Album.query.get(album_id)
+
+    session["album_id"] = album_id
     
     return render_template("album.html",
                             album=album
                           )
+
+
+@app.route('/album-frequency.json')
+def generate_album_producer_frequency_donut_chart():
+
+    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
+    # can pass producer_id to query with session
+    # https://www.randomlists.com/random-color?qty=20
+    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D"]
+
+    album_id = session["album_id"]
+
+    album_producer_tuples = db.session.query(Producer.producer_name,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.album_id==album_id).group_by(
+                            Producer.producer_name).all()
+
+    # to build chart
+    data_dict = {
+                "labels": [],
+                "datasets": [
+                    {
+                        "data": [],
+                        "backgroundColor": [],
+                        "hoverBackgroundColor": []
+                    }]
+            }
+
+    # loop through range of song_count tuple to feed data to chart
+    for i in range(0, len(album_producer_tuples)):
+        producers = album_producer_tuples[i][0]
+        data_dict["labels"].append(producers)
+        i+=1
+
+    for j in range(0, len(album_producer_tuples)):
+        song_count = album_producer_tuples[j][1]
+        data_dict["datasets"][0]["data"].append(song_count)
+        j+=1
+
+    # loop through background color list
+    for k in range(0, len(background_colors)):
+        bgcolor = background_colors[k]
+        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+        k+=1
+
+    return jsonify(data_dict)
 
 
 ################################################################################

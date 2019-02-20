@@ -10,6 +10,33 @@
         <!-- producer's image -->
         <img src="{{ performer.performer_img_url }}" width="250" height="200" alt="{{ performer.performer_name }}">
 
+<br>
+<br>
+Number of songs {{ performer.performer_name }} has created by producer
+  <div class="melon-chart">
+    <canvas id="donutChart"></canvas>
+    <div id="donutLegend" class="chart-legend"></div>
+  </div>
+
+<!-- Chart 2 -->
+  <script>
+    const options = {
+      responsive: true
+    };
+
+    // Make Donut Chart of percent of different types of Melons
+    let ctx_donut = $("#donutChart").get(0).getContext("2d");
+
+    $.get("/performer-frequency.json", function (data) {
+      let myDonutChart = new Chart(ctx_donut, {
+                                              type: 'doughnut',
+                                              data: data,
+                                              options: options
+                                            });
+      // $('#donutLegend').html(myDonutChart.generateLegend());
+    });
+</script>
+
       <h2>Albums</h2>
       {% for year in album_years %}
               <h2>{{year}}</h2>

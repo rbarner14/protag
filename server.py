@@ -69,6 +69,7 @@ def producer_detail(producer_id):
                                         .joinedload("songs")
                                         .joinedload("producers")
                                       ).get(producer_id)
+
     albums = producer.albums # list
     # returns the album release years in descending chronological order
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
@@ -81,11 +82,18 @@ def producer_detail(producer_id):
                           )
 
 
-@app.route('/melon-types.json')
-def melon_types_data():
+@app.route('/producer-frequency.json')
+def generate_producer_performer_frequency_donut_chart():
 
     # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
     # can pass producer_id to query with session
+    # https://www.randomlists.com/random-color?qty=20
+    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D"]
+
     producer_id = session["producer_id"]
 
     producer_song_tuples = db.session.query(Performer.performer_name,
@@ -93,25 +101,18 @@ def melon_types_data():
                             ProduceSong.producer_id==producer_id).group_by(
                             Performer.performer_name).all()
 
+    # to build chart
     data_dict = {
                 "labels": [],
                 "datasets": [
                     {
                         "data": [],
-                        "backgroundColor": [
-                            "#FF6384",
-                            "#36A2EB",
-                            "#FFCE56"
-                        ],
-                        "hoverBackgroundColor": [
-                            "#FF6384",
-                            "#36A2EB",
-                            "#FFCE56"
-                        ]
+                        "backgroundColor": [],
+                        "hoverBackgroundColor": []
                     }]
             }
 
-
+    # loop through range of song_count tuple to feed data to chart
     for i in range(0, len(producer_song_tuples)):
         performer = producer_song_tuples[i][0]
         data_dict["labels"].append(performer)
@@ -122,7 +123,14 @@ def melon_types_data():
         data_dict["datasets"][0]["data"].append(song_count)
         j+=1
 
+    # loop through background color list
+    for k in range(0, len(background_colors)):
+        bgcolor = background_colors[k]
+        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+        k+=1
+
     return jsonify(data_dict)
+
 
 @app.route("/performers")
 def performer_list():
@@ -146,10 +154,63 @@ def performer_detail(performer_id):
 
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+    session["performer_id"] = performer_id
+
     return render_template("performer.html",
                             performer=performer,
                             album_years=album_years
                           )
+
+
+@app.route('/performer-frequency.json')
+def generate_performer_producer_frequency_donut_chart():
+
+    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
+    # can pass producer_id to query with session
+    # https://www.randomlists.com/random-color?qty=20
+    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D"]
+
+    performer_id = session["performer_id"]
+
+    performer_producer_tuples = db.session.query(Producer.producer_name,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.performer_id==performer_id).group_by(
+                            Producer.producer_name).all()
+
+    # to build chart
+    data_dict = {
+                "labels": [],
+                "datasets": [
+                    {
+                        "data": [],
+                        "backgroundColor": [],
+                        "hoverBackgroundColor": []
+                    }]
+            }
+
+    # loop through range of song_count tuple to feed data to chart
+    for i in range(0, len(performer_producer_tuples)):
+        performer = performer_producer_tuples[i][0]
+        data_dict["labels"].append(performer)
+        i+=1
+
+    for j in range(0, len(performer_producer_tuples)):
+        song_count = performer_producer_tuples[j][1]
+        data_dict["datasets"][0]["data"].append(song_count)
+        j+=1
+
+    # loop through background color list
+    for k in range(0, len(background_colors)):
+        bgcolor = background_colors[k]
+        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+        k+=1
+
+    return jsonify(data_dict)
+
 
 
 @app.route("/songs")

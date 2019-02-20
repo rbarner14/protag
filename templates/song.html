@@ -4,7 +4,7 @@
 
 <!-- Show song's producers, and head page with song name and performer -->
 {% block content %}
-    <h1 align = "center">{{song.song_title}} - {{song.performers[0].performer_name}}</h1>
+    <h1 align = "center">{{song.song_title}} - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a></h1>
         <br>
         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="70" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{song.apple_music_player_url}}"></iframe>
     <h3>Produced by:</h3>

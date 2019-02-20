@@ -13,14 +13,15 @@
         <!-- alt = message when hovering over -->
         <!-- producer's image -->
         <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
-
+<br>
+<br>
+Number of songs {{ producer.producer_name }} has produced by performer
   <div class="melon-chart">
     <canvas id="donutChart"></canvas>
     <div id="donutLegend" class="chart-legend"></div>
   </div>
 
 <!-- Chart 2 -->
-
   <script>
     const options = {
       responsive: true
@@ -40,8 +41,8 @@
 </script>
 
 
-    <!-- Chart -->
-    <div class="container">
+    <!-- Chart Deprecated -->
+<!--     <div class="container">
         <canvas id="myChart"></canvas>
     </div>
 
@@ -60,8 +61,8 @@
             },
             options: {}
         })
-    </script>
-
+    </script> -->
+<br>
 <!-- return every song producer has producer by album and year -->
       <h2>Albums</h2>
         {% for year in album_years %}

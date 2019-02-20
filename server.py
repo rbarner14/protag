@@ -73,6 +73,8 @@ def producer_detail(producer_id):
     # returns the album release years in descending chronological order
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+    session["producer_id"] = producer_id
+
     return render_template("producer.html",
                             producer=producer,
                             album_years=album_years
@@ -82,17 +84,20 @@ def producer_detail(producer_id):
 @app.route('/melon-types.json')
 def melon_types_data():
 
-    producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
+    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
+    # can pass producer_id to query with session
+    producer_id = session["producer_id"]
+
+    producer_song_tuples = db.session.query(Performer.performer_name,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.producer_id==producer_id).group_by(
+                            Performer.performer_name).all()
 
     data_dict = {
-                "labels": [
-                    "Christmas Melon",
-                    "Crenshaw",
-                    "Yellow Watermelon"
-                ],
+                "labels": [],
                 "datasets": [
                     {
-                        "data": [300, 50, 100],
+                        "data": [],
                         "backgroundColor": [
                             "#FF6384",
                             "#36A2EB",
@@ -107,6 +112,15 @@ def melon_types_data():
             }
 
 
+    for i in range(0, len(producer_song_tuples)):
+        performer = producer_song_tuples[i][0]
+        data_dict["labels"].append(performer)
+        i+=1
+
+    for j in range(0, len(producer_song_tuples)):
+        song_count = producer_song_tuples[j][1]
+        data_dict["datasets"][0]["data"].append(song_count)
+        j+=1
 
     return jsonify(data_dict)
 

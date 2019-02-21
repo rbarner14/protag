@@ -1,0 +1,5 @@
+producer_id|producer_name|producer_img_url
+31695|The Futuristiks|https://images.genius.com/9f98a82c682475ec26a8b4e6358606bc.1000x1000x1.jpg
+27663|The Heatmakerz|https://images.genius.com/902dc9e83cf670597ff5568b00e01b32.667x667x1.jpg
+158542|The Narcotics|https://assets.genius.com/images/default_avatar_300.png?1550698131
+4617|The Neptunes|https://images.genius.com/e310e157ac97069d8038b853fe6d9362.1000x1000x1.jpg

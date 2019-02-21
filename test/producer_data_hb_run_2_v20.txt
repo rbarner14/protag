@@ -1,0 +1,5 @@
+producer_id|producer_name|producer_img_url
+15708|The Renegades|https://s3.amazonaws.com/rapgenius/mxxyOB6.png
+628652|TheGoodPerry|https://images.genius.com/b3cd5daeb4714944c0d629c1b3c4a494.360x360x1.jpg
+32449|Thelonious Martin|https://s3.amazonaws.com/rapgenius/tumblr_m33y79VR6e1qzlp2ho1_1280.jpg
+112|Timbaland|https://images.genius.com/a06bfc1a94ca720969d89e5e6f4fca9d.400x400x1.jpg

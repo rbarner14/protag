@@ -22,7 +22,7 @@ def make_nodes_and_paths(filename):
     file_obj = open(filename)
     contents = file_obj.read()
     lines = contents.split('\n') # creates a list of the rows in the file
-    print(lines)
+    # print(lines)
 
     nodes = {} # focal point of data (words)
     for pair in lines:
@@ -107,7 +107,6 @@ def producer_detail(producer_id):
 
     # url from which to make API calls
     URL = "https://genius.com/api/artists/" + str(producer_id)
-    print(URL)
 
     # joinedload reduces # of queries run for output
     producer = Producer.query.options(db.joinedload("albums")
@@ -122,6 +121,7 @@ def producer_detail(producer_id):
     r = requests.get(URL)
     j = r.json()
     
+    # if call is successful, access json object
     if j['meta']['status'] == 200:
         bio = j['response']['artist'].get('description_preview',"")
 
@@ -197,6 +197,8 @@ def performer_list():
 # each performer's page's url will include the performer's database id
 @app.route("/performers/<int:performer_id>", methods=["GET"])
 def performer_detail(performer_id):
+    # url from which to make API calls
+    URL = "https://genius.com/api/artists/" + str(performer_id)
 
     performer = Performer.query.options(db.joinedload("albums")
                                           .joinedload("songs")
@@ -208,9 +210,17 @@ def performer_detail(performer_id):
 
     session["performer_id"] = performer_id
 
+    r = requests.get(URL)
+    j = r.json()
+    
+    # if call is successful, access json object
+    if j['meta']['status'] == 200:
+        bio = j['response']['artist'].get('description_preview',"")
+
     return render_template("performer.html",
                             performer=performer,
-                            album_years=album_years
+                            album_years=album_years,
+                            bio=bio
                           )
 
 
@@ -362,6 +372,10 @@ def generate_album_producer_frequency_donut_chart():
 
     return jsonify(data_dict)
 
+@app.route('/resume')
+def resume():
+
+    return render_template("resume.html")
 
 ################################################################################
 

@@ -9,10 +9,13 @@
         <!-- alt = message when hovering over -->
         <!-- producer's image -->
         <img src="{{ performer.performer_img_url }}" width="250" height="200" alt="{{ performer.performer_name }}">
+        <br>
+        <br>
+        {{ bio }}
 
 <br>
 <br>
-Number of songs {{ performer.performer_name }} has created by producer
+<h3>Number of songs {{ performer.performer_name }} has created by producer</h3>
   <div class="melon-chart">
     <canvas id="donutChart"></canvas>
     <div id="donutLegend" class="chart-legend"></div>

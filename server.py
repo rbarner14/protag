@@ -18,37 +18,6 @@ app.jinja_env.auto_reload = True
 # Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
 
-# def make_nodes_and_paths(filename):
-#     file_obj = open(filename)
-#     contents = file_obj.read()
-#     lines = contents.split('\n')
-#     print(lines)
-
-#     nodes = {}
-#     for pair in lines:
-#         split = pair.split(',')
-#         if split:
-#             for node in split:
-#                 node = node.strip()
-#                 if not nodes.get(node):
-#                     nodes[node] = split[1].strip()
-    
-#     nodes = [{'name':node, 'parent': nodes[node]} for node in nodes.keys()]
-
-#     index_nodes = {}
-#     for idx, n in enumerate(nodes):
-#         index_nodes[n['name']] = (idx, n['parent'])
-
-#     paths = []
-#     for line in lines:
-#         slt = line.split(',')
-#         if len(slt) == 2:
-#             source, target = slt
-#             paths.append({'source': index_nodes[source][0], 'target': index_nodes[target][0]  })
-
-#     return nodes, paths
-
-
 def make_nodes_and_paths(filename):
     file_obj = open(filename)
     contents = file_obj.read()

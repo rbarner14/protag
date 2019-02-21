@@ -146,14 +146,16 @@ def generate_producer_performer_frequency_donut_chart():
                          "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
                          "#A0522D"]
 
+    # retrieve producer_id from the session for producer_song_tuples query          
     producer_id = session["producer_id"]
 
+    # query creates list of tuples
     producer_song_tuples = db.session.query(Performer.performer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.producer_id==producer_id).group_by(
                             Performer.performer_name).all()
 
-    # to build chart
+    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
     data_dict = {
                 "labels": [],
                 "datasets": [
@@ -164,7 +166,8 @@ def generate_producer_performer_frequency_donut_chart():
                     }]
             }
 
-    # loop through range of song_count tuple to feed data to chart
+    # loop through range of song_count tuple to feed labels and data to 
+    # dictionary
     for i in range(0, len(producer_song_tuples)):
         performer = producer_song_tuples[i][0]
         data_dict["labels"].append(performer)

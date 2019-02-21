@@ -1,0 +1,2 @@
+producer_id|producer_name|producer_img_url
+270426|Tay Keith|https://images.genius.com/93ce688f505ad36233a91e1d0081b158.597x597x1.jpg

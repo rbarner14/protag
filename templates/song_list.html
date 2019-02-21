@@ -7,7 +7,7 @@
 <!-- for loop to handle songs with mulitple performers -->
     {% for song in songs %}
         <li>
-            <a href="/songs/{{ song.song_id }}">{{ song.song_title }} - {{song.performers[0].performer_name}}</a>
+            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i> - {{song.performers[0].performer_name}}</a>
         </li>
     {% endfor %}
 {% endblock %}

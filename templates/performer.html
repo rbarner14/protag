@@ -45,11 +45,11 @@
               <h2>{{year}}</h2>
               {% for album in performer.albums %}
                   {% if album.album_release_date.strftime("%Y") == year %}
-                      <h3><a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a></h3>
+                      <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a></h3>
                       <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
                       {% for song in album.songs %} 
                           <li>
-                          <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+                          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
                           <br>
                           produced by
                           <br>

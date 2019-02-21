@@ -197,7 +197,7 @@ def performer_list():
 # each performer's page's url will include the performer's database id
 @app.route("/performers/<int:performer_id>", methods=["GET"])
 def performer_detail(performer_id):
-    # url from which to make API calls
+
     URL = "https://genius.com/api/artists/" + str(performer_id)
 
     performer = Performer.query.options(db.joinedload("albums")
@@ -213,7 +213,6 @@ def performer_detail(performer_id):
     r = requests.get(URL)
     j = r.json()
     
-    # if call is successful, access json object
     if j['meta']['status'] == 200:
         bio = j['response']['artist'].get('description_preview',"")
 
@@ -314,12 +313,23 @@ def album_list():
 @app.route("/albums/<int:album_id>", methods=["GET"])
 def album_detail(album_id):
 
+    # url from which to make API calls
+    URL = "https://genius.com/api/albums/" + str(album_id)
+
     album = Album.query.get(album_id)
 
     session["album_id"] = album_id
+
+    r = requests.get(URL)
+    j = r.json()
+    
+    # if call is successful, access json object
+    if j['meta']['status'] == 200:
+        bio = j['response']['album'].get('description_preview',"")
     
     return render_template("album.html",
-                            album=album
+                            album=album,
+                            bio=bio
                           )
 
 

@@ -4,9 +4,11 @@
 
 <!-- Show album's producers, and head page with album name and performer -->
 {% block content %}
-    <h1 align = "center">{{ album.album_title }} - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h1>
+    <h1 align = "center"><i>{{ album.album_title }}</i> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h1>
     <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
     <br>
+    <br>
+    {{ bio }}
 
 <br>
 <br>

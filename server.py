@@ -5,8 +5,10 @@ from jinja2 import StrictUndefined
 from flask import Flask, redirect, render_template, request, session, flash, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
 
-#tables for jquery
+# tables for jquery
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
+# for api calls
+import requests
 
 # create Flask app
 app = Flask(__name__)
@@ -134,6 +136,10 @@ def producer_list():
 @app.route("/producers/<int:producer_id>")
 def producer_detail(producer_id):
 
+    # url from which to make API calls
+    URL = "https://genius.com/api/artists/" + str(producer_id)
+    print(URL)
+
     # joinedload reduces # of queries run for output
     producer = Producer.query.options(db.joinedload("albums")
                                         .joinedload("songs")
@@ -144,11 +150,18 @@ def producer_detail(producer_id):
     # returns the album release years in descending chronological order
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+    r = requests.get(URL)
+    j = r.json()
+    
+    if j['meta']['status'] == 200:
+        bio = j['response']['artist'].get('description_preview',"")
+
     session["producer_id"] = producer_id
 
     return render_template("producer.html",
                             producer=producer,
-                            album_years=album_years
+                            album_years=album_years,
+                            bio=bio
                           )
 
 

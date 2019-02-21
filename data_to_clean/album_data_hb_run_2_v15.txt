@@ -1,0 +1,1218 @@
+album_id|album_title|cover_art_url|album_release_year|album_release_month|album_release_day
+420582|Scorpion|https://images.genius.com/5c677b7bfc2f696abf2e2d928301bb44.1000x1000x1.jpg|2018|6|29
+131967|Blood Thicker Than Water|https://images.genius.com/c264fb0be7abe1801359aee932a588bc.500x500x1.jpg|2015|None|None
+28644|Black Flag|https://images.genius.com/9fb77030d840db1d46bf1f3f2f37219b.715x715x1.jpg|2013|6|26
+88451|Brick Factory: Volume 1|https://images.genius.com/d65a023cc756026019052ee1eeb88c31.591x591x1.jpg|2014|5|26
+330004|Teenage Emotions|https://images.genius.com/d5460694b80c346eac25e4426f6f5ed5.1000x1000x1.jpg|2017|5|26
+|||||
+118883|Cleansides Finest 3|https://images.genius.com/5b349c081241e0c49447522ff30abd7a.500x500x1.jpg|2014|9|16
+133503|The Slaughter Tape|https://images.genius.com/c3b758e8c0a12314740b57bf07ab7974.1000x1000x1.jpg|2015|5|15
+|||||
+124887|Ain't No Money Like Trap Money|https://images.genius.com/6c19c202d86f3d70422eb4235fe97163.512x512x1.jpg|2015|5|20
+131967|Blood Thicker Than Water|https://images.genius.com/c264fb0be7abe1801359aee932a588bc.500x500x1.jpg|2015|None|None
+345595|Tales of Tacobella|https://images.genius.com/29b42fd6931ab6634be166b5c289bbfa.1000x1000x1.jpg|2017|None|None
+|||||
+124887|Ain't No Money Like Trap Money|https://images.genius.com/6c19c202d86f3d70422eb4235fe97163.512x512x1.jpg|2015|5|20
+327593|Plugged In|https://images.genius.com/218c1da9bdf607fce9c3b936daa0c6d4.355x355x1.jpg|2017|1|27
+|||||
+444152|4sport - EP|https://images.genius.com/702fddf0f997e40b0e1b38034a24a60f.500x500x1.jpg|2018|7|9
+455842|Birthday Mix 3|https://images.genius.com/1bc99e1de2c6d4741216fe9aa7045b8f.500x500x1.jpg|2018|8|23
+473018|OX|https://images.genius.com/edad0507c75929a8e3df98c0300a8aa8.828x828x1.jpg|2018|10|30
+371746|Sugar Trap 2|https://images.genius.com/14c091daf61d30fb219abfbefaf04e64.1000x1000x1.jpg|2017|10|24
+368390|LIL BOAT'S BIRTHDAY MIX|https://images.genius.com/3e1c9704acbf355043c166af172493b2.500x500x1.jpg|2016|8|23
+124887|Ain't No Money Like Trap Money|https://images.genius.com/6c19c202d86f3d70422eb4235fe97163.512x512x1.jpg|2015|5|20
+355347|D Phoenix|https://images.genius.com/35879199bf0ba7b5bbeba03c246ebfe6.939x939x1.jpg|2018|10|12
+452568|FFM Freestyle|https://images.genius.com/c383dbcc73435213b9bcdded15b86433.190x190x1.jpg|2018|None|None
+469027|TrapMoneyBenny|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+87904|DSNRTRAPN|https://images.genius.com/dff643d34f5c993b1251d88b7b550e9b.500x500x1.jpg|2013|None|None
+|||||
+131967|Blood Thicker Than Water|https://images.genius.com/c264fb0be7abe1801359aee932a588bc.500x500x1.jpg|2015|None|None
+328524|FRVR|https://images.genius.com/a0c160198ea49c65b8b1d032f77c68bd.1000x1000x1.jpg|2017|None|None
+127936|Block Boy|https://images.genius.com/c65f16994eed928b3bf2909538e361ca.1000x1000x1.jpg|2015|None|None
+405564|The Wolf of Grape Street|https://images.genius.com/81cb4f78909a1b4113a8306f79d75d7e.750x750x1.jpg|2018|3|9
+392598|777|https://images.genius.com/a559dfc5b17b323e13771519578bbc55.1000x1000x1.jpg|2018|5|4
+124887|Ain't No Money Like Trap Money|https://images.genius.com/6c19c202d86f3d70422eb4235fe97163.512x512x1.jpg|2015|5|20
+140417|Hey! Thanks A Lot 3|https://images.genius.com/65a048d3fc5990c9f56e554dfd139d49.500x500x1.jpg|2015|None|None
+|||||
+287675|NOONEISREADY|https://images.genius.com/1830fba62849a0610284ecb580ae4d4c.500x500x1.jpg|2013|3|6
+|||||
+|||||
+37253|Fathers Are The Curse|https://images.genius.com/19c15828b0068031bea45eafaaae1fa2.500x500x1.jpg|2013|9|11
+127936|Block Boy|https://images.genius.com/c65f16994eed928b3bf2909538e361ca.1000x1000x1.jpg|2015|None|None
+387197|Can't Ban Da GloMan|https://images.genius.com/a38bc315bea544e2be1a1950e08fb6e0.1000x1000x1.jpg|2017|12|15
+|||||
+127936|Block Boy|https://images.genius.com/c65f16994eed928b3bf2909538e361ca.1000x1000x1.jpg|2015|None|None
+|||||
+|||||
+|||||
+127936|Block Boy|https://images.genius.com/c65f16994eed928b3bf2909538e361ca.1000x1000x1.jpg|2015|None|None
+287675|NOONEISREADY|https://images.genius.com/1830fba62849a0610284ecb580ae4d4c.500x500x1.jpg|2013|3|6
+|||||
+37253|Fathers Are The Curse|https://images.genius.com/19c15828b0068031bea45eafaaae1fa2.500x500x1.jpg|2013|9|11
+|||||
+|||||
+|||||
+|||||
+313218|#NOONEISREADY2|https://images.genius.com/6c60ffc99c6e0f2c6cea548fcfd640e4.500x500x1.jpg|2014|3|4
+475922|Luciano 3.0|https://images.genius.com/8a69deb7efd75e14c4c89540f05e3ce7.1000x1000x1.jpg|2018|11|9
+|||||
+|||||
+489070|antonym for love|https://images.genius.com/9e2fd668e39ebbaf3c8ccfb61d86f62c.640x640x1.png|2018|12|19
+|||||
+|||||
+416946|Baby Boy Season|https://images.genius.com/8ee19aa375d0c26934a8fa4dc508e953.1000x1000x1.png|2018|4|13
+462918|The Custodian Show|https://images.genius.com/f2c10a50b1f821c24a76e545a639797f.999x999x1.png|2018|11|25
+|||||
+396391|Lamar Was Here|https://images.genius.com/e3540ed489fe96a30da3e0847f710750.1000x1000x1.jpg|2018|1|11
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+|||||
+416946|Baby Boy Season|https://images.genius.com/8ee19aa375d0c26934a8fa4dc508e953.1000x1000x1.png|2018|4|13
+416946|Baby Boy Season|https://images.genius.com/8ee19aa375d0c26934a8fa4dc508e953.1000x1000x1.png|2018|4|13
+396391|Lamar Was Here|https://images.genius.com/e3540ed489fe96a30da3e0847f710750.1000x1000x1.jpg|2018|1|11
+462918|The Custodian Show|https://images.genius.com/f2c10a50b1f821c24a76e545a639797f.999x999x1.png|2018|11|25
+|||||
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+462918|The Custodian Show|https://images.genius.com/f2c10a50b1f821c24a76e545a639797f.999x999x1.png|2018|11|25
+462918|The Custodian Show|https://images.genius.com/f2c10a50b1f821c24a76e545a639797f.999x999x1.png|2018|11|25
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+|||||
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+|||||
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+492990|Night Shift|https://images.genius.com/71b5ad933c863529febd19508e438be3.676x676x1.png|||
+492990|Night Shift|https://images.genius.com/71b5ad933c863529febd19508e438be3.676x676x1.png|||
+|||||
+416946|Baby Boy Season|https://images.genius.com/8ee19aa375d0c26934a8fa4dc508e953.1000x1000x1.png|2018|4|13
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+|||||
+|||||
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+|||||
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+392138|Big Boy Season|https://images.genius.com/4a0dcfa60ddeb6812c16cc9dbee77028.676x676x1.png|2018|11|23
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+325258|Ctrl|https://images.genius.com/be7f8888b02ec8de90b71e6590692665.1000x1000x1.jpg|2017|6|9
+34024|Yeezus|https://images.genius.com/8bf8ad4e7bcd4e2d9f1d33b1bb53fe3a.1000x1000x1.jpg|2013|6|18
+286515|More Life|https://images.genius.com/492890e920533797aa7eccf68e467b8a.1000x1000x1.jpg|2017|3|18
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+162208|JEFFERY|https://images.genius.com/52d2a0dba0a686ea304030fe9d3e3e00.1000x1000x1.jpg|2016|8|26
+|||||
+120604|The Life of Pablo|https://images.genius.com/389e5fd1eff885b2e7b62060869945cc.1000x1000x1.jpg|2016|2|14
+34024|Yeezus|https://images.genius.com/8bf8ad4e7bcd4e2d9f1d33b1bb53fe3a.1000x1000x1.jpg|2013|6|18
+119674|If You're Reading This It's Too Late|https://images.genius.com/bcf01db777c6e5c46eddb1031a2008d1.1000x1000x1.jpg|2015|2|13
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+168545|Culture|https://images.genius.com/73bac66d60e3a2fad0135f4dd359d2ee.1000x1000x1.jpg|2017|1|27
+|||||
+469601|Dying to Live|https://images.genius.com/5dafbaa360c868e1021c9f7c66cbdf4a.1000x1000x1.jpg|2018|12|14
+377760|Without Warning|https://images.genius.com/eb77a92d9832fddde0d60dacc19a7bde.980x980x1.jpg|2017|10|31
+370602|War & Leisure|https://images.genius.com/67e5b4e0572b354606cd0dc5529030ee.1000x1000x1.jpg|2017|12|1
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+34024|Yeezus|https://images.genius.com/8bf8ad4e7bcd4e2d9f1d33b1bb53fe3a.1000x1000x1.jpg|2013|6|18
+|||||
+118666|Dark Sky Paradise|https://images.genius.com/da4b4fc50f5762c557f3d9f6f0f5dbee.1000x1000x1.jpg|2015|2|24
+|||||
+410684|LIFE'S A TRIP|https://images.genius.com/f229b260545f0c0e7dc6115e44ed7c83.1000x1000x1.jpg|2018|8|10
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+36559|Magna Carta... Holy Grail|https://s3.amazonaws.com/rapgenius/MCHG_cover.jpg|2013|7|4
+109923|Kanye West Presents Good Music Cruel Summer|https://images.genius.com/8a79002727bdfaa640f2440d14e3353f.1000x1000x1.jpg|2012|9|14
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+132689|ANTI|https://images.genius.com/ef1a5c940d0835c32d8337fef93625ac.1000x1000x1.jpg|2016|1|28
+323664|Pretty Girls Like Trap Music|https://images.genius.com/09cea4ddc89b5b634ecb6601b645e7a2.966x966x1.jpg|2017|6|16
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+|||||
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+|||||
+98888|Tha Carter V|https://images.genius.com/4c0617938ce2884f571b2c557d27ea6f.1000x1000x1.jpg|2018|9|28
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+109923|Kanye West Presents Good Music Cruel Summer|https://images.genius.com/8a79002727bdfaa640f2440d14e3353f.1000x1000x1.jpg|2012|9|14
+162208|JEFFERY|https://images.genius.com/52d2a0dba0a686ea304030fe9d3e3e00.1000x1000x1.jpg|2016|8|26
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+132311|Purpose|https://images.genius.com/2beaafc60939065b2b737449879240e7.1000x1000x1.jpg|2015|11|13
+471192|Major Lazer Essentials|https://images.genius.com/a7a6fb3bd9775d538f84076031a15ed8.500x500x1.jpg|2018|10|19
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+423911|RECKLESS|https://images.genius.com/dd66e048e0dc8003d38644746c33d388.1000x1000x1.jpg|2018|5|18
+333548|The Fate of the Furious: The Album|https://images.genius.com/6856df92d41784e6d1bd023b4e381366.1000x1000x1.jpg|2017|4|12
+140822|KHALIFA|https://images.genius.com/329866c1bd0be13efe2300615c0293e5.1000x1000x1.jpg|2016|2|5
+152011|Passion, Pain & Demon Slayin'|https://images.genius.com/efae5867d6e39372f9815e5f28cde6a5.1000x1000x1.jpg|2016|12|16
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+25090|Wrath Of Caine|https://images.genius.com/17043530e499e3e3fc8faa71b9d8f74d.1000x1000x1.jpg|2013|1|28
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+384438|Double or Nothing|https://images.genius.com/4b3e499f8c1d19a10bc34d9c9a2efb5d.1000x1000x1.jpg|2017|12|8
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+|||||
+|||||
+287219|I Decided.|https://images.genius.com/74cd28ef5c9f93715d79175cd8e5e81f.500x500x1.jpg|2017|2|3
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+132689|ANTI|https://images.genius.com/ef1a5c940d0835c32d8337fef93625ac.1000x1000x1.jpg|2016|1|28
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+115982|PNDCOLOURS|https://images.genius.com/0800ba50a6c3d7ccb42305dd229cb1bb.990x990x1.jpg|2014|None|None
+338581|SR3MM|https://images.genius.com/9db9b892e8f2472bd8da6ce7b92426af.1000x1000x1.jpg|2018|5|4
+|||||
+321222|Mac & Cheese 4 (Original)|https://images.genius.com/8f2349ff38cc10de1c85b2f9c6cc471c.602x609x1.jpg|2014|None|None
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+|||||
+369295|Culture II |https://images.genius.com/895c52591bf983ebe6e8821f23e4642e.999x999x1.jpg|2018|1|26
+109923|Kanye West Presents Good Music Cruel Summer|https://images.genius.com/8a79002727bdfaa640f2440d14e3353f.1000x1000x1.jpg|2012|9|14
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+|||||
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+335313|Deadstar|https://images.genius.com/9d32e3e51bf3f1ec221eeab19b721894.500x500x1.jpg|2017|9|29
+|||||
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+151943|Birds in the Trap Sing McKnight|https://images.genius.com/5f66b21e0c69ff6c30080f2c6795f025.924x924x1.jpg|2016|9|2
+247342|The Return of East Atlanta Santa|https://images.genius.com/e346585343669f785da446478e1db2aa.600x600x1.jpg|2016|12|16
+487856|Assume Form|https://images.genius.com/469d08bb4989f5ff4ef6e6d0005443cf.1000x1000x1.png|2019|1|18
+23080|Hall of Fame|https://images.genius.com/59ed678a2cc7f73d33a26d29cd050498.600x600x1.jpg|2013|8|27
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+383945|Madden NFL 18|https://images.genius.com/8b0b98128f466d38fccf72118dca70a9.1000x1000x1.jpg|2017|8|2
+453773|NBA 2K19 Soundtrack|https://images.genius.com/78992d4cd8d1f369e1189f1050b06402.400x400x1.jpg|2018|8|15
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+83274|Unknown Memory|https://images.genius.com/641e0742f84bdb6f5d043b2dfe2ec891.1000x1000x1.jpg|2014|9|23
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+|||||
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+342578|Freshmen Cyphers (2011–Present)|https://images.genius.com/9caa3003ac87df79c5d60ec27a38b51a.899x899x1.jpg|||
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+26969|Dreamchasers 3|https://images.genius.com/9f7555483900d17e5492cc73d0fff0df.600x590x1.png|2013|9|29
+34091|The Gifted|https://images.genius.com/576d9a38f7c0a68bab0b765a5187bb65.640x640x1.jpg|2013|6|25
+|||||
+393124|Die Lit|https://images.genius.com/3d5481eedcae5b24a6de3f60128d5bf8.1000x1000x1.jpg|2018|5|11
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+|||||
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+309224|Def Jam Presents: Direct Deposit Vol. 1|https://images.genius.com/d5ec315e2bd3b7bbf4c7c592532fe280.1000x1000x1.jpg|2016|12|2
+459148|QUAVO HUNCHO|https://images.genius.com/39a1f9d0d1403b9749469ec36ad251e9.1000x1000x1.jpg|2018|10|11
+330126|Grateful|https://images.genius.com/c90ae8cb7ea3f842c15653ada87d68cb.1000x1000x1.jpg|2017|6|23
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+470878|Antares|https://images.genius.com/970aef13bbd6866c2650b7163af55373.1000x1000x1.jpg|2018|11|2
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+60329|Black Water|https://images.genius.com/65fc273fcfbf40a8db55ede0becb9c7a.1000x1000x1.jpg|2013|11|26
+|||||
+|||||
+345439|We Run This, Vol. 13|https://images.genius.com/d830c23645d7f7af55dc88ee034e1954.800x800x1.jpg|2017|None|None
+347750|Quality Control: Control the Streets, Vol. 1|https://images.genius.com/da8bb7094a605c9e98855a50e51ad568.1000x1000x1.jpg|2017|12|8
+124263|Up For Days|https://images.genius.com/cfaa60a3cd325c0369edc063357a916e.500x500x1.jpg|2015|None|None
+384438|Double or Nothing|https://images.genius.com/4b3e499f8c1d19a10bc34d9c9a2efb5d.1000x1000x1.jpg|2017|12|8
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+490909|​i am​﹥i was (Deluxe)|https://images.genius.com/b47acec06a9a9df343104f2d5220acaf.850x850x1.jpg|2018|12|24
+159262|Encore|https://images.genius.com/cd59234dade95974c644b48aae5131f5.1000x1000x1.jpg|2016|8|5
+349761|Steve Aoki Presents Kolony|https://images.genius.com/bd096cf1846be02f9aa295a90dae8082.500x500x1.jpg|2017|7|21
+121955|Peace Is the Mission|https://images.genius.com/62635e9bced3a1cb7a64da951a2e2981.1000x1000x1.jpg|2015|6|1
+345439|We Run This, Vol. 13|https://images.genius.com/d830c23645d7f7af55dc88ee034e1954.800x800x1.jpg|2017|None|None
+330126|Grateful|https://images.genius.com/c90ae8cb7ea3f842c15653ada87d68cb.1000x1000x1.jpg|2017|6|23
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+148977|Major Key |https://images.genius.com/c2a71cb6519fd58eeee43fc37d01954d.751x751x1.jpg|2016|7|29
+491157|Rodeo (Deluxe)|https://images.genius.com/5c7caca1f42c3e618913517934e64496.640x640x1.jpg|2015|9|4
+287219|I Decided.|https://images.genius.com/74cd28ef5c9f93715d79175cd8e5e81f.500x500x1.jpg|2017|2|3
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+|||||
+122102|AT.LONG.LAST.A$AP|https://images.genius.com/dc72683bf8dde390161846b4a8892563.800x800x1.jpg|2015|5|26
+23080|Hall of Fame|https://images.genius.com/59ed678a2cc7f73d33a26d29cd050498.600x600x1.jpg|2013|8|27
+|||||
+493501|Future Hndrxx Presents: The WIZRD|https://images.genius.com/34c65c1f7c7a487c413e910c3c5e6078.1000x1000x1.jpg|2019|1|18
+338359|Huncho Jack, Jack Huncho|https://images.genius.com/20b1cc084fe667536d25241bde3aae02.903x903x1.jpg|2017|12|21
+159234|Campaign|https://images.genius.com/e8b2ae22fb34b093da5b0adabdb46f49.1000x1000x1.jpg|2016|9|23
+|||||
+400933|Another Chapter|https://images.genius.com/75ffe6119417915283773c9a39a4da3b.500x500x1.jpg|2018|1|12
+120604|The Life of Pablo|https://images.genius.com/389e5fd1eff885b2e7b62060869945cc.1000x1000x1.jpg|2016|2|14
+152964|SHINE|https://images.genius.com/df9fa223157bf569597dc7509274af28.1000x1000x1.jpg|2017|4|28
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+|||||
+|||||
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+330126|Grateful|https://images.genius.com/c90ae8cb7ea3f842c15653ada87d68cb.1000x1000x1.jpg|2017|6|23
+145020|Rogue Waves|https://images.genius.com/fbf90fe9bffbc7af78ecfe66d697e5a1.1000x1000x1.jpg|2016|2|26
+129194|Lil' Duke|https://images.genius.com/6035a415fb5fc90788c82fdc43f53e99.500x500x1.jpg|2015|None|None
+|||||
+344158|Funk Wav Bounces Vol. 1|https://images.genius.com/1e8c29970fb0ccef810d23bbee92dd24.1000x1000x1.jpg|2017|6|30
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+483412|Neighbor - Single|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+330126|Grateful|https://images.genius.com/c90ae8cb7ea3f842c15653ada87d68cb.1000x1000x1.jpg|2017|6|23
+151804|Another Day In Paradise|https://images.genius.com/a5f5a086bc80168bbd2950cc1e054ee3.640x640x1.jpg|2016|None|None
+|||||
+|||||
+|||||
+352348|Jungle Rules|https://images.genius.com/8cbae287df9cfa8fe49f7703a1ecf6e6.600x600x1.jpg|2017|7|14
+|||||
+475009|NOT ALL HEROES WEAR CAPES|https://images.genius.com/a61ec48a6cabbd74a1197525a8aede14.1000x1000x1.jpg|2018|11|2
+134646|MMM (Money Making Mitch)|https://images.genius.com/21d215cf89aee07cde96db4d269e944d.512x512x1.jpg|2015|11|4
+|||||
+|||||
+342546|XXL Freshman 2013 Mixtape|https://images.genius.com/d066a9988a6b27fce3cb4f1430fd628f.660x660x1.jpg|2013|5|1
+|||||
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+74606|Beach House EP|https://images.genius.com/41775710ce877114d676a80aa7953524.600x600x1.jpg|2014|1|21
+44206|44108|https://images.genius.com/3ae84b594a511297bd256cc5b9c33afa.600x600x1.jpg|2014|9|4
+403708|2.23|https://images.genius.com/ee69076f1ce4965485804f46122faf1c.730x730x1.jpg|2018|2|23
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+221638|G.D.O.D. 1|https://images.genius.com/8ad28818e89281d7fc723e3256d524c4.500x500x1.jpg|2013|None|None
+14135|Dreamchasers 2|https://images.genius.com/a7bc28c05034136e861be4c94601d20a.500x500x1.jpg|2012|5|7
+493936|DJM1*|https://assets.genius.com/images/default_cover_art.png?1550698131|2019|None|None
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+|||||
+368316|Streets Need That 5|https://images.genius.com/ebb81e0725b6c88819f4bea86bf74da3.499x499x1.jpg|2017|9|8
+139001|Off The Books|https://images.genius.com/70bfaab8ab60abc2c2be1b84b345a76b.760x760x1.jpg|2015|None|None
+223092|Rubba Band Business: The Album|https://images.genius.com/1a6f031822fbbc13dd88dde9274ae125.1000x1000x1.jpg|2017|12|8
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+112495|G.D.O.D. 2|https://images.genius.com/68d56ac3b284966e171a69bbab78ce4c.500x500x1.jpg|2014|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+124141|Casino Life 2: Brown Bag Legend|https://images.genius.com/96869f3884648efe690e0328decb20bc.800x800x1.jpg|2015|None|None
+116859|Rebel Heart|https://images.genius.com/edcf4d6b5b1ed375bf932deb21ac8dde.1000x1000x1.png|2015|3|10
+|||||
+|||||
+110716|Days Before Rodeo|https://images.genius.com/ae4cdbfd5d98b2b161e9adb04edbe619.500x500x1.jpg|2014|8|18
+333548|The Fate of the Furious: The Album|https://images.genius.com/6856df92d41784e6d1bd023b4e381366.1000x1000x1.jpg|2017|4|12
+|||||
+144230|Wave Gods|https://images.genius.com/dd66018d36259dddbafee9dff1bd70f1.950x950x1.jpg|2016|2|19
+|||||
+30215|Love in the Future|https://images.genius.com/e95068be211e9b806bba3f57a14c7100.1000x994x1.jpg|2013|8|30
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+329219|No Dope on Sundays|https://images.genius.com/5375e2617f3e9e2cd264dc22bab71ecb.1000x1000x1.jpg|2017|11|17
+|||||
+|||||
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+|||||
+|||||
+370294|Joyride|https://images.genius.com/57b61ece3a2f8d6be1a1b9d4d7856b4f.939x939x1.jpg|2018|4|13
+346178|Neon Rain II|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+104864|Push 2|https://images.genius.com/26a09879d19fbee9a59ccb46f737c211.500x500x1.jpg|2014|6|3
+|||||
+|||||
+|||||
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+157008|Freshman Freestyles (Class of 2013)|https://images.genius.com/0f789841f35683899ac634daf282933d.670x913x1.jpg|2013|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+491316|Joyride [RCA Sessions]|https://images.genius.com/295f408212bac9b7d63fbfc3d557303a.444x444x1.jpg|||
+|||||
+42297|10pc. Mild|https://images.genius.com/ecdbceedc317b9f23b76e133ec1b6fa6.600x600x1.jpg|2013|8|13
+|||||
+134646|MMM (Money Making Mitch)|https://images.genius.com/21d215cf89aee07cde96db4d269e944d.512x512x1.jpg|2015|11|4
+|||||
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+322531|Bitch I'm the Shit 2|https://images.genius.com/7f204a563d298b826a62adb42e211e52.1000x1000x1.jpg|2017|7|21
+|||||
+221638|G.D.O.D. 1|https://images.genius.com/8ad28818e89281d7fc723e3256d524c4.500x500x1.jpg|2013|None|None
+22127|Owl Pharaoh|https://images.genius.com/d7c20b1db81c7a4cd9dffe5e0ec9ecaa.1000x1000x1.jpg|2013|5|21
+|||||
+100499|Low Pros EP 1|https://images.genius.com/f6dd0f64e542da6c46631362912a9ab4.608x607x1.jpg|2014|None|None
+|||||
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+|||||
+|||||
+|||||
+424001|Perfect Timing 2|https://images.genius.com/6632aac85abb4a9ab5572af4deb81c49.853x853x1.png|2019|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+494742|Party 101 - Single|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+454163|DPONTHEBEAT VOL 3|https://images.genius.com/a7dbae2494116ecf3814c15a2b219505.600x600x1.jpg|2018|8|17
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+142093|22|https://images.genius.com/e4de375f6a741094e4f20b81786ebacc.500x500x1.jpg|2016|None|None
+100499|Low Pros EP 1|https://images.genius.com/f6dd0f64e542da6c46631362912a9ab4.608x607x1.jpg|2014|None|None
+415153|Gunz & Roses|https://images.genius.com/9221276d79d896fbfa14efd79f83fa38.1000x1000x1.jpg|2018|3|29
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+128797|OVO Sound Radio Tracklists|https://images.genius.com/04763b7beb6bcd5ffd0fb8d5f44a4cf9.640x640x1.png|2015|7|11
+|||||
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+|||||
+|||||
+128797|OVO Sound Radio Tracklists|https://images.genius.com/04763b7beb6bcd5ffd0fb8d5f44a4cf9.640x640x1.png|2015|7|11
+|||||
+355159|Taking All Bets|https://images.genius.com/1ff5c78cbee316f0b13fd2129081f7ed.1000x1000x1.jpg|2017|7|13
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+|||||
+82282|SXEW|https://images.genius.com/188369b55e80ddb2b7023e0d70f23f4e.500x500x1.jpg|2014|None|None
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+|||||
+163341|.Wav Radio Tracklists|https://images.genius.com/e5863b1185ea9e4da7539db54a3116bc.560x560x1.png|2016|None|None
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+29667|All I've Ever Dreamed Of |https://images.genius.com/ea4755b4699f40593d231f631e773288.600x600x1.jpg|2013|None|None
+|||||
+|||||
+128797|OVO Sound Radio Tracklists|https://images.genius.com/04763b7beb6bcd5ffd0fb8d5f44a4cf9.640x640x1.png|2015|7|11
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+33161|Droptops|https://images.genius.com/46d5c810a835285cd488ab059bff416e.500x500x1.jpg|2013|None|None
+|||||
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+|||||
+|||||
+91670|Inland Empire|https://images.rapgenius.com/27e872aebad7a3613cc3a34f6e91349d.500x500x1.jpg|2012|None|None
+491316|Joyride [RCA Sessions]|https://images.genius.com/295f408212bac9b7d63fbfc3d557303a.444x444x1.jpg|||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+416393|Don't Look Down (Spotify Edition)|https://images.genius.com/f731125f52f78cf3727c619364e515e0.1000x1000x1.jpg|||
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+112495|G.D.O.D. 2|https://images.genius.com/68d56ac3b284966e171a69bbab78ce4c.500x500x1.jpg|2014|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+139385|The SN1 Folder|https://images.genius.com/c168be2dba77f6c0c4c4cae828434f7a.640x640x1.jpg|2015|None|None
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+|||||
+121955|Peace Is the Mission|https://images.genius.com/62635e9bced3a1cb7a64da951a2e2981.1000x1000x1.jpg|2015|6|1
+|||||
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+|||||
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+42297|10pc. Mild|https://images.genius.com/ecdbceedc317b9f23b76e133ec1b6fa6.600x600x1.jpg|2013|8|13
+|||||
+|||||
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+134040|Time Travel|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+351339|Appreciation 9|https://images.genius.com/d66fb72271eb6c221909011d883d71fe.499x499x1.jpg|2017|6|21
+|||||
+135508|Buddy Rich|https://images.genius.com/949903d55dac93cbd8b8eed08bea833b.600x600x1.png|2009|None|None
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+|||||
+221108|Days Before Ronde|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+|||||
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+119019|No More Words: Borderline Infamity|https://images.genius.com/5b417c9d895cd8160f55ad6d262d488c.1000x1000x1.jpg|2015|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+150320|The Graduates EP|https://images.rapgenius.com/343b01b3229f10347b8ad69904e4fdcb.772x772x1.png|2008|None|None
+206652|Human Condition: Doleo|https://images.genius.com/2d4d2914b53fb604da868df06e3fa954.700x700x1.jpg|2012|7|13
+|||||
+484354|TDS3*|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+133129|Cruis'n USA |https://images.genius.com/e229d5559cebcf18e183c4947570daee.500x500x1.jpg|2011|None|None
+|||||
+|||||
+|||||
+|||||
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+|||||
+351972|Cruis'n USA Deluxe|https://images.genius.com/57c2bd9c39e1f932ce03089fc2586ce8.300x300x1.jpg|2011|None|None
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+|||||
+|||||
+426157|DRAKE'S RETIREMENT PLAN - EP|https://assets.genius.com/images/default_cover_art.png?1550698131|2018|5|5
+404668|Pose (Dance Remixes)|https://images.genius.com/5323087b414135f860741e9165c927a8.206x206x1.jpg|2017|4|14
+|||||
+35712|The Glow 2|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+328310|A Tribute to Blink 182: Pacific Ridge Records Heroes of Pop-Punk|https://images.genius.com/84568cc97c0e4f91c98665ed60126155.600x600x1.jpg|2005|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+404668|Pose (Dance Remixes)|https://images.genius.com/5323087b414135f860741e9165c927a8.206x206x1.jpg|2017|4|14
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+135508|Buddy Rich|https://images.genius.com/949903d55dac93cbd8b8eed08bea833b.600x600x1.png|2009|None|None
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+171479|Third Power|https://images.genius.com/471c4ad362ffa501f898e75ba19e64d5.1000x1000x1.jpg|2011|10|11
+|||||
+|||||
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+351972|Cruis'n USA Deluxe|https://images.genius.com/57c2bd9c39e1f932ce03089fc2586ce8.300x300x1.jpg|2011|None|None
+|||||
+|||||
+420678|Young Heart Throb - EP|https://images.genius.com/7a294898c8db5ba892a2941cc99a166d.499x499x1.jpg|2015|4|10
+404668|Pose (Dance Remixes)|https://images.genius.com/5323087b414135f860741e9165c927a8.206x206x1.jpg|2017|4|14
+|||||
+351972|Cruis'n USA Deluxe|https://images.genius.com/57c2bd9c39e1f932ce03089fc2586ce8.300x300x1.jpg|2011|None|None
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+|||||
+|||||
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+|||||
+404668|Pose (Dance Remixes)|https://images.genius.com/5323087b414135f860741e9165c927a8.206x206x1.jpg|2017|4|14
+389176|Know No Better (Remixes)|https://images.genius.com/bb666b6bf2b7fe79ab57a0492d715e7a.600x600x1.jpg|2017|6|1
+137926|B.A.P.E.|https://images.genius.com/cb2b2be3c72f193a906958202ef3611f.285x285x1.png|2009|None|None
+|||||
+494547|Note To Self|https://images.genius.com/1d9d7302e6a8e274cc353f96eb65cb8b.1000x1000x1.jpg|2019|7|None
+|||||
+333225|Croissant|https://images.genius.com/c7e441d6f6188a780c1e3864f8ca347f.500x500x1.jpg|||
+123842|BLAKKK|https://images.genius.com/55fee46f8f9efbb9e3d68b3d05bac833.800x800x1.jpg|2015|9|13
+|||||
+|||||
+|||||
+|||||
+|||||
+122963|Astroworld|https://images.genius.com/e81179d1da0380777b257d38c947a0eb.500x500x1.jpg|2013|5|28
+|||||
+471732|TRD the EP|https://assets.genius.com/images/default_cover_art.png?1550179390|2019|1|15
+104500|Tortoise 1.75 - EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+504264|DISSALBUM|https://images.genius.com/82cbf5b65497053325f4453dca493de4.461x461x1.png|||
+504264|DISSALBUM|https://images.genius.com/82cbf5b65497053325f4453dca493de4.461x461x1.png|||
+504264|DISSALBUM|https://images.genius.com/82cbf5b65497053325f4453dca493de4.461x461x1.png|||
+|||||
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+152654|ASTROWORLD|https://images.genius.com/9c8508d3056b146aee2ad72d5f0606e7.926x926x1.jpg|2018|8|3
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+503420|Drip Season 3 (Deluxe)|https://images.genius.com/7e6311cef38ddab5026c55f59de62b4f.1000x1000x1.jpg|2018|2|2
+|||||
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+503420|Drip Season 3 (Deluxe)|https://images.genius.com/7e6311cef38ddab5026c55f59de62b4f.1000x1000x1.jpg|2018|2|2
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+503420|Drip Season 3 (Deluxe)|https://images.genius.com/7e6311cef38ddab5026c55f59de62b4f.1000x1000x1.jpg|2018|2|2
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+419783|Harder Than Ever|https://images.genius.com/9103682e86932ec8232f7eef978e10ed.1000x1000x1.jpg|2018|5|18
+439636|Fully Loaded|https://images.genius.com/7c3df54f11869ca3b3c81da28c94feea.1000x1000x1.jpg|2018|10|12
+503420|Drip Season 3 (Deluxe)|https://images.genius.com/7e6311cef38ddab5026c55f59de62b4f.1000x1000x1.jpg|2018|2|2
+423911|RECKLESS|https://images.genius.com/dd66e048e0dc8003d38644746c33d388.1000x1000x1.jpg|2018|5|18
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+439392|LoVE mE NOw?|https://images.genius.com/09995d8c7bff624252af04b5c019e723.1000x1000x1.jpg|2018|10|26
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+447697|I Am You|https://images.genius.com/0e0522b6466c3e1e62ae6bed3f8f9f6d.726x726x1.jpg|2018|8|3
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+429103|Drip Harder|https://images.genius.com/94f5c194cc7629cf060714e5795f6c96.1000x1000x1.jpg|2018|10|5
+439392|LoVE mE NOw?|https://images.genius.com/09995d8c7bff624252af04b5c019e723.1000x1000x1.jpg|2018|10|26
+447752|Bet On Me|https://images.genius.com/9bc205b919e35ef5424d5b7e3ed21a97.1000x1000x1.jpg|2018|8|3
+374537|Too Hard|https://images.genius.com/edf084f374363aa1403a9e5d3ef8b177.1000x1000x1.jpg|2017|12|1
+|||||
+374537|Too Hard|https://images.genius.com/edf084f374363aa1403a9e5d3ef8b177.1000x1000x1.jpg|2017|12|1
+453633|Slime Language|https://images.genius.com/54b22adf2c79e1df9cb61a1db387ed4c.1000x1000x1.jpg|2018|8|17
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+439822|GHETTO|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+378851|Missed Calls|https://images.genius.com/f230343921a7c7bbfb97c15d1b0638d9.1000x1000x1.jpg|2018|12|14
+384830|Gift From the Ghetto|https://images.genius.com/edbd13c3ff8e311405930bd63f1ae5bb.640x640x1.jpg|2018|None|None
+|||||
+455842|Birthday Mix 3|https://images.genius.com/1bc99e1de2c6d4741216fe9aa7045b8f.500x500x1.jpg|2018|8|23
+504277|Yanna|https://images.genius.com/453b3d9a6df36fa19f5ea1fc56341ac9.500x500x1.jpg|2019|1|26
+|||||
+|||||
+496904|Untitled EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+430348|City of God|https://images.genius.com/7842ee714ea1001703b589bf924dadb2.500x500x1.jpg|2018|5|24
+337699|We Want Smoke|https://images.genius.com/3b336717ad45901dcd92e0ed237be9e0.1000x1000x1.jpg|2017|10|13
+|||||
+407973|Lingo II: The Return|https://images.genius.com/5d1fc3319598dfe3e15192de2e2a374a.1000x1000x1.jpg|2018|3|10
+|||||
+444344|Sute Albastre|https://images.genius.com/35714e8bbd4062829a7b05cc787b8e25.727x727x1.png|||
+337699|We Want Smoke|https://images.genius.com/3b336717ad45901dcd92e0ed237be9e0.1000x1000x1.jpg|2017|10|13
+337699|We Want Smoke|https://images.genius.com/3b336717ad45901dcd92e0ed237be9e0.1000x1000x1.jpg|2017|10|13
+486766|FFM Freestyle | Новогодний сезон (New Year Season)|https://images.genius.com/8ef349e0a2f6425d85ba82bc43d866ba.450x450x1.jpg|2018|12|None
+149918|Bankroll Mafia|https://images.genius.com/304fe9bb5fd2f7d0287fa60a8eb11bc1.398x398x1.png|2016|None|None
+435191|God Level|https://images.genius.com/5ad08904470752bc349c5e02f3671b6f.1000x1000x1.jpg|2018|6|26
+457298|Rixh Blxxd|https://images.genius.com/cabb65022f2893162f285ceed289fc8f.1000x1000x1.jpg|2018|6|11
+435191|God Level|https://images.genius.com/5ad08904470752bc349c5e02f3671b6f.1000x1000x1.jpg|2018|6|26
+442750|Slicey|https://images.genius.com/c6eddc9342999b331d445b1a2b7c450c.500x500x1.jpg|2018|7|4
+468529|MO$HPIT|https://images.genius.com/448e71475dfbf1a49694325f3eadd55d.183x183x1.jpg|2018|11|23
+426724|I Swear 2|https://images.genius.com/c134f5c3fff8db56474c2a818b2ed3c8.500x500x1.jpg|2018|5|5
+493463|Sauce Eskobar 2|https://images.genius.com/2f2ae729740e3671ccabcf9673731c2a.1000x1000x1.jpg|2019|1|4
+|||||
+|||||
+496904|Untitled EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+389424|Soufside Stories Vol.1|https://images.genius.com/931894ab6c6cab777f3a3028fd6c5f63.800x800x1.jpg|||
+|||||
+442750|Slicey|https://images.genius.com/c6eddc9342999b331d445b1a2b7c450c.500x500x1.jpg|2018|7|4
+505861|FREESTYLE SHIT VOL.2|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+399449|Risk=Reward 2|https://images.genius.com/ecc2959a4f28ddffbdd53fcc4f3c3559.1000x1000x1.jpg|2018|1|12
+442750|Slicey|https://images.genius.com/c6eddc9342999b331d445b1a2b7c450c.500x500x1.jpg|2018|7|4
+|||||
+|||||
+|||||
+|||||
+|||||
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+472020|Drip or Drown 2|https://images.genius.com/86d0088c48b057382ec8ddaa2b188839.1000x1000x1.jpg|2019|2|22
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10780|nostalgia,ULTRA.|https://images.genius.com/7a9bf37d2eb6a00249c3991467c1d8ad.1000x1000x1.jpg|2011|2|16
+395779|TESTING|https://images.genius.com/0635bd3f246cb6af9c8aa48a06263c39.1000x1000x1.jpg|2018|5|25
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+9859|The R.E.D. Album|https://images.genius.com/5f5301fa46a1afd76d0d034e80d23434.1000x1000x1.jpg|2011|8|23
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+328570|Doris|https://images.genius.com/4ffe0cff138a9901c8034b4cf5a92b79.630x630x1.jpg|2013|8|20
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+|||||
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+160640|Cozy Tapes, Vol. 1: Friends|https://images.genius.com/bb498d327c020c240c2489256f22c120.1000x1000x1.jpg|2016|10|31
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+164538|Blonde |https://images.genius.com/ccc0894094b9a3cbb47a45ec0c69b1f0.1000x1000x1.jpg|2016|8|20
+448031|WANG$AP|https://images.genius.com/3634297a2d74dc2b08a4c52588658752.1000x1000x1.png|||
+|||||
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+|||||
+11337|Fear of God II: Let Us Pray|https://images.genius.com/155375197720801e2327d2fc95837d08.1000x1000x1.jpg|2011|11|11
+17873|channel ORANGE|https://images.genius.com/4ab0e638c30751a3edfe0143e5337c68.1000x1000x1.jpg|2012|7|10
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+309595|SYRE|https://images.genius.com/e47f7258eb8da1159a447f07a3bc2b12.1000x1000x1.jpg|2017|11|17
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+362481|Isolation|https://images.genius.com/9e44b8e2ef79be2540acda8d1efae7f4.1000x1000x1.jpg|2018|4|6
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+328570|Doris|https://images.genius.com/4ffe0cff138a9901c8034b4cf5a92b79.630x630x1.jpg|2013|8|20
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+43507|The Music of Grand Theft Auto V|https://images.genius.com/0b15e54db4148fb09424391967a73bc2.480x480x1.png|2013|None|None
+|||||
+309595|SYRE|https://images.genius.com/e47f7258eb8da1159a447f07a3bc2b12.1000x1000x1.jpg|2017|11|17
+30268|Watching Movies With the Sound Off|https://images.genius.com/d30ed9fe2a8bfc9548246b5ebd1bb087.1000x1000x1.jpg|2013|6|18
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+18842|Wolf|https://images.genius.com/dde81a162bfe7b81092c8630cdf16d70.1000x1000x1.jpg|2013|4|1
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+309595|SYRE|https://images.genius.com/e47f7258eb8da1159a447f07a3bc2b12.1000x1000x1.jpg|2017|11|17
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+128662|GO:OD AM |https://images.genius.com/f2c75e5f34f94ec77aa311b7e5f73226.1000x1000x1.jpg|2015|9|18
+125539|Ego Death|https://images.genius.com/c74743926c766d19f5e64d1dc45a6a04.1000x1000x1.jpg|2015|6|26
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+352640|Flower Boy|https://images.genius.com/657250fbf21b4b4814e4bbab1b2000b5.1000x1000x1.jpg|2017|7|21
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+395779|TESTING|https://images.genius.com/0635bd3f246cb6af9c8aa48a06263c39.1000x1000x1.jpg|2018|5|25
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+|||||
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+|||||
+10804|BlackenedWhite|https://images.genius.com/c7bdda9cd8150f6d44a37fd8ae2b3dbb.300x300x1.png|2011|None|None
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+12413|Expensive Pasta|https://images.genius.com/bac5a1f08c6085e0ca2e3a09d5dc9380.713x713x1.jpg|2011|None|None
+120604|The Life of Pablo|https://images.genius.com/389e5fd1eff885b2e7b62060869945cc.1000x1000x1.jpg|2016|2|14
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+16102|Customized Greatly Vol. 3|https://images.genius.com/28eb51ba21c0b473fc0f5f74d662ccb2.500x500x1.jpg|2012|4|9
+128662|GO:OD AM |https://images.genius.com/f2c75e5f34f94ec77aa311b7e5f73226.1000x1000x1.jpg|2015|9|18
+12413|Expensive Pasta|https://images.genius.com/bac5a1f08c6085e0ca2e3a09d5dc9380.713x713x1.jpg|2011|None|None
+462684|Dr. Seuss' the Grinch (Original Motion Picture Soundtrack)|https://images.genius.com/52ab633f68859b505885a8d7f8637335.750x750x1.jpg|2018|11|9
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+10763|Earl|https://images.genius.com/686e994c9078e4edf012d684e6850747.500x500x1.jpg|2010|3|31
+122895|Cherry Bomb|https://images.genius.com/dd2408d3a2d34699d2bb3e448679b7f1.1000x1000x1.jpg|2015|4|13
+|||||
+10761|Bastard|https://images.genius.com/cb0b25f99dd81109efa8db270a933a38.500x500x1.jpg|2009|12|25
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+119239|Por Vida|https://images.genius.com/0c1f0528a82cdcd49c11557434cbb0e7.1000x1000x1.jpg|2015|2|4
+|||||
+462684|Dr. Seuss' the Grinch (Original Motion Picture Soundtrack)|https://images.genius.com/52ab633f68859b505885a8d7f8637335.750x750x1.jpg|2018|11|9
+|||||
+15049|The OF Tape Vol. 2|https://images.genius.com/2f8e4c594b43d3cdc76732c1ee8a201b.626x626x1.jpg|2012|3|20
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+119239|Por Vida|https://images.genius.com/0c1f0528a82cdcd49c11557434cbb0e7.1000x1000x1.jpg|2015|2|4
+19208|No Idols|https://images.genius.com/38fde1b28ffceccd5ea601dd815135da.1000x1000x1.jpg|2012|None|None
+45143|MellowHigh|https://images.genius.com/abe51e5582b790c0c28151850e98d2c6.990x990x1.jpg|2014|None|None
+|||||
+|||||
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+10804|BlackenedWhite|https://images.genius.com/c7bdda9cd8150f6d44a37fd8ae2b3dbb.300x300x1.png|2011|None|None
+|||||
+17873|channel ORANGE|https://images.genius.com/4ab0e638c30751a3edfe0143e5337c68.1000x1000x1.jpg|2012|7|10
+|||||
+|||||
+|||||
+|||||
+|||||
+424963|I Follow Rivers - EP|https://images.genius.com/cb5303ec900bc2d8df6b89f5db252890.1000x1000x1.jpg|2011|None|None
+|||||
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+129480|Odd Future Unreleased Volume 3 |https://images.genius.com/35828591043ba6da2878295fc509cf11.500x500x1.jpg|2011|None|None
+|||||
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+21399|Salute Me Or Shoot Me 4|https://images.genius.com/71fc1c76d09b0094fc67661f5b94b689.612x612x1.jpg|2012|9|13
+|||||
+13280|Sleeping in Class|https://images.genius.com/aaf0da7a07e05d17ff3c822d7769bd09.500x500x1.jpg|2011|9|20
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+|||||
+10845|YelloWhite|https://images.genius.com/1a76b9bb427415cd0e64e484d81ecd72.320x320x1.jpg|2010|2|24
+|||||
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+11057|Well Done 2|https://images.genius.com/4a0195b7560125942c4b63bdc212b4e0.320x320x1.jpg|2011|None|None
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+303377|What's Poppin Volume 1|https://images.rapgenius.com/8zlcn04yow1pu64vzrhsrtpbv.750x750x1.jpg|2011|None|None
+129484|Odd Future Unreleased Volume 2 |https://images.genius.com/0d17861e296ecb5ed2192d91a0520e5c.1000x1000x1.jpg|2011|None|None
+|||||
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+|||||
+|||||
+|||||
+146796|Genesis|https://images.genius.com/896985c19d906079417b2c328512d56b.600x600x1.jpg|2016|None|None
+12380|Under the Influence |https://images.genius.com/88a7a75cd7d1424f594ee4ce7f478701.648x648x1.jpg|2011|None|None
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+|||||
+11009|Numbers|https://images.genius.com/34ab697c0bba90af29448fb093f1a0aa.427x427x1.jpg|2012|10|9
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+|||||
+|||||
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+|||||
+21472|Quality Street Music|https://images.genius.com/75f100964549edeaac783d1725531b12.1000x1000x1.jpg|2012|10|2
+|||||
+11361|I Smell Panties EP|https://images.genius.com/f3d4fecd5b10b198e62b192eaba61c4a.700x700x1.jpg|2008|6|28
+14438|Ali|https://images.genius.com/1135a185cce4dd6516f778878426b6cd.500x500x1.jpg|2010|None|None
+|||||
+129480|Odd Future Unreleased Volume 3 |https://images.genius.com/35828591043ba6da2878295fc509cf11.500x500x1.jpg|2011|None|None
+45143|MellowHigh|https://images.genius.com/abe51e5582b790c0c28151850e98d2c6.990x990x1.jpg|2014|None|None
+|||||
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+129481|Odd Future Unreleased Volume 1 |https://images.genius.com/e8d6a379d9f9cf188e3324cf11ca5754.630x630x1.jpg|2011|None|None
+|||||
+|||||
+|||||
+11361|I Smell Panties EP|https://images.genius.com/f3d4fecd5b10b198e62b192eaba61c4a.700x700x1.jpg|2008|6|28
+11177|Journey to the 5th Echelon|https://images.genius.com/7ad8cb5c654abd3278eb7408d78ea682.800x791x1.jpg|2010|12|31
+|||||
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+326195|The Drum Chord Theory|https://images.genius.com/91a4ff81711aa4d86627f4e46c335315.600x600x1.jpg|2017|1|27
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+10845|YelloWhite|https://images.genius.com/1a76b9bb427415cd0e64e484d81ecd72.320x320x1.jpg|2010|2|24
+11361|I Smell Panties EP|https://images.genius.com/f3d4fecd5b10b198e62b192eaba61c4a.700x700x1.jpg|2008|6|28
+129484|Odd Future Unreleased Volume 2 |https://images.genius.com/0d17861e296ecb5ed2192d91a0520e5c.1000x1000x1.jpg|2011|None|None
+|||||
+|||||
+10845|YelloWhite|https://images.genius.com/1a76b9bb427415cd0e64e484d81ecd72.320x320x1.jpg|2010|2|24
+129481|Odd Future Unreleased Volume 1 |https://images.genius.com/e8d6a379d9f9cf188e3324cf11ca5754.630x630x1.jpg|2011|None|None
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+|||||
+|||||
+|||||
+|||||
+129479|Odd Future Unreleased Volume 4 |https://images.genius.com/133587dfd0c4f3581137a5d12b944067.500x500x1.jpg|2012|None|None
+|||||
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+10762|Goblin|https://images.genius.com/12880d6224a850a33be0d7c97e601adb.500x500x1.jpg|2011|5|10
+118989|Live & Grow|https://images.genius.com/e4635c8f2676255ecd4610e6ea16dd52.1000x1000x1.jpg|2015|9|25
+|||||
+129479|Odd Future Unreleased Volume 4 |https://images.genius.com/133587dfd0c4f3581137a5d12b944067.500x500x1.jpg|2012|None|None
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+164567|Boys Don't Cry (Magazine)|https://images.genius.com/853be83cc8246a7c9d383f352f1f4a3d.800x800x1.jpg|2016|8|21
+|||||
+|||||
+|||||
+331138|I Hate My Life and I Really Wish People Would Stop Telling Me Not To|https://images.genius.com/7dfe5d6a2fcf080cbb2bff4823f9f828.1000x1000x1.jpg|2018|12|12
+|||||
+287065|Can I Hold Your Hand?|https://images.genius.com/644c20f105dc9d3eee35a0cc129eac22.350x345x1.png|2010|4|None
+|||||
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+|||||
+|||||
+10804|BlackenedWhite|https://images.genius.com/c7bdda9cd8150f6d44a37fd8ae2b3dbb.300x300x1.png|2011|None|None
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+|||||
+|||||
+142134|Video Breakdowns|https://images.genius.com/03e4bb255f63159c04f3bc7fe5f90fe0.750x750x1.png|||
+|||||
+81405|119|https://images.genius.com/3cd9b9b5e19f72bfb8b9d6fca4c2d8fd.500x452x1.png|2012|None|None
+331138|I Hate My Life and I Really Wish People Would Stop Telling Me Not To|https://images.genius.com/7dfe5d6a2fcf080cbb2bff4823f9f828.1000x1000x1.jpg|2018|12|12
+35830|Volume: One! For the Money|https://images.genius.com/c629cda714d1a967ac9eda7824c367df.600x600x1.jpg|2008|8|26
+|||||
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+|||||
+11361|I Smell Panties EP|https://images.genius.com/f3d4fecd5b10b198e62b192eaba61c4a.700x700x1.jpg|2008|6|28
+|||||
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+11361|I Smell Panties EP|https://images.genius.com/f3d4fecd5b10b198e62b192eaba61c4a.700x700x1.jpg|2008|6|28
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+129481|Odd Future Unreleased Volume 1 |https://images.genius.com/e8d6a379d9f9cf188e3324cf11ca5754.630x630x1.jpg|2011|None|None
+14438|Ali|https://images.genius.com/1135a185cce4dd6516f778878426b6cd.500x500x1.jpg|2010|None|None
+479724|Music Inspired by Illumination & Dr. Seuss' The Grinch - EP|https://images.genius.com/675433e2d1ee3509aaea0d083f4f8d32.640x640x1.jpg|2018|11|16
+11275|Customized  Greatly Vol. 1|https://images.genius.com/dd17019850fcbc3859bfd737bd599ed8.500x500x1.jpg|2008|3|29
+|||||
+|||||
+|||||
+|||||
+|||||
+128797|OVO Sound Radio Tracklists|https://images.genius.com/04763b7beb6bcd5ffd0fb8d5f44a4cf9.640x640x1.png|2015|7|11
+|||||
+269688|Purple Naked Ladies: 4 Bonus Songs|https://images.genius.com/36247e3d79b9409754f7b104e3758e01.1000x957x1.jpg|2012|2|1
+326195|The Drum Chord Theory|https://images.genius.com/91a4ff81711aa4d86627f4e46c335315.600x600x1.jpg|2017|1|27
+|||||
+10817|The Dena Tape|https://images.genius.com/47910dd2ce60e9b57be9a139d54cc41e.408x427x1.png|2009|7|7
+56273|Issue #103 The 'Hang Out In Real Life' Issue|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+|||||
+10817|The Dena Tape|https://images.genius.com/47910dd2ce60e9b57be9a139d54cc41e.408x427x1.png|2009|7|7
+|||||
+|||||
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+|||||
+331138|I Hate My Life and I Really Wish People Would Stop Telling Me Not To|https://images.genius.com/7dfe5d6a2fcf080cbb2bff4823f9f828.1000x1000x1.jpg|2018|12|12
+|||||
+10817|The Dena Tape|https://images.genius.com/47910dd2ce60e9b57be9a139d54cc41e.408x427x1.png|2009|7|7
+164986|Volume: Two! For the Show|https://images.genius.com/68d31cfa3f42ed7eb96514ef18e56c4e.1000x750x1.jpg|2009|2|23
+|||||
+11169|Radical|https://images.genius.com/bcabf59cc72820a365121d01e25cb996.500x500x1.jpg|2010|5|7
+|||||
+10810|Rolling Papers|https://images.genius.com/e23a697e05278fb88c50db77990b5993.500x500x1.jpg|2010|8|30
+129480|Odd Future Unreleased Volume 3 |https://images.genius.com/35828591043ba6da2878295fc509cf11.500x500x1.jpg|2011|None|None
+|||||
+|||||
+15983|California Republic|https://images.genius.com/4df2274fd6c2945603a7115c9c9d1284.500x500x1.jpg|2012|4|5
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+104562|The Odd Future Tape|https://images.genius.com/85124c1f0e35e7bf5f8ec6253ca89344.500x500x1.jpg|2008|11|16
+331138|I Hate My Life and I Really Wish People Would Stop Telling Me Not To|https://images.genius.com/7dfe5d6a2fcf080cbb2bff4823f9f828.1000x1000x1.jpg|2018|12|12
+331138|I Hate My Life and I Really Wish People Would Stop Telling Me Not To|https://images.genius.com/7dfe5d6a2fcf080cbb2bff4823f9f828.1000x1000x1.jpg|2018|12|12
+|||||
+350263|Burn My Name|https://images.genius.com/eaee1866a55663e6c57a55c562806539.1000x1000x1.jpg|2017|6|19
+|||||
+|||||
+129479|Odd Future Unreleased Volume 4 |https://images.genius.com/133587dfd0c4f3581137a5d12b944067.500x500x1.jpg|2012|None|None
+|||||
+|||||
+350814|No Jokes|https://images.genius.com/17c6ec9b09899fc10af747d207926789.1000x1000x1.jpg|2014|1|1
+|||||
+|||||
+52727|Mike Check Vol. II|https://images.genius.com/4caa019aa34ac33bccfc70874272b385.600x600x1.jpg|2016|None|None
+|||||
+|||||
+14438|Ali|https://images.genius.com/1135a185cce4dd6516f778878426b6cd.500x500x1.jpg|2010|None|None
+|||||
+129484|Odd Future Unreleased Volume 2 |https://images.genius.com/0d17861e296ecb5ed2192d91a0520e5c.1000x1000x1.jpg|2011|None|None
+129479|Odd Future Unreleased Volume 4 |https://images.genius.com/133587dfd0c4f3581137a5d12b944067.500x500x1.jpg|2012|None|None
+|||||
+|||||
+|||||
+118747|Award Tour II - EP|https://images.genius.com/80b25770ae79653f7e49d8c5acea9eaa.658x658x1.jpg|2015|1|26
+|||||
+|||||
+|||||
+11275|Customized  Greatly Vol. 1|https://images.genius.com/dd17019850fcbc3859bfd737bd599ed8.500x500x1.jpg|2008|3|29
+11275|Customized  Greatly Vol. 1|https://images.genius.com/dd17019850fcbc3859bfd737bd599ed8.500x500x1.jpg|2008|3|29
+35830|Volume: One! For the Money|https://images.genius.com/c629cda714d1a967ac9eda7824c367df.600x600x1.jpg|2008|8|26
+129481|Odd Future Unreleased Volume 1 |https://images.genius.com/e8d6a379d9f9cf188e3324cf11ca5754.630x630x1.jpg|2011|None|None
+|||||
+49935|BBNG|https://images.genius.com/71814udnb2qv051nzbr63uqtc.800x800x1.png|2011|None|None
+328452|After Skool Volume 1|https://images.genius.com/4b8e4a588b35d736b68b65a4a967ca5e.1000x677x1.jpg|2009|None|None
+460037|Tales From The Chicago Kid|https://images.genius.com/8991db17b4ea5d7566fb190111790c06.890x890x1.jpg|2018|9|7
+129481|Odd Future Unreleased Volume 1 |https://images.genius.com/e8d6a379d9f9cf188e3324cf11ca5754.630x630x1.jpg|2011|None|None
+|||||
+129479|Odd Future Unreleased Volume 4 |https://images.genius.com/133587dfd0c4f3581137a5d12b944067.500x500x1.jpg|2012|None|None
+35830|Volume: One! For the Money|https://images.genius.com/c629cda714d1a967ac9eda7824c367df.600x600x1.jpg|2008|8|26
+466016|TDE Leaks |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+16725|Customized  Greatly Vol. 2|https://images.genius.com/1a029e524a5e116fb4512ade4b883627.756x720x1.jpg|2009|8|22
+|||||
+|||||
+|||||
+16725|Customized  Greatly Vol. 2|https://images.genius.com/1a029e524a5e116fb4512ade4b883627.756x720x1.jpg|2009|8|22
+|||||
+164986|Volume: Two! For the Show|https://images.genius.com/68d31cfa3f42ed7eb96514ef18e56c4e.1000x750x1.jpg|2009|2|23
+|||||
+58146|Fit of the day|https://images.genius.com/2s3zzejl2o4djvfbeeulliiu.1000x352x1.png|2013|None|None
+469933|S4*|https://assets.genius.com/images/default_cover_art.png?1550698131|2019|None|None
+|||||
+|||||
+323556|งานอดิเรก EP|https://images.genius.com/8b2357b966bcbc9153d804a132445265.900x900x1.jpg|2016|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+432331|Mary's Mandolin|https://images.genius.com/df1572211dd9bf94bed97653c37986c0.1000x1000x1.jpg|2018|5|25
+|||||
+64532|Dopest Out |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+470594|Midnight Climax|https://images.genius.com/148e86e6f11a471c88740379207eb1a6.1000x1000x1.png|||
+|||||
+399438|The V Pack|https://images.genius.com/232f845900336ac5d29f024f0269fb04.750x750x1.jpg|2018|None|None
+|||||
+|||||
+|||||
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+|||||
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+|||||
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+415582|TRXP GOD|https://images.genius.com/eef7d86a95f30756dbdc50733cc581b5.374x374x1.png|2018|7|4
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+452400|STXYING SXFE.|https://images.genius.com/fe96e5217c0bf047d252a5aebe2eab59.418x418x1.jpg|2018|11|10
+16312|LONG.LIVE.A$AP|https://images.genius.com/75621d1119a70043aadbe3fbf4387d88.640x640x1.jpg|2013|1|15
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+|||||
+394215|P2|https://images.genius.com/eb0114801788fcac3e4a1ed56571cb44.1000x1000x1.jpg|2018|1|16
+34769|OKE: Operation Kill Everything |https://images.genius.com/f04f9b2892eac01c8dd7876593883785.500x500x1.jpg|2013|10|8
+36890|B.O.A.T.S. II #METIME|https://s3.amazonaws.com/rapgenius/UMG_cvrart_00602537507474_01_RGB72_1500x1500_13UAAIM70647.1200x1200-75.jpg|2013|9|9
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+48591| A$ton 3:16|https://images.genius.com/103d9253d69ccc9cdf420e8f83e30587.500x500x1.jpg|2014|None|None
+205464|Jet World Order|https://images.genius.com/359f975c10355f1c8a1375cb2a12bcb4.407x400x1.jpg|2011|None|None
+309248|Filthy America… It's Beautiful|https://images.genius.com/29f424588405412d2af99dcd9741162a.1000x1000x1.jpg|2016|12|16
+19191|V6: The Gift|https://images.genius.com/5de65af60e7de908dd9f8dc0cc5354d2.500x500x1.jpg|2012|7|24
+125065|Undisputed|https://images.genius.com/d079dbdd6dcd2b4b76ba6391d95cb270.500x500x1.jpg|2011|5|23
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+122927|Finesse The World|https://images.genius.com/207685769477eb44dc826ac929dd4ebb.800x800x1.jpg|2015|6|30
+221775|Krux|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+38031|V.I.C.E.S|https://images.genius.com/98d0e9f8e8520567640e21c00d1c4c79.600x600x1.jpg|2013|6|30
+|||||
+20633|Strictly 4 My P.A.P.I.Z|https://images.genius.com/fb6cc228b459c1654b2a5dd9a434fdac.1000x1000x1.jpg|2012|10|17
+322523|After Dark 3: DOMT Tour Edition|https://images.genius.com/2c11d78783b34f95877e0b8af1506df5.1000x1000x1.jpg|2016|None|None
+|||||
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+130778|17 More Minutes|https://images.rapgenius.com/8411688984f5548b0fe502846be553b1.512x512x1.jpg|2015|9|16
+20709|Loosies & Brewskies|https://images.genius.com/5eacbd32ae1da5d6781661257d0bd61c.1000x1000x1.png|2011|None|None
+303999|Loose Skrew|https://images.genius.com/ce779f993d042ed23c9b1e3d55539034.1000x1000x1.jpg|2017|12|15
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+|||||
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+18104|Consignment|https://images.genius.com/99e32a384a98e47007039ddd63b2414b.220x220x1.jpg|2012|4|27
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+|||||
+23111|Gangland Mixtape|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+143284|Super Villain|https://images.genius.com/be45392402e88f0501b16fc3398aeb05.600x600x1.jpg|2016|None|None
+|||||
+407006|IN2DEEP|https://images.genius.com/4b313dfa491fb94dde21db14a7a2052f.500x500x1.jpg|2017|8|23
+85951|Dream.ZONE.Achieve|https://images.genius.com/eb25090ceac3a74ee59a55d898e514c5.500x500x1.jpg|2014|None|None
+327093|Last Night In Japan|https://images.genius.com/341b8594175248818a21e2431275a576.500x500x1.png|2015|12|15
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+145331|Smoke & Mirrors: DMT (Definitive Metagod Trilogy)|https://images.genius.com/2e4d2c0ec4f6287387ad979e4dabaca7.640x640x1.jpg|2016|None|None
+487084|R2|https://assets.genius.com/images/default_cover_art.png?1550698131|2019|None|None
+|||||
+|||||
+11181|Street King|https://images.genius.com/0018fb71204f29ec600cdfddabd620d2.1000x1000x1.jpg|2011|7|12
+341857|PAPI|https://images.genius.com/11475c569655d2e6f145e62c60363628.1000x1000x1.jpg|2018|4|13
+107928|Electric Lucifer|https://images.genius.com/a3d732b480aa081c55a4a3a3de44b395.960x960x1.jpg|2013|10|None
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+122237|Sidewalk Exec|https://images.genius.com/0a021f6b4c5b3645e8ac185259e6701b.640x640x1.jpg|2015|4|14
+494430|V'Don Presents Lab Work: Volume 1|https://images.genius.com/02037207a147a6047997c7a0caf38e8b.600x600x1.png|2013|11|1
+370507|Deutsche Marks|https://images.genius.com/be5daf677abc20894b92a42b688650e1.1000x1000x1.jpg|2017|5|19
+|||||
+85951|Dream.ZONE.Achieve|https://images.genius.com/eb25090ceac3a74ee59a55d898e514c5.500x500x1.jpg|2014|None|None
+20633|Strictly 4 My P.A.P.I.Z|https://images.genius.com/fb6cc228b459c1654b2a5dd9a434fdac.1000x1000x1.jpg|2012|10|17
+|||||
+143284|Super Villain|https://images.genius.com/be45392402e88f0501b16fc3398aeb05.600x600x1.jpg|2016|None|None
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+133387|Menace TAN Society|https://images.genius.com/d9c8382f1dd77bf19c263591d028d097.500x500x1.jpg|2015|9|25
+85951|Dream.ZONE.Achieve|https://images.genius.com/eb25090ceac3a74ee59a55d898e514c5.500x500x1.jpg|2014|None|None
+28636|Nose Candy|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+28636|Nose Candy|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+59964|I Am King|https://images.genius.com/6008667aa3de113534ca378c21b19761.640x640x1.jpg|2013|11|25
+86486|Keys Of Heaven|https://images.genius.com/63b8c9f69b56538453a0c922fe9bbe1e.1000x1000x1.jpg|2014|None|None
+370673|Greatest Rapper Alive|https://images.genius.com/b8555cc5666c1eb197d6d4c7987aac93.1000x1000x1.jpg|2017|2|13
+107928|Electric Lucifer|https://images.genius.com/a3d732b480aa081c55a4a3a3de44b395.960x960x1.jpg|2013|10|None
+48603|Pain & Glory 2|https://images.genius.com/01c873042def4351310405d9a0fdbc1f.1000x1000x1.jpg|2008|11|11
+107928|Electric Lucifer|https://images.genius.com/a3d732b480aa081c55a4a3a3de44b395.960x960x1.jpg|2013|10|None
+16016|From Water To Wine|https://images.genius.com/c3800700593d1fedc4636841af14ea69.1000x1000x1.jpg|2011|3|29
+140635|unreleased|https://images.rapgenius.com/79ebeff9039e036fc51e08123269d434.960x960x1.jpg|2016|None|None
+24968|Welcome II Excellence|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+330563|REAL NIGGAS GET LONELY|https://images.genius.com/ebca978c74791ec31f5b7f29c6a5f5e0.500x500x1.jpg|2017|2|14
+|||||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+469350|The Fifth Tape|https://images.genius.com/f902eccd6599b59b43b7f7192a1a461e.1000x1000x1.jpg|2019|1|11
+|||||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+106404|KILL BILL MIXTAPE|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+|||||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+370761|Mars|https://images.genius.com/2e4a91b42a8877b132beea997ed2b38b.960x960x1.jpg|2016|4|29
+24598|Cruz Cobain's "Swisher Musik vol. 2"|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+483689|Timeless|https://images.genius.com/e58f53552420903f34a0cb40453a4208.1000x1000x1.jpg|2018|11|30
+143153|The N.Y Times |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+|||||
+143153|The N.Y Times |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+123708|Life Trials|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+459815|Degenerate Living|https://images.genius.com/9316ee5a7efaf0b3ae79bec5745adb31.700x700x1.jpg|2018|9|7
+472367|Nose Bleed [purp. chapt.]|https://images.genius.com/0ee761c73e7378cedb95ac43e1e138cc.1000x1000x1.jpg|2018|10|23
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+|||||
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+488110|The Bone Collector|https://images.genius.com/b9efab0ca6cf4a95dacd947925462559.1000x1000x1.jpg|2018|9|7
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+162070|The Opiate|https://images.genius.com/ef794936f5391cb5721daddf47600b25.1000x1000x1.jpg|2015|11|6
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15
+494449|This Thing of Ours|https://images.genius.com/a8e62fc0550131b119a5b76b27aa8d52.800x800x1.jpg|2018|6|15

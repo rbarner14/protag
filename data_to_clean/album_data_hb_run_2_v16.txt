@@ -1,0 +1,1339 @@
+album_id|album_title|cover_art_url|album_release_year|album_release_month|album_release_day
+491200|good kid, m.A.A.d city (Deluxe Version)|https://images.genius.com/1efc5de2af228d2e49d91bd0dac4dc49.1000x1000x1.jpg|2012|10|22
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+491200|good kid, m.A.A.d city (Deluxe Version)|https://images.genius.com/1efc5de2af228d2e49d91bd0dac4dc49.1000x1000x1.jpg|2012|10|22
+491200|good kid, m.A.A.d city (Deluxe Version)|https://images.genius.com/1efc5de2af228d2e49d91bd0dac4dc49.1000x1000x1.jpg|2012|10|22
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+491200|good kid, m.A.A.d city (Deluxe Version)|https://images.genius.com/1efc5de2af228d2e49d91bd0dac4dc49.1000x1000x1.jpg|2012|10|22
+11160|Section.80|https://images.genius.com/1f3cde1d04f886d4d4eb88a2c26a4e4d.1000x1000x1.jpg|2011|7|2
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+491200|good kid, m.A.A.d city (Deluxe Version)|https://images.genius.com/1efc5de2af228d2e49d91bd0dac4dc49.1000x1000x1.jpg|2012|10|22
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+337082|DAMN.|https://images.genius.com/d25e7043f51c2de6acaf6c39caa60da2.1000x1000x1.jpg|2017|4|14
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+455554|NBA Live 19 |https://images.genius.com/62c9f7b1cf961a39eb47c92b26e15056.300x300x1.jpg|2018|None|None
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+11160|Section.80|https://images.genius.com/1f3cde1d04f886d4d4eb88a2c26a4e4d.1000x1000x1.jpg|2011|7|2
+366010|Black Friday|https://images.genius.com/447339e091db90c42b550a78ff141f3c.500x500x1.jpg|2015|11|27
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+11160|Section.80|https://images.genius.com/1f3cde1d04f886d4d4eb88a2c26a4e4d.1000x1000x1.jpg|2011|7|2
+11160|Section.80|https://images.genius.com/1f3cde1d04f886d4d4eb88a2c26a4e4d.1000x1000x1.jpg|2011|7|2
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+145606|untitled unmastered.|https://images.genius.com/45790022edf45dc9796e781a40cabb42.1000x1000x1.jpg|2016|3|4
+11160|Section.80|https://images.genius.com/1f3cde1d04f886d4d4eb88a2c26a4e4d.1000x1000x1.jpg|2011|7|2
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+13493|Habits & Contradictions|https://images.genius.com/41740fc8a4f359c7d4a16721d87de950.1000x1000x1.jpg|2012|1|14
+103855|28 Grams|https://images.genius.com/e168a843af4516427b50fafd226984ee.990x990x1.jpg|2014|5|25
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+145606|untitled unmastered.|https://images.genius.com/45790022edf45dc9796e781a40cabb42.1000x1000x1.jpg|2016|3|4
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+145606|untitled unmastered.|https://images.genius.com/45790022edf45dc9796e781a40cabb42.1000x1000x1.jpg|2016|3|4
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+|||||
+362481|Isolation|https://images.genius.com/9e44b8e2ef79be2540acda8d1efae7f4.1000x1000x1.jpg|2018|4|6
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+11712|Setbacks|https://images.genius.com/4e5d39814aadb84f19c68cb7ca188a5d.950x946x1.jpg|2011|1|11
+14372|Pineapple Now-Laters|https://images.genius.com/356f10af62b8119c07edb8d71580c5d3.320x320x1.jpg|2012|None|None
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+43302|Cilvia Demo|https://images.genius.com/88da1904fb461fae943c2c34f20bda85.600x600x1.jpg|2014|1|28
+363114|Black Panther: The Album (Music from and Inspired By)|https://images.genius.com/b0ef6cfffeb8c493ca2344f8358e741a.960x960x1.jpg|2018|2|9
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+41879|Dedication 5|https://images.genius.com/aa4f93cf953aad46ecd13d3027b59fff.475x475x1.jpg|2013|9|1
+30408|Oxymoron|https://images.genius.com/b3bcb73ae0d824358003ae2bdd5b7344.600x600x1.jpg|2014|2|25
+16352|Control System |https://images.genius.com/36147c3e9b6fcfa747233bb1c340f424.500x500x1.jpg|2012|5|11
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+|||||
+16352|Control System |https://images.genius.com/36147c3e9b6fcfa747233bb1c340f424.500x500x1.jpg|2012|5|11
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+103604|These Days…|https://images.genius.com/077bbd628ad3b7383f095afde8670b76.560x560x1.jpg|2014|6|24
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+142304|Video Breakdowns|https://images.genius.com/e9328d6427f57b0c866247003f3ab1cc.1000x1000x1.png|2016|None|None
+11408|Longterm Mentality|https://images.genius.com/f5819f76daf2dbaa35f05a7775126bfc.500x500x1.jpg|2011|4|5
+|||||
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+128662|GO:OD AM |https://images.genius.com/f2c75e5f34f94ec77aa311b7e5f73226.1000x1000x1.jpg|2015|9|18
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+13493|Habits & Contradictions|https://images.genius.com/41740fc8a4f359c7d4a16721d87de950.1000x1000x1.jpg|2012|1|14
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+489657|MASSEDUCTION (Japanese Version)|https://images.genius.com/e5ad942772f8fcb3f620a898100398ad.1000x1000x1.jpg|2017|10|13
+120991|To Pimp a Butterfly|https://images.genius.com/f3e9dc7d6cadfd0202e37cde73e0022b.640x640x1.jpg|2015|3|15
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+156166|Blank Face LP|https://images.genius.com/2d03dd3816b9f03a303110b5628e696c.1000x1000x1.jpg|2016|7|8
+|||||
+287386|Do What Thou Wilt.|https://images.genius.com/c2b989273a64cf1720624b72503a60bd.1000x1000x1.jpg|2016|12|9
+27007|MMG Takeover 2013|https://images.genius.com/012534434a8d49d3a3151fce490b7ad3.600x600x1.jpg|2013|12|31
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+429662|Redemption|https://images.genius.com/53949f19d842f9b6eb17aa8188e4cd2a.1000x1000x1.jpg|2018|6|15
+10919|Overly Dedicated|https://images.genius.com/9e1efc6d0a7044dbf2f0776a12ed85b8.620x620x1.jpg|2010|9|14
+|||||
+|||||
+|||||
+|||||
+11408|Longterm Mentality|https://images.genius.com/f5819f76daf2dbaa35f05a7775126bfc.500x500x1.jpg|2011|4|5
+429662|Redemption|https://images.genius.com/53949f19d842f9b6eb17aa8188e4cd2a.1000x1000x1.jpg|2018|6|15
+|||||
+14126|C4|https://images.genius.com/7611f7cd18e8750a99a0afe691067d14.500x500x1.jpg|2009|1|30
+429662|Redemption|https://images.genius.com/53949f19d842f9b6eb17aa8188e4cd2a.1000x1000x1.jpg|2018|6|15
+327130|Drunk|https://images.genius.com/466b18a3762737c2a3454406b02f22d4.1000x1000x1.jpg|2017|2|24
+|||||
+150516|Megalithic Symphony (Deluxe Edition)|https://images.genius.com/ccbaf8b727c0325f6f78a127c9ad94a3.1000x1000x1.jpg|2013|None|None
+|||||
+362481|Isolation|https://images.genius.com/9e44b8e2ef79be2540acda8d1efae7f4.1000x1000x1.jpg|2018|4|6
+|||||
+327130|Drunk|https://images.genius.com/466b18a3762737c2a3454406b02f22d4.1000x1000x1.jpg|2017|2|24
+11342|The Kendrick Lamar EP|https://images.genius.com/de49545ec6453e829bb3ff6d34d088db.1000x1000x1.jpg|2009|12|31
+390638|Dedication 6: Reloaded|https://images.genius.com/3622689a5172c789024942436b11dce2.800x800x1.jpg|2018|1|26
+11408|Longterm Mentality|https://images.genius.com/f5819f76daf2dbaa35f05a7775126bfc.500x500x1.jpg|2011|4|5
+11408|Longterm Mentality|https://images.genius.com/f5819f76daf2dbaa35f05a7775126bfc.500x500x1.jpg|2011|4|5
+128774|90059|https://images.genius.com/42c132e33dd98c5dbf2296ac38622a6c.1000x1000x1.jpg|2015|9|11
+11408|Longterm Mentality|https://images.genius.com/f5819f76daf2dbaa35f05a7775126bfc.500x500x1.jpg|2011|4|5
+41464|Black Hippy|https://images.genius.com/92ed07cac7ed2346acbaaf80783a3466.426x426x1.jpg|2011|None|None
+14007|Long Term 2: Lifestyles of The Broke and Almost Famous|https://images.genius.com/b3i84smrrrfrufn8smf94khgv.500x500x1.jpg|2010|6|28
+457663|Lady Lady|https://images.genius.com/cabb46eb21043d32430bdecc5420dc40.1000x1000x1.jpg|2018|9|7
+|||||
+339923|Gone Now|https://images.genius.com/f85d3626968b6940badb29c8943fc2d7.1000x1000x1.jpg|2017|6|2
+|||||
+139631|You're a Man Now, Boy|https://images.genius.com/8089e4b18c647b9486707c4a3824d5cd.1000x1000x1.jpg|2016|None|None
+|||||
+339923|Gone Now|https://images.genius.com/f85d3626968b6940badb29c8943fc2d7.1000x1000x1.jpg|2017|6|2
+14007|Long Term 2: Lifestyles of The Broke and Almost Famous|https://images.genius.com/b3i84smrrrfrufn8smf94khgv.500x500x1.jpg|2010|6|28
+27490|RockaByeBaby|https://images.genius.com/f9d8598090d6c68038e0aabcea7ab0d1.500x500x1.jpg|2013|4|11
+139631|You're a Man Now, Boy|https://images.genius.com/8089e4b18c647b9486707c4a3824d5cd.1000x1000x1.jpg|2016|None|None
+|||||
+353460|Gossip Columns|https://images.genius.com/7c6812b56ca733ba5c6ff9f199302361.939x939x1.jpg|2017|10|13
+20167|Long Term|https://images.genius.com/998194aac1a05158c79d419c442b68ce.400x400x1.jpg|2009|1|8
+327130|Drunk|https://images.genius.com/466b18a3762737c2a3454406b02f22d4.1000x1000x1.jpg|2017|2|24
+87049|30 Day Takeover|https://images.genius.com/f7ccb44673de2896d9fe8adb6baa76eb.500x500x1.jpg|2009|9|6
+14007|Long Term 2: Lifestyles of The Broke and Almost Famous|https://images.genius.com/b3i84smrrrfrufn8smf94khgv.500x500x1.jpg|2010|6|28
+245833|Introverted Intuition|https://images.genius.com/bedfb5b7f1f43de910ed92f5bae9d462.1000x1000x1.jpg|2016|None|None
+377478|Watts Up|https://images.genius.com/cee3890bef67e9f6fb4c5aa00be67099.500x500x1.jpg|2013|4|7
+87185|Beat Breakdowns|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+20167|Long Term|https://images.genius.com/998194aac1a05158c79d419c442b68ce.400x400x1.jpg|2009|1|8
+20167|Long Term|https://images.genius.com/998194aac1a05158c79d419c442b68ce.400x400x1.jpg|2009|1|8
+139631|You're a Man Now, Boy|https://images.genius.com/8089e4b18c647b9486707c4a3824d5cd.1000x1000x1.jpg|2016|None|None
+|||||
+|||||
+14007|Long Term 2: Lifestyles of The Broke and Almost Famous|https://images.genius.com/b3i84smrrrfrufn8smf94khgv.500x500x1.jpg|2010|6|28
+340349|Kendrick Lamar - DAMN. (Tradução)|https://images.genius.com/004177dcbce8f267af51ed00a51fa629.1000x1000x1.jpg|2017|None|None
+|||||
+450970|RR2|https://assets.genius.com/images/default_cover_art.png?1550698131|2019|None|None
+|||||
+|||||
+323738|FLEUREVER |https://images.genius.com/565283cd3ea461868a6cb0a7dc927b9b.1000x1000x1.jpg|2018|7|27
+27133|Black Friday|https://images.genius.com/c75c403bbb8e678113c0b3b40229e522.400x400x1.jpg|2010|11|26
+|||||
+405888|Happy & Lit on the Daily Basis|https://images.genius.com/f3fa19283cbd671d4ddabf157678a61b.1000x1000x1.jpg|2018|3|16
+|||||
+144253|Velvet Portraits |https://images.genius.com/4fede9c46e82209513b015717d331109.600x600x1.jpg|2016|None|None
+3993|Follow Me Home|https://images.genius.com/5401dd74c144153263aaeed505b5e1cc.600x600x1.jpg|2011|7|26
+398572|A Bigger Splash (Original Motion Picture Soundtrack)|https://images.genius.com/a4d8be8f1586015892f6fcd71403b35d.1000x1000x1.jpg|2016|2|12
+|||||
+|||||
+3132|R.O.O.T.S.|https://images.genius.com/281e3a0a71832d7fcf5f99b123fcfcc6.1000x1000x1.jpg|2009|3|31
+|||||
+147466|Stoffwechsel|https://images.genius.com/c736564d872f5cfe8016d827f2110681.960x960x1.jpg|2016|3|25
+334916|The Tape |https://i.genius.com/f33d1171021f524719539cc7c7d74dd202c68f52?url=https%3A%2F%2Flh3.googleusercontent.com%2FRXphaKm8i0q1sNlEIkjblvDg1hx8Y3GDGYuSVuniRIndGkrb36-BatbI5ZOYDnD-gyzsf6eqT18Kj5Cynx56cVwzBnAk4jnC%3Ds440-rw|2016|None|None
+334916|The Tape |https://i.genius.com/f33d1171021f524719539cc7c7d74dd202c68f52?url=https%3A%2F%2Flh3.googleusercontent.com%2FRXphaKm8i0q1sNlEIkjblvDg1hx8Y3GDGYuSVuniRIndGkrb36-BatbI5ZOYDnD-gyzsf6eqT18Kj5Cynx56cVwzBnAk4jnC%3Ds440-rw|2016|None|None
+|||||
+121864|Kendrick Lamar - To Pimp a Butterfly (French Version)|https://images.genius.com/3813bcd3d4accb7634eea23a2a7ab190.1000x1000x1.jpg|2015|None|None
+321469|it's been dark for the longest|https://images.genius.com/a687182f6730f9cca33beb4418c06528.850x850x1.jpg|2016|None|None
+|||||
+477571|Sol y Luna|https://images.genius.com/7a1ed2b77aa9c70b179778c9799c8ea0.499x499x1.jpg|2018|10|10
+|||||
+|||||
+152193|Lord Knows: The Mixtape|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+127788|grown retold|https://images.genius.com/390059f7a3a0ac27daa37102d946abc1.1000x1000x1.jpg|2015|None|None
+83982|Time Alone|https://images.genius.com/9d9691f2cc5f345adc905beb6da5f393.500x500x1.jpg|||
+116907|Unavigerende Tankekart|https://images.genius.com/5ab447e87c842235c53a48842e1cdfbe.1000x1000x1.jpg|2014|None|None
+|||||
+450136|Kendrick Lamar - To Pimp a Butterfly (Tradução)|https://images.genius.com/33996a078416910e008bd15c1d136792.640x640x1.jpg|2015|3|15
+31280|Point of View EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+93734|L-Train's Back [Mixtape]|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+346254|Outspoken (artist: Mad Sadiq)|https://images.genius.com/3f609db9d96c856fc3bbe2e7ea470e4f.275x275x1.jpg|2017|None|None
+|||||
+|||||
+|||||
+|||||
+83129|The Jeans EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+143173|TRIBUTE|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+107666|Team Up|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+411730|Fed7|https://images.genius.com/4d9104a197beb9a933c1eed2fa8eff46.900x900x1.jpg|2018|3|16
+105890|Quickie|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+348863|Dark Place|https://images.genius.com/9d3465bb8b23d7d3bc20814f9f2c32af.453x453x1.jpg|2017|7|11
+|||||
+46723|B.A.S.I.C|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+228556|The QWEEZii Experience|https://images.genius.com/4e378fcbfcdfaf40dfb12c02a6ce0ed8.300x300x1.png|2016|None|None
+406425|LP-Style The EP|https://images.genius.com/8c3abe6ef15372b3165fd2191228abc4.1000x1000x1.jpg|||
+|||||
+|||||
+116457|DAMNED SPIRIT, NOBLE PROMISE |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+26909|Young Till I Die |https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+|||||
+335472|Black |https://images.genius.com/bf3778bfe62f01c7f198ed2362281c5e.1000x1000x1.jpg|2016|None|None
+430594|Tidal Wave|https://images.genius.com/6f1b143084a738d38e5c9d9096d7e1d0.760x760x1.jpg|||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+398069|Swervo|https://images.genius.com/a40e1ba15f97a746756766fdee9f2057.1000x1000x1.jpg|2018|7|27
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+|||||
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+|||||
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+33818|High Class Street Music 3 (Trappin' Out A Mansion)|https://images.genius.com/20403791e01f56a22f66273d3f249337.500x500x1.jpg|2013|5|13
+141075|SxB På Fri Fod|https://images.genius.com/c9675e08f6079bc9e16321201d8eff4e.500x500x1.jpg|2016|1|1
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+|||||
+305390|Red Roses|https://images.genius.com/f327efb2bd4a9c0159a150fdc7a9feba.500x500x1.jpg|2016|7|4
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+|||||
+|||||
+41392|Free Bricks 2|https://images.genius.com/5e719c33b245079fa4d161993893128c.500x500x1.jpg|2013|2|28
+|||||
+87350|No Excuses|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+337531|Flight Delayed|https://images.genius.com/fecef8f8a6d9e6c98f9f7058928646b6.1000x1000x1.jpg|2010|None|None
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+|||||
+328439|Rico Story 2 Soundtrack |https://images.genius.com/f5a5e23b18a84f3068ab0447994cdda8.600x592x1.png|2015|11|6
+|||||
+328439|Rico Story 2 Soundtrack |https://images.genius.com/f5a5e23b18a84f3068ab0447994cdda8.600x592x1.png|2015|11|6
+|||||
+46209|Finesse Father|https://images.genius.com/5bfe81d7ddc80e9eec7368a22e128543.500x500x1.jpg|2013|7|14
+|||||
+23539|The Tip Off|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+353488|Negativity|https://images.genius.com/6a6da5f94bc9c00f8794f70aa6004bd1.1000x1000x1.png|2016|12|30
+|||||
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+|||||
+337531|Flight Delayed|https://images.genius.com/fecef8f8a6d9e6c98f9f7058928646b6.1000x1000x1.jpg|2010|None|None
+15729|#1 Bitch|https://images.genius.com/e8beea40600edae3340e4abc25b1430c.608x608x1.jpg|2012|3|30
+328439|Rico Story 2 Soundtrack |https://images.genius.com/f5a5e23b18a84f3068ab0447994cdda8.600x592x1.png|2015|11|6
+23744|Guddaville 3|https://images.genius.com/0014bfaf89bf97b893767c390176dcf1.500x500x1.jpg|2012|11|7
+33818|High Class Street Music 3 (Trappin' Out A Mansion)|https://images.genius.com/20403791e01f56a22f66273d3f249337.500x500x1.jpg|2013|5|13
+|||||
+|||||
+138757|The Three Stooges |https://images.genius.com/4d3443d6b0206cb478b32db319aa94eb.248x186x1.jpg|2016|None|None
+305390|Red Roses|https://images.genius.com/f327efb2bd4a9c0159a150fdc7a9feba.500x500x1.jpg|2016|7|4
+|||||
+91701|Control|https://images.genius.com/0a2f92784a02a8424864fd8b1aaac5cd.500x500x1.jpg|2012|None|None
+|||||
+|||||
+|||||
+|||||
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+|||||
+|||||
+337531|Flight Delayed|https://images.genius.com/fecef8f8a6d9e6c98f9f7058928646b6.1000x1000x1.jpg|2010|None|None
+490648|Trained To Go|https://images.genius.com/3d984ae00b74292529fa12a252bdbf10.500x500x1.jpg|2018|12|21
+222509|Married To The Money II|https://images.genius.com/f7a42a05cc007729a22c9c04eb3f1003.600x600x1.jpg|2014|9|2
+310044|Before the Come Up|https://images.genius.com/9b463e5eb087ec2c0bbdf30c2515269e.500x500x1.jpg|2016|None|None
+|||||
+46035|#YouGonLoveEss|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+483554|The Re-Mixtape|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+369743|Fly Money|https://images.genius.com/179c9247addcf3d6de91df848cf3fb91.499x499x1.jpg|2012|11|14
+123633|No Chill|https://images.genius.com/71da20ed01508f2535164a7e17e5a3db.800x800x1.jpg|2015|None|None
+369743|Fly Money|https://images.genius.com/179c9247addcf3d6de91df848cf3fb91.499x499x1.jpg|2012|11|14
+351126|Rastafrass 4|https://images.genius.com/5d69b09924999652bd2d76f16407f5da.400x400x1.jpg|2017|4|24
+|||||
+313678|King Of Autotune|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+104703|No Label II|https://images.genius.com/5a1b1025a740699512cda5bf7bc72bd3.1000x1000x1.jpg|2014|2|25
+104703|No Label II|https://images.genius.com/5a1b1025a740699512cda5bf7bc72bd3.1000x1000x1.jpg|2014|2|25
+104703|No Label II|https://images.genius.com/5a1b1025a740699512cda5bf7bc72bd3.1000x1000x1.jpg|2014|2|25
+36011|Young Rich Niggas|https://images.genius.com/497658dff7056882d49a3fe3dcba4f8c.620x620x1.jpg|2013|6|13
+309157|Jugg King|https://images.genius.com/a6d2844a40389e5805e6e768a6d3d0f2.1000x1000x1.jpg|2017|7|13
+36011|Young Rich Niggas|https://images.genius.com/497658dff7056882d49a3fe3dcba4f8c.620x620x1.jpg|2013|6|13
+36011|Young Rich Niggas|https://images.genius.com/497658dff7056882d49a3fe3dcba4f8c.620x620x1.jpg|2013|6|13
+53796|Young Rich Niggas 2|https://images.genius.com/43c819ba1422a4ea4101f2948e219001.500x500x1.jpg|2016|1|18
+309157|Jugg King|https://images.genius.com/a6d2844a40389e5805e6e768a6d3d0f2.1000x1000x1.jpg|2017|7|13
+113969|Rich Nigga Timeline|https://images.genius.com/cc112a010e5fd38c1773b973793d6887.500x500x1.jpg|2014|11|5
+113425|Streets on Lock 4|https://images.genius.com/5c471778f4b385ffee8ba6375efaed35.500x500x1.jpg|2015|None|None
+92372|Streets on Lock 3|https://images.genius.com/346f0067206ddb0b24ba56f9c6cba396.500x500x1.jpg|2014|4|20
+337632|Perfect Timing|https://images.genius.com/46a8d88cbf18555315ca17d0d54d07c4.800x800x1.jpg|2017|4|14
+47856|Ya Feel Me?|https://images.genius.com/25f2c05c44553e2c1e74149eaf5316f0.500x500x1.jpg|2014|None|None
+309157|Jugg King|https://images.genius.com/a6d2844a40389e5805e6e768a6d3d0f2.1000x1000x1.jpg|2017|7|13
+309157|Jugg King|https://images.genius.com/a6d2844a40389e5805e6e768a6d3d0f2.1000x1000x1.jpg|2017|7|13
+152709|Dream Team|https://images.genius.com/214fcd1790590c400af72e1c99bded20.500x500x1.jpg|2016|5|26
+446702|Street Lottery 4|https://images.genius.com/f83bee5a7d57e48fccf9b33260a50c0f.500x500x1.jpg|2019|None|None
+121696|Lunch|https://images.genius.com/f6c34a0a234a957548978f72770f3287.1000x1000x1.jpg|2015|3|17
+444775|The Recipe|https://images.genius.com/c094958b1886e48d8fe2b675c53aa55d.750x750x1.jpg|2018|12|21
+309157|Jugg King|https://images.genius.com/a6d2844a40389e5805e6e768a6d3d0f2.1000x1000x1.jpg|2017|7|13
+120374|Jug Season|https://images.genius.com/8beb3343383efacce4d8e20fd7e1fc44.500x500x1.jpg|2015|1|27
+48244|Streets on Lock 2|https://images.genius.com/8502f2807c3a764bd4a9e9c13b0af6c6.640x640x1.jpg|2013|10|None
+153475|War Ready 2|https://images.genius.com/fa41c3480e41daaf0ec9fe32a2a682f0.500x500x1.jpg|2016|4|25
+110003|Catastrophic 2|https://images.genius.com/e62c91245f30f934445e89fdf7493038.500x500x1.jpg|2015|None|None
+120374|Jug Season|https://images.genius.com/8beb3343383efacce4d8e20fd7e1fc44.500x500x1.jpg|2015|1|27
+450379|Project Music Vol. 1|https://images.genius.com/abb6655e93e73ec493e8f87d75f235d6.1000x1000x1.jpg|2018|8|2
+16312|LONG.LIVE.A$AP|https://images.genius.com/75621d1119a70043aadbe3fbf4387d88.640x640x1.jpg|2013|1|15
+420582|Scorpion|https://images.genius.com/5c677b7bfc2f696abf2e2d928301bb44.1000x1000x1.jpg|2018|6|29
+119674|If You're Reading This It's Too Late|https://images.genius.com/bcf01db777c6e5c46eddb1031a2008d1.1000x1000x1.jpg|2015|2|13
+10787|Take Care|https://images.genius.com/a50b0608affc94c4dae3d502a65ea390.1000x1000x1.jpg|2011|11|15
+120604|The Life of Pablo|https://images.genius.com/389e5fd1eff885b2e7b62060869945cc.1000x1000x1.jpg|2016|2|14
+10664|We Are Young Money|https://images.genius.com/5f41ff0fcf98a0c2b7f7239f3cc7e4a1.1000x1000x1.jpg|2009|12|21
+119674|If You're Reading This It's Too Late|https://images.genius.com/bcf01db777c6e5c46eddb1031a2008d1.1000x1000x1.jpg|2015|2|13
+5002|Tha Carter III|https://images.genius.com/70a7ef69242915a9cd1c3f68031e4c0a.1000x1000x1.jpg|2008|6|10
+420582|Scorpion|https://images.genius.com/5c677b7bfc2f696abf2e2d928301bb44.1000x1000x1.jpg|2018|6|29
+5016|The Drought Is Over 5|https://images.genius.com/ec6f0c92e7457c18997267cb2c65dcf7.400x400x1.jpg|2008|3|29
+420582|Scorpion|https://images.genius.com/5c677b7bfc2f696abf2e2d928301bb44.1000x1000x1.jpg|2018|6|29
+2630|Thank Me Later|https://images.genius.com/17b0bf98cd1ef082f8580b122d009885.1000x1000x1.jpg|2010|6|15
+6004|Ginuwine...the Bachelor|https://images.genius.com/c45932bd06ca025ea69f27cc4a56b17c.953x953x1.jpg|1996|10|8
+35834|I Care 4 U|https://images.genius.com/d787b07ae35d667ea466d33791dc149f.500x500x1.jpg|2002|12|10
+35834|I Care 4 U|https://images.genius.com/d787b07ae35d667ea466d33791dc149f.500x500x1.jpg|2002|12|10
+146275|SEPT. 5TH|https://images.genius.com/bc29c1a6e280caa05783250f337090f2.600x600x1.jpg|2016|3|27
+305119|SweetSexySavage|https://images.genius.com/c5de64c62ec4a0b21b1f2f9767896db5.1000x1000x1.jpg|2017|1|27
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+35834|I Care 4 U|https://images.genius.com/d787b07ae35d667ea466d33791dc149f.500x500x1.jpg|2002|12|10
+222983|A Seat at the Table|https://images.genius.com/ed5cd56aba0fc1ca577a2a67dd5efe9c.1000x1000x1.jpg|2016|9|30
+6495|100% Ginuwine|https://images.genius.com/f96e1677913aa1f01249ceb4369c52f2.640x640x1.jpg|1999|3|16
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+377721|Hip Hop Alternative|https://images.genius.com/78d2c763b3409491d5f598cfd1f16ec8.270x270x1.jpg|2017|None|None
+7214|Duets: The Final Chapter|https://images.genius.com/09b1732dbce927085a1fca7538fc1bb3.500x500x1.jpg|2005|12|20
+|||||
+7679|Late Night Special|https://images.genius.com/4c908dd7017476298d4cbc721de1e1a3.1000x1000x1.png|2007|None|None
+7015|Nastradamus|https://images.genius.com/d23a600c139bca90fa38b331a4e93acd.1000x1000x1.jpg|1999|11|23
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+40189|Married To The Money|https://images.genius.com/c776b6aa2c9827a4d3d9d9aba65cdd8d.500x500x1.jpg|2013|4|18
+143887|Ultimate Aaliyah|https://images.genius.com/dd5d2c37dfba3c715fa871df3d5a19f0.600x600x1.jpg|2005|5|10
+7676|Bluestars|https://images.genius.com/a8277d6a126d64e71781e274ed5aaad4.1000x1000x1.png|2005|None|None
+6380|Truthfully Speaking|https://images.genius.com/5e48fb953a0fb337368cbf6bb6b6aa65.640x634x1.jpg|2002|None|None
+4066|The Dynasty: Roc La Familia|https://images.genius.com/c91a9bc0eb9aaf290224ebeaabd243a0.640x640x1.jpg|2000|10|31
+150477|Welcome to Our World|https://images.genius.com/d0d1c055df3bb0528cc9c7f28fb8d731.765x800x1.jpg|1997|11|11
+35834|I Care 4 U|https://images.genius.com/d787b07ae35d667ea466d33791dc149f.500x500x1.jpg|2002|12|10
+7783|Press Play|https://images.genius.com/9838b615ada8bf1cb8ebde2f834f419e.1000x1000x1.jpg|2006|10|17
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+6495|100% Ginuwine|https://images.genius.com/f96e1677913aa1f01249ceb4369c52f2.640x640x1.jpg|1999|3|16
+|||||
+406450|PTX Presents: Top Pop, Vol. I|https://images.genius.com/e8f89bb9acafd0d2db4811e6109d1d8b.1000x1000x1.jpg|2018|4|13
+6363|Cheers 2 U|https://images.genius.com/c8198765dd13a10032f74a19397c573f.733x733x1.png|1998|3|24
+|||||
+|||||
+6179|Unpredictable|https://images.genius.com/2102eeb998aa17f0b955ec0c4300d041.250x248x1.jpg|2005|None|None
+35834|I Care 4 U|https://images.genius.com/d787b07ae35d667ea466d33791dc149f.500x500x1.jpg|2002|12|10
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+|||||
+6495|100% Ginuwine|https://images.genius.com/f96e1677913aa1f01249ceb4369c52f2.640x640x1.jpg|1999|3|16
+1906|The Greatest Story Ever Told|https://images.genius.com/2892f168cef4f972b3c34cde7603d0d1.300x300x1.jpg|2008|None|None
+|||||
+|||||
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+140515|King Stays King|https://images.genius.com/945d7c02aa563f67856c810619528d36.600x600x1.jpg|2015|12|25
+150477|Welcome to Our World|https://images.genius.com/d0d1c055df3bb0528cc9c7f28fb8d731.765x800x1.jpg|1997|11|11
+128797|OVO Sound Radio Tracklists|https://images.genius.com/04763b7beb6bcd5ffd0fb8d5f44a4cf9.640x640x1.png|2015|7|11
+17518|Aaliyah|https://images.genius.com/84c3b3ecfdae2496b2996d3ce72e0ac5.999x999x1.jpg|2001|7|7
+447357|Till The Wheels Fall Off/Solider (Single)|https://assets.genius.com/images/default_cover_art.png?1550698131|2006|None|None
+400268|Greatest Hits (UK Edition)|https://images.genius.com/08b0de0102c235c7a3a75b371d2362eb.500x500x1.jpg|2006|11|21
+2348|The Professional 2|https://images.genius.com/967e3d9ee88663c5a43e11adcecd9bcf.500x500x1.jpg|2001|2|27
+160843|At Night We Live|https://images.genius.com/af8dced15100b74deca405c45e4309b5.500x500x1.jpg|2010|None|None
+6075|The Show, The After-Party, The Hotel|https://images.genius.com/b818702c4f165442eeb2f50ebe26534b.1000x1000x1.jpg|1995|7|18
+407696|Playa Unreleased Compilation|https://images.genius.com/954789306dd4637c38fc7faf623b8c50.450x450x1.jpg|2009|None|None
+73007|Dangerous Minds: Music From the Motion Picture|https://images.genius.com/6108a9dfcc663987a338f54f55d3e6bc.945x945x1.jpg|1995|7|11
+6363|Cheers 2 U|https://images.genius.com/c8198765dd13a10032f74a19397c573f.733x733x1.png|1998|3|24
+5397|Tim's Bio: Life From Da Bassment|https://images.genius.com/357b130b48cbd25cb6e82421320a92dc.500x500x1.jpg|1998|None|None
+17166|Ace Won't Fold|https://images.genius.com/01b7a106f8f5ef0638db5b7410c71eee.500x500x1.jpg|2008|None|None
+475792|Special Edition: Rare Tracks & Visuals|https://images.genius.com/65acc4b88306f4c6ac8ba650e8e4bc25.570x570x1.jpg|2005|None|None
+6495|100% Ginuwine|https://images.genius.com/f96e1677913aa1f01249ceb4369c52f2.640x640x1.jpg|1999|3|16
+|||||
+221572|Sexsational|https://images.genius.com/2668acde7b121b2d8723f4e4db4c3e31.500x500x1.jpg|1995|6|23
+9547|Suppertime|https://images.genius.com/41be2bafc1ac58320e468b7f6a681511.320x320x1.jpg|2009|None|None
+7161|Make It Hot|https://images.genius.com/d50987c09cba0659f75c943aa3b199ba.317x315x1.jpg|1998|None|None
+6620|Da Real World|https://images.genius.com/f887ad1c0966679207185a705cecd837.1000x1000x1.jpg|1999|6|22
+|||||
+1910|MTA2: Baptized in Dirty Water|https://images.genius.com/86382b6072aa0afabce2e444c917f11a.200x194x1.jpg|2003|12|23
+45025|JoJo|https://images.genius.com/fb9fc92b414de7ec27c7b894a5399cf7.600x600x1.png|2004|6|22
+|||||
+12057|The Introduction Of Marcus Cooper|https://images.genius.com/267b2ca294105a3e42d40593c06cea09.499x499x1.jpg|||
+5397|Tim's Bio: Life From Da Bassment|https://images.genius.com/357b130b48cbd25cb6e82421320a92dc.500x500x1.jpg|1998|None|None
+150477|Welcome to Our World|https://images.genius.com/d0d1c055df3bb0528cc9c7f28fb8d731.765x800x1.jpg|1997|11|11
+10204|Category F5|https://images.genius.com/ab06dbf0ce99f56ef5472a2ab819fd5f.675x675x1.png|2009|7|14
+150479|Indecent Proposal|https://images.genius.com/58b5312916b928b3b95fc1c593e66cd3.220x220x1.jpg|2001|None|None
+|||||
+144004|AMUSED|https://images.genius.com/1c561c11d00829d7625967f8104d0295.480x480x1.jpg|2016|None|None
+452080|Turn It Up|https://images.genius.com/199c1581896b0ed81491df4c4a6474a2.553x553x1.jpg|2000|8|None
+|||||
+447359|I Got My (Single)|https://images.genius.com/0e574a890b5bbeda10b547afc7b1ef5f.600x600x1.jpg|2007|None|None
+150479|Indecent Proposal|https://images.genius.com/58b5312916b928b3b95fc1c593e66cd3.220x220x1.jpg|2001|None|None
+415767|Unreleased|https://images.genius.com/eb752ca8884c593e03b7803ee27b6e7c.576x576x1.jpg|||
+6363|Cheers 2 U|https://images.genius.com/c8198765dd13a10032f74a19397c573f.733x733x1.png|1998|3|24
+|||||
+45025|JoJo|https://images.genius.com/fb9fc92b414de7ec27c7b894a5399cf7.600x600x1.png|2004|6|22
+4884|U Gotta Feel Me|https://images.genius.com/1fc0055c4256c840855a7bbf297945cd.640x640x1.jpg|2004|3|30
+3151|Chyna Doll|https://images.genius.com/efc39b6deaa7d5295638af4aad7f147a.1000x1000x1.png|1999|1|26
+6452|Afrodisiac|https://images.genius.com/0e8fdfb14d99aa4f2d25d9b9fd01ab0e.1000x1000x1.jpg|2004|6|28
+6380|Truthfully Speaking|https://images.genius.com/5e48fb953a0fb337368cbf6bb6b6aa65.640x634x1.jpg|2002|None|None
+7591|The Process|https://images.genius.com/68752a8850dc909a3ab5d2eac620111d.240x240x1.jpg|||
+6495|100% Ginuwine|https://images.genius.com/f96e1677913aa1f01249ceb4369c52f2.640x640x1.jpg|1999|3|16
+|||||
+73007|Dangerous Minds: Music From the Motion Picture|https://images.genius.com/6108a9dfcc663987a338f54f55d3e6bc.945x945x1.jpg|1995|7|11
+7579|Rebelution|https://images.genius.com/0331f109853d19c0b280005309d89cb2.499x499x1.jpg|2009|8|28
+25781|Catastrophic|https://images.genius.com/b64a509fcfb92ec8935231089436682e.500x500x1.jpg|2012|12|21
+5397|Tim's Bio: Life From Da Bassment|https://images.genius.com/357b130b48cbd25cb6e82421320a92dc.500x500x1.jpg|1998|None|None
+|||||
+6363|Cheers 2 U|https://images.genius.com/c8198765dd13a10032f74a19397c573f.733x733x1.png|1998|3|24
+38004|Blue Streak: The Album |https://images.genius.com/474143124f9e04d095f616aa6c32473e.500x500x1.jpg|1999|None|None
+255740|Glee: The Music, 2009|https://images.genius.com/8b9c5c88c2cf40b03d92ef139443a98e.1000x1000x1.png|2015|None|None
+181970|One Man|https://images.genius.com/858cf54e081da78e5b0d1af01ee9d5a5.220x220x1.jpg|2002|10|28
+6452|Afrodisiac|https://images.genius.com/0e8fdfb14d99aa4f2d25d9b9fd01ab0e.1000x1000x1.jpg|2004|6|28
+|||||
+5397|Tim's Bio: Life From Da Bassment|https://images.genius.com/357b130b48cbd25cb6e82421320a92dc.500x500x1.jpg|1998|None|None
+129393|Solo Star|https://images.genius.com/86241ac5fe49fc4979db76d30830199b.600x600x1.jpg|2002|12|26
+18779|Young California|https://images.genius.com/ba7da204e8464e7b65ad7f3c1956ae75.500x500x1.jpg|2016|None|None
+324998|Swing the Vote!|https://images.genius.com/b1ba730af3807d923765009eb62f254b.350x350x1.jpg|2016|4|14
+7161|Make It Hot|https://images.genius.com/d50987c09cba0659f75c943aa3b199ba.317x315x1.jpg|1998|None|None
+9547|Suppertime|https://images.genius.com/41be2bafc1ac58320e468b7f6a681511.320x320x1.jpg|2009|None|None
+|||||
+|||||
+384001|Soulection White Label: 019|https://images.genius.com/afc29acf62256709b0fb36ea93a794a8.500x500x1.jpg|2017|3|17
+143887|Ultimate Aaliyah|https://images.genius.com/dd5d2c37dfba3c715fa871df3d5a19f0.600x600x1.jpg|2005|5|10
+289466|Dr. Dolittle Soundtrack|https://images.genius.com/892caae20af38acbc16abfe4361c08d6.500x500x1.jpg|1998|None|None
+181970|One Man|https://images.genius.com/858cf54e081da78e5b0d1af01ee9d5a5.220x220x1.jpg|2002|10|28
+332286|Unreleased|https://images.genius.com/0f2c89ca45227579b7bcf39e67ded4e2.1000x1000x1.png|||
+|||||
+122679|Romeo Must Die: The Album|https://images.genius.com/757a714aa6f6dc23255dc85e290afc23.599x599x1.jpg|2000|3|28
+|||||
+|||||
+204189|X|https://images.genius.com/6bcb7806ed692e73c43071dd2b373976.1000x1000x1.jpg|2000|12|5
+|||||
+|||||
+|||||
+|||||
+12057|The Introduction Of Marcus Cooper|https://images.genius.com/267b2ca294105a3e42d40593c06cea09.499x499x1.jpg|||
+|||||
+7161|Make It Hot|https://images.genius.com/d50987c09cba0659f75c943aa3b199ba.317x315x1.jpg|1998|None|None
+|||||
+|||||
+114595|Exit Wounds (Soundtrack) |https://images.genius.com/68da5323119808598947700ce0ae4ba8.500x500x1.jpg|2001|None|None
+|||||
+9547|Suppertime|https://images.genius.com/41be2bafc1ac58320e468b7f6a681511.320x320x1.jpg|2009|None|None
+447330|Mercury|https://images.genius.com/eb986bd53357f5010511886a347ebfa0.490x490x1.jpg|1999|None|None
+|||||
+|||||
+447359|I Got My (Single)|https://images.genius.com/0e574a890b5bbeda10b547afc7b1ef5f.600x600x1.jpg|2007|None|None
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+114275|Shady XV|https://images.genius.com/acc348ccdf6bd18c7aee7ae7c6c3d865.1000x1000x1.png|2014|11|24
+25745|P.E.E.P: The aPROcalypse|https://images.genius.com/80140a823f7d4519fade7a5248273512.600x600x12.gif|2012|12|21
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+16308|1999|https://images.genius.com/cd6e13f3fc6bacd04d03bc21696ab257.1000x1000x1.jpg|2012|6|12
+220472|ALL-AMERIKKKAN BADA$$|https://images.genius.com/0a5608c99cd5209b622b9cc7d383b9c6.1000x1000x1.jpg|2017|4|7
+16308|1999|https://images.genius.com/cd6e13f3fc6bacd04d03bc21696ab257.1000x1000x1.jpg|2012|6|12
+|||||
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+34784|Summer Knights|https://images.genius.com/ccc6b3e099d7f0a3416209e4a5d67fd0.1000x1000x1.jpg|2013|7|1
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+14944|Lucide|https://images.genius.com/afc512210b479b940e358aa345480aa7.400x400x1.jpg|2012|None|None
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+336397|Pro Era Youtube|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+25745|P.E.E.P: The aPROcalypse|https://images.genius.com/80140a823f7d4519fade7a5248273512.600x600x12.gif|2012|12|21
+220472|ALL-AMERIKKKAN BADA$$|https://images.genius.com/0a5608c99cd5209b622b9cc7d383b9c6.1000x1000x1.jpg|2017|4|7
+108640|B4.DA.$$|https://images.genius.com/93cd7189cca7dc005ec423e06f1c0095.1000x1000x1.jpg|2015|1|20
+|||||
+|||||
+15642|Bottoms Up|https://images.genius.com/c62da61e11d81df4d761a4e4d1a89dc6.500x500x1.jpg|2012|4|3
+25745|P.E.E.P: The aPROcalypse|https://images.genius.com/80140a823f7d4519fade7a5248273512.600x600x12.gif|2012|12|21
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+|||||
+108335|The Water[s]|https://images.genius.com/dfd28d694e5e8096fd0507cc0a2c7d50.960x960x1.jpg|2014|8|12
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+108940|Mr. Wonderful|https://images.genius.com/3f40c65495de257e6acc2dabe3749b6b.800x800x1.jpg|2015|3|23
+108940|Mr. Wonderful|https://images.genius.com/3f40c65495de257e6acc2dabe3749b6b.800x800x1.jpg|2015|3|23
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+400941|Forever M.C. |https://images.genius.com/5d73ddda8f3ee5722dc246b4129717b2.500x500x1.jpg|2018|3|30
+|||||
+|||||
+106948|Cellar Door: Terminus ut Exordium|https://images.genius.com/df7fc29e3708773b97d7c2c5af2ada8c.875x875x1.jpg|2014|8|12
+353295|Starving on Reality|https://images.genius.com/3a07b544bd15af3ad9c62bb9e61802ad.500x500x1.jpg|2011|10|29
+20258|Masters of the Dark Arts|https://images.genius.com/0f928b3bdec69236029326e891a8d81d.500x500x1.jpg|2012|7|31
+|||||
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+|||||
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+10974|1982: The EP|https://images.genius.com/e7b342c2e1835865a436a1520bdb8ecd.220x220x1.jpg|2010|None|None
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+337965|508-507-2209|https://images.genius.com/895cf32a9779b29f3e18b6c7cb55b3e2.500x500x1.jpg|2017|6|16
+|||||
+424088|Pro Era|https://images.genius.com/2daf59bcb3637555d0fa63cc7e593583.500x500x1.jpg|2016|6|None
+27809|New Jet City|https://images.genius.com/8435c77748c3d0d1d2880505f655715e.600x600x1.jpg|2013|2|3
+12144|Cats & Dogs|https://images.genius.com/c9d979659326bdf9f4c55c82deb6e2ab.320x320x1.jpg|2011|None|None
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+353295|Starving on Reality|https://images.genius.com/3a07b544bd15af3ad9c62bb9e61802ad.500x500x1.jpg|2011|10|29
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+|||||
+19276|Extra-Lucide|https://images.genius.com/02d398461ab1e1d987a9f3924990cc8f.960x960x1.jpg|2012|10|29
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+353295|Starving on Reality|https://images.genius.com/3a07b544bd15af3ad9c62bb9e61802ad.500x500x1.jpg|2011|10|29
+52401|Gravitas|https://images.genius.com/54775ab17c42667fc0aa1f24ca5154f5.500x500x1.jpg|2013|None|None
+35930|L.O.D.B (Last Of A Dying Breed)|https://images.genius.com/2630bc2e689e1cbcb816dd399513d7e4.500x500x1.jpg|2013|6|5
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+|||||
+|||||
+14770|In Between The Lines Volume 2|https://images.genius.com/eced04597e6de31c489864c3ccc73921.500x500x1.jpg|2010|11|23
+14857|Rhythmatic Eternal King Supreme|https://images.genius.com/2d1c36c451f04136857cafe181d588c9.500x500x1.jpg|2011|3|8
+37263|Who You Mad At? Me Or Yourself?|https://images.genius.com/43cf4f7fb829f88b270853d2534b8f0f.1000x1000x1.jpg|2013|None|None
+17547|Baby Face Killa|https://images.genius.com/5ddf026b4858141cc5ef267580b9c4cd.1000x1000x1.jpg|2012|9|25
+9586|The Green Ghost Project|https://images.genius.com/11128bae973731b96715d6cd4b949c6c.700x700x1.jpg|2010|2|2
+|||||
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+400941|Forever M.C. |https://images.genius.com/5d73ddda8f3ee5722dc246b4129717b2.500x500x1.jpg|2018|3|30
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+517|The Format|https://images.genius.com/637734d6e93c37453a0e5a362fc223df.745x745x1.png|2006|11|7
+340197|Consumers Park|https://images.genius.com/a9ee784dde837ddb11ad84cc1bc13fef.804x804x1.jpg|2018|3|16
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+37263|Who You Mad At? Me Or Yourself?|https://images.genius.com/43cf4f7fb829f88b270853d2534b8f0f.1000x1000x1.jpg|2013|None|None
+329773|Luces Fantasma|https://images.genius.com/50486da517dcdfb695f2c454930dea4f.960x960x1.jpg|2017|None|None
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+21155|Mic Tyson|https://images.genius.com/e5e8f1bb7082736aae2f45b5f22bc340.800x800x1.jpg|2012|10|30
+159459|Slow Motion Vol. 2|https://images.genius.com/11ceabe7f149cde8f15bb18cf0840098.592x594x1.png|2016|7|22
+13807|Master Of Ceremonies|https://images.genius.com/7a4803f6a083f12ceb394573b0ccb69b.1000x1000x1.jpg|2011|10|4
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+|||||
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+|||||
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+143176|FLYGOD|https://images.genius.com/7bbb0eb0678c5ccb55218ffe31c4ba29.412x412x1.jpg|2016|3|11
+45573|Starvin Like Marvin For A Cool J Song |https://images.genius.com/d5aff234a24f7bf8cc55848e9dd5aa97.500x500x1.jpg|2013|9|9
+25279|Stereotype |https://images.genius.com/bf87ca6950ded8b51533ad139182cf10.500x500x1.jpg|2012|8|14
+13560|There Goes The Neighborhood EP|https://images.genius.com/455417139312ca7bf1863f868697f488.580x580x1.jpg|2011|12|1
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+229191|To Thine Own Self Be True|https://images.genius.com/0e04a4f10a5ac8f9a71554dfe42f287c.1000x1000x1.jpg|2016|11|4
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+417212|Supreme Blientele|https://images.genius.com/a8a5e42d4ec977626772d2df25f034c5.638x638x1.jpg|2018|6|22
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+18662|The Statik-Free - EP |https://images.genius.com/d28dcd8143f9eb08de2e83b539e6fc98.500x500x1.jpg|2011|None|None
+397725|Doe Or Die (15th Anniversary Edition)|https://images.genius.com/9e3ae6fe6180dcdeb479f60f695d4c38.1000x1000x1.jpg|2010|11|30
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+11599|Best In The Burbs|https://images.genius.com/ed8a40967c0844ad836fa8c3dd2c170b.500x500x1.jpg|2010|12|21
+12077|Honkey Kong|https://images.genius.com/073ac226410c8abcffb60094f9a7e61b.700x700x1.jpg|2011|8|23
+46827|Thee Way Eye See It|https://images.genius.com/31dbbc6897285313c7c74e30edd9cd02.500x500x1.jpg|2013|None|None
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+157862|The Greatest X|https://images.genius.com/b7bafa594416c26b234bdae0891fbcec.1000x1000x1.jpg|2016|None|None
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+11599|Best In The Burbs|https://images.genius.com/ed8a40967c0844ad836fa8c3dd2c170b.500x500x1.jpg|2010|12|21
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+9551|Spell My Name Right: The Album|https://images.genius.com/1a6a2cb4c14c998f992ade5db6de0a6f.1000x1000x1.jpg|2007|11|6
+|||||
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+25745|P.E.E.P: The aPROcalypse|https://images.genius.com/80140a823f7d4519fade7a5248273512.600x600x12.gif|2012|12|21
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+143176|FLYGOD|https://images.genius.com/7bbb0eb0678c5ccb55218ffe31c4ba29.412x412x1.jpg|2016|3|11
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+|||||
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+45573|Starvin Like Marvin For A Cool J Song |https://images.genius.com/d5aff234a24f7bf8cc55848e9dd5aa97.500x500x1.jpg|2013|9|9
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+|||||
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+|||||
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+397725|Doe Or Die (15th Anniversary Edition)|https://images.genius.com/9e3ae6fe6180dcdeb479f60f695d4c38.1000x1000x1.jpg|2010|11|30
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+137740|Prosto Mixtape Cztery|https://images.genius.com/f657860597cc6b2e2139d5e0e0619776.743x489x1.jpg|2015|11|27
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+38880|The Piece Maker 3: Return Of The 50 MCs |https://images.genius.com/8de3fb0419c5d6c1cdea6872baca5069.500x500x1.jpg|2013|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+235087|Serial Killers Vol. 1|https://images.genius.com/ed02a6df16ee132adc1cdcc9547fd61a.500x500x1.jpg|2013|None|None
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+43266|State of Grace|https://images.genius.com/c52ce9fdf8dcb9c4f3d25590cb8fa7bc.500x500x1.jpg|2011|8|2
+3048|The Elephant in the Room|https://images.genius.com/ce14784452a3863939783219176c2738.700x700x1.jpg|2008|3|11
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+109827|The King of Everything Else|https://images.genius.com/a03cfecb25f3cae8afeb480cc1743f31.640x640x1.jpg|2014|None|None
+11734|Str8 Killa No Filla|https://images.genius.com/ef80e8009b8991ed940c3734e81f29ab.1000x1000x1.jpg|2010|7|27
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+|||||
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+502050|Starting 5, Vol. 1|https://images.genius.com/79dc6fcde5252918eb3522831c225302.1000x1000x1.jpg|2019|2|5
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+141475|STATIK KXNG|https://images.genius.com/6b6335e13b3e3c8acd16bbd324bc8e68.1000x1000x1.jpg|2016|2|12
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+9551|Spell My Name Right: The Album|https://images.genius.com/1a6a2cb4c14c998f992ade5db6de0a6f.1000x1000x1.jpg|2007|11|6
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+11599|Best In The Burbs|https://images.genius.com/ed8a40967c0844ad836fa8c3dd2c170b.500x500x1.jpg|2010|12|21
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+|||||
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+9272|A World With No Skies|https://images.genius.com/e45bce202e7263dc1c43d19f9b1b7ec3.450x450x1.jpg|2010|10|26
+9272|A World With No Skies|https://images.genius.com/e45bce202e7263dc1c43d19f9b1b7ec3.450x450x1.jpg|2010|10|26
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+12448|Blazed By the Bell|https://images.genius.com/0f5c096f7b166e80e6c28b5efb11ab22.500x500x1.png|2014|None|None
+375318|More Steroids|https://images.genius.com/cbab80037968e8d5271cc95f901b1821.1000x1000x1.jpg|2017|10|19
+427641|Cameo King III|https://images.genius.com/8d6dacc4a46f71e6a651c2e757b98c3b.800x800x1.jpg|2016|3|11
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+11977|The Devil Never Dies |https://images.genius.com/94573f5b5c947e6699f78957603b85c0.500x500x1.jpg|2010|None|None
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+15037|The Pre Game EP|https://images.genius.com/23e558f1eb792280080c1cd473f9d398.498x500x1.jpg|2009|12|15
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+368418|Anti-Hero|https://images.genius.com/f6053236ef3213ffa39f4a4025791b93.630x630x1.jpg|2017|10|6
+20531|13|https://images.genius.com/c1f785e40caac1960ce0bd4777a8cbcf.953x953x1.jpg|2013|5|7
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+|||||
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+|||||
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+346461|A Time and Place|https://images.genius.com/7df935a6aaf35689cf44ef75db4e6027.600x600x1.jpg|2017|4|24
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+19530|1982: The Evening News EP|https://images.genius.com/56b5c8aa7dd51e1818dacd6640f61eb6.450x450x1.jpg|2010|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+9272|A World With No Skies|https://images.genius.com/e45bce202e7263dc1c43d19f9b1b7ec3.450x450x1.jpg|2010|10|26
+428908|The Cali Kali EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+45573|Starvin Like Marvin For A Cool J Song |https://images.genius.com/d5aff234a24f7bf8cc55848e9dd5aa97.500x500x1.jpg|2013|9|9
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+34269|Black Santa|https://images.genius.com/b779cf77add82820a92bcd5a670b4a4e.500x500x1.jpg|2012|None|None
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+353295|Starving on Reality|https://images.genius.com/3a07b544bd15af3ad9c62bb9e61802ad.500x500x1.jpg|2011|10|29
+368418|Anti-Hero|https://images.genius.com/f6053236ef3213ffa39f4a4025791b93.630x630x1.jpg|2017|10|6
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+129060|Songs In the Key of Price|https://images.genius.com/bc599cdf135725a9ca4412ca3a6a9d9c.425x425x1.jpg|2015|None|None
+6754|Foundation|https://images.genius.com/c0939c771354ee2a416a8c731ef738f4.1000x1000x1.jpg|2009|9|15
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+68663|White Christmas 2|https://images.genius.com/54ad140fee59a719134cd088af5564da.500x500x1.jpg|2013|12|24
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+|||||
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+|||||
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+459769|EVERYBODY IS F.O.O.D|https://images.genius.com/3f7d2c8f21070247e1f785aa682ad3c4.736x736x1.jpg|2018|9|None
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+125871|Lucky 7|https://images.genius.com/7ddb4a8839597f07b4e472765897d880.640x640x1.jpg|2015|7|10
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+83321|For The People|https://images.genius.com/9b7e5efcdb7f8bcd58c1da276d979480.500x500x1.jpg|2014|None|None
+6754|Foundation|https://images.genius.com/c0939c771354ee2a416a8c731ef738f4.1000x1000x1.jpg|2009|9|15
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+|||||
+|||||
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+128394|Lessons (Deluxe Edition)|https://images.genius.com/b3cb6b889b90cf2038cfce96ac71ab94.1000x1000x1.jpg|2015|7|24
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+|||||
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+328564|What Happened To Fire?|https://images.genius.com/b840463a352f7272f86757e236f8fb39.542x542x1.jpg|2017|None|None
+15037|The Pre Game EP|https://images.genius.com/23e558f1eb792280080c1cd473f9d398.498x500x1.jpg|2009|12|15
+|||||
+107329|What Goes Around |https://images.genius.com/a8d844f454736ac7262408cea89f2a3a.500x500x1.jpg|2014|8|19
+8717|Grey Hairs|https://images.genius.com/11110f636e090ab67b414bdd504d6e8d.700x700x1.jpg|2008|7|22
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+14770|In Between The Lines Volume 2|https://images.genius.com/eced04597e6de31c489864c3ccc73921.500x500x1.jpg|2010|11|23
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
+12991|Well Done|https://images.genius.com/c1ede5df22693a914ce708ed308bbad9.316x316x1.jpg|2011|11|22
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+14857|Rhythmatic Eternal King Supreme|https://images.genius.com/2d1c36c451f04136857cafe181d588c9.500x500x1.jpg|2011|3|8
+|||||
+18662|The Statik-Free - EP |https://images.genius.com/d28dcd8143f9eb08de2e83b539e6fc98.500x500x1.jpg|2011|None|None
+366248|Term Brady|https://images.genius.com/fda14a6f6ef0763ba83d0e2ce43c5e91.1000x1000x1.jpg|2015|10|9
+428870|50 Bodies Pt. 2|https://images.genius.com/babcc14377cae1804c642e1fe1f6e2fb.500x500x1.jpg|2008|9|12
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+10974|1982: The EP|https://images.genius.com/e7b342c2e1835865a436a1520bdb8ecd.220x220x1.jpg|2010|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+328671|New Yuck City|https://images.genius.com/65b534548517e4888a7daa0ad7f4c877.500x500x1.jpg|2018|10|31
+|||||
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+15559|The Project Pope|https://images.genius.com/eeaee094e529c63150277d212ec95931.500x500x1.jpg|2009|None|None
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+|||||
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+57005|Serial Killers Vol. 1|https://images.genius.com/33a2ccf44ae9ebf78aea35aea91f4e15.1000x1000x1.jpg|2013|10|31
+|||||
+|||||
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+23286|Cameo King II|https://images.genius.com/e50d03732aaf738c0bbfd3aa449808b1.500x500x1.jpg|2011|6|7
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+19530|1982: The Evening News EP|https://images.genius.com/56b5c8aa7dd51e1818dacd6640f61eb6.450x450x1.jpg|2010|None|None
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+9550|Stick 2 the Script|https://images.genius.com/80e9805171aeed253a7fe5bac466e225.315x315x1.jpg|2008|10|21
+29890|Keystone State of Mind 2|https://images.genius.com/c3fbb9595b51f4d3e54b534ed1263fbb.500x500x1.jpg|2013|None|None
+9551|Spell My Name Right: The Album|https://images.genius.com/1a6a2cb4c14c998f992ade5db6de0a6f.1000x1000x1.jpg|2007|11|6
+43266|State of Grace|https://images.genius.com/c52ce9fdf8dcb9c4f3d25590cb8fa7bc.500x500x1.jpg|2011|8|2
+8846|The Bar Exam|https://images.genius.com/4f966eb73a81b58069fb8aff648de307.700x700x1.jpg|2007|4|7
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+|||||
+289648|More Politics|https://images.genius.com/2b173e3d3bd02f85d5edd743f3588568.600x600x1.jpg|2016|None|None
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+9548|100 Proof: The Hangover|https://images.genius.com/9bdfb48fed743f36cd05c0a8ee0f4d12.1000x1000x1.jpg|2010|2|2
+185994|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+|||||
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+|||||
+21668|Fizzyology|https://images.genius.com/3c3704a63498c9713a9decb5f6fc2b3c.1000x1000x1.jpg|2012|11|6
+26339|Prison Planet|https://images.genius.com/6e1cc2b1004957206d72d5d19908140f.620x620x1.jpg|||
+15037|The Pre Game EP|https://images.genius.com/23e558f1eb792280080c1cd473f9d398.498x500x1.jpg|2009|12|15
+358059|The Burn Unit|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+9551|Spell My Name Right: The Album|https://images.genius.com/1a6a2cb4c14c998f992ade5db6de0a6f.1000x1000x1.jpg|2007|11|6
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+50312|Underrated|https://images.genius.com/f554df8669b07b723949bb7564bc0ace.1000x1000x1.png|2019|2|15
+50312|Underrated|https://images.genius.com/f554df8669b07b723949bb7564bc0ace.1000x1000x1.png|2019|2|15
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+289868|The Audacity Of Coke|https://images.genius.com/7505a85c122d36fbba2eeea0eacf26ec.1000x1000x1.jpg|2009|None|None
+|||||
+453803|Bad Decisions|https://images.genius.com/4045ae1819371bb9aa37b40b158e50b0.1000x1000x1.jpg|2018|8|10
+125255|The Motive Of Nearly Everybody, Yo|https://images.genius.com/578e7652fe602a8963f821ae7f78090b.605x605x1.jpg|2015|None|None
+31982|Extended Play |https://images.genius.com/8e1e0babc8569834e7e09a3f26a5929a.500x500x1.jpg|2013|6|18
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+43078|the buzz album|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+10974|1982: The EP|https://images.genius.com/e7b342c2e1835865a436a1520bdb8ecd.220x220x1.jpg|2010|None|None
+|||||
+114503|Stick2MyNameRight|https://images.genius.com/bfe478d9ac78fa9caa0690f5c0d239fd.700x700x1.jpg|2009|2|28
+|||||
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+|||||
+45245|Highway Robbery |https://images.genius.com/888a56b5c62da9a5e6bbc58964712b8e.500x500x1.jpg|2013|None|None
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+|||||
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+116277|Shut Up And Rap|https://images.genius.com/22af45710b74abb23f51b1a75a855114.1000x1000x1.jpg|2014|None|None
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+|||||
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+348059|254Low Cypher|https://images.genius.com/436a3706a141246714e595c4e3d16e9a.320x240x1.jpg|2012|1|None
+24628|1982|https://images.genius.com/a1dd4f34ee00d93a8f6b9232053af899.600x598x1.jpg|2010|10|26
+8983|All in a Day's Work|https://images.genius.com/38dbc5d88a2b014d9a0742ef1f2f1887.500x500x1.jpg|2009|None|None
+428870|50 Bodies Pt. 2|https://images.genius.com/babcc14377cae1804c642e1fe1f6e2fb.500x500x1.jpg|2008|9|12
+23286|Cameo King II|https://images.genius.com/e50d03732aaf738c0bbfd3aa449808b1.500x500x1.jpg|2011|6|7
+89860|A.G.E (all green everything)|https://images.genius.com/73ac058998e3a9f2bdfecc9ca71027b7.300x300x1.jpg|2012|10|30
+12318|Population Control|https://images.genius.com/2725caeb71c09250ec5294866097cd81.610x610x1.jpg|2011|10|24
+354702|Emergence|https://images.genius.com/6bbae48741b584be23f4d79cd0c655b3.1000x1000x1.jpg|2017|7|4
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+|||||
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+27014|The Art of Ambition|https://images.genius.com/1f3afd9919cd960869f48cbfffb48b35.700x700x1.jpg|2009|None|None
+|||||
+164966|Black Future |https://images.genius.com/1ddd239a8c9f581066db7d6ab11e3073.960x960x1.jpg|2016|None|None
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+|||||
+125255|The Motive Of Nearly Everybody, Yo|https://images.genius.com/578e7652fe602a8963f821ae7f78090b.605x605x1.jpg|2015|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+14770|In Between The Lines Volume 2|https://images.genius.com/eced04597e6de31c489864c3ccc73921.500x500x1.jpg|2010|11|23
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+147099|The Dark Hours|https://images.genius.com/cc9622f1f71c7583c6ca1a55121f3582.170x170x1.jpg|2016|None|None
+|||||
+14770|In Between The Lines Volume 2|https://images.genius.com/eced04597e6de31c489864c3ccc73921.500x500x1.jpg|2010|11|23
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+|||||
+44360|The Proposal|https://images.genius.com/63fa4af37768f316e21f589601586140.936x936x1.jpg|2013|9|30
+1725|Inside a Change Soundtrack|https://images.genius.com/d10450f9edfbe9e4aad2792c955bb019.500x500x1.jpg|2009|None|None
+19530|1982: The Evening News EP|https://images.genius.com/56b5c8aa7dd51e1818dacd6640f61eb6.450x450x1.jpg|2010|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+|||||
+|||||
+165948|Slaine Is Dead|https://images.genius.com/33ffa5513d0d9f81d6aa82848fcfd40b.899x899x1.jpg|2016|None|None
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+482329|Still 1982|https://images.genius.com/3433ed8f233dbe602d722e622adbaa6a.400x400x1.jpg|2018|11|23
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+10974|1982: The EP|https://images.genius.com/e7b342c2e1835865a436a1520bdb8ecd.220x220x1.jpg|2010|None|None
+114215|Still Blue|https://images.genius.com/0e88bd951c42eac3afec0747f087b0ba.1000x1000x1.jpg|2014|None|None
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+213741|The Lost and Damned EP|https://images.genius.com/342ab8a63f929b85a47032e653297ebf.700x700x1.jpg|2009|2|17
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+|||||
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+11366|Lord Giveth, Lord Taketh Away|https://images.genius.com/a7ed576b733288968ec4195b94e2f8bb.819x819x1.jpg|2011|6|24
+|||||
+|||||
+|||||
+|||||
+|||||
+368418|Anti-Hero|https://images.genius.com/f6053236ef3213ffa39f4a4025791b93.630x630x1.jpg|2017|10|6
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+|||||
+43266|State of Grace|https://images.genius.com/c52ce9fdf8dcb9c4f3d25590cb8fa7bc.500x500x1.jpg|2011|8|2
+|||||
+121478|The Secret|https://images.genius.com/69cdf875f4c2405e3ab5b52878542f48.500x500x1.jpg|2009|None|None
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+28651|Boom Bap & Blues|https://images.genius.com/d2fb72166f80cebe552ecc7348b99a5e.1000x1000x1.jpg|2013|None|None
+27014|The Art of Ambition|https://images.genius.com/1f3afd9919cd960869f48cbfffb48b35.700x700x1.jpg|2009|None|None
+17973|Straight, No Chaser|https://images.genius.com/016c57eb3939b649df7199d5c1ead8f3.450x450x1.jpg|2012|4|24
+|||||
+30235|Hood Politics 7|https://images.genius.com/28931b3714ee0d34fe4138002fb9cb51.500x500x1.jpg|2013|None|None
+453803|Bad Decisions|https://images.genius.com/4045ae1819371bb9aa37b40b158e50b0.1000x1000x1.jpg|2018|8|10
+19530|1982: The Evening News EP|https://images.genius.com/56b5c8aa7dd51e1818dacd6640f61eb6.450x450x1.jpg|2010|None|None
+|||||
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+|||||
+|||||
+18461|2012|https://images.genius.com/3178786268da8c85df636a73ce327489.500x500x1.jpg|2012|5|22
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+|||||
+|||||
+366248|Term Brady|https://images.genius.com/fda14a6f6ef0763ba83d0e2ce43c5e91.1000x1000x1.jpg|2015|10|9
+30155|Ackurate Precision|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+24194|Selektions|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+24340|Selektions|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+479137|Sniper|https://images.genius.com/ee4076cc2215df1ec2f5281e137c8f80.700x700x1.jpg|2018|11|12
+462486|Underground Dreams|https://images.genius.com/890a0a4a830e4dd6d154f8bbf39a9b6f.563x563x1.png|||
+|||||
+|||||
+24488|In Between The Lines|https://images.genius.com/ed16df3901dc8143311752c9ac2ca96a.500x500x1.jpg|2010|2|12
+133618|Veterans Day|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+|||||
+27014|The Art of Ambition|https://images.genius.com/1f3afd9919cd960869f48cbfffb48b35.700x700x1.jpg|2009|None|None
+|||||
+26417|Lost Jewlry|https://images.genius.com/19a80eba7163d77cbc2f82096b06010e.612x612x1.jpg|2013|1|15
+|||||
+|||||
+64974|Guilty Pleasures|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+127889|No Recognition|https://images.genius.com/5afa62ff43c354afacd23ebd6fc56d9a.700x700x1.jpg|2010|None|None
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+144547|Hands Tied|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+|||||
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+|||||
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+397725|Doe Or Die (15th Anniversary Edition)|https://images.genius.com/9e3ae6fe6180dcdeb479f60f695d4c38.1000x1000x1.jpg|2010|11|30
+26717|Nothing In Life Is Free|https://images.genius.com/d6bc77041201031bd84423ddb099406c.499x499x1.jpg|||
+|||||
+61519|Where Dreams Are Made|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+454531|Saints & Sinners|https://images.genius.com/736d7e944cea9fface12fda9b05bcb7c.480x480x1.jpg|2018|8|24
+|||||
+|||||
+38312|La Promo|https://s3.amazonaws.com/rapgenius/Pareja-de-Ases-MC-Lito-y-Ale-Kelia-presentan-La-Promo-35319_front.jpg|2013|None|None
+488745|Liefdewerk Oud Papier|https://images.genius.com/d2e4805ca7ee6424a88c68223dc6ef13.1000x1000x1.jpg|||
+|||||
+|||||
+41187|Hinterland|https://images.genius.com/451fbce77633e9a5d5927b0cf49a28a9.930x930x1.jpg|2013|8|27
+334538|In Memory of Yung Hurn - Classic Compilation |https://images.genius.com/2f163f8287cea8dba1d5f27287cd2689.500x500x1.jpg|2016|None|None
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+157500|Lang lebe der Tod|https://images.genius.com/c1e50bfeeebcfa8fc78d70722e17273f.1000x1000x1.jpg|2017|9|1
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+18122|Auf und davon|https://images.genius.com/b91ea709027551727c2d4499992c4be0.500x449x1.jpg|2011|12|9
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+|||||
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+|||||
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+18122|Auf und davon|https://images.genius.com/b91ea709027551727c2d4499992c4be0.500x449x1.jpg|2011|12|9
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+82521|Alles endet (aber nie die Musik) EP|https://images.genius.com/cbc31062dfbded55a7270c2b42f2cfe5.500x500x1.jpg|2014|2|21
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+11056|XOXO|https://images.genius.com/5e9e778ce3163e77fc637f73c7bda098.320x320x1.jpg|2011|7|8
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+|||||
+82521|Alles endet (aber nie die Musik) EP|https://images.genius.com/cbc31062dfbded55a7270c2b42f2cfe5.500x500x1.jpg|2014|2|21
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+222496|Love Hotel|https://images.genius.com/ec04814d06648b972c0f39a0616ed3f4.1000x1000x1.jpg|2017|3|14
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+389091|1220 |https://images.genius.com/3e72864f17f28b85443243c47c816b1a.1000x1000x1.jpg|2018|5|4
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+27628|So perfekt EP|https://images.genius.com/8e06635ba556127bcf617b6b35bfb39e.500x446x1.jpg|2011|7|29
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+132790|Im Westen nix Neues|https://images.genius.com/7173741e5b17d5a6f8e7b1b6896b563f.960x960x1.jpg|2016|2|5
+|||||
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+25079|Blausicht|https://images.genius.com/9d4a2371467ba894a69e9af88c225039.500x500x1.jpg|2013|9|20
+27628|So perfekt EP|https://images.genius.com/8e06635ba556127bcf617b6b35bfb39e.500x446x1.jpg|2011|7|29
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+114685|pp = mc²|https://images.genius.com/b4a83df71b675517f88d59807c07bd02.500x500x1.jpg|2015|1|9
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+126747|Neue Welt|https://images.genius.com/4a4d3af4ebc6ec0f89b2508ec4d943f5.960x952x1.jpg|2015|9|4
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+36417|Heavy Metal Payback|https://images.genius.com/b3863b01d240890d55c5f715eba917de.800x800x1.jpg|2008|10|10
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+485536|Berlin Dakar|https://images.genius.com/336c71fa254ed9a079f7a7b5211f2986.1000x1000x1.jpg|2019|3|15
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+18122|Auf und davon|https://images.genius.com/b91ea709027551727c2d4499992c4be0.500x449x1.jpg|2011|12|9
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+447156|Legende (Best of)|https://images.genius.com/b501e65eb63b381b0e44b21ae316e24e.959x959x1.jpg|2018|8|24
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+32413|Carlo Cokxxx Nutten 2|https://images.genius.com/b6bc5793dc5be4c18b071194809fb225.800x800x1.jpg|2009|9|11
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+224571|Blackout|https://images.genius.com/f54d85365f8296821fc987adaaa4298b.500x500x1.jpg|2006|10|6
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+32206|Freetracks & Exklusivtitel|https://images.genius.com/467fcc3c9c08415e31b53f7d8a921fff.500x500x1.png|||
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+352292|Amnezia|https://images.genius.com/65f6131ac2089e90f7285d238e895160.600x600x1.jpg|2009|8|7
+27148|Therapie vor dem Album|https://images.genius.com/87102e27ce566c64a5c6608b567e4aac.500x500x1.jpg|2008|7|18
+33669|T.R.O.U.B.L.E EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+33737|7|https://images.genius.com/2ca2f2af7ae07b4905b46cb7dbdb57d3.500x500x1.jpg|2007|8|31
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+474961|Blut|https://images.genius.com/e8eae9af4cae5654e3bf8140ec53b922.999x999x1.jpg|2018|9|21
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+|||||
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+460943|Fergy EP|https://images.genius.com/30c72cca9aba94449197e93fa486bc79.640x640x1.jpg|2018|8|31
+474961|Blut|https://images.genius.com/e8eae9af4cae5654e3bf8140ec53b922.999x999x1.jpg|2018|9|21
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+|||||
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+474961|Blut|https://images.genius.com/e8eae9af4cae5654e3bf8140ec53b922.999x999x1.jpg|2018|9|21
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+33669|T.R.O.U.B.L.E EP|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+465467|Nur für eine Nacht|https://assets.genius.com/images/default_cover_art.png?1550698131|||
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+129117|Rapunderdog|https://images.genius.com/0dfe9ea82b37bac6e0fb2ad3792f9ab1.1000x1000x1.jpg|2015|8|28
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+|||||
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+69462|Suchen und Zerstören|https://images.genius.com/cb661c8f0baed1f931d7541e2d636f39.500x500x1.jpg|2006|4|15
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+24501|Magnolia|https://images.genius.com/baded89bf5d129dac2f3e20a7b4cb883.960x960x1.jpg|2013|3|8
+18122|Auf und davon|https://images.genius.com/b91ea709027551727c2d4499992c4be0.500x449x1.jpg|2011|12|9
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+|||||
+22201|City Cobra|https://images.genius.com/f5448c841f62228d776fa612422d5a2a.300x300x1.jpg|2007|3|2
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+22678|Suchen & Zerstören 2|https://images.genius.com/12e1c8a57c707e875bc94aee63482aeb.500x500x1.jpg|2010|12|3
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+18390|Monster in mir|https://images.genius.com/a59bc062ed8c0d7163a1ee0cd76a75fd.400x397x1.jpg|2010|4|16
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1
+43441|Fick immer noch deine Story|https://images.genius.com/7f512400c1f08d342a0aea5813ad1c04.600x600x1.jpg|2005|12|16
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+104709|M.a.d.U. 3 (Mukke aus der Unterschicht 3)|https://images.genius.com/ce4e2b5dc9f53914a67f4334e7ce5022.500x498x1.jpg|2009|7|24
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+|||||
+134102|ersguterjunge Sampler Vol. 1 - Nemesis|https://images.genius.com/fd0be4911d51209c766b6fc02102c074.500x500x1.jpg|2006|2|17
+111259|La Connexion|https://images.genius.com/69a965c8bf34e0ac64b1a4999a312b26.564x564x1.jpg|2009|12|18
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+352292|Amnezia|https://images.genius.com/65f6131ac2089e90f7285d238e895160.600x600x1.jpg|2009|8|7
+118611|ersguterjunge Sampler Vol. 3 - Alles Gute kommt von unten|https://images.genius.com/93d997d5ffa11dc1e5f184bbdee2ab80.1000x1000x1.jpg|2007|12|7
+107705|M.a.d.U. 2 (Mukke aus der Unterschicht 2)|https://images.genius.com/89879e2780fbb5884eb9f98714f75269.500x495x1.jpg|2008|8|22
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
+120808|ersguterjunge Sampler Vol. 2 - Vendetta |https://images.genius.com/7c48a78d1c9fe1fa063ad83831b2c717.600x600x1.jpg|2006|12|1

@@ -1,0 +1,841 @@
+performer_id|performer_name|performer_img_url
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+632700|AJ Tracey|https://images.genius.com/cc23f553c89be663a04ed84a2c9600d4.400x400x1.jpg
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+130|Drake|https://images.genius.com/d88b9e6b78704998334786ea8fef35b8.1000x1000x1.jpg
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+28799|Bugzy Malone|https://images.genius.com/54faec0b8e62998058da3140b6c2f25f.900x900x1.jpg
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+667443|YGG|https://images.genius.com/9c53d384b9ce1d8c7d11cf43f315d93f.500x500x1.jpg
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+443|P Money|https://images.genius.com/de483109b070d41a34fbad76ab9b236b.667x667x1.jpg
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+28799|Bugzy Malone|https://images.genius.com/54faec0b8e62998058da3140b6c2f25f.900x900x1.jpg
+443|P Money|https://images.genius.com/de483109b070d41a34fbad76ab9b236b.667x667x1.jpg
+1688|Ghetts|https://images.genius.com/4697ebd829c290e1ab91632bddc902c2.1000x1000x1.jpg
+1688|Ghetts|https://images.genius.com/4697ebd829c290e1ab91632bddc902c2.1000x1000x1.jpg
+11848|Jme|https://images.genius.com/85d31698a1d93c12a7e361e108315f5a.350x301x1.png
+1688|Ghetts|https://images.genius.com/4697ebd829c290e1ab91632bddc902c2.1000x1000x1.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+484660|Cadell|https://s3.amazonaws.com/filepicker-images-rapgenius/BBahn8BRvO2GftZex6Cg_cadell.jpg
+443|P Money|https://images.genius.com/de483109b070d41a34fbad76ab9b236b.667x667x1.jpg
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+212456|Stormzy|https://images.genius.com/3448ab559c4676d1aaf11fdebf52f28c.407x407x1.jpg
+514300|Rebound X|https://assets.genius.com/images/default_avatar_300.png?1550698131
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+265150|Grim Sickers|https://images.genius.com/1ea6669bb439c9e99ab5336d27299bff.400x400x1.jpg
+670488|Big Zuu|https://images.genius.com/9342b7fce5211633ffcb4896ddd4c765.596x596x1.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+155233|Kozzie|https://images.genius.com/7fa82117ae7ec9fa990ca901cee5a494.573x573x1.png
+667443|YGG|https://images.genius.com/9c53d384b9ce1d8c7d11cf43f315d93f.500x500x1.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+49252|Hardy Caprio|https://images.genius.com/c88f63a2dd69965f170bec9be0283b3a.960x640x1.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+1688|Ghetts|https://images.genius.com/4697ebd829c290e1ab91632bddc902c2.1000x1000x1.jpg
+1400|Tinchy Stryder|https://images.genius.com/ae5d8c37c8e375e90b1f2a1f3384f547.1000x1000x1.jpg
+637745|Nico Lindsay|https://images.genius.com/7b7cf2923ec89e1f6f87d347ad829c91.512x512x1.jpg
+265150|Grim Sickers|https://images.genius.com/1ea6669bb439c9e99ab5336d27299bff.400x400x1.jpg
+2585|D Double E|https://s3.amazonaws.com/rapgenius/599612_10151256097938496_10908139_n.jpg
+2585|D Double E|https://s3.amazonaws.com/rapgenius/599612_10151256097938496_10908139_n.jpg
+2585|D Double E|https://s3.amazonaws.com/rapgenius/599612_10151256097938496_10908139_n.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+32016|President T|https://images.genius.com/25dc19f5f8f0a58c6f4818ae55bbddba.440x440x1.jpg
+4755|Shorty|https://s3.amazonaws.com/rapgenius/7dec11_shorty_fthesenuggas__326_202_s_c1_center_top.jpg
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+958991|Nasty Jack|https://images.genius.com/6f963177de6955e7587a7e32e8785af1.269x269x1.jpg
+1400|Tinchy Stryder|https://images.genius.com/ae5d8c37c8e375e90b1f2a1f3384f547.1000x1000x1.jpg
+648794|Capo Lee|https://images.genius.com/b230f12feb8ff26159d17134e3971fc0.266x266x1.png
+1209878|K2 World|https://assets.genius.com/images/default_avatar_300.png?1550698131
+632912|Jorja Smith|https://images.genius.com/478c375f7776781374f9aef4d915019e.960x960x1.jpg
+69022|I1|https://images.genius.com/a294927cc5befee85720ead6f3945b57.512x512x1.png
+335733|Sir Spyro|https://images.genius.com/d423ca9a466ae8bc6cb13f8f797b62ff.460x460x1.jpg
+654678|So Large|https://images.genius.com/5cc4d609b73360982dd339557659ba93.213x213x1.jpg
+669627|King JAN|https://images.genius.com/f2f3e2150f6ec3c88ea229bfbabb012b.500x500x1.jpg
+393253|Toumi|https://images.genius.com/e0f4e3362ab9c65fced665c4241298bb.500x500x1.jpg
+618541|Connor Seven|https://assets.genius.com/images/default_avatar_300.png?1550698131
+637745|Nico Lindsay|https://images.genius.com/7b7cf2923ec89e1f6f87d347ad829c91.512x512x1.jpg
+1688|Ghetts|https://images.genius.com/4697ebd829c290e1ab91632bddc902c2.1000x1000x1.jpg
+155230|D-Power Diesle|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1064099|Hitman Tiga|https://images.genius.com/009aa1a87e2b1d9cb0ff69c67a923a81.775x775x1.jpg
+40870|Smack|https://images.genius.com/b11fae7a4644c633c091c64171465400.1000x1000x1.jpg
+33240|Footsie|https://s3.amazonaws.com/rapgenius/24648_543545669000413_617300783_n.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+643|Pusha-T|https://images.genius.com/87903651ddee503eda9f6cb78c37e662.400x400x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+69|J. Cole|https://images.genius.com/2cd936e786e1ab454043327d585c7702.1000x1000x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+7922|Logic|https://images.genius.com/75b9fd3705271c3c10d64dfb3139caf7.900x900x1.jpg
+3|Fabolous|https://images.genius.com/8e2843dcf4a386d5de04cd6e203899e1.391x391x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+411|Lil' Kim|https://images.genius.com/10b4d65943ac863a1e4d40bcfe325448.612x612x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+491|Big K.R.I.T.|https://images.genius.com/0e16b62076c990c85eee504deedb7985.393x393x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+3442|Bahamadia|https://images.genius.com/7acc67a24785f3b2d0bcf4d38da4aa51.1000x1000x1.jpg
+736|Diggy|https://images.genius.com/e0d894086161e0eea8ef2335740aab7b.860x860x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+147|Lupe Fiasco|https://images.genius.com/b67b7f5bfbd7eb8c5c334fa8b05a2432.400x400x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+9119|Original Flavor|https://images.genius.com/b03a4077d584f908b2e884e57dfa4b74.598x598x1.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+528902|Kendrick Lamar & Jay Rock|https://images.genius.com/f17dac429bacdf4b897170f9fe4bfa4f.667x667x1.jpg
+81|AZ|https://s3.amazonaws.com/rapgenius/Az-03.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+432|Chris Webby|https://images.genius.com/d527c19ca751047ea9a0dc5f460bb55d.1000x1000x1.png
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+108|50 Cent|https://images.genius.com/3ac0369e9af7e95b4d1574832fafebfe.430x430x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+141|Lord Tariq & Peter Gunz|https://images.genius.com/aa012a4ecf50d299a27f50910186abf5.720x720x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+432|Chris Webby|https://images.genius.com/d527c19ca751047ea9a0dc5f460bb55d.1000x1000x1.png
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+156|Yasiin Bey|https://images.genius.com/4d1a9757d430776710118a3e0ba4658f.1000x667x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+388|Talib Kweli|https://s3.amazonaws.com/rapgenius/talib-pic.png
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1269|KRS-One|https://images.genius.com/e9fa55af2e8bfddf3b40ea0e0347874f.556x556x1.jpg
+108|50 Cent|https://images.genius.com/3ac0369e9af7e95b4d1574832fafebfe.430x430x1.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+4331|Young Zee|https://s3.amazonaws.com/rapgenius/1362133121_Young%20Zee.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+204|Foxy Brown|https://images.genius.com/31b881b9d3cdf81f67cd8077ad090321.467x467x1.jpg
+432|Chris Webby|https://images.genius.com/d527c19ca751047ea9a0dc5f460bb55d.1000x1000x1.png
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+130|Drake|https://images.genius.com/d88b9e6b78704998334786ea8fef35b8.1000x1000x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+1333|Proof|https://images.genius.com/a168ce2b6c86a86cfb53a6d996cdc8ca.304x400x1.png
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+204|Foxy Brown|https://images.genius.com/31b881b9d3cdf81f67cd8077ad090321.467x467x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+14381|Nitty Scott|https://images.genius.com/7600dcfbffef8659f06c125c84cacd41.947x947x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+273978|The Avalanches|https://images.genius.com/6d6233e5cdd2a6aeb88297aef1a1aa3c.1000x562x1.jpg
+6548|Homeboy Sandman|https://images.genius.com/6e224fea08af31a762b3497a66b0eb6e.1000x1000x1.jpg
+724|Locksmith|https://s3.amazonaws.com/rapgenius/locksmith_trimmed.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+432|Chris Webby|https://images.genius.com/d527c19ca751047ea9a0dc5f460bb55d.1000x1000x1.png
+4331|Young Zee|https://s3.amazonaws.com/rapgenius/1362133121_Young%20Zee.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+9119|Original Flavor|https://images.genius.com/b03a4077d584f908b2e884e57dfa4b74.598x598x1.jpg
+14381|Nitty Scott|https://images.genius.com/7600dcfbffef8659f06c125c84cacd41.947x947x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+1678|Angie Martinez|https://images.genius.com/439f66679a994188cae23c6858565d8a.438x438x1.jpg
+1492|Nature|https://images.genius.com/1347c8a031c29a20889e17df64f84846.300x300x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+455|Lil B|https://images.genius.com/2efb8a55a1085c6bdd164b0bfdfea829.960x960x1.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+939|Freddie Gibbs|https://images.genius.com/c9a0de64e8b42a8635ec2fe5ddd9c41c.899x899x1.jpg
+30566|Tav-1|https://images.rapgenius.com/avatars/medium/6DIe92dgSvGhlLiIzRCg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+4331|Young Zee|https://s3.amazonaws.com/rapgenius/1362133121_Young%20Zee.jpg
+471|Royce da 5'9''|https://images.genius.com/892233b049a8da052593a9b4030be708.988x988x1.png
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+2|JAY-Z|https://images.genius.com/bf0f68ee56f29c8542ad805c6419682b.676x676x1.jpg
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+1424545|Strick & Royce The 5'9"|https://assets.genius.com/images/default_avatar_300.png?1550698131
+9119|Original Flavor|https://images.genius.com/b03a4077d584f908b2e884e57dfa4b74.598x598x1.jpg
+396|Wale|https://images.genius.com/e0cde0eabe61c1ddca97cce2386792d2.421x421x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+74128|Copeland|https://images.genius.com/a688d1c83e7d1d3ce1d18d30ef39df8b.640x566x1.jpg
+21671|Da$h & Retch|https://images.genius.com/d37aa557db323457beba479123d6c37a.500x281x23.gif
+123121|Catcreek Musa|https://assets.genius.com/images/default_avatar_300.png?1550698131
+53931|Stokely|https://s3.amazonaws.com/rapgenius/avatars/medium/zoPA3yaRLaRZ8r0ABR8Q.jpg
+3781|Outsidaz|https://images.genius.com/da281191263355bad2357e989ed5bea7.365x235x1.gif
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+977|Masta Killa|https://images.genius.com/9e0ce0a8305b78c7989b57d6ec83d05c.333x500x1.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+471|Royce da 5'9''|https://images.genius.com/892233b049a8da052593a9b4030be708.988x988x1.png
+327185|Gamemast15r|https://images.genius.com/avatars/medium/8f96440c467263078e01d5b7b236b882
+4331|Young Zee|https://s3.amazonaws.com/rapgenius/1362133121_Young%20Zee.jpg
+130|Drake|https://images.genius.com/d88b9e6b78704998334786ea8fef35b8.1000x1000x1.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+91083|Allen Mikal|https://images.genius.com/fcef5cfa782e97ff27c8ac961a2f4f8d.300x224x1.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+33173|Ian Jazzi|https://s3.amazonaws.com/rapgenius/avatars/medium/1358290421_105742_280667_10150269423712491_114178397490_7409991_3651754_o.jpg
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+68042|Dyazz|https://images.genius.com/97cc805db6edd6fb852302644d1109bc.300x201x1.jpg
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+471|Royce da 5'9''|https://images.genius.com/892233b049a8da052593a9b4030be708.988x988x1.png
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+9331|Philly's Most Wanted|https://images.genius.com/51215bdb4f36c2d56ad009c0b31fd62f.509x509x1.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+1140434|Almighty Savage|https://assets.genius.com/images/default_avatar_300.png?1550698131
+226635|Genius Users|https://images.genius.com/572b51ce3c79ecabece7c4a976ba915f.1000x1000x1.png
+638|Stalley|https://images.genius.com/ec6da9d9412f13a1294fd8a4d97cd4f6.720x720x1.jpg
+96482|Mike Bars|https://images.genius.com/avatars/medium/b41b27570aca3d3ecb824ec26ef7796c
+58477|Stide Prince|https://images.rapgenius.com/avatars/medium/a4dda08c1fe0178c242a176fe938133f
+724|Locksmith|https://s3.amazonaws.com/rapgenius/locksmith_trimmed.jpg
+605|Murs|https://images.genius.com/1c597d883d50c65606dd3a443f189f84.1000x1000x1.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+47850|R.ichard Oasis|https://images.rapgenius.com/avatars/medium/e3160901440881496a0ccd465058461d
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+812|Rhymefest|https://images.genius.com/45m9fcg2txjhxt4epnea3udbp.540x417x1.jpg
+43315|Hugh Lee|https://images.genius.com/2c5bc6df5bebc7ee9ce1ae44cf55a8a7.1000x1000x1.png
+1039999|Thomas Burgundy|https://images.genius.com/e49ec887ff405962cf15b90285e62a53.1000x1000x1.jpg
+14889|Money$Team|https://s3.amazonaws.com/rapgenius/animated-dollar-gold.gif
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+1113|Sporty Thievz|https://images.genius.com/0da1ebebc0f9586b82fa24bcace875f6.480x360x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+520|Camp Lo|https://s3.amazonaws.com/rapgenius/1362298279_Camp%20Lo.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+724|Locksmith|https://s3.amazonaws.com/rapgenius/locksmith_trimmed.jpg
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+1679377|Brandon Donald|https://images.genius.com/35dc8498e40bb365b9b3d5037b92332f.1000x1000x1.jpg
+1973|Smoke DZA|https://images.genius.com/223ef207ebad1f82dedba85513ca74dc.1000x562x1.png
+1387861|Fama & Solo Ap|https://images.genius.com/0539faae166147b3fd0d03ad89f30427.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+1685384|Yung Swayde|https://assets.genius.com/images/default_avatar_300.png?1550698131
+26471|Aaron omar|https://s3.amazonaws.com/rapgenius/avatars/medium/WCngFaJSeWJ4pIIHOHj9.jpg
+7557|Lil' D|https://assets.genius.com/images/default_avatar_300.png?1550698131
+14378|Da$H|https://images.genius.com/c69f2d80c917398a44b51ada55dd654a.640x420x1.jpg
+72769|Indigo Bang|https://assets.genius.com/images/default_avatar_300.png?1550698131
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+66671|Satellite High|https://images.genius.com/bac94e9581c6a32fb2374ef1c672282a.590x590x1.jpg
+5249|Shareefa|https://assets.genius.com/images/default_avatar_300.png?1550698131
+42907|Lyndon|https://assets.genius.com/images/default_avatar_300.png?1550698131
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+46050|Goliath|https://s3.amazonaws.com/rapgenius/avatars/medium/3rY4sSYORq6w0QG0m33L.jpg
+637183|Izzy Reynard|https://assets.genius.com/images/default_avatar_300.png?1550698131
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+409|Charles Hamilton|https://images.genius.com/2cd6e23436a4898210818f8a2d5f4e21.1000x666x1.jpg
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+35130|FanOBee|https://s3.amazonaws.com/rapgenius/avatars/medium/1374185496_8cb7ad30ec68870b7dd5c4da0c450241.jpeg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+632082|Sean Slick|https://images.genius.com/344749db3e176fca8b4e42da0b3fb60a.1000x1000x1.jpg
+24730|Cam Groves|https://images.genius.com/c15a71661226c070c3384936086356c9.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+19381|Keenan Coke|https://s3.amazonaws.com/rapgenius/avatars/medium/ygbGG0l6SSyGXebhJFzu.jpg
+162709|Justin Torres|https://images.genius.com/358ffb2a5c3b81ff96e08c8396871dc2.300x300x1.jpg
+57707|Teej|https://assets.genius.com/images/default_avatar_300.png?1550698131
+638912|May Rock|https://images.genius.com/c84c2e50d47f430c3e9448e04af590d7.694x690x1.jpg
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+1139722|Andy O.|https://s3.amazonaws.com/filepicker-images-rapgenius/02633oj6wvu5
+1331538|Problm Child|https://images.genius.com/ba361cb00219277f4ff6e63f74feb323.480x480x1.jpg
+1304389|Hayden Jamal|https://images.genius.com/8056fd8f8d5755b18a41d604c4600c08.1000x667x1.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+1462|Ace Hashimoto|https://images.genius.com/2210f2f80b766fff98cdfcf2f67cdba0.1000x1000x1.jpg
+5937|Fendi P|https://images.genius.com/376ecedefb46660d540faecb9852545c.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+7613|Pacewon|https://s3.amazonaws.com/rapgenius/1362133040_pacewon1.jpg
+52809|Omari Oneal|https://images.rapgenius.com/avatars/medium/cdde3372daaf171ccf93a584d56bf940
+1059306|James Drainer|https://assets.genius.com/images/default_avatar_300.png?1550698131
+8153|Tabi Bonney|https://s3.amazonaws.com/rapgenius/tabi-Bonney.png
+51198|Stevie Bucks|https://assets.genius.com/images/default_avatar_300.png?1550698131
+58819|Pareja de Ases|https://s3.amazonaws.com/rapgenius/1372864734_943301_456411177776211_1043348380_n.png
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+157051|Stanley|https://assets.genius.com/images/default_avatar_300.png?1550698131
+91083|Allen Mikal|https://images.genius.com/fcef5cfa782e97ff27c8ac961a2f4f8d.300x224x1.jpg
+48136|J. Venom|https://s3.amazonaws.com/rapgenius/avatars/medium/e98fbd4bc0d0d26459caff9b5b6b6820.jpeg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+308680|Charlie Hayley|https://assets.genius.com/images/default_avatar_300.png?1550698131
+140506|Cres & !llmind|https://images.genius.com/58886d25b49e46996e5256e1f3eff1c8.728x728x1.jpg
+15444|AO Baker|https://images.genius.com/24d6cfed30774e4f4fd96469f8e2d5aa.1000x1000x1.jpg
+1516491|Lord GEM|https://assets.genius.com/images/default_avatar_300.png?1550698131
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+74345|Cameron Uzoka|https://images.genius.com/241738f51a1ab226ec60eddc8defe91e.462x462x1.jpg
+19188|PuKe King|https://s3.amazonaws.com/rapgenius/avatars/medium/1358290088_91226_folder.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+1114883|Flipp Dinero|https://images.genius.com/736997b5744943d845c08197d0904a94.1000x1000x1.jpg
+12991|Ski Beatz|https://s3.amazonaws.com/rapgenius/SkiBeatzXsneach.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+16971|Najee The 1|https://images.genius.com/c8b22a1a66aead552a9f93a368192b0a.1000x1000x1.jpg
+106351|SOUNDMAPPER|https://assets.genius.com/images/default_avatar_300.png?1550698131
+634279|G5 Elz|https://images.genius.com/2b7fc6c374d4bb2e9516f3cff7c84bc7.667x1000x1.jpg
+1687054|S?ecial-K|https://images.genius.com/2f62794c0e6dcbb92ad3ef777aac5bf1.1000x1000x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1745|Childish Gambino|https://images.genius.com/5a9c598da4e86fefcb845cbbe74706aa.1000x1000x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1745|Childish Gambino|https://images.genius.com/5a9c598da4e86fefcb845cbbe74706aa.1000x1000x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+28526|CASisDEAD|https://images.genius.com/07878878723a776f0be43350fdda3724.718x718x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+28583|Lucki|https://images.genius.com/1a377e78904921db9cd9847d7571ea0d.400x400x1.jpg
+18192|Wiki|https://images.genius.com/005f32b1dde6eee11a6b6dacba218379.524x524x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+48147|Run The Jewels|https://images.genius.com/b8813cdda31f4ffae924413bc037239e.1000x1000x1.jpg
+28526|CASisDEAD|https://images.genius.com/07878878723a776f0be43350fdda3724.718x718x1.jpg
+28583|Lucki|https://images.genius.com/1a377e78904921db9cd9847d7571ea0d.400x400x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+13357|Dopehead|https://images.genius.com/bfe533257ef24614e536e997168802e9.500x500x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+28583|Lucki|https://images.genius.com/1a377e78904921db9cd9847d7571ea0d.400x400x1.jpg
+88749|Packy|https://images.genius.com/f4104691ca651bc38d5ae64bf6d0fbbf.959x959x1.jpg
+22614|Antwon|https://images.genius.com/1ac0468cff2e04a68bed535f72869232.663x1000x1.jpg
+14378|Da$H|https://images.genius.com/c69f2d80c917398a44b51ada55dd654a.640x420x1.jpg
+62592|TRPL BLK|https://images.genius.com/e09dfd0571808737190618ae51c62ddf.1000x1000x1.jpg
+1422|Danny Brown|https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif
+14378|Da$H|https://images.genius.com/c69f2d80c917398a44b51ada55dd654a.640x420x1.jpg
+138560|SB IV SHORT|https://images.rapgenius.com/avatars/medium/b20038e4f9904a15402178e96751f15a
+70103|Larz D'Lanky|https://assets.genius.com/images/default_avatar_300.png?1550698131
+14378|Da$H|https://images.genius.com/c69f2d80c917398a44b51ada55dd654a.640x420x1.jpg
+131365|Aquil Smith|https://assets.genius.com/images/default_avatar_300.png?1550698131
+13243|Kool A.D.|https://s3.amazonaws.com/rapgenius/1362185468_Kool-AD-Okayplayer-interview2.jpg
+36409|KoB (Producer)|https://images.genius.com/62e9713e3a64c1543f4fbed9c21db7c5.640x640x1.jpg
+145574|Chukka Loe|https://images.genius.com/0947e2998d4b4c38f873eba5c6ca0dc1.300x225x1.jpg
+41166|SpaceMan|https://assets.genius.com/images/default_avatar_300.png?1550698131
+633797|Bonsai Keychain & Future Tom|https://assets.genius.com/images/default_avatar_300.png?1550698131
+106727|Cass Hadley|https://images.rapgenius.com/avatars/medium/b7eef381e4fe130aeeba250e85f5327d
+208008|Reiki|https://assets.genius.com/images/default_avatar_300.png?1550698131
+59736|Calistaxx|https://assets.genius.com/images/default_avatar_300.png?1550698131
+17996|Mike Mozart|https://s3.amazonaws.com/rapgenius/avatars/medium/GutIICJS9aFh11PTRKPy.png
+29887|Jamz (Rap)|https://images.genius.com/46d21a89595d6245f0ebbd9d1b228b58.720x720x1.jpg
+13202|CardCaptorXP|https://images.genius.com/c55b636e921e6281158df9e39a8e7b40.640x640x1.jpg
+60717|The, Duke|https://assets.genius.com/images/default_avatar_300.png?1550698131
+620475|Bonsai Keychain|https://assets.genius.com/images/default_avatar_300.png?1550698131
+620475|Bonsai Keychain|https://assets.genius.com/images/default_avatar_300.png?1550698131
+30548|J Virtue|https://assets.genius.com/images/default_avatar_300.png?1550698131
+14822|Linus|https://assets.genius.com/images/default_avatar_300.png?1550698131
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+21894|A$AP Mob|https://images.genius.com/46e736f7bfd968b40dc1d81e12c70576.1000x1000x1.jpg
+639521|A Boogie wit da Hoodie|https://images.genius.com/fc231aac2fd4fe5965f20d2d30f0c775.858x858x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+639521|A Boogie wit da Hoodie|https://images.genius.com/fc231aac2fd4fe5965f20d2d30f0c775.858x858x1.jpg
+995189|Quality Control|https://images.genius.com/01c2668cb558306281d73ba43b9d6749.600x600x1.png
+241761|DRAM|https://images.genius.com/6356cb78f83b5bd8c293e6eb87909206.1000x750x1.jpg
+11395|G-Eazy|https://images.genius.com/fd7ed1a82cc621a07ef0ec67ae88b145.1000x1000x1.jpg
+32397|G Herbo|https://images.genius.com/4893fde651aa5045f272ca6c95c0ace6.420x420x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+995189|Quality Control|https://images.genius.com/01c2668cb558306281d73ba43b9d6749.600x600x1.png
+656998|Jerry Purpdrank|https://images.genius.com/1c18c6fb7bac26924d3c7350ed3227b6.960x960x1.jpg
+196|Lloyd|https://images.genius.com/741bd9fb28a902a24fa8008ba3d6e261.467x467x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+977704|Fetty Wap & PnB Rock|https://assets.genius.com/images/default_avatar_300.png?1550698131
+14460|Reese LAFLARE|https://images.genius.com/8b00e42e0879c59111c4c0fd325572b6.762x762x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+12939|Skeme|https://images.genius.com/eb69085b6707b2690bec0fa3779c5ab8.772x772x1.jpg
+621678|Cardi B|https://images.genius.com/815886b61d08bf1b418e5c0b3b368275.1000x1000x1.jpg
+39928|Lorine Chia|https://images.genius.com/14104699ff38b2b7b0e9731d9c490501.500x500x1.jpg
+607646|Nick Grant|https://images.genius.com/572b6c5f19dffa118f97667474d36a9c.1000x1000x1.jpg
+1009099|THRILL PILL|https://images.genius.com/f4721b9fb297236293347a49d1411c19.1000x1000x1.jpg
+276934|Marty Baller|https://images.genius.com/a577af714fc93ed89283c1af37431d16.426x426x1.jpg
+508874|Arin Ray|https://images.genius.com/15c30c0f764873dc3cf151ff40f93ee7.1000x1000x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+1065781|Hoodrich Pablo Juan & Jose Guapo|https://images.genius.com/a5f05e75ec83ce55a3bfec4d2a12a4ba.351x351x1.png
+223086|Jace|https://images.genius.com/b4bab16f25eefda5890765aefa8344b1.615x615x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+196|Lloyd|https://images.genius.com/741bd9fb28a902a24fa8008ba3d6e261.467x467x1.jpg
+1067679|Lil HBK|https://images.genius.com/940d139b7ecadd5eca3fc7f070008e22.1000x1000x1.jpg
+1037102|22Gz|https://images.genius.com/ff07f4a8bc30b9c09673ea6d5de0bb5d.630x630x1.jpg
+14460|Reese LAFLARE|https://images.genius.com/8b00e42e0879c59111c4c0fd325572b6.762x762x1.jpg
+1981|Audio Push|https://images.genius.com/6b3bf30610270a41edd39aae22c27dc7.600x600x1.jpg
+656998|Jerry Purpdrank|https://images.genius.com/1c18c6fb7bac26924d3c7350ed3227b6.960x960x1.jpg
+182312|Zoey Dollaz|https://images.genius.com/2436b8953dd25c62d734b009a7b5cc35.899x899x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+203213|bbymutha|https://images.genius.com/5fe8a1bb42d2cc4835e34cb792ab4a10.1000x1000x1.jpg
+14460|Reese LAFLARE|https://images.genius.com/8b00e42e0879c59111c4c0fd325572b6.762x762x1.jpg
+207474|OG Maco|https://images.genius.com/7c09a9c87dc843bf4050c301caf1a4f7.822x822x1.jpg
+276934|Marty Baller|https://images.genius.com/a577af714fc93ed89283c1af37431d16.426x426x1.jpg
+1055462|Key! & Reese LAFLARE|https://images.genius.com/8cf538da303c3224f4e6b025e78b280e.293x293x1.png
+56864|Quicktrip|https://images.genius.com/7b6082394d1907faf3fcc9d0a07880e1.819x819x1.png
+39928|Lorine Chia|https://images.genius.com/14104699ff38b2b7b0e9731d9c490501.500x500x1.jpg
+14460|Reese LAFLARE|https://images.genius.com/8b00e42e0879c59111c4c0fd325572b6.762x762x1.jpg
+614718|K$upreme|https://images.genius.com/7f434e6e297e86ce36b234aa9bda55b7.500x500x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+39928|Lorine Chia|https://images.genius.com/14104699ff38b2b7b0e9731d9c490501.500x500x1.jpg
+614718|K$upreme|https://images.genius.com/7f434e6e297e86ce36b234aa9bda55b7.500x500x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+279160|ManMan Savage|https://images.genius.com/334177bbb1f924d054dc4633a51e2c31.940x529x1.jpg
+22463|Brianna Perry|https://images.genius.com/66ebf67824311b9591d74736feeae9c8.777x777x1.jpg
+656998|Jerry Purpdrank|https://images.genius.com/1c18c6fb7bac26924d3c7350ed3227b6.960x960x1.jpg
+12939|Skeme|https://images.genius.com/eb69085b6707b2690bec0fa3779c5ab8.772x772x1.jpg
+1095187|Apex the Starkiller|https://images.genius.com/c8c7fded9936a87fa82539164eb72ba5.1000x562x1.png
+418763|$ana Leako|https://assets.genius.com/images/default_avatar_300.png?1550698131
+205609|Slade Da Monsta|https://images.genius.com/d86b3c01eac28dad7eb7761ffa134f4e.714x714x1.jpg
+1091948|Mali Smith & Matthew Ali|https://assets.genius.com/images/default_avatar_300.png?1550698131
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+614718|K$upreme|https://images.genius.com/7f434e6e297e86ce36b234aa9bda55b7.500x500x1.jpg
+205609|Slade Da Monsta|https://images.genius.com/d86b3c01eac28dad7eb7761ffa134f4e.714x714x1.jpg
+14460|Reese LAFLARE|https://images.genius.com/8b00e42e0879c59111c4c0fd325572b6.762x762x1.jpg
+396325|Jimmy From Da Block|https://images.genius.com/728583f906cfb3224a1e72613c5debd3.1000x1000x1.jpg
+984716|Fletch Darko|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1402924|ItsBallyBaby|https://images.genius.com/2223260909c4cc18e927753f74e6044c.1000x1000x1.jpg
+1312372|Apollo Fresh|https://images.genius.com/7e9633dbe3c7c8d1e2cfa6e90c53d9a7.538x538x1.jpg
+187547|Ducko McFli|https://images.genius.com/b84aa08c43dfd13501bb9fabcea83688.778x778x1.jpg
+673605|K-Si Yang|https://images.genius.com/9a2bd90bb415a3b8eee0ea0d8c99daa0.500x500x1.jpg
+14325|2 Chainz|https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+498|Beyoncé|https://images.genius.com/831f3296553e9e82930daeb16ae68d3c.750x750x1.jpg
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+108|50 Cent|https://images.genius.com/3ac0369e9af7e95b4d1574832fafebfe.430x430x1.jpg
+177756|Rae Sremmurd|https://images.genius.com/abb56915f8a18612019e458c8cb8449b.492x492x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+941|Vince Staples|https://images.genius.com/e2825ca7638ddd76e5e8aa1368927bd2.532x532x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+108|50 Cent|https://images.genius.com/3ac0369e9af7e95b4d1574832fafebfe.430x430x1.jpg
+13640|Guizmo|https://images.genius.com/eebed6471e9476e6b982836ec2dd1b36.912x912x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+20503|Young Thug|https://images.genius.com/132dc1102a66006a89262588c38104ac.640x640x1.jpg
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+20503|Young Thug|https://images.genius.com/132dc1102a66006a89262588c38104ac.640x640x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+1665|Machine Gun Kelly|https://images.genius.com/6a7ba9f284f19502cf719df6d7153c1d.720x720x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+1249808|Kodak Black & Plies|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+264368|Bryson Tiller|https://images.genius.com/a0e91b5f06cdd8c7b3f1a87ad853a604.640x640x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+1649489|JID & A$AP Ferg|https://assets.genius.com/images/default_avatar_300.png?1550698131
+11240|YC|https://images.genius.com/afc1aa34868ee445e4b6d367deca2f03.304x304x1.png
+11240|YC|https://images.genius.com/afc1aa34868ee445e4b6d367deca2f03.304x304x1.png
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+980465|21 Savage & Metro Boomin|https://images.genius.com/d80415ba54e748cced97ffd872f1a482.630x630x1.jpg
+396|Wale|https://images.genius.com/e0cde0eabe61c1ddca97cce2386792d2.421x421x1.jpg
+396|Wale|https://images.genius.com/e0cde0eabe61c1ddca97cce2386792d2.421x421x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+20742|K Camp|https://images.genius.com/937899817bbca48d3fbf47a8d864ae81.807x807x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+11240|YC|https://images.genius.com/afc1aa34868ee445e4b6d367deca2f03.304x304x1.png
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+569922|Lil Peep|https://images.genius.com/e9aa7bb6533bc1d3aac6f198456f3653.960x960x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+20503|Young Thug|https://images.genius.com/132dc1102a66006a89262588c38104ac.640x640x1.jpg
+1632|Tory Lanez|https://images.genius.com/f30bec6e340536c9c828b2b0f63f1d0a.546x546x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+197|Young Money|https://images.genius.com/f1d2f83e22f6535589e3b8a4ace1191d.500x300x6.gif
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+24823|Rich Homie Quan|https://images.genius.com/334dc3565e640f1df6f809a163903cad.1000x1000x1.jpg
+498|Beyoncé|https://images.genius.com/831f3296553e9e82930daeb16ae68d3c.750x750x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+1028913|Tee Grizzley|https://images.genius.com/d624986c2f009b422cc21ede3630da4a.395x395x1.jpg
+324667|JID|https://images.genius.com/b2b79e586d20df0c2a21943d2edf1e9e.1000x1000x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+1028913|Tee Grizzley|https://images.genius.com/d624986c2f009b422cc21ede3630da4a.395x395x1.jpg
+630301|Queen Key|https://images.genius.com/2bc0f8eaace59423eed4bcac7256e9af.1000x1000x1.png
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+1631|Kid Ink|https://images.genius.com/21bdd915768bba8a4230188219c45f1d.630x630x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+13|Gucci Mane|https://images.genius.com/6f0a4980c8ef838036229e1d4dcd036c.408x408x1.jpg
+33238|Lil Bibby|https://images.genius.com/ed33bbad136bc1e9148db83911ebffda.338x338x1.png
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+1109011|Sonny Digital & Black Boe|https://assets.genius.com/images/default_avatar_300.png?1550698131
+19635|Monty|https://images.genius.com/fa3d0ea31171cfe6304e7f5d91d6c84d.647x647x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+44080|Migos|https://images.genius.com/f9c991a8f021b26424a0ce9efa8ccee3.1000x1000x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+21964|Lil Durk|https://images.genius.com/6cc1d2541bb0317b97bce9cc960894c8.395x395x1.jpg
+49986|Gucci Mane & Young Scooter|https://images.genius.com/03fcb32fe47dc58ce68b5bee5e2cdadf.640x425x1.png
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+616725|Lotto Savage|https://images.genius.com/e6d048af5990385240edd81c9afba379.937x937x1.jpg
+330697|Jidenna|https://images.genius.com/2fa982cbe64dfc3861325f88517ebfcd.1000x563x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+346237|MadeinTYO|https://images.genius.com/0be1c3c476f686ebaeb683ab87f2d30f.600x751x1.jpg
+24823|Rich Homie Quan|https://images.genius.com/334dc3565e640f1df6f809a163903cad.1000x1000x1.jpg
+612905|Trill Sammy|https://images.genius.com/9ccf9e53d4f2b13105842d23c092e6b2.1000x667x1.jpg
+27359|Trinidad James|https://images.genius.com/41dcf9510ff313482467b72955204421.798x798x1.jpg
+222357|DeJ Loaf|https://images.genius.com/ace9901927b0a87e79a9434e2866096b.1000x666x1.jpg
+248458|PnB Rock|https://images.genius.com/d19431d27fee165ba71d702e3bb437c3.900x900x1.jpg
+430404|21 Savage|https://images.genius.com/61851ff277a0d0f01de175ee8e8cabf9.804x804x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+1486|Rich Kidz|https://images.genius.com/202944c375a24b1b1476ecebdf0b440d.800x533x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+640|King Los|https://images.genius.com/af979fd34aa3f95d652a83f4bdfdf39a.538x538x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+184057|Cold Hart|https://images.genius.com/6053f0b3515db8705a99f203ff3001a6.982x982x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+327800|Jimmy Wopo|https://images.genius.com/2f512dcac978da2adbb480cf8629ed25.1000x1000x1.jpg
+13953|DJ Holiday|https://images.genius.com/b13541ad495714e70bf49b6e3959ac75.628x353x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+217208|Lil Uzi Vert|https://images.genius.com/651a11b30fa5fd21648e6cc22c5a4f62.1000x1000x1.jpg
+20577|Maxo Kream|https://images.genius.com/ec449ebb99f7434609dd2b056bfa2def.1000x1000x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+12051|Starlito|https://images.genius.com/03f3948e5041dabbb19cf0ef912a027b.1000x1000x1.jpg
+310|Wiz Khalifa|https://images.genius.com/2ba15f623d81eda09cdc07f50dde02ad.400x400x1.jpg
+15792|Steve Aoki|https://images.genius.com/ce334fee1b8bb43e39be9ae02d561318.1000x933x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+646901|Smokepurpp|https://images.genius.com/69c93c1851ce693d0ab1867b5f894ebe.493x493x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+25005|Ty Dolla $ign|https://images.genius.com/d07735e0ce367e88926fd0bb120fb90d.1000x1000x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+197|Young Money|https://images.genius.com/f1d2f83e22f6535589e3b8a4ace1191d.500x300x6.gif
+20503|Young Thug|https://images.genius.com/132dc1102a66006a89262588c38104ac.640x640x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+1484100|Pardon My Take|https://images.genius.com/a816514ea50720a0c7b3d42d443511ba.563x563x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+22437|Young Dolph|https://images.genius.com/529bd775075870ed3e750905f06f0565.1000x1000x1.jpg
+185075|Gucci Mane & Young Thug|https://images.genius.com/d52e17b5b463d6290f077660f9e390b4.491x491x1.jpg
+11781|Slim Dunkin|https://s3.amazonaws.com/rapgenius/slimduncan.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+646901|Smokepurpp|https://images.genius.com/69c93c1851ce693d0ab1867b5f894ebe.493x493x1.jpg
+13|Gucci Mane|https://images.genius.com/6f0a4980c8ef838036229e1d4dcd036c.408x408x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+11240|YC|https://images.genius.com/afc1aa34868ee445e4b6d367deca2f03.304x304x1.png
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+1631|Kid Ink|https://images.genius.com/21bdd915768bba8a4230188219c45f1d.630x630x1.jpg
+186576|XXL|https://images.genius.com/5712e0ae3f9cecbb3495b97c824a7977.350x350x1.png
+27359|Trinidad James|https://images.genius.com/41dcf9510ff313482467b72955204421.798x798x1.jpg
+44080|Migos|https://images.genius.com/f9c991a8f021b26424a0ce9efa8ccee3.1000x1000x1.jpg
+88813|Offset|https://images.genius.com/b956a60cdc48d1acc5ba21e6b8c714be.1000x1000x1.jpg
+577981|Rich The Kid & iLoveMakonnen|https://assets.genius.com/images/default_avatar_300.png?1550698131
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+241761|DRAM|https://images.genius.com/6356cb78f83b5bd8c293e6eb87909206.1000x750x1.jpg
+20185|Travis Scott|https://images.genius.com/62d241389823ea14f6a4612f37e29db8.1000x1000x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+327800|Jimmy Wopo|https://images.genius.com/2f512dcac978da2adbb480cf8629ed25.1000x1000x1.jpg
+1818|Chevy Woods|https://images.genius.com/0e981cb49cf5f4500d564c0a9b55c741.498x498x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+27359|Trinidad James|https://images.genius.com/41dcf9510ff313482467b72955204421.798x798x1.jpg
+65109|Rich the Kid|https://images.genius.com/1f2a961273ed07fe474cf6454ea5e1f5.603x603x1.png
+859|Gorilla Zoe|https://images.genius.com/4f82bb650bce154b9080fe6eb490b1c2.1000x1000x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+1210165|Pat Ryan|https://images.genius.com/7d9325263acc4ec975c6def084778f7a.498x498x1.png
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+182049|iLoveMakonnen|https://images.genius.com/01cf3d4f5eba24a569d6453ed4924266.397x397x1.jpg
+68181|Sonny Digital & Que|https://assets.genius.com/images/default_avatar_300.png?1550698131
+853|B.o.B|https://images.genius.com/3252379f345638f5b880f5055e0ca791.540x540x1.jpg
+616725|Lotto Savage|https://images.genius.com/e6d048af5990385240edd81c9afba379.937x937x1.jpg
+67|Jeezy|https://images.genius.com/e6823e40028c161bae81e5512a8ecb14.292x292x1.png
+249529|Roscoe Dash|https://images.genius.com/b6e5f3b92bd13f61387cf3dc5757d148.667x1000x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+241761|DRAM|https://images.genius.com/6356cb78f83b5bd8c293e6eb87909206.1000x750x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+931|Boosie Badazz|https://images.genius.com/681f4bb9ff46a631f887773f54f74156.1000x1000x1.jpg
+853|B.o.B|https://images.genius.com/3252379f345638f5b880f5055e0ca791.540x540x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+15829|King Louie|https://images.genius.com/e9734abc6dea90d72ac027afd89aa8d0.869x869x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+68181|Sonny Digital & Que|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1355|Travis Porter|https://images.genius.com/64769eef5c067542dfb530a3e47f3819.797x797x1.jpg
+1156440|Yung 187, PnB Rock|https://assets.genius.com/images/default_avatar_300.png?1550698131
+57412|Finding Novyon|https://images.genius.com/7c2e86105d8145e8b451a3e1aba41a8a.1000x1000x1.jpg
+272|Plies|https://images.genius.com/142f4d6c2e6ce44c7607f441746bff25.1000x1000x1.jpg
+12936|RiFF RAFF|https://images.genius.com/9117f3f6593c49a4d6de35e05bb39991.400x400x1.jpg
+27905|Eddy Baker|https://images.genius.com/875db364c11bf21516cfa4b23ad69205.368x368x1.jpg
+13|Gucci Mane|https://images.genius.com/6f0a4980c8ef838036229e1d4dcd036c.408x408x1.jpg
+219521|Que & Mike Fresh|https://assets.genius.com/images/default_avatar_300.png?1550698131
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+11240|YC|https://images.genius.com/afc1aa34868ee445e4b6d367deca2f03.304x304x1.png
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+14325|2 Chainz|https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg
+49986|Gucci Mane & Young Scooter|https://images.genius.com/03fcb32fe47dc58ce68b5bee5e2cdadf.640x425x1.png
+859|Gorilla Zoe|https://images.genius.com/4f82bb650bce154b9080fe6eb490b1c2.1000x1000x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+667081|G Perico|https://images.genius.com/86932b78bd4ce05a62a498c8027f9865.640x640x1.jpg
+111|Ludacris|https://images.genius.com/d211edacb8de02968540124c6801063d.1000x1000x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+260|OJ da Juiceman|https://images.genius.com/4218ba6880b77a69975a60e5ce05fc8b.300x450x1.jpg
+13616|Jacquees|https://images.genius.com/cf5806086c7c970771336110217bae60.300x250x1.jpg
+859|Gorilla Zoe|https://images.genius.com/4f82bb650bce154b9080fe6eb490b1c2.1000x1000x1.jpg
+13|Gucci Mane|https://images.genius.com/6f0a4980c8ef838036229e1d4dcd036c.408x408x1.jpg
+24693|Young Lace|https://s3.amazonaws.com/rapgenius/young-lace.png
+20755|SD|https://images.genius.com/987a11af7ecb5083f63dc83983cceffa.1000x750x1.jpg
+249529|Roscoe Dash|https://images.genius.com/b6e5f3b92bd13f61387cf3dc5757d148.667x1000x1.jpg
+647630|D-Jay Sremm|https://images.genius.com/fc86ee57a11453f1402c18cdea30650f.364x364x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+27359|Trinidad James|https://images.genius.com/41dcf9510ff313482467b72955204421.798x798x1.jpg
+17560|Ca$h Out|https://images.genius.com/04f054dc158d9b7e91f3bfcc49ec29e4.362x362x1.jpg
+144583|Low Pros|https://images.genius.com/c66c6350e4ab2a05f3663d2f07f020cf.475x319x1.jpg
+1075|Trae tha Truth|https://images.genius.com/5619f407149605bd3b3845d41399afc8.1000x1000x1.jpg
+65109|Rich the Kid|https://images.genius.com/1f2a961273ed07fe474cf6454ea5e1f5.603x603x1.png
+257|Waka Flocka Flame|https://images.genius.com/87dca6a6f8e3110568a007a8eb28116e.588x588x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+593391|1K Phew|https://images.genius.com/b65a00a2a3f6eb393ad72e0f88329427.1000x1000x1.jpg
+267914|Tunit Malcom|https://assets.genius.com/images/default_avatar_300.png?1550698131
+859|Gorilla Zoe|https://images.genius.com/4f82bb650bce154b9080fe6eb490b1c2.1000x1000x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+1424|Rocko|https://images.genius.com/7aab0f392a9e661150084b082479c007.609x609x1.jpg
+1073|Juicy J|https://images.genius.com/d42f50ada8df12cb647ff9de20e2a2ea.304x304x1.jpg
+558549|GENIUS (Rapper)|https://images.genius.com/7878716e75bef5f2b1038245b9ae0118.850x850x1.jpg
+1109011|Sonny Digital & Black Boe|https://assets.genius.com/images/default_avatar_300.png?1550698131
+20292|Curtis Williams|https://images.genius.com/86a70a08181f028f246a36ca8f251b33.640x427x1.jpg
+149868|Zach Farlow|https://images.genius.com/ee2b3d9f43a9e3efa2a15188714b12be.505x505x1.jpg
+9688|Que|https://images.genius.com/4312ce2b16e458a5848817b2360fa6c4.887x887x1.png
+62173|Zuse|https://images.genius.com/f589d3da81e104f2f20a39cfc113a803.640x400x1.jpg
+12064|God|https://images.genius.com/3a3c0197b57d6f41e51989b1c6ae5e42.250x250x1.jpg
+593391|1K Phew|https://images.genius.com/b65a00a2a3f6eb393ad72e0f88329427.1000x1000x1.jpg
+1424|Rocko|https://images.genius.com/7aab0f392a9e661150084b082479c007.609x609x1.jpg
+1109011|Sonny Digital & Black Boe|https://assets.genius.com/images/default_avatar_300.png?1550698131
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+859|Gorilla Zoe|https://images.genius.com/4f82bb650bce154b9080fe6eb490b1c2.1000x1000x1.jpg
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+1424|Rocko|https://images.genius.com/7aab0f392a9e661150084b082479c007.609x609x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+11781|Slim Dunkin|https://s3.amazonaws.com/rapgenius/slimduncan.jpg
+654128|Duvo|https://assets.genius.com/images/default_avatar_300.png?1550698131
+333794|Polo Tha God|https://images.genius.com/044959e5f31e799d8781085e90494649.893x893x1.png
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+27359|Trinidad James|https://images.genius.com/41dcf9510ff313482467b72955204421.798x798x1.jpg
+68181|Sonny Digital & Que|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1013108|Lacoste|https://assets.genius.com/images/default_avatar_300.png?1550698131
+76764|Leaf|https://images.rapgenius.com/avatars/medium/47062b50a603a09790d2431b46440326
+157|Akon|https://images.genius.com/b714c76ff85aee144b80660942cf2e22.1000x1000x1.jpg
+394390|Champagne Cherub|https://assets.genius.com/images/default_avatar_300.png?1550698131
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg
+589775|Dro Fe|https://images.genius.com/92ed3549031baae335a6945e23fb259f.437x437x1.jpg
+57412|Finding Novyon|https://images.genius.com/7c2e86105d8145e8b451a3e1aba41a8a.1000x1000x1.jpg
+37749|Two-9|https://images.genius.com/c305dae28a1d74e6721f258b1821acd7.640x640x1.jpg
+1013108|Lacoste|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1424|Rocko|https://images.genius.com/7aab0f392a9e661150084b082479c007.609x609x1.jpg
+498|Beyoncé|https://images.genius.com/831f3296553e9e82930daeb16ae68d3c.750x750x1.jpg
+24693|Young Lace|https://s3.amazonaws.com/rapgenius/young-lace.png
+1262|Hodgy|https://images.genius.com/3b16adb12f25326bcb8f941f4f759dd5.500x648x1.jpg
+670623|Diego Money|https://images.genius.com/7f6e6d9f7ad654d880c72f1f8f6d1f1b.400x400x1.jpg
+167|Project Pat|https://images.genius.com/ceaa680acc840340d9a15d738da73d66.887x887x1.jpg
+1372326|STAHL|https://images.genius.com/527a1198f01b599e228a09da7a777e24.1000x1000x1.jpg
+14047|DJ Scream|https://images.genius.com/6b5687752e21edf3f4997b3e1db5f6f1.195x195x1.png
+325911|Mathaius Young|https://images.genius.com/2129cd2ef4d9fb892392d4e14ed93f74.1000x1000x1.jpg
+29707|Tiffany Foxx|https://images.genius.com/aca9d2ad3973b00f5be09a5f514dbf55.660x660x1.jpg
+1180|Mann|https://s3.amazonaws.com/rapgenius/220px-Mann_Pub_2012_4.jpg
+593391|1K Phew|https://images.genius.com/b65a00a2a3f6eb393ad72e0f88329427.1000x1000x1.jpg
+155545|Caleb Brown|https://images.genius.com/e64453fe7eb033e99d3ff2151669bc1e.1000x1000x1.jpg
+189057|StressGods|https://assets.genius.com/images/default_avatar_300.png?1550698131
+265121|AQUAFiNA SHAWTiES|https://assets.genius.com/images/default_avatar_300.png?1550698131
+24581|3pac|https://images.genius.com/e10f5313f42b2fb23b1fbe3b9a8eed77.900x900x1.jpg
+1495449|Karlsen|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1211304|Lil Ret|https://assets.genius.com/images/default_avatar_300.png?1550698131
+1201891|Flame James|https://images.genius.com/9696ce235d6a00cf3f85c7e36da902c0.675x675x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+1310383|Maritrustme|https://images.genius.com/41661b2331a3503bb4ccfff8917b8553.1000x1000x1.jpg
+1089306|CincoTheFlexGod|https://images.genius.com/59ce35e1477876b4de788559f6c52c0d.1000x1000x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+189057|StressGods|https://assets.genius.com/images/default_avatar_300.png?1550698131
+27905|Eddy Baker|https://images.genius.com/875db364c11bf21516cfa4b23ad69205.368x368x1.jpg
+1032188|Davy Dacy|https://images.genius.com/2c59b9a6a45ca89ac256af48a50821e8.1000x1000x1.png
+20503|Young Thug|https://images.genius.com/132dc1102a66006a89262588c38104ac.640x640x1.jpg
+33010|Metro Boomin|https://images.genius.com/94086fe06834a3f3147dfbd52f729cad.940x940x1.jpg
+838171|Benzino, OJ Da Juiceman|https://assets.genius.com/images/default_avatar_300.png?1550698131
+61066|Hugh Bloww|https://assets.genius.com/images/default_avatar_300.png?1550698131
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+15346|KEY!|https://images.genius.com/85bdd8511631c41745f266245f9743e2.890x890x1.jpg
+1138699|Alrahim Wright III|https://images.genius.com/4eddb2e6308afa92041432c2a5378553.1000x1000x1.jpg
+61066|Hugh Bloww|https://assets.genius.com/images/default_avatar_300.png?1550698131
+16808|Chief Keef|https://images.genius.com/a5a87da65bfe74a13ff9df224890bc39.750x750x1.jpg
+15792|Steve Aoki|https://images.genius.com/ce334fee1b8bb43e39be9ae02d561318.1000x933x1.jpg
+1734890|Kourtney Money & Young Nudy|https://assets.genius.com/images/default_avatar_300.png?1550698131
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+554|Tyga|https://images.genius.com/bf240156bf229b0d64755f527126e748.646x646x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1632|Tory Lanez|https://images.genius.com/f30bec6e340536c9c828b2b0f63f1d0a.546x546x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+554|Tyga|https://images.genius.com/bf240156bf229b0d64755f527126e748.646x646x1.jpg
+151480|Princess Nokia|https://images.genius.com/ddc9a9a00071005e5ab3d4afdca22dab.640x640x1.jpg
+69|J. Cole|https://images.genius.com/2cd936e786e1ab454043327d585c7702.1000x1000x1.jpg
+1631|Kid Ink|https://images.genius.com/21bdd915768bba8a4230188219c45f1d.630x630x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+25418|August Alsina|https://images.genius.com/5c9483089bd067709ebc51615a997d2b.1000x1000x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1105846|Jay The Prince|https://assets.genius.com/images/default_avatar_300.png?1550698131
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+118507|Casey Veggies & Rockie Fresh|https://images.genius.com/4349ef27db3f4e10893d5d32f81b199a.620x413x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+607146|Elh Kmer|https://images.genius.com/ff3a5af4278b1a55a331f154db89f6b5.480x480x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+119486|Twizzler C|https://assets.genius.com/images/default_avatar_300.png?1550698131
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+288|Bun B|https://images.genius.com/c99fb040919d7b584f8d86da93aa653e.500x500x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1022964|Brian Puspos|https://images.genius.com/e9387f3f05aa8feb0bb6572f41416867.1000x429x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+35143|Couch Potato|https://images.genius.com/45380304ce12bf6faade4dc6bde144e0.1000x1000x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1022964|Brian Puspos|https://images.genius.com/e9387f3f05aa8feb0bb6572f41416867.1000x429x1.jpg
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+40524|R0th|https://assets.genius.com/images/default_avatar_300.png?1550698131
+188930|Benny Imboden|https://assets.genius.com/images/default_avatar_300.png?1550698131

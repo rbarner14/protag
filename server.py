@@ -19,6 +19,10 @@ app.jinja_env.auto_reload = True
 app.secret_key = "ABC"
 
 def make_nodes_and_paths(filename):
+    # file = export of sql query: 
+    # psql -d music -t -A -F"," -c "select performer_name, 
+    # producer_name from produce_song ps join performers p using (performer_id) 
+    # join producers using (producer_id)" > output.csv
     file_obj = open(filename)
     contents = file_obj.read()
     lines = contents.split('\n') # creates a list of the rows in the file

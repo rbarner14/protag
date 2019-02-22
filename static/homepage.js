@@ -16,7 +16,8 @@ function makeForceGraph(data){
 
   // Define the dimensions of the visualization.
 
-  const width = 800;
+  $container = $("#svg_container");
+  const width = $container.width();
   const height = 600;
 
   ////////////////////////////////////////////////////////////////////////////////
@@ -25,7 +26,7 @@ function makeForceGraph(data){
   // We start off by creating an SVG container to hold the visualization. 
   // We only need to specify the dimensions for this container.
 
-  let svg = d3.select('body')
+  let svg = d3.select('#svg_container')
       .append('svg')
       .attr('width', width)
       .attr('height', height);
@@ -34,9 +35,9 @@ function makeForceGraph(data){
   // this simulation.
 
   let force = d3.forceSimulation(d3.values(dataNodes))
-        .force("link", d3.forceLink(links).distance(100))
+        .force("link", d3.forceLink(links).distance(150))
         .force("center", d3.forceCenter(width / 2, height/ 2))
-        .force("charge", d3.forceManyBody().strength(-2))
+        .force("charge", d3.forceManyBody().strength(-100))
         .on("tick", tick);
 
 

@@ -1,0 +1,442 @@
+performer_id|performer_name|performer_img_url
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+47589|Lil Dicky|https://images.genius.com/a3d25d0210e13494897cca2f0441ba4c.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+34532|Kent Jones|https://images.genius.com/25d88a26fb6d3c538f9d783d95f3f27d.600x600x1.jpg
+72|Kanye West|https://images.genius.com/3a5e35c68e9ed7bf9a2a63bfa51b261e.675x675x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+617327|NAV|https://images.genius.com/ad8f472c037c09ee81a1960fcb6845c1.682x682x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+2487|Jennifer Lopez|https://images.genius.com/2d2c91b100e7aaccf6dcc0262d19fe50.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+425|The Black Eyed Peas|https://images.genius.com/67d990fb2d231bf7e3e5c6555cceb379.1000x1000x1.jpg
+44080|Migos|https://images.genius.com/f9c991a8f021b26424a0ce9efa8ccee3.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1739|Odd Future|https://images.genius.com/9f6bc0fb55e75514ae0ce421509ecba9.1000x1000x1.png
+86|Birdman|https://images.genius.com/343c2c53c7b1f818cf50919e00643c0a.428x428x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+780|Vado|https://images.genius.com/e2d9824f3848684bc687e9cad8889c34.687x595x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+639521|A Boogie wit da Hoodie|https://images.genius.com/fc231aac2fd4fe5965f20d2d30f0c775.858x858x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2362|Mavado|https://images.genius.com/10836d0caa79ba37c69b4fb4bd087c54.1000x1000x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+3|Fabolous|https://images.genius.com/8e2843dcf4a386d5de04cd6e203899e1.391x391x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+162126|Kodak Black|https://images.genius.com/85f538a44febd6cf0a31867a37173978.432x432x1.jpg
+82|Puff Daddy|https://s3.amazonaws.com/filepicker-images-rapgenius/jGCvpYJWTjKU9zcg01aa_photo.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+86|Birdman|https://images.genius.com/343c2c53c7b1f818cf50919e00643c0a.428x428x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1303|La Fouine|https://images.genius.com/2537d6e6017a1c5dd211420e2b4512ed.566x566x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+55920|Kim Kardashian|https://images.genius.com/31c712fdbee9dc1f776dbdb6cbf58783.963x963x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+162126|Kodak Black|https://images.genius.com/85f538a44febd6cf0a31867a37173978.432x432x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1362|Belly|https://s3.amazonaws.com/filepicker-images-rapgenius/HorpSGA7Qqar8HM5ScIx_Belly1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+34532|Kent Jones|https://images.genius.com/25d88a26fb6d3c538f9d783d95f3f27d.600x600x1.jpg
+34532|Kent Jones|https://images.genius.com/25d88a26fb6d3c538f9d783d95f3f27d.600x600x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+1362|Belly|https://s3.amazonaws.com/filepicker-images-rapgenius/HorpSGA7Qqar8HM5ScIx_Belly1.jpg
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+42|The Game|https://images.genius.com/a8c2dd25f080304a244e8173768e64b5.471x471x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+403|N.O.R.E.|https://s3.amazonaws.com/rapgenius/1362192151_NORE.jpg
+43504|Lil' Snupe|https://images.genius.com/1a25da0d8fa968ad08c98413c41da605.360x360x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+3261|Ralo|https://images.genius.com/a51fe8c86a79d3157886902b0916249f.450x450x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+344|Consequence|https://s3.amazonaws.com/rapgenius/1362131146_Consequence.png
+2362|Mavado|https://images.genius.com/10836d0caa79ba37c69b4fb4bd087c54.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+130|Drake|https://images.genius.com/d88b9e6b78704998334786ea8fef35b8.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+79|Jim Jones|https://images.genius.com/52ee5b9306c261c7e3720e609ff719b6.246x246x1.jpg
+780|Vado|https://images.genius.com/e2d9824f3848684bc687e9cad8889c34.687x595x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+640|King Los|https://images.genius.com/af979fd34aa3f95d652a83f4bdfdf39a.538x538x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+19223|Preme|https://images.genius.com/a010422ed7df761364570f0f76862dba.323x323x1.png
+1181|The-Dream|https://images.genius.com/088f3bfabc3a8acfd99acbd86c03c993.520x520x1.png
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+358|Mary J. Blige|https://images.genius.com/47fd446d9b1c2d5c747d3e28ba13a262.409x409x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+1528141|Lil khara|https://images.genius.com/f28878f8d08b7bcf8a9f96add12b6924.420x420x1.jpg
+1550284|Skye & Chris Brown|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1362|Belly|https://s3.amazonaws.com/filepicker-images-rapgenius/HorpSGA7Qqar8HM5ScIx_Belly1.jpg
+2362|Mavado|https://images.genius.com/10836d0caa79ba37c69b4fb4bd087c54.1000x1000x1.jpg
+337|T-Pain|https://images.genius.com/6efed4f2f043ca2d708512a157481569.720x720x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+160|Mack Maine|https://images.genius.com/4d5be3b260ef6329f717748048465daa.276x276x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1075634|Asahd Tuck Khaled|https://images.genius.com/33371bfa0a8cc8fdbc71560375cc40e0.600x600x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+1|Cam'ron|https://images.genius.com/83958b1224d915f25d5975f15a39c0ef.420x420x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+34|Jadakiss|https://images.genius.com/e49d59054fbc257961abcebaa13291b8.640x640x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+404115|Birdman & Mack Maine|https://images.genius.com/55d7ecd4726637a303bd7bc776db3e51.399x399x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1362|Belly|https://s3.amazonaws.com/filepicker-images-rapgenius/HorpSGA7Qqar8HM5ScIx_Belly1.jpg
+6769|Betty Wright|https://images.genius.com/1cc7135c993a3799c8e6dc48881b724a.333x333x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+745|Bow Wow|https://images.genius.com/614882a739214b1f5b83cfac37dadea2.800x800x1.png
+2362|Mavado|https://images.genius.com/10836d0caa79ba37c69b4fb4bd087c54.1000x1000x1.jpg
+13188|Lil Niqo|https://images.genius.com/ce950a9869795dc98cfc12b98838f70a.667x667x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1362|Belly|https://s3.amazonaws.com/filepicker-images-rapgenius/HorpSGA7Qqar8HM5ScIx_Belly1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+3|Fabolous|https://images.genius.com/8e2843dcf4a386d5de04cd6e203899e1.391x391x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+22457|Harry Styles|https://images.genius.com/b1ba5c773e05f0cc14d03a73b78c95d8.503x503x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+669629|Toby Randall|https://images.genius.com/2dbc74d19dd49720ce62e769c2c97d27.900x900x1.jpg
+2487|Jennifer Lopez|https://images.genius.com/2d2c91b100e7aaccf6dcc0262d19fe50.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2361|Stephen Marley|https://images.genius.com/7e10a474f32540f5ec57ca31972821a0.630x420x1.jpg
+233|The LOX|https://images.genius.com/29ef08bdf5ac11477931179de41e09af.1000x1000x1.jpg
+14832|¡MAYDAY!|https://s3.amazonaws.com/rapgenius/Mayday-Book-hhdx.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1261496|Yo Gotti, Fabolous, & DJ Khaled|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+51632|Rick Ross & Birdman|https://images.genius.com/7e4df24d69d625ef9e4e7328c8dbe336.594x467x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2362|Mavado|https://images.genius.com/10836d0caa79ba37c69b4fb4bd087c54.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+191|Too $hort|https://images.genius.com/f7947ca6d18485b4713ba9c89b2980c7.800x800x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+115929|Just Ivy|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+535|R. Kelly|https://images.genius.com/e54b7a47c059f99afc5429a8709acf02.400x400x1.jpg
+16424|Chinx|https://images.genius.com/43a84a56d76a2753f3e67ba62a291cec.670x400x1.jpg
+1550290|Stefflon Don & DJ Khaled|https://assets.genius.com/images/default_avatar_300.png?1550796438
+607646|Nick Grant|https://images.genius.com/572b6c5f19dffa118f97667474d36a9c.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+638|Stalley|https://images.genius.com/ec6da9d9412f13a1294fd8a4d97cd4f6.720x720x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+148|Nelly|https://images.genius.com/8acc2c921ff6defb4a5463597263ff0e.750x750x1.png
+1583|French Montana|https://images.genius.com/99431503a5ae0bb0e46760c2efde9a19.581x581x1.jpg
+38940|Kevin Hart|https://images.genius.com/de0024d7ca312cd0f9d35c7fbed88a0a.1000x1000x1.jpg
+72445|Merkules|https://images.genius.com/ef1111666a65cae60af8ddede21e8b28.873x582x1.jpg
+624481|Anuel AA|https://images.genius.com/42342faa69ff0a7da92bc3b375d0c7c6.1000x1000x1.jpg
+51632|Rick Ross & Birdman|https://images.genius.com/7e4df24d69d625ef9e4e7328c8dbe336.594x467x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+210746|Bars and Melody|https://images.genius.com/51be2b1a5f9048b5de8d5952d591d062.640x640x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+782|Keyshia Cole|https://images.genius.com/f3cf06f938d72660f9dd5d48f9f06c18.600x387x1.jpg
+132097|BET|https://images.genius.com/29875105373b3fbe75ada6db0a41e296.235x235x1.jpg
+196|Lloyd|https://images.genius.com/741bd9fb28a902a24fa8008ba3d6e261.467x467x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+460|Ace Hood|https://images.genius.com/2b8521f75a42651c7f8673b2f3f696bc.720x720x1.jpg
+111|Ludacris|https://images.genius.com/d211edacb8de02968540124c6801063d.1000x1000x1.jpg
+632772|Capo (US)|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+249|Ma$e|https://images.genius.com/b2417780460466574f6615cb26e97c6c.899x899x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+523|Dre|https://images.genius.com/29e3cb9c13cadc94638bb264b7dec611.241x241x1.png
+157|Akon|https://images.genius.com/b714c76ff85aee144b80660942cf2e22.1000x1000x1.jpg
+745|Bow Wow|https://images.genius.com/614882a739214b1f5b83cfac37dadea2.800x800x1.png
+5763|Poo Bear|https://images.genius.com/ac9f15cfbf380391ae9dbc6204d67d4f.552x552x1.jpg
+57818|P. Diddy and the Bad Boy Family|https://s3.amazonaws.com/rapgenius/P%20Diddy%20%20The%20Bad%20Boy%20Family.jpg
+118|Yo Gotti|https://images.genius.com/993fc023fd24aa29153af7b870237e2f.730x730x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1281|Papoose|https://images.genius.com/c48bb0ea83ca4ac25d68a3d1da2300c6.320x320x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+373|Terror Squad|https://s3.amazonaws.com/rapgenius/1372094877_TerrorSquadSRC01.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+117|Trina|https://images.genius.com/14960b62107077180b3d8f9842d87f7a.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1632|Tory Lanez|https://images.genius.com/f30bec6e340536c9c828b2b0f63f1d0a.546x546x1.jpg
+338|Busta Rhymes|https://images.genius.com/54314abfbbbf16253d72455428cc44e6.834x834x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+780|Vado|https://images.genius.com/e2d9824f3848684bc687e9cad8889c34.687x595x1.jpg
+4|Lil Wayne|https://images.genius.com/f903dae2533e450c8d3cb233aa846020.745x745x1.jpg
+1319|Meek Mill|https://images.genius.com/6929169de7116d41676151bdea5cc773.1000x1000x1.jpg
+2588|Jon Connor|https://images.genius.com/4795ff9260ece1ff8149b692accd1fbf.1000x1000x1.jpg
+2487|Jennifer Lopez|https://images.genius.com/2d2c91b100e7aaccf6dcc0262d19fe50.1000x1000x1.jpg
+551106|Rob Markman|https://images.genius.com/7597c7229b6a2e6c9adf3e89092a8753.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+86|Birdman|https://images.genius.com/343c2c53c7b1f818cf50919e00643c0a.428x428x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1590735|International Special|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+88|Rick Ross|https://images.genius.com/3dce21029cdd8aab73eb473e015807d5.1000x1000x1.jpg
+43344|Eshon Burgundy|https://images.genius.com/c84658525a465cc81a87a834c7dc4c6e.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+562950|Jayden Jesse|https://images.genius.com/3a2933ae5a1cd94d3dc1e1e7554bac9f.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+49425|Schmoyoho|https://images.genius.com/d72e6cfe3505dca2d030a8def2c179d3.900x900x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+628|Pitbull|https://images.genius.com/019c3e4f1239bc5e1c870ad8a780d793.860x860x1.jpg
+628|Pitbull|https://images.genius.com/019c3e4f1239bc5e1c870ad8a780d793.860x860x1.jpg
+20551|Bart Baker|https://images.genius.com/f81ced4f2267ef1e1494583e8d19ab13.750x750x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+149408|Akapellah|https://images.genius.com/d7fb7c933bc39aa705a3f23b069914a3.479x479x1.png
+2588|Jon Connor|https://images.genius.com/4795ff9260ece1ff8149b692accd1fbf.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+249544|Kuro Silence|https://images.genius.com/2a435c0f1f31bf3ce691b1dccc810336.400x400x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2274|Remy Ma|https://images.genius.com/830781a0ee8f2dba542e5ac5165044af.480x480x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+18920|Lil’ Deshawn|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1087030|Lil Blurry|https://images.genius.com/0db049ce965873f41ad8723604a50188.500x500x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+117|Trina|https://images.genius.com/14960b62107077180b3d8f9842d87f7a.1000x1000x1.jpg
+7563|Sean P.|https://assets.genius.com/images/default_avatar_300.png?1550796438
+373|Terror Squad|https://s3.amazonaws.com/rapgenius/1372094877_TerrorSquadSRC01.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1013225|Elon|https://images.genius.com/9c03ce9552523a44ac70aa3941cf7fd2.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+628|Pitbull|https://images.genius.com/019c3e4f1239bc5e1c870ad8a780d793.860x860x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1075|Trae tha Truth|https://images.genius.com/5619f407149605bd3b3845d41399afc8.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+648106|Pow|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1233385|Shaquees|https://images.genius.com/68cb610e982fea7afa7c1f3723077111.750x1000x1.jpg
+1010567|16Beats|https://assets.genius.com/images/default_avatar_300.png?1550796438
+8690|Busy Signal|https://images.genius.com/02549cfbc876a5ccb300853022b345ce.954x954x1.jpg
+467|Wyclef Jean|https://images.genius.com/9c2dd39279c4303067d75a0435d916fe.450x450x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+83|Fat Joe|https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg
+614|Yung Joc|https://images.genius.com/22499e1de4fddec5dee3a6c7062bbea4.420x420x1.jpg
+490601|TeflonDon|https://images.genius.com/1f53c48118d93423bac67724a3798586.1000x1000x1.jpg
+338|Busta Rhymes|https://images.genius.com/54314abfbbbf16253d72455428cc44e6.834x834x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+20473|Thiago|https://images.genius.com/f1b967f72a49f5f068a46e23f7f3ce56.500x500x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2588|Jon Connor|https://images.genius.com/4795ff9260ece1ff8149b692accd1fbf.1000x1000x1.jpg
+1139660|Loyaldi|https://assets.genius.com/images/default_avatar_300.png?1550796438
+231442|Galafati Music Group|https://assets.genius.com/images/default_avatar_300.png?1550698131
+18920|Lil’ Deshawn|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1147604|Jake Paul|https://images.genius.com/ea66e3ea591f33f93188a706722778d9.1000x1000x1.jpg
+336219|Big Smoke|https://images.genius.com/de87159f2728ab3ed3f6245417f2eaf6.291x291x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1013225|Elon|https://images.genius.com/9c03ce9552523a44ac70aa3941cf7fd2.1000x1000x1.jpg
+150814|King Libra|https://images.genius.com/bbd1587385b86f6cc445bbd541653784.1000x1000x1.png
+1009449|RKM Legend|https://images.genius.com/be56dac306b3c38736f2f105edde5696.1000x1000x1.jpg
+34014|Moneyrain|https://images.genius.com/3fff5bdd5738c85c92f821d69de313ae.959x959x1.jpg
+4233|SAM|https://s3.amazonaws.com/rapgenius/06a090fe2810b78cb8cab723665fb8bd.jpeg
+619489|Alex from harvest|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1150253|Mikalott|https://images.genius.com/16e21953aa89a950bba23133b08cee2a.417x417x1.jpg
+610968|Lil Yachty|https://images.genius.com/88cdfc071bc92a71546e6885ed39a7c2.700x700x1.jpg
+338|Busta Rhymes|https://images.genius.com/54314abfbbbf16253d72455428cc44e6.834x834x1.jpg
+56507|Antonio Aaron|https://images.genius.com/441e62ce828d95a331170d0946494093.223x223x1.jpg
+337|T-Pain|https://images.genius.com/6efed4f2f043ca2d708512a157481569.720x720x1.jpg
+58602|IVOIRE RAP BATTLE|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1375749|Kid Buu|https://images.genius.com/6b7f54878cd22cf17565c3ade586828f.1000x1000x1.jpg
+26132|Spider-Man|https://images.genius.com/b60c6e380be66ba32c9a89b1c3bf7160.325x325x1.jpg
+1456539|Gabriel Vellet|https://assets.genius.com/images/default_avatar_300.png?1550796438
+115929|Just Ivy|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1211087|Jenchi|https://images.genius.com/1135e7fc62ac770f5e1f162c1554feee.498x498x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1257182|Lil Little|https://images.genius.com/b557b3b5852b69535b8aa57ed3734e70.404x404x1.png
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+2588|Jon Connor|https://images.genius.com/4795ff9260ece1ff8149b692accd1fbf.1000x1000x1.jpg
+1164951|Javkboy Hitman Flex|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1507935|Djestice|https://images.genius.com/010215e208d4666902062737a9b23c09.720x720x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1009449|RKM Legend|https://images.genius.com/be56dac306b3c38736f2f105edde5696.1000x1000x1.jpg
+49444|Lil Dee|https://s3.amazonaws.com/rapgenius/avatars/medium/5SmjMalST46Wvbr6OmPO.jpg
+1012257|Young Lando (the god)|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1112784|NEFFEX|https://images.genius.com/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1045132|Yamine|https://images.genius.com/92bdb77e2ac8587a40713d1cb466bebb.82x82x1.jpg
+1399639|Connie Diiamond|https://images.genius.com/c334aa731c628432256472c92e2513cd.500x500x1.jpg
+1365010|Bri Crisp & The Sargent|https://assets.genius.com/images/default_avatar_300.png?1550796438
+2236|Kirko Bangz|https://images.genius.com/ce70d8117c83ff4322bbd7d5d9b122da.468x468x1.jpg
+1045168|LUDAKRIS|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1375749|Kid Buu|https://images.genius.com/6b7f54878cd22cf17565c3ade586828f.1000x1000x1.jpg
+47704|Slim_alex|https://images.rapgenius.com/avatars/medium/dcf9a0b228ad029ddd8e6fef857f495d
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1045132|Yamine|https://images.genius.com/92bdb77e2ac8587a40713d1cb466bebb.82x82x1.jpg
+1266328|Yuanshum?|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1294463|Drummxnd|https://images.genius.com/4e017fdee813bc22232a4012f68794d5.445x445x1.png
+1085325|Mille|https://images.genius.com/b76c587f3e253a2e9e2a9d85ee7ab2e9.1000x1000x1.jpg
+1621392|Nikki Minaj|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1014632|Granpa rapps|https://images.genius.com/b6463fa60a8080de1c1073a976ce466e.615x615x1.jpg
+83179|Kyshawn|https://assets.genius.com/images/default_avatar_300.png?1550796438
+158|DJ Khaled|https://images.genius.com/78bbf6a23efa15b7b7e8138e99ed32ed.1000x1000x1.jpg
+1045132|Yamine|https://images.genius.com/92bdb77e2ac8587a40713d1cb466bebb.82x82x1.jpg
+629014|Dj bigbrand1|https://assets.genius.com/images/default_avatar_300.png?1550796438
+47704|Slim_alex|https://images.rapgenius.com/avatars/medium/dcf9a0b228ad029ddd8e6fef857f495d
+1056100|James Graham|https://images.genius.com/28c01eaad79f689f4b6cf52f5b303470.600x600x1.jpg
+31125|Preston (PR)|https://images.genius.com/a725225030f273383826df118253c4ae.1000x1000x1.jpg
+1160464|Zenzero|https://images.genius.com/2c5ecd86813bc3b4ae51c0c6ff8f262c.1000x1000x1.jpg
+1085325|Mille|https://images.genius.com/b76c587f3e253a2e9e2a9d85ee7ab2e9.1000x1000x1.jpg
+1546960|Lil Mik & LilCody|https://images.genius.com/c7e0ed1283a56a9191abb043dbe3818d.500x500x1.png
+651651|DJ Blazin|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1534825|M.H.R.Y|https://images.genius.com/4d28f2acac71249db93f0cb5ed375903.480x480x1.jpg
+52051|Brooks|https://images.genius.com/77fe91334d43d68fc8be5721816c2a69.1000x1000x1.png
+1085325|Mille|https://images.genius.com/b76c587f3e253a2e9e2a9d85ee7ab2e9.1000x1000x1.jpg
+587421|Devaghn Hayes|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1045132|Yamine|https://images.genius.com/92bdb77e2ac8587a40713d1cb466bebb.82x82x1.jpg
+1668663|J.R. Feco|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1539040|Kawaii Kunicorn|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1233385|Shaquees|https://images.genius.com/68cb610e982fea7afa7c1f3723077111.750x1000x1.jpg
+1044308|Max kru|https://assets.genius.com/images/default_avatar_300.png?1550796438
+37586|Madison Carter.|https://assets.genius.com/images/default_avatar_300.png?1550796438
+183935|Anitta|https://images.genius.com/b04a8ed87dd61afa965c75fa555c0dee.667x667x1.jpg
+652992|TriK|https://images.genius.com/2896432b2877da9d69934fa691b591ad.384x384x1.jpg
+1383692|NoMoreHashtagGang|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1630864|DJ Ale33x|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1563940|Xtra Sauce|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1429113|Royce Bennett|https://images.genius.com/c09515e2b765fd4a3245c83e680cd0db.1000x563x1.png
+2046|DJ Kay Slay|https://s3.amazonaws.com/rapgenius/DJ+Kay+Slay+-+Victorious.jpg
+1726993|Tonydiggz|https://assets.genius.com/images/default_avatar_300.png?1550796438

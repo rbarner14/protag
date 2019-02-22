@@ -1,0 +1,4 @@
+producer_id|producer_name|producer_img_url
+24099|Stro Elliot|https://s3.amazonaws.com/rapgenius/avatars/medium/WS105kwSHGlLk8BoMVQz.jpg
+1553|The Alchemist|https://images.genius.com/f742fa730d856fb7b0e8e6a13e5385ed.425x425x1.jpg
+45255|Nard & B|https://images.genius.com/f51f038710d0c1c5ef2d572c9a42da64.400x400x1.jpg

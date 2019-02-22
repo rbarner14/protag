@@ -1,0 +1,992 @@
+song_id|song_title|song_release_date|song_release_year|song_release_month|song_release_day|apple_music_player_url
+2845980|Bad and Boujee|2016-08-27|2016|8|27|https://genius.com/songs/2845980/apple_music_player
+2989266|Mask Off|2017-02-17|2017|2|17|https://genius.com/songs/2989266/apple_music_player
+2412669|Father Stretch My Hands, Pt. 1|2016-02-14|2016|2|14|https://genius.com/songs/2412669/apple_music_player
+2865735|Congratulations|2016-11-04|2016|11|4|https://genius.com/songs/2865735/apple_music_player
+2311373|Jumpman|2015-09-20|2015|9|20|https://genius.com/songs/2311373/apple_music_player
+2463387|Child's Play|2016-04-29|2016|4|29|https://genius.com/songs/2463387/apple_music_player
+3138854|Bank Account|2017-07-07|2017|7|7|https://genius.com/songs/3138854/apple_music_player
+2820703|X|2016-07-15|2016|7|15|https://genius.com/songs/2820703/apple_music_player
+2939983|Tunnel Vision|2017-02-16|2017|2|16|https://genius.com/songs/2939983/apple_music_player
+2820812|No Heart|2016-07-15|2016|7|15|https://genius.com/songs/2820812/apple_music_player
+2396302|Low Life|2015-12-25|2015|12|25|https://genius.com/songs/2396302/apple_music_player
+2893922|Bounce Back|2016-10-31|2016|10|31|https://genius.com/songs/2893922/apple_music_player
+2421661|FML|2016-02-14|2016|2|14|https://genius.com/songs/2421661/apple_music_player
+2412668|Waves|2016-02-14|2016|2|14|https://genius.com/songs/2412668/apple_music_player
+3296796|Ric Flair Drip|2017-10-31|2017|10|31|https://genius.com/songs/3296796/apple_music_player
+3200747|I Get the Bag|2017-08-18|2017|8|18|https://genius.com/songs/3200747/apple_music_player
+2399676|Facts (Charlie Heat Version)|2016-02-12|2016|2|12|https://genius.com/songs/2399676/apple_music_player
+2213109|Where Ya At|2015-07-17|2015|7|17|https://genius.com/songs/2213109/apple_music_player
+494172|Tuesday|2014-08-12|2014|8|12|https://genius.com/songs/494172/apple_music_player
+2311366|Diamonds Dancing|2015-09-20|2015|9|20|https://genius.com/songs/2311366/apple_music_player
+482932|Club Going Up on a Tuesday|2014-06-30|2014|6|30|https://genius.com/songs/482932/apple_music_player
+2456795|You Was Right|2016-04-15|2016|4|15|https://genius.com/songs/2456795/apple_music_player
+2933001|Both|2016-12-15|2016|12|15|https://genius.com/songs/2933001/apple_music_player
+2311363|Big Rings|2015-09-20|2015|9|20|https://genius.com/songs/2311363/apple_music_player
+398159|I Won|2014-04-08|2014|4|8|https://genius.com/songs/398159/apple_music_player
+2311255|Scholarships|2015-09-20|2015|9|20|https://genius.com/songs/2311255/apple_music_player
+2311362|Digital Dash|2015-09-20|2015|9|20|https://genius.com/songs/2311362/apple_music_player
+2213836|Thought It Was a Drought|2015-07-17|2015|7|17|https://genius.com/songs/2213836/apple_music_player
+3296791|Ghostface Killers|2017-10-31|2017|10|31|https://genius.com/songs/3296791/apple_music_player
+2913726|Six Feet Under|2016-11-25|2016|11|25|https://genius.com/songs/2913726/apple_music_player
+2027385|3500|2015-06-08|2015|6|8|https://genius.com/songs/2027385/apple_music_player
+3097600|Mask Off (Remix)|2017-05-23|2017|5|23|https://genius.com/songs/3097600/apple_music_player
+2311365|Live from the Gutter|2015-09-20|2015|9|20|https://genius.com/songs/2311365/apple_music_player
+2311370|Jersey|2015-09-20|2015|9|20|https://genius.com/songs/2311370/apple_music_player
+499835|Mamacita|2014-08-18|2014|8|18|https://genius.com/songs/499835/apple_music_player
+3131793|No Complaints|2017-06-23|2017|6|23|https://genius.com/songs/3131793/apple_music_player
+499824|Skyfall|2014-08-18|2014|8|18|https://genius.com/songs/499824/apple_music_player
+2292582|Right Now|2015-08-27|2015|8|27|https://genius.com/songs/2292582/apple_music_player
+3354380|So Good|2017-12-08|2017|12|8|https://genius.com/songs/3354380/apple_music_player
+2488871|Up|2016-06-04|2016|6|4|https://genius.com/songs/2488871/apple_music_player
+2959787|Sacrifices|2017-02-03|2017|2|3|https://genius.com/songs/2959787/apple_music_player
+2408471|Purple Reign|2016-01-17|2016|1|17|https://genius.com/songs/2408471/apple_music_player
+3155288|Call Me|2017-07-14|2017|7|14|https://genius.com/songs/3155288/apple_music_player
+2408611|Wicked|2016-01-17|2016|1|17|https://genius.com/songs/2408611/apple_music_player
+601811|Want Some More|2014-12-12|2014|12|12|https://genius.com/songs/601811/apple_music_player
+201881|Honest|2013-08-19|2013|8|19|https://genius.com/songs/201881/apple_music_player
+2369079|Hercules|2015-11-12|2015|11|12|https://genius.com/songs/2369079/apple_music_player
+2290802|Pornography|2015-09-04|2015|9|4|https://genius.com/songs/2290802/apple_music_player
+116830|Karate Chop (Remix)|2014-04-22|2014|4|22|https://genius.com/songs/116830/apple_music_player
+4061277|10 Freaky Girls|2018-11-02|2018|11|2|https://genius.com/songs/4061277/apple_music_player
+3099469|Met Gala|2017-05-26|2017|5|26|https://genius.com/songs/3099469/apple_music_player
+2290794|Nightcrawler|2015-09-04|2015|9|4|https://genius.com/songs/2290794/apple_music_player
+2150278|Jump Out the Face|2015-06-29|2015|6|29|https://genius.com/songs/2150278/apple_music_player
+3296491|Rap Saved Me|2017-10-31|2017|10|31|https://genius.com/songs/3296491/apple_music_player
+4061272|Don't Come Out the House|2018-11-02|2018|11|2|https://genius.com/songs/4061272/apple_music_player
+2820797|Feel It|2016-07-15|2016|7|15|https://genius.com/songs/2820797/apple_music_player
+2214983|Rich $ex|2015-07-17|2015|7|17|https://genius.com/songs/2214983/apple_music_player
+2172089|Blow a Bag|2015-07-17|2015|7|17|https://genius.com/songs/2172089/apple_music_player
+97026|Karate Chop|2013-02-19|2013|2|19|https://genius.com/songs/97026/apple_music_player
+3209337|X|2017-08-25|2017|8|25|https://genius.com/songs/3209337/apple_music_player
+2970634|Voices In My Head / Stick to the Plan|2017-02-03|2017|2|3|https://genius.com/songs/2970634/apple_music_player
+3158592|Minute|2017-07-21|2017|7|21|https://genius.com/songs/3158592/apple_music_player
+3187524|Go Legend|2017-12-08|2017|12|8|https://genius.com/songs/3187524/apple_music_player
+3147512|Numb|2017-07-07|2017|7|7|https://genius.com/songs/3147512/apple_music_player
+2820742|Savage Mode|2016-07-15|2016|7|15|https://genius.com/songs/2820742/apple_music_player
+3164221|Held Me Down|2017-07-21|2017|7|21|https://genius.com/songs/3164221/apple_music_player
+3890630|Chun Swae|2018-08-10|2018|8|10|https://genius.com/songs/3890630/apple_music_player
+2820728|No Advance|2016-07-15|2016|7|15|https://genius.com/songs/2820728/apple_music_player
+707724|Research|2015-02-24|2015|2|24|https://genius.com/songs/707724/apple_music_player
+2999450|Sorry|2017-02-24|2017|2|24|https://genius.com/songs/2999450/apple_music_player
+2999439|My Collection|2017-02-24|2017|2|24|https://genius.com/songs/2999439/apple_music_player
+388124|The Blanguage|2014-03-26|2014|3|26|https://genius.com/songs/388124/apple_music_player
+3355248|Bank Account|2017-12-21|2017|12|21|https://genius.com/songs/3355248/apple_music_player
+3147473|Famous|2017-07-07|2017|7|7|https://genius.com/songs/3147473/apple_music_player
+3299821|Pull Up N Wreck|2017-11-03|2017|11|3|https://genius.com/songs/3299821/apple_music_player
+2214964|Slave Master|2015-07-17|2015|7|17|https://genius.com/songs/2214964/apple_music_player
+2820849|Ocean Drive|2016-07-15|2016|7|15|https://genius.com/songs/2820849/apple_music_player
+3296797|My Choppa Hate Niggas|2017-10-31|2017|10|31|https://genius.com/songs/3296797/apple_music_player
+2408581|Drippin (How U Luv That)|2016-01-17|2016|1|17|https://genius.com/songs/2408581/apple_music_player
+3576284|Lost It|2018-03-30|2018|3|30|https://genius.com/songs/3576284/apple_music_player
+3147508|Nothin New|2017-07-07|2017|7|7|https://genius.com/songs/3147508/apple_music_player
+2214973|Blood on the Money|2015-07-17|2015|7|17|https://genius.com/songs/2214973/apple_music_player
+3164219|Hit|2017-07-21|2017|7|21|https://genius.com/songs/3164219/apple_music_player
+2213004|I Serve the Base|2015-07-17|2015|7|17|https://genius.com/songs/2213004/apple_music_player
+2214937|Freak Hoe|2015-07-17|2015|7|17|https://genius.com/songs/2214937/apple_music_player
+4155508|​asmr|2018-12-21|2018|12|21|https://genius.com/songs/4155508/apple_music_player
+2688257|Who|2016-06-24|2016|6|24|https://genius.com/songs/2688257/apple_music_player
+4201749|Mile High|2019-01-17|2019|1|17|https://genius.com/songs/4201749/apple_music_player
+2364702|Last Breath|2015-11-20|2015|11|20|https://genius.com/songs/2364702/apple_music_player
+2456772|Baby Are You Home|2016-04-15|2016|4|15|https://genius.com/songs/2456772/apple_music_player
+2417530|Xanny Family|2016-02-12|2016|2|12|https://genius.com/songs/2417530/apple_music_player
+2830076|Ronda (Winners)|2016-07-31|2016|7|31|https://genius.com/songs/2830076/apple_music_player
+3073385|No Comparison|2017-09-29|2017|9|29|https://genius.com/songs/3073385/apple_music_player
+3467878|Car Sick|2018-02-02|2018|2|2|https://genius.com/songs/3467878/apple_music_player
+2417551|Ain't No Time|2016-02-12|2016|2|12|https://genius.com/songs/2417551/apple_music_player
+3890637|Sir|2018-08-10|2018|8|10|https://genius.com/songs/3890637/apple_music_player
+2292711|Ok Alright|2015-09-04|2015|9|4|https://genius.com/songs/2292711/apple_music_player
+3439497|I Get The Bag Freestyle|2018-01-15|2018|1|15|https://genius.com/songs/3439497/apple_music_player
+3122882|7 Min Freestyle|2017-07-07|2017|7|7|https://genius.com/songs/3122882/apple_music_player
+4061276|Space Cadet|2018-11-02|2018|11|2|https://genius.com/songs/4061276/apple_music_player
+305169|Ounces|2013-12-17|2013|12|17|https://genius.com/songs/305169/apple_music_player
+4087091|Ready|2018-11-30|2018|11|30|https://genius.com/songs/4087091/apple_music_player
+3155303|Perfect Timing (Intro)|2017-07-14|2017|7|14|https://genius.com/songs/3155303/apple_music_player
+293845|Some More|2013-11-26|2013|11|26|https://genius.com/songs/293845/apple_music_player
+4061274|Dreamcatcher|2018-11-02|2018|11|2|https://genius.com/songs/4061274/apple_music_player
+499846|Monster|2014-08-02|2014|8|2|https://genius.com/songs/499846/apple_music_player
+2290806|Wasted|2015-09-04|2015|9|4|https://genius.com/songs/2290806/apple_music_player
+3163521|A$AP Ferg|2017-07-21|2017|7|21|https://genius.com/songs/3163521/apple_music_player
+4061288|No More|2018-11-02|2018|11|2|https://genius.com/songs/4061288/apple_music_player
+3296800|Disrespectful|2017-10-31|2017|10|31|https://genius.com/songs/3296800/apple_music_player
+3354376|Who's Stopping Me|2017-12-08|2017|12|8|https://genius.com/songs/3354376/apple_music_player
+3985344|Used 2|2018-09-28|2018|9|28|https://genius.com/songs/3985344/apple_music_player
+3468888|Higher We Go (Intro)|2018-01-26|2018|1|26|https://genius.com/songs/3468888/apple_music_player
+2670500|Dope Dealer|2016-07-08|2016|7|8|https://genius.com/songs/2670500/apple_music_player
+220929|How It Was|2013-12-17|2013|12|17|https://genius.com/songs/220929/apple_music_player
+4061271|Overdue|2018-11-02|2018|11|2|https://genius.com/songs/4061271/apple_music_player
+2417554|In Her Mouth|2016-02-12|2016|2|12|https://genius.com/songs/2417554/apple_music_player
+2825580|Work for It|2016-07-29|2016|7|29|https://genius.com/songs/2825580/apple_music_player
+3468906|Emoji a Chain|2018-01-26|2018|1|26|https://genius.com/songs/3468906/apple_music_player
+3467859|Pedestrian|2018-02-02|2018|2|2|https://genius.com/songs/3467859/apple_music_player
+3296799|Mad Stalkers|2017-10-31|2017|10|31|https://genius.com/songs/3296799/apple_music_player
+2175747|Groupies|2015-07-17|2015|7|17|https://genius.com/songs/2175747/apple_music_player
+4125655|Red Room|2018-11-30|2018|11|30|https://genius.com/songs/4125655/apple_music_player
+3147486|Whole Lot|2017-07-07|2017|7|7|https://genius.com/songs/3147486/apple_music_player
+499941|Basement Freestyle|2014-08-18|2014|8|18|https://genius.com/songs/499941/apple_music_player
+1780118|Check|2015-06-01|2015|6|1|https://genius.com/songs/1780118/apple_music_player
+4061286|Borrowed Love|2018-11-02|2018|11|2|https://genius.com/songs/4061286/apple_music_player
+2214929|Rotation|2015-07-17|2015|7|17|https://genius.com/songs/2214929/apple_music_player
+676940|Fingers Hurting|2015-01-20|2015|1|20|https://genius.com/songs/676940/apple_music_player
+2418197|Maybach|2016-02-06|2016|2|6|https://genius.com/songs/2418197/apple_music_player
+2820839|Real Nigga|2016-07-15|2016|7|15|https://genius.com/songs/2820839/apple_music_player
+3170350|Get to You|2017-09-29|2017|9|29|https://genius.com/songs/3170350/apple_music_player
+3099481|Both Eyes Closed|2017-05-26|2017|5|26|https://genius.com/songs/3099481/apple_music_player
+686458|Blue Pill|2017-09-17|2017|9|17|https://genius.com/songs/686458/apple_music_player
+3296798|Nightmare|2017-10-31|2017|10|31|https://genius.com/songs/3296798/apple_music_player
+3054046|Both (Remix)|2017-04-14|2017|4|14|https://genius.com/songs/3054046/apple_music_player
+3147472|Thug Life|2017-07-07|2017|7|7|https://genius.com/songs/3147472/apple_music_player
+3084122|God Bless America - And All the Beautiful Women In It|2017-07-21|2017|7|21|https://genius.com/songs/3084122/apple_music_player
+3353048|Savage Time|2017-12-08|2017|12|8|https://genius.com/songs/3353048/apple_music_player
+3147525|Dead People|2017-07-07|2017|7|7|https://genius.com/songs/3147525/apple_music_player
+4155495|​break da law|2018-12-21|2018|12|21|https://genius.com/songs/4155495/apple_music_player
+518296|Tuesday (Remix)|2014-09-13|2014|9|13|https://genius.com/songs/518296/apple_music_player
+3296802|Still Serving|2017-10-31|2017|10|31|https://genius.com/songs/3296802/apple_music_player
+685084|Alphabet|2015-01-20|2015|1|20|https://genius.com/songs/685084/apple_music_player
+3099480|Dance With the Devil|2016-12-16|2016|12|16|https://genius.com/songs/3099480/apple_music_player
+3147475|Close My Eyes|2017-07-07|2017|7|7|https://genius.com/songs/3147475/apple_music_player
+3296803|Darth Vader|2017-10-31|2017|10|31|https://genius.com/songs/3296803/apple_music_player
+2408577|All Right|2016-01-17|2016|1|17|https://genius.com/songs/2408577/apple_music_player
+3119662|Night Call|2017-06-16|2017|6|16|https://genius.com/songs/3119662/apple_music_player
+691607|High Fashion|2015-01-27|2015|1|27|https://genius.com/songs/691607/apple_music_player
+3164196|I Don’t Care|2017-07-21|2017|7|21|https://genius.com/songs/3164196/apple_music_player
+3117588|Iced Out My Arms|2017-06-23|2017|6|23|https://genius.com/songs/3117588/apple_music_player
+2214968|Lil One|2015-07-17|2015|7|17|https://genius.com/songs/2214968/apple_music_player
+2688281|Benjamins Burn|2016-06-24|2016|6|24|https://genius.com/songs/2688281/apple_music_player
+3354372|Big Bidness|2017-12-08|2017|12|8|https://genius.com/songs/3354372/apple_music_player
+2408599|Hater Shit|2016-01-17|2016|1|17|https://genius.com/songs/2408599/apple_music_player
+2820867|Mad High|2016-07-15|2016|7|15|https://genius.com/songs/2820867/apple_music_player
+3031397|Joey Bada$$ Freestyle | LA Leakers Freestyle #005|2017-03-21|2017|3|21|https://genius.com/songs/3031397/apple_music_player
+559193|Mad Luv|2014-10-28|2014|10|28|https://genius.com/songs/559193/apple_music_player
+2938694|I Decided. [Tracklist + Album Art]|2017-02-03|2017|2|3|https://genius.com/songs/2938694/apple_music_player
+3467828|Helluva Price|2018-02-02|2018|2|2|https://genius.com/songs/3467828/apple_music_player
+3238644|☆☆☆☆☆ 5IVE $TAR$|2018-01-23|2018|1|23|https://genius.com/songs/3238644/apple_music_player
+4061285|Lesbian|2018-11-02|2018|11|2|https://genius.com/songs/4061285/apple_music_player
+3354378|In Tune|2017-12-08|2017|12|8|https://genius.com/songs/3354378/apple_music_player
+375032|Peek A Boo|2014-02-25|2014|2|25|https://genius.com/songs/375032/apple_music_player
+3164224|Did You See NAV?|2017-07-21|2017|7|21|https://genius.com/songs/3164224/apple_music_player
+3354374|Reason|2017-12-08|2017|12|8|https://genius.com/songs/3354374/apple_music_player
+3144404|Yellow|2017-07-28|2017|7|28|https://genius.com/songs/3144404/apple_music_player
+2820857|Bad Guy|2016-07-15|2016|7|15|https://genius.com/songs/2820857/apple_music_player
+3164205|NAVUZIMETRO#PT2|2017-07-21|2017|7|21|https://genius.com/songs/3164205/apple_music_player
+3147485|Money Convo|2017-07-07|2017|7|7|https://genius.com/songs/3147485/apple_music_player
+2389625|Intro (Darkest Before Dawn)|2015-12-18|2015|12|18|https://genius.com/songs/2389625/apple_music_player
+379960|1 AM|2014-03-18|2014|3|18|https://genius.com/songs/379960/apple_music_player
+3444908|Dubai Drip|2018-01-17|2018|1|17|https://genius.com/songs/3444908/apple_music_player
+2415045|The Life of Pablo Studio Notepad|2016-02-14|2016|2|14|https://genius.com/songs/2415045/apple_music_player
+3498005|T'd Up|2018-02-05|2018|2|5|https://genius.com/songs/3498005/apple_music_player
+4061279|Only 1 (Interlude)|2018-11-02|2018|11|2|https://genius.com/songs/4061279/apple_music_player
+3164200|Both Sides|2017-07-21|2017|7|21|https://genius.com/songs/3164200/apple_music_player
+248632|Maison Margiela|2013-10-09|2013|10|9|https://genius.com/songs/248632/apple_music_player
+3354381|No Hearts, No Love|2017-12-08|2017|12|8|https://genius.com/songs/3354381/apple_music_player
+2989271|Scrape|2017-02-17|2017|2|17|https://genius.com/songs/2989271/apple_music_player
+438374|Let'R|2014-08-19|2014|8|19|https://genius.com/songs/438374/apple_music_player
+3296801|Run Up the Racks|2017-10-31|2017|10|31|https://genius.com/songs/3296801/apple_music_player
+370465|YRH|2014-02-25|2014|2|25|https://genius.com/songs/370465/apple_music_player
+289870|CASH Money|2013-11-26|2013|11|26|https://genius.com/songs/289870/apple_music_player
+3164232|I Am|2017-07-21|2017|7|21|https://genius.com/songs/3164232/apple_music_player
+2368102|Know Ya|2015-11-13|2015|11|13|https://genius.com/songs/2368102/apple_music_player
+500610|BACC|2014-08-18|2014|8|18|https://genius.com/songs/500610/apple_music_player
+2417517|Photo Copied|2016-02-12|2016|2|12|https://genius.com/songs/2417517/apple_music_player
+2146615|Be Me See Me (Brazy)|2015-06-21|2015|6|21|https://genius.com/songs/2146615/apple_music_player
+2377970|Jumpman|2015-11-26|2015|11|26|https://genius.com/songs/2377970/apple_music_player
+2416699|Ride of Your Life|2016-02-02|2016|2|2|https://genius.com/songs/2416699/apple_music_player
+137343|Where He Get It|2013-04-09|2013|4|9|https://genius.com/songs/137343/apple_music_player
+2396178|Serena|||||https://genius.com/songs/2396178/apple_music_player
+3228965|Rocky and Uzi Freestyle|2017-09-08|2017|9|8|https://genius.com/songs/3228965/apple_music_player
+3099462|Helpless|2017-05-26|2017|5|26|https://genius.com/songs/3099462/apple_music_player
+2017036|I Mean|2015-05-15|2015|5|15|https://genius.com/songs/2017036/apple_music_player
+3129246|Hammer Time|2017-06-23|2017|6|23|https://genius.com/songs/3129246/apple_music_player
+3164230|Rich|2017-07-21|2017|7|21|https://genius.com/songs/3164230/apple_music_player
+688739|Ion Feel Em|2015-01-19|2015|1|19|https://genius.com/songs/688739/apple_music_player
+422269|Crib In My Closet|2014-05-05|2014|5|5|https://genius.com/songs/422269/apple_music_player
+3354377|Even the Odds|2017-12-08|2017|12|8|https://genius.com/songs/3354377/apple_music_player
+2862209|Bling Blaww Burr|2016-09-20|2016|9|20|https://genius.com/songs/2862209/apple_music_player
+2344322|All Over|2015-10-31|2015|10|31|https://genius.com/songs/2344322/apple_music_player
+4061270|10AM / Save the World|2018-11-02|2018|11|2|https://genius.com/songs/4061270/apple_music_player
+2417397|In Abundance|2016-01-17|2016|1|17|https://genius.com/songs/2417397/apple_music_player
+2373906|Get 2 Bussin|2015-11-18|2015|11|18|https://genius.com/songs/2373906/apple_music_player
+560152|Fetti|2014-10-28|2014|10|28|https://genius.com/songs/560152/apple_music_player
+3164209|You Know|2017-07-21|2017|7|21|https://genius.com/songs/3164209/apple_music_player
+2370803|Jumanji|2015-11-14|2015|11|14|https://genius.com/songs/2370803/apple_music_player
+4061278|Up to Something|2018-11-02|2018|11|2|https://genius.com/songs/4061278/apple_music_player
+3020852|In Charlotte|2017-04-01|2017|4|1|https://genius.com/songs/3020852/apple_music_player
+2370563|Obama|2015-11-14|2015|11|14|https://genius.com/songs/2370563/apple_music_player
+3164227|Bring It Back|2017-07-21|2017|7|21|https://genius.com/songs/3164227/apple_music_player
+703690|Free Gucci|2016-07-20|2016|7|20|https://genius.com/songs/703690/apple_music_player
+621685|Warrior|2015-01-27|2015|1|27|https://genius.com/songs/621685/apple_music_player
+2898889|Sacrifices|2016-11-04|2016|11|4|https://genius.com/songs/2898889/apple_music_player
+747973|Tim Westwood Freestyle|2015-04-11|2015|4|11|https://genius.com/songs/747973/apple_music_player
+3123170|Congratulations (Remix)|2017-06-16|2017|6|16|https://genius.com/songs/3123170/apple_music_player
+313958|How Can I Not|2013-12-18|2013|12|18|https://genius.com/songs/313958/apple_music_player
+372893|Add It Up|2014-02-25|2014|2|25|https://genius.com/songs/372893/apple_music_player
+105427|Shine|2012-12-23|2012|12|23|https://genius.com/songs/105427/apple_music_player
+3164201|Need Some|2017-07-21|2017|7|21|https://genius.com/songs/3164201/apple_music_player
+3468263|Thought It Was a Drought|2018-01-26|2018|1|26|https://genius.com/songs/3468263/apple_music_player
+558463|Radical|2014-10-28|2014|10|28|https://genius.com/songs/558463/apple_music_player
+4061287|Only You|2018-11-02|2018|11|2|https://genius.com/songs/4061287/apple_music_player
+3467894|My Soul|2018-02-02|2018|2|2|https://genius.com/songs/3467894/apple_music_player
+2378302|Where Ya At|2015-11-26|2015|11|26|https://genius.com/songs/2378302/apple_music_player
+2421969|Facts|2015-12-31|2015|12|31|https://genius.com/songs/2421969/apple_music_player
+86606|Ugly|2012-09-01|2012|9|1|https://genius.com/songs/86606/apple_music_player
+3099482|Bucket List|2017-05-26|2017|5|26|https://genius.com/songs/3099482/apple_music_player
+3321744|Nobody|2017-11-16|2017|11|16|https://genius.com/songs/3321744/apple_music_player
+3099398|Hurt a Nigga Feelings|2017-05-24|2017|5|24|https://genius.com/songs/3099398/apple_music_player
+2945560|Bad & Boujee|2017-01-01|2017|1|1|https://genius.com/songs/2945560/apple_music_player
+3099457|Tho Freestyle|2017-05-26|2017|5|26|https://genius.com/songs/3099457/apple_music_player
+3467896|No Joke|2018-02-02|2018|2|2|https://genius.com/songs/3467896/apple_music_player
+2399215|Ooo Nana|2015-12-31|2015|12|31|https://genius.com/songs/2399215/apple_music_player
+2365835|Lord Knows|2015-11-09|2015|11|9|https://genius.com/songs/2365835/apple_music_player
+93704|Dead Man|2012-10-17|2012|10|17|https://genius.com/songs/93704/apple_music_player
+2365086|Aww Man|2016-08-26|2016|8|26|https://genius.com/songs/2365086/apple_music_player
+403459|Sneakin N Geekin|2013-12-25|2013|12|25|https://genius.com/songs/403459/apple_music_player
+3099473|Finesse the Plug Interlude|2017-05-26|2017|5|26|https://genius.com/songs/3099473/apple_music_player
+2347009|Drip|2015-05-25|2015|5|25|https://genius.com/songs/2347009/apple_music_player
+1903464|Spaghetti|2015-05-24|2015|5|24|https://genius.com/songs/1903464/apple_music_player
+74487|Everything's A Go|2011-12-13|2011|12|13|https://genius.com/songs/74487/apple_music_player
+2253793|Supply|2015-07-02|2015|7|2|https://genius.com/songs/2253793/apple_music_player
+109838|Jugg Season|2013-01-01|2013|1|1|https://genius.com/songs/109838/apple_music_player
+2933322|I Can't|2016-12-15|2016|12|15|https://genius.com/songs/2933322/apple_music_player
+558490|Wesley Presley|2014-10-28|2014|10|28|https://genius.com/songs/558490/apple_music_player
+3202276|Jumped Out the Whip|2017-10-13|2017|10|13|https://genius.com/songs/3202276/apple_music_player
+691975|Speed Racer|2015-01-27|2015|1|27|https://genius.com/songs/691975/apple_music_player
+2370510|Where Ya At|2015-11-14|2015|11|14|https://genius.com/songs/2370510/apple_music_player
+2443300|Long Time|2015-11-13|2015|11|13|https://genius.com/songs/2443300/apple_music_player
+2378381|Live From the Gutter|2015-11-26|2015|11|26|https://genius.com/songs/2378381/apple_music_player
+2378769|Diamonds Dancing|2015-11-26|2015|11|26|https://genius.com/songs/2378769/apple_music_player
+486501|Chanel Vintage|2013-10-07|2013|10|7|https://genius.com/songs/486501/apple_music_player
+3099453|5 Million Intro|2017-05-26|2017|5|26|https://genius.com/songs/3099453/apple_music_player
+2378393|Big Wings|2015-11-26|2015|11|26|https://genius.com/songs/2378393/apple_music_player
+483771|All I Ever Wanted|2014-07-23|2014|7|23|https://genius.com/songs/483771/apple_music_player
+2373343|Big Rings (Remix)|2015-11-17|2015|11|17|https://genius.com/songs/2373343/apple_music_player
+2449161|Wicked Freestyle|2016-04-01|2016|4|1|https://genius.com/songs/2449161/apple_music_player
+584914|Neighborhood Drug Dealer|2014-11-24|2014|11|24|https://genius.com/songs/584914/apple_music_player
+698678|Full House|2016-02-04|2016|2|4|https://genius.com/songs/698678/apple_music_player
+2433474|Bentley Truck|2016-03-04|2016|3|4|https://genius.com/songs/2433474/apple_music_player
+4201750|Tell Them|2019-01-18|2019|1|18|https://genius.com/songs/4201750/apple_music_player
+2425254|Man Of My City|2016-02-19|2016|2|19|https://genius.com/songs/2425254/apple_music_player
+3201626|Money Make Ya Handsome|2017-09-15|2017|9|15|https://genius.com/songs/3201626/apple_music_player
+1877527|Still Selling Dope|2016-05-20|2016|5|20|https://genius.com/songs/1877527/apple_music_player
+3599119|Holding It Down|2018-03-23|2018|3|23|https://genius.com/songs/3599119/apple_music_player
+2408162|What's Understood|2016-01-15|2016|1|15|https://genius.com/songs/2408162/apple_music_player
+3005771|Ammunition|2017-02-28|2017|2|28|https://genius.com/songs/3005771/apple_music_player
+285700|Day One|2013-12-02|2013|12|2|https://genius.com/songs/285700/apple_music_player
+438439|Like Jimmy|2014-05-25|2014|5|25|https://genius.com/songs/438439/apple_music_player
+2277239|OVO Sound Radio Episode 3 Tracklist|2015-08-08|2015|8|8|https://genius.com/songs/2277239/apple_music_player
+345985|Hundreds (I Had A Dream)|2014-01-20|2014|1|20|https://genius.com/songs/345985/apple_music_player
+425110|Every Morning|2014-05-08|2014|5|8|https://genius.com/songs/425110/apple_music_player
+3615349|Chek|2018-03-30|2018|3|30|https://genius.com/songs/3615349/apple_music_player
+3050638|Mask Off (Eastmix)|2017-04-10|2017|4|10|https://genius.com/songs/3050638/apple_music_player
+383507|Disfunction|2014-03-19|2014|3|19|https://genius.com/songs/383507/apple_music_player
+2886989|Pause|2018-01-11|2018|1|11|https://genius.com/songs/2886989/apple_music_player
+502355|Too Much|2014-07-06|2014|7|6|https://genius.com/songs/502355/apple_music_player
+2873812|Love Her Body|2016-10-13|2016|10|13|https://genius.com/songs/2873812/apple_music_player
+508573|Sarah|2014-01-01|2014|1|1|https://genius.com/songs/508573/apple_music_player
+2908701|All Shooters|2016-11-14|2016|11|14|https://genius.com/songs/2908701/apple_music_player
+188800|Pray For Me|2013-07-16|2013|7|16|https://genius.com/songs/188800/apple_music_player
+3203124|No Wallet|2017-08-17|2017|8|17|https://genius.com/songs/3203124/apple_music_player
+560189|Abu's Boomin|2014-10-28|2014|10|28|https://genius.com/songs/560189/apple_music_player
+438392|Won't Stop|2014-05-25|2014|5|25|https://genius.com/songs/438392/apple_music_player
+3000627|Cook Up|2017-02-23|2017|2|23|https://genius.com/songs/3000627/apple_music_player
+3452620|Rocky and Ski Freestyle|2018-01-19|2018|1|19|https://genius.com/songs/3452620/apple_music_player
+156330|Another Country|2013-04-25|2013|4|25|https://genius.com/songs/156330/apple_music_player
+261499|ION Want It|2013-11-19|2013|11|19|https://genius.com/songs/261499/apple_music_player
+2416755|Flex'n|||||https://genius.com/songs/2416755/apple_music_player
+2444416|Deserve|2015-12-01|2015|12|1|https://genius.com/songs/2444416/apple_music_player
+446605|Real|2013-11-26|2013|11|26|https://genius.com/songs/446605/apple_music_player
+512353|Tuesday (Remix)|||||https://genius.com/songs/512353/apple_music_player
+2873814|Hi-Five|2016-10-13|2016|10|13|https://genius.com/songs/2873814/apple_music_player
+3256309|Mind On A Milli|2017-09-29|2017|9|29|https://genius.com/songs/3256309/apple_music_player
+3099484|Loss 4 Wrdz|2017-05-26|2017|5|26|https://genius.com/songs/3099484/apple_music_player
+2837999|Never Go Against The Family|2016-08-14|2016|8|14|https://genius.com/songs/2837999/apple_music_player
+4142854|Father's Day|2018-12-07|2018|12|7|https://genius.com/songs/4142854/apple_music_player
+2908696|Die a Gangsta|2016-11-14|2016|11|14|https://genius.com/songs/2908696/apple_music_player
+49490|Hometown|2010-08-31|2010|8|31|https://genius.com/songs/49490/apple_music_player
+3286660|Me and My Bitch|2018-07-03|2018|7|3|https://genius.com/songs/3286660/apple_music_player
+2339489|Whip It|||||https://genius.com/songs/2339489/apple_music_player
+3301969|Studiosessie 272 - Fresku|2017-11-03|2017|11|3|https://genius.com/songs/3301969/apple_music_player
+672145|Like A Hott Boyy|2015-01-30|2015|1|30|https://genius.com/songs/672145/apple_music_player
+3128241|N My Zone : Mask Off|2017-06-20|2017|6|20|https://genius.com/songs/3128241/apple_music_player
+3082926|Devil in a White Dress|2017-05-08|2017|5|8|https://genius.com/songs/3082926/apple_music_player
+92778|Hard|2012-09-13|2012|9|13|https://genius.com/songs/92778/apple_music_player
+3841384|Numb The Pain|||||https://genius.com/songs/3841384/apple_music_player
+2280073|Beef Boy|||||https://genius.com/songs/2280073/apple_music_player
+2873808|Dirty Lil Nigga|2016-10-13|2016|10|13|https://genius.com/songs/2873808/apple_music_player
+2389440|King Push - Darkest Before Dawn: The Prelude [Tracklist + Album Art]|||||https://genius.com/songs/2389440/apple_music_player
+2369015|Blue or Red|2015-11-12|2015|11|12|https://genius.com/songs/2369015/apple_music_player
+2965236|Droptopwop [Tracklist + Album Art]|2017-05-26|2017|5|26|https://genius.com/songs/2965236/apple_music_player
+1994413|Amber Alert|2015-05-29|2015|5|29|https://genius.com/songs/1994413/apple_music_player
+2019280|Keep It Leave It|||||https://genius.com/songs/2019280/apple_music_player
+438668|On The Way|2014-05-25|2014|5|25|https://genius.com/songs/438668/apple_music_player
+3306039|Hate In Your Soul|2017-12-27|2017|12|27|https://genius.com/songs/3306039/apple_music_player
+2896156|Deep In That|2016-12-29|2016|12|29|https://genius.com/songs/2896156/apple_music_player
+2375628|Know About Me|2018-09-12|2018|9|12|https://genius.com/songs/2375628/apple_music_player
+2381788|Motorola|2014-09-16|2014|9|16|https://genius.com/songs/2381788/apple_music_player
+2456846|Lil Uzi Vert Vs The World [Album Art + Tracklist]|2016-04-15|2016|4|15|https://genius.com/songs/2456846/apple_music_player
+4006954|Session|2018-10-08|2018|10|8|https://genius.com/songs/4006954/apple_music_player
+2652791|Go Get The Money|2015-02-24|2015|2|24|https://genius.com/songs/2652791/apple_music_player
+525728|Maneuvering|2014-05-16|2014|5|16|https://genius.com/songs/525728/apple_music_player
+2382678|Not Poppin'|2015-12-01|2015|12|1|https://genius.com/songs/2382678/apple_music_player
+141801|Raised In The South|2013-05-24|2013|5|24|https://genius.com/songs/141801/apple_music_player
+199851|If I Want To|||||https://genius.com/songs/199851/apple_music_player
+3151842|KISS Grime Freestyle with Rude Kid|2017-06-18|2017|6|18|https://genius.com/songs/3151842/apple_music_player
+156285|Activist|2013-08-06|2013|8|6|https://genius.com/songs/156285/apple_music_player
+313770|The Matrix Back To The Basics|2013-12-17|2013|12|17|https://genius.com/songs/313770/apple_music_player
+3168058|Whole Lot (Remix)|2017-07-22|2017|7|22|https://genius.com/songs/3168058/apple_music_player
+3768252|Cash Talk|2018-08-07|2018|8|7|https://genius.com/songs/3768252/apple_music_player
+3376723|Comin Out Strong (Original Version)|2017-06-11|2017|6|11|https://genius.com/songs/3376723/apple_music_player
+421273|Made It (Streets On Lock 3)|2014-04-20|2014|4|20|https://genius.com/songs/421273/apple_music_player
+438431|Handle My Biz|2014-05-25|2014|5|25|https://genius.com/songs/438431/apple_music_player
+1786463|She Not Mines|||||https://genius.com/songs/1786463/apple_music_player
+2923472|No Heart (21 Savage Diss) (Snippet)|||||https://genius.com/songs/2923472/apple_music_player
+2997951|Too Much|2017-02-15|2017|2|15|https://genius.com/songs/2997951/apple_music_player
+1883559|Here|2015-05-11|2015|5|11|https://genius.com/songs/1883559/apple_music_player
+2897945|Bounce Back (Extended Version)|2016-10-31|2016|10|31|https://genius.com/songs/2897945/apple_music_player
+267984|Just Do It|2013-11-13|2013|11|13|https://genius.com/songs/267984/apple_music_player
+430506|Not No More|2014-05-15|2014|5|15|https://genius.com/songs/430506/apple_music_player
+3175885|Clientele|2017-07-28|2017|7|28|https://genius.com/songs/3175885/apple_music_player
+2406396|Make a Lot|2016-01-12|2016|1|12|https://genius.com/songs/2406396/apple_music_player
+3003431|Mode|2017-01-04|2017|1|4|https://genius.com/songs/3003431/apple_music_player
+477681|Run It Up|2014-07-11|2014|7|11|https://genius.com/songs/477681/apple_music_player
+409705|Don't Look at Me|2014-04-20|2014|4|20|https://genius.com/songs/409705/apple_music_player
+2318140|Murda Mook|2015-11-03|2015|11|3|https://genius.com/songs/2318140/apple_music_player
+3550297|Ric Flair Drip|2017-11-12|2017|11|12|https://genius.com/songs/3550297/apple_music_player
+2456212|Right Now (Remix)|2016-04-14|2016|4|14|https://genius.com/songs/2456212/apple_music_player
+3103817|Mask Off (Remix)|2017-05-28|2017|5|28|https://genius.com/songs/3103817/apple_music_player
+2999357|Bad and Boujee (ZHU Remix)|2017-02-22|2017|2|22|https://genius.com/songs/2999357/apple_music_player
+3316592|Feed the Streets|2017-12-08|2017|12|8|https://genius.com/songs/3316592/apple_music_player
+3117382|Mask Off (Freestyle)|2017-06-08|2017|6|8|https://genius.com/songs/3117382/apple_music_player
+505700|Dead Presidents|2014-08-25|2014|8|25|https://genius.com/songs/505700/apple_music_player
+3841429|Some More|||||https://genius.com/songs/3841429/apple_music_player
+3096277|Super Ruff|2018-02-06|2018|2|6|https://genius.com/songs/3096277/apple_music_player
+2922074|No Heart (Freestyle)|2016-12-01|2016|12|1|https://genius.com/songs/2922074/apple_music_player
+682517|Hero|2015-01-19|2015|1|19|https://genius.com/songs/682517/apple_music_player
+2876181|Egal|2016-10-07|2016|10|7|https://genius.com/songs/2876181/apple_music_player
+2924940|No Heart|2016-12-19|2016|12|19|https://genius.com/songs/2924940/apple_music_player
+533460|Break the Rules|2014-10-07|2014|10|7|https://genius.com/songs/533460/apple_music_player
+2421708|Nonstop|||||https://genius.com/songs/2421708/apple_music_player
+2868757|I'm Just Being Honest|2014-03-04|2014|3|4|https://genius.com/songs/2868757/apple_music_player
+3113956|Boomin'|2017-06-06|2017|6|6|https://genius.com/songs/3113956/apple_music_player
+2430287|Rich Nigga|2015-09-11|2015|9|11|https://genius.com/songs/2430287/apple_music_player
+3136810|Valentino|||||https://genius.com/songs/3136810/apple_music_player
+322406|Pull Up On Ya|2013-12-25|2013|12|25|https://genius.com/songs/322406/apple_music_player
+432554|All She Want|2013-08-23|2013|8|23|https://genius.com/songs/432554/apple_music_player
+514890|Exclusive|||||https://genius.com/songs/514890/apple_music_player
+3681406|Perfect Timing 2 (Intro)*|||||https://genius.com/songs/3681406/apple_music_player
+605949|All Around The World|2014-09-29|2014|9|29|https://genius.com/songs/605949/apple_music_player
+2974486|I Decided. [Credits]|2017-02-03|2017|2|3|https://genius.com/songs/2974486/apple_music_player
+423019|Jack Tripper|2014-05-06|2014|5|6|https://genius.com/songs/423019/apple_music_player
+564473|First Day Of School|2014-10-31|2014|10|31|https://genius.com/songs/564473/apple_music_player
+2857349|Make U a Believer|2016-09-13|2016|9|13|https://genius.com/songs/2857349/apple_music_player
+2438297|Ciabatta|2016-03-12|2016|3|12|https://genius.com/songs/2438297/apple_music_player
+2154057|Neighborhood Drug Dealer (Remix)|2015-06-26|2015|6|26|https://genius.com/songs/2154057/apple_music_player
+2950783|Errywhere|2017-01-06|2017|1|6|https://genius.com/songs/2950783/apple_music_player
+343532|Fuck The Rap Game (Remix)|2014-02-03|2014|2|3|https://genius.com/songs/343532/apple_music_player
+192452|Disloyal|2013-07-16|2013|7|16|https://genius.com/songs/192452/apple_music_player
+2857399|WOPTOBER [Tracklist + Album Cover]|2016-10-13|2016|10|13|https://genius.com/songs/2857399/apple_music_player
+488040|Sleepin' In An Mansion|2014-07-31|2014|7|31|https://genius.com/songs/488040/apple_music_player
+3588529|Wok|2017-09-11|2017|9|11|https://genius.com/songs/3588529/apple_music_player
+117034|Karate Chop Gmix|||||https://genius.com/songs/117034/apple_music_player
+2903158|X|2016-11-07|2016|11|7|https://genius.com/songs/2903158/apple_music_player
+2922280|Real Family|2016-11-11|2016|11|11|https://genius.com/songs/2922280/apple_music_player
+508663|My Bitches Get Money|2014-08-29|2014|8|29|https://genius.com/songs/508663/apple_music_player
+2434749|No Wait|2015-08-02|2015|8|2|https://genius.com/songs/2434749/apple_music_player
+2344777|Jumpman (Remix)|2015-10-31|2015|10|31|https://genius.com/songs/2344777/apple_music_player
+3164318|Wasted (Demo)|||||https://genius.com/songs/3164318/apple_music_player
+2340961|Color Purple|2015-10-29|2015|10|29|https://genius.com/songs/2340961/apple_music_player
+3885226|Right Now|2018-08-08|2018|8|8|https://genius.com/songs/3885226/apple_music_player
+2347651|Too Excited|2015-03-17|2015|3|17|https://genius.com/songs/2347651/apple_music_player
+3122091|Mask Off (Marshmello Remix)|2017-06-16|2017|6|16|https://genius.com/songs/3122091/apple_music_player
+2388813|Sandman|2015-11-09|2015|11|9|https://genius.com/songs/2388813/apple_music_player
+2967573|Bad and Boujee (Remix 2)|||||https://genius.com/songs/2967573/apple_music_player
+147963|9 Times Out Of 10|2013-05-03|2013|5|3|https://genius.com/songs/147963/apple_music_player
+2875678|Father Stretch My Hands Pt. 1 (Unreleased Verse)|2016-10-06|2016|10|6|https://genius.com/songs/2875678/apple_music_player
+3632697|Face Down (Quality Control Version)|2018-06-07|2018|6|7|https://genius.com/songs/3632697/apple_music_player
+184840|Patrick Swayze|||||https://genius.com/songs/184840/apple_music_player
+3009388|Bad and Boujee (Remix)|2017-03-03|2017|3|3|https://genius.com/songs/3009388/apple_music_player
+2324978|Карма (Karma)|2015-08-29|2015|8|29|https://genius.com/songs/2324978/apple_music_player
+3128351|Wisdom|2017-06-20|2017|6|20|https://genius.com/songs/3128351/apple_music_player
+2862372|Lotta Money|2016-09-20|2016|9|20|https://genius.com/songs/2862372/apple_music_player
+313697|You A Drug|2013-01-01|2013|1|1|https://genius.com/songs/313697/apple_music_player
+3738827|Back On It|2018-05-23|2018|5|23|https://genius.com/songs/3738827/apple_music_player
+510041|Alphabetical Order|2014-08-29|2014|8|29|https://genius.com/songs/510041/apple_music_player
+2422037|From Now On|||||https://genius.com/songs/2422037/apple_music_player
+622979|Mister|2014-12-11|2014|12|11|https://genius.com/songs/622979/apple_music_player
+3841342|Lavish|||||https://genius.com/songs/3841342/apple_music_player
+3688071|Goin' To It*|||||https://genius.com/songs/3688071/apple_music_player
+743974|Mudd Walk|2015-04-07|2015|4|7|https://genius.com/songs/743974/apple_music_player
+89813|Four|2011-07-26|2011|7|26|https://genius.com/songs/89813/apple_music_player
+4012275|All For Me|2018-10-12|2018|10|12|https://genius.com/songs/4012275/apple_music_player
+496436|Get Rich|2014-08-14|2014|8|14|https://genius.com/songs/496436/apple_music_player
+735048|Air It Out|||||https://genius.com/songs/735048/apple_music_player
+2366062|Roccsan|||||https://genius.com/songs/2366062/apple_music_player
+3385162|Mazerati|2017-12-16|2017|12|16|https://genius.com/songs/3385162/apple_music_player
+2455381|Fish in the Coupe|2016-04-08|2016|4|8|https://genius.com/songs/2455381/apple_music_player
+367430|Why You Do That|2013-09-24|2013|9|24|https://genius.com/songs/367430/apple_music_player
+3526048|Vol. 2 Freestyle|2018-01-19|2018|1|19|https://genius.com/songs/3526048/apple_music_player
+143553|Suffocate|2013-04-20|2013|4|20|https://genius.com/songs/143553/apple_music_player
+2174653|Can't Fuck With You|2015-05-28|2015|5|28|https://genius.com/songs/2174653/apple_music_player
+1792130|Can't See 'Em|2013-10-07|2013|10|7|https://genius.com/songs/1792130/apple_music_player
+3360506|I Get The Bag|2017-12-10|2017|12|10|https://genius.com/songs/3360506/apple_music_player
+3095563|Mask Off Remix|2017-05-20|2017|5|20|https://genius.com/songs/3095563/apple_music_player
+3262617|I Know|2017-10-06|2017|10|6|https://genius.com/songs/3262617/apple_music_player
+3351335|No Brain|2017-12-02|2017|12|2|https://genius.com/songs/3351335/apple_music_player
+2277250|Can't Fit|2015-08-08|2015|8|8|https://genius.com/songs/2277250/apple_music_player
+3069933|Mask Off (Remix)|2017-04-06|2017|4|6|https://genius.com/songs/3069933/apple_music_player
+2353905|Where Ya At (Remix)|2015-11-11|2015|11|11|https://genius.com/songs/2353905/apple_music_player
+2253480|No Joke|||||https://genius.com/songs/2253480/apple_music_player
+396165|Word to the Wise|2014-03-22|2014|3|22|https://genius.com/songs/396165/apple_music_player
+2881652|Chocolate Droppa (Intro)|2016-10-14|2016|10|14|https://genius.com/songs/2881652/apple_music_player
+3316619|Drop a Bag|2017-12-08|2017|12|8|https://genius.com/songs/3316619/apple_music_player
+2996227|FUTURE [Credits]|2017-02-16|2017|2|16|https://genius.com/songs/2996227/apple_music_player
+3205624|Bad And Boujee Remix (Migos & Lil Uzi Vert)|2017-01-29|2017|1|29|https://genius.com/songs/3205624/apple_music_player
+2318845|Voices In My Head|2015-09-29|2015|9|29|https://genius.com/songs/2318845/apple_music_player
+453141|Tony Hawk (Whip My Wrist)|2014-06-11|2014|6|11|https://genius.com/songs/453141/apple_music_player
+2869966|Stay High|2016-07-04|2016|7|4|https://genius.com/songs/2869966/apple_music_player
+3325451|Bigger than me REMIX|2017-11-15|2017|11|15|https://genius.com/songs/3325451/apple_music_player
+2392611|Jumpman (Remix)|||||https://genius.com/songs/2392611/apple_music_player
+2881679|Chocolate Droppa (Act I)|2016-10-14|2016|10|14|https://genius.com/songs/2881679/apple_music_player
+2942738|My House|2016-12-28|2016|12|28|https://genius.com/songs/2942738/apple_music_player
+3376846|Bank Account (Remix)|2017-12-16|2017|12|16|https://genius.com/songs/3376846/apple_music_player
+694534|1982|2013-10-17|2013|10|17|https://genius.com/songs/694534/apple_music_player
+2390577|Durdy|2015-12-14|2015|12|14|https://genius.com/songs/2390577/apple_music_player
+2946539|Bad & Boujee Freestyle|2017-01-02|2017|1|2|https://genius.com/songs/2946539/apple_music_player
+2811255|[IX/XII] Wicked Wicked (Freestyle)|2016-07-05|2016|7|5|https://genius.com/songs/2811255/apple_music_player
+2443557|Juice|||||https://genius.com/songs/2443557/apple_music_player
+2158145|Woke Up|2015-05-12|2015|5|12|https://genius.com/songs/2158145/apple_music_player
+3598692|Only You|2018-03-23|2018|3|23|https://genius.com/songs/3598692/apple_music_player
+3148425|I Do This|2017-07-05|2017|7|5|https://genius.com/songs/3148425/apple_music_player
+2414158|TT|2016-01-27|2016|1|27|https://genius.com/songs/2414158/apple_music_player
+710050|Please Don't|2015-01-27|2015|1|27|https://genius.com/songs/710050/apple_music_player
+3751156|Freestyle - Ce soir ça tombe|2018-05-29|2018|5|29|https://genius.com/songs/3751156/apple_music_player
+2922608|Fed Ex|2016-11-30|2016|11|30|https://genius.com/songs/2922608/apple_music_player
+1880624|Bad Habits|2015-01-01|2015|1|1|https://genius.com/songs/1880624/apple_music_player
+2380955|Understand|2014-08-05|2014|8|5|https://genius.com/songs/2380955/apple_music_player
+221002|Up & Down (Free Guwop)|2013-10-07|2013|10|7|https://genius.com/songs/221002/apple_music_player
+1783058|Money Hungry|||||https://genius.com/songs/1783058/apple_music_player
+2861844|Plenty|2016-09-19|2016|9|19|https://genius.com/songs/2861844/apple_music_player
+548901|Trap Still Jumpin'|2014-12-25|2014|12|25|https://genius.com/songs/548901/apple_music_player
+3664990|Hold Up|2018-04-20|2018|4|20|https://genius.com/songs/3664990/apple_music_player
+2289566|Acetone 2.0|2015-08-09|2015|8|9|https://genius.com/songs/2289566/apple_music_player
+495425|Count Jug|2014-01-01|2014|1|1|https://genius.com/songs/495425/apple_music_player
+154896|If I Ain't Fucked Up|2013-05-24|2013|5|24|https://genius.com/songs/154896/apple_music_player
+2346758|Me Encanta Que Seas Tan Raxe|2015-05-18|2015|5|18|https://genius.com/songs/2346758/apple_music_player
+256087|Celebrity|2013-10-17|2013|10|17|https://genius.com/songs/256087/apple_music_player
+3395710|MadeinBOOMIN|2017-12-26|2017|12|26|https://genius.com/songs/3395710/apple_music_player
+2346688|Lifestyle|||||https://genius.com/songs/2346688/apple_music_player
+172303|We Made Our Own|2013-04-20|2013|4|20|https://genius.com/songs/172303/apple_music_player
+695503|Man Of The Party|2014-05-16|2014|5|16|https://genius.com/songs/695503/apple_music_player
+3203003|Tunnel Vision Remix (Kodak Black)|2017-05-17|2017|5|17|https://genius.com/songs/3203003/apple_music_player
+2842134|Future Speaks|2013-10-07|2013|10|7|https://genius.com/songs/2842134/apple_music_player
+691613|Rodeo Tour Dates|||||https://genius.com/songs/691613/apple_music_player
+3047819|Tunnel Vision (Freestyle)|2017-04-06|2017|4|6|https://genius.com/songs/3047819/apple_music_player
+3460782|RAF|2018-01-23|2018|1|23|https://genius.com/songs/3460782/apple_music_player
+3046419|Fresh & Boujee (Migos freestyle)|2017-04-06|2017|4|6|https://genius.com/songs/3046419/apple_music_player
+209459|Fell In Luv|2017-03-15|2017|3|15|https://genius.com/songs/209459/apple_music_player
+2301085|Touch Da Sky First|||||https://genius.com/songs/2301085/apple_music_player
+3060803|Fast Car|2017-04-20|2017|4|20|https://genius.com/songs/3060803/apple_music_player
+2351474|Grandma|||||https://genius.com/songs/2351474/apple_music_player
+2289600|Road Runner|2015-08-09|2015|8|9|https://genius.com/songs/2289600/apple_music_player
+2873536|Rich Nigga Shit|2014-06-27|2014|6|27|https://genius.com/songs/2873536/apple_music_player
+2136192|Follow My Drippin|2015-06-15|2015|6|15|https://genius.com/songs/2136192/apple_music_player
+502304|I'm Sorry|2014-08-24|2014|8|24|https://genius.com/songs/502304/apple_music_player
+425229|Muscle|||||https://genius.com/songs/425229/apple_music_player
+2456418|Fuck You Gone Tell|2013-12-17|2013|12|17|https://genius.com/songs/2456418/apple_music_player
+3662272|老泥|2018-04-19|2018|4|19|https://genius.com/songs/3662272/apple_music_player
+3123216|FREESTYLE MASK OFF|2017-05-11|2017|5|11|https://genius.com/songs/3123216/apple_music_player
+3859680|Ass Thang|2018-07-14|2018|7|14|https://genius.com/songs/3859680/apple_music_player
+3139075|Backpack*|||||https://genius.com/songs/3139075/apple_music_player
+2402726|Kendall Jenner|||||https://genius.com/songs/2402726/apple_music_player
+651992|Riding Dirty|2014-12-25|2014|12|25|https://genius.com/songs/651992/apple_music_player
+2425962|Traumatized|2016-02-19|2016|2|19|https://genius.com/songs/2425962/apple_music_player
+3743395|Made My Mind*|||||https://genius.com/songs/3743395/apple_music_player
+3102239|Mask Off (Remix)|||||https://genius.com/songs/3102239/apple_music_player
+2411565|Where Ya At|2015-08-31|2015|8|31|https://genius.com/songs/2411565/apple_music_player
+3784909|I Want A Dirtbike|2018-05-24|2018|5|24|https://genius.com/songs/3784909/apple_music_player
+412945|Run Ya Bands Up|2013-01-01|2013|1|1|https://genius.com/songs/412945/apple_music_player
+461081|The Way I Live|||||https://genius.com/songs/461081/apple_music_player
+2472204|April Fools|2014-07-27|2014|7|27|https://genius.com/songs/2472204/apple_music_player
+718169|Gang Bangin' (Mr. Clean, The Middle Man)|2015-03-04|2015|3|4|https://genius.com/songs/718169/apple_music_player
+3326622|HIT|2017-11-06|2017|11|6|https://genius.com/songs/3326622/apple_music_player
+608435|Fresh for the Love|2013-10-07|2013|10|7|https://genius.com/songs/608435/apple_music_player
+2965356|No Heart (Freestyle)|2016-07-29|2016|7|29|https://genius.com/songs/2965356/apple_music_player
+2899554|Forever Young|2016-11-02|2016|11|2|https://genius.com/songs/2899554/apple_music_player
+231101|Not Ballin|||||https://genius.com/songs/231101/apple_music_player
+506721|What's The Deal|2014-08-26|2014|8|26|https://genius.com/songs/506721/apple_music_player
+3044304|Gdzie żeś był|2017-03-30|2017|3|30|https://genius.com/songs/3044304/apple_music_player
+2994868|All My Family (What You Mean?)*|||||https://genius.com/songs/2994868/apple_music_player
+3705302|Rich Wop|2019-01-18|2019|1|18|https://genius.com/songs/3705302/apple_music_player
+2951096|Freestyle (no autotune)|||||https://genius.com/songs/2951096/apple_music_player
+717629|In|2015-03-04|2015|3|4|https://genius.com/songs/717629/apple_music_player
+2817392|Mafia talk|2016-07-04|2016|7|4|https://genius.com/songs/2817392/apple_music_player
+2929430|Diamonds Dancing (Demo)|2016-12-11|2016|12|11|https://genius.com/songs/2929430/apple_music_player
+712478|Foreign|2015-01-27|2015|1|27|https://genius.com/songs/712478/apple_music_player
+3840189|Some Mo Shit|2018-07-15|2018|7|15|https://genius.com/songs/3840189/apple_music_player
+3236987|Ain't Playin'|2016-08-08|2016|8|8|https://genius.com/songs/3236987/apple_music_player
+2454741|Bacc On My Shyt|||||https://genius.com/songs/2454741/apple_music_player
+733875|Lotta Respect|2015-03-27|2015|3|27|https://genius.com/songs/733875/apple_music_player
+510779|Mayday|||||https://genius.com/songs/510779/apple_music_player
+508013|Shenanigans|2014-08-28|2014|8|28|https://genius.com/songs/508013/apple_music_player
+455634|Time To Get Paid|2014-06-06|2014|6|6|https://genius.com/songs/455634/apple_music_player
+2387868|Argentiny|2015-12-07|2015|12|7|https://genius.com/songs/2387868/apple_music_player
+3450435|No Complaints|2017-09-11|2017|9|11|https://genius.com/songs/3450435/apple_music_player
+2833357|Get Whacked|2016-07-26|2016|7|26|https://genius.com/songs/2833357/apple_music_player
+2419640|Go Get Da Money|2015-11-21|2015|11|21|https://genius.com/songs/2419640/apple_music_player
+210892|Fuck It|||||https://genius.com/songs/210892/apple_music_player
+2944783|Dat Way|2016-12-30|2016|12|30|https://genius.com/songs/2944783/apple_music_player
+3769109|Face Down (G.O.O.D. Music Version)*|||||https://genius.com/songs/3769109/apple_music_player
+2474864|6 Love|||||https://genius.com/songs/2474864/apple_music_player
+506694|Cookin' It Up|||||https://genius.com/songs/506694/apple_music_player
+3618446|Ric Flair Drip (Remix)|2018-03-25|2018|3|25|https://genius.com/songs/3618446/apple_music_player
+3411468|Empire State|2018-01-03|2018|1|3|https://genius.com/songs/3411468/apple_music_player
+2165133|Still Selling Dope (Remix)|2015-05-24|2015|5|24|https://genius.com/songs/2165133/apple_music_player
+3753032|Whole Lot (Demo)|2018-05-30|2018|5|30|https://genius.com/songs/3753032/apple_music_player
+2531895|Metro Boomin|2016-01-15|2016|1|15|https://genius.com/songs/2531895/apple_music_player
+3050742|Don't Flex|2017-04-10|2017|4|10|https://genius.com/songs/3050742/apple_music_player
+2453653|Mo|2013-10-07|2013|10|7|https://genius.com/songs/2453653/apple_music_player
+3079219|Where Ya At (First Day Out Anthem)|2017-05-31|2017|5|31|https://genius.com/songs/3079219/apple_music_player
+2475035|Circus|2016-05-11|2016|5|11|https://genius.com/songs/2475035/apple_music_player
+607361|What Happened To Me|||||https://genius.com/songs/607361/apple_music_player
+243271|Can't Have One|2013-08-03|2013|8|3|https://genius.com/songs/243271/apple_music_player
+2421394|Diamonds|2015-11-15|2015|11|15|https://genius.com/songs/2421394/apple_music_player
+2267361|Freak Hoes (Freestyle)|||||https://genius.com/songs/2267361/apple_music_player
+376598|30 Piece|||||https://genius.com/songs/376598/apple_music_player
+2251239|From The Back (Bizzack)|2015-05-25|2015|5|25|https://genius.com/songs/2251239/apple_music_player
+2884089|I Want It All|2016-10-16|2016|10|16|https://genius.com/songs/2884089/apple_music_player
+150174|Wut We Call It|||||https://genius.com/songs/150174/apple_music_player
+3284494|I Need 2|2017-04-02|2017|4|2|https://genius.com/songs/3284494/apple_music_player
+1904824|Wassaname|2013-08-01|2013|8|1|https://genius.com/songs/1904824/apple_music_player
+3690326|FML (Metro Boomin Demo)|||||https://genius.com/songs/3690326/apple_music_player
+2406848|Who We Are|||||https://genius.com/songs/2406848/apple_music_player
+3098102|Fucc Outta Here|2017-05-10|2017|5|10|https://genius.com/songs/3098102/apple_music_player
+389281|NBA Live|2014-03-27|2014|3|27|https://genius.com/songs/389281/apple_music_player
+3777773|All Mine (Remix)|2018-06-03|2018|6|3|https://genius.com/songs/3777773/apple_music_player
+2886831|Chocolate Droppa Outro Skit|||||https://genius.com/songs/2886831/apple_music_player
+535528|Tuesday (Freestyle)|2014-10-09|2014|10|9|https://genius.com/songs/535528/apple_music_player
+3332090|Money Printer|2015-12-25|2015|12|25|https://genius.com/songs/3332090/apple_music_player
+2431018|Like Me|2013-03-15|2013|3|15|https://genius.com/songs/2431018/apple_music_player
+3840658|ГАЛЕРЕЯ (21 Savage Remix)|||||https://genius.com/songs/3840658/apple_music_player
+1857556|Me & U|2011-02-15|2011|2|15|https://genius.com/songs/1857556/apple_music_player
+2105065|I Wonder|2015-02-19|2015|2|19|https://genius.com/songs/2105065/apple_music_player
+2427045|White Man|2013-03-15|2013|3|15|https://genius.com/songs/2427045/apple_music_player
+2810812|Body Bags|||||https://genius.com/songs/2810812/apple_music_player
+2896228|6 Love ( Metro Boomin Remix)|||||https://genius.com/songs/2896228/apple_music_player
+3023547|My President Bad and Boujee|2017-01-18|2017|1|18|https://genius.com/songs/3023547/apple_music_player
+3878825|Jump Right*|2018-12-07|2018|12|7|https://genius.com/songs/3878825/apple_music_player
+3662633|Face Down (Demo)*|||||https://genius.com/songs/3662633/apple_music_player
+3578900|Fuck The Juice|2018-03-12|2018|3|12|https://genius.com/songs/3578900/apple_music_player
+2254741|Wraith Boyz|2015-10-23|2015|10|23|https://genius.com/songs/2254741/apple_music_player
+3026075|Dfok Dab - דפוק דאב|2017-02-26|2017|2|26|https://genius.com/songs/3026075/apple_music_player
+3539078|This Shit for Us|2017-08-25|2017|8|25|https://genius.com/songs/3539078/apple_music_player
+2908398|New Designer|2016-07-03|2016|7|3|https://genius.com/songs/2908398/apple_music_player
+3111135|Tunnel Vision REMIX|2017-05-29|2017|5|29|https://genius.com/songs/3111135/apple_music_player
+3754368|Bank|2018-05-30|2018|5|30|https://genius.com/songs/3754368/apple_music_player
+2818625|Serious|2013-10-07|2013|10|7|https://genius.com/songs/2818625/apple_music_player
+2797885|Oh Lord|||||https://genius.com/songs/2797885/apple_music_player
+708555|Who Wanna Play|2015-02-18|2015|2|18|https://genius.com/songs/708555/apple_music_player
+2971620|Round Here|2017-01-31|2017|1|31|https://genius.com/songs/2971620/apple_music_player
+3335027|Drown REMIX|2017-03-30|2017|3|30|https://genius.com/songs/3335027/apple_music_player
+2267641|Workin|2015-06-09|2015|6|9|https://genius.com/songs/2267641/apple_music_player
+3643777|Back On It (Demo)*|||||https://genius.com/songs/3643777/apple_music_player
+735053|Legends|2015-02-15|2015|2|15|https://genius.com/songs/735053/apple_music_player
+654045|Some Ones|||||https://genius.com/songs/654045/apple_music_player
+3036959|Bad & Boujee (freestyle)|2017-03-27|2017|3|27|https://genius.com/songs/3036959/apple_music_player
+2893967|Pocket Full Of Money|2013-08-12|2013|8|12|https://genius.com/songs/2893967/apple_music_player
+3321564|Go crazy|2017-07-07|2017|7|7|https://genius.com/songs/3321564/apple_music_player
+3146255|Subnet Mask Off|2017-06-26|2017|6|26|https://genius.com/songs/3146255/apple_music_player
+2352245|I'mma Finesse|2014-06-03|2014|6|3|https://genius.com/songs/2352245/apple_music_player
+1789629|Thru' Wit It|2015-07-07|2015|7|7|https://genius.com/songs/1789629/apple_music_player
+3041201|Testimony|||||https://genius.com/songs/3041201/apple_music_player
+2373279|I'm The Plug (Freestyle)|2015-11-18|2015|11|18|https://genius.com/songs/2373279/apple_music_player
+2393696|Jumpman (CupcakKe remix)|2015-12-11|2015|12|11|https://genius.com/songs/2393696/apple_music_player
+1432216|Live From The 3|2015-04-22|2015|4|22|https://genius.com/songs/1432216/apple_music_player
+1741668|RNS|2014-02-04|2014|2|4|https://genius.com/songs/1741668/apple_music_player
+3042551|On Top|2017-04-02|2017|4|2|https://genius.com/songs/3042551/apple_music_player
+498978|I Got Work|||||https://genius.com/songs/498978/apple_music_player
+2999477|Bad and Boujee (Migos Diss)|2017-02-21|2017|2|21|https://genius.com/songs/2999477/apple_music_player
+1783904|Too Short|2014-09-16|2014|9|16|https://genius.com/songs/1783904/apple_music_player
+2465566|In The Bricks|2016-04-27|2016|4|27|https://genius.com/songs/2465566/apple_music_player
+2404840|Scholarships (Freestyle)|2016-01-04|2016|1|4|https://genius.com/songs/2404840/apple_music_player
+492215|F*ck It|||||https://genius.com/songs/492215/apple_music_player
+2267470|Check (Remix)|2015-07-29|2015|7|29|https://genius.com/songs/2267470/apple_music_player
+2865931|Leather & Latex|||||https://genius.com/songs/2865931/apple_music_player
+2427042|Iron On Me|2013-03-15|2013|3|15|https://genius.com/songs/2427042/apple_music_player
+3163912|Mask Off Remix|2017-05-14|2017|5|14|https://genius.com/songs/3163912/apple_music_player
+3111513|30 Shots|2017-04-20|2017|4|20|https://genius.com/songs/3111513/apple_music_player
+3003533|Other One|2015-05-01|2015|5|1|https://genius.com/songs/3003533/apple_music_player
+3111015|Bad n Boujee  (migos cover)|2017-03-19|2017|3|19|https://genius.com/songs/3111015/apple_music_player
+3305608|The Vision (Freestyle)|2017-05-24|2017|5|24|https://genius.com/songs/3305608/apple_music_player
+2818967|Missing!|||||https://genius.com/songs/2818967/apple_music_player
+3019235|Lauren Hill|2015-12-11|2015|12|11|https://genius.com/songs/3019235/apple_music_player
+3506125|Make It Worse*|||||https://genius.com/songs/3506125/apple_music_player
+3099695|Joey Bada$$ Power 106 Freestyle|2017-03-21|2017|3|21|https://genius.com/songs/3099695/apple_music_player
+3343912|Narduar's Cousin|2016-06-12|2016|6|12|https://genius.com/songs/3343912/apple_music_player
+2880752|Rodeo Shoppin|2015-11-19|2015|11|19|https://genius.com/songs/2880752/apple_music_player
+3229298|FeFe|2016-10-25|2016|10|25|https://genius.com/songs/3229298/apple_music_player
+2844979|Miss Mulatto|2016-06-19|2016|6|19|https://genius.com/songs/2844979/apple_music_player
+2952220|Pack Landed @ 808|2017-01-08|2017|1|8|https://genius.com/songs/2952220/apple_music_player
+2256111|9 Piece|||||https://genius.com/songs/2256111/apple_music_player
+3610577|Bank Account|2018-03-26|2018|3|26|https://genius.com/songs/3610577/apple_music_player
+4093404|There For You|||||https://genius.com/songs/4093404/apple_music_player
+2489801|Relaxx (ft Young Thug)|||||https://genius.com/songs/2489801/apple_music_player
+2914119|Jumpman (Freestyle)|2015-12-09|2015|12|9|https://genius.com/songs/2914119/apple_music_player
+3045291|Gotta Get It|2016-11-23|2016|11|23|https://genius.com/songs/3045291/apple_music_player
+3229272|Untitled*|2017-02-24|2017|2|24|https://genius.com/songs/3229272/apple_music_player
+3313288|0 Less Than 3|2017-11-15|2017|11|15|https://genius.com/songs/3313288/apple_music_player
+2423047|Do It 4 Da Hood|2015-08-17|2015|8|17|https://genius.com/songs/2423047/apple_music_player
+3019079|Digital Dash|2016-12-11|2016|12|11|https://genius.com/songs/3019079/apple_music_player
+3115121|B Rolls|2017-05-10|2017|5|10|https://genius.com/songs/3115121/apple_music_player
+3772901|Finessing Like Marilyn|||||https://genius.com/songs/3772901/apple_music_player
+2340816|Jumpman (Freestyle)|2015-10-28|2015|10|28|https://genius.com/songs/2340816/apple_music_player
+2919092|Reminders|2016-11-12|2016|11|12|https://genius.com/songs/2919092/apple_music_player
+2971616|Go F.A.R.|2017-01-31|2017|1|31|https://genius.com/songs/2971616/apple_music_player
+2337444|Family Matters Tour Dates|2015-10-10|2015|10|10|https://genius.com/songs/2337444/apple_music_player
+2402942|FATOS|2015-01-06|2015|1|6|https://genius.com/songs/2402942/apple_music_player
+2965967|Bad And Boujee (Remix)|2017-01-18|2017|1|18|https://genius.com/songs/2965967/apple_music_player
+2370248|Aww Man (Freestyle)|||||https://genius.com/songs/2370248/apple_music_player
+3014852|Tunnel Vision (Remix)|2017-03-07|2017|3|7|https://genius.com/songs/3014852/apple_music_player
+2385443|Halftime|||||https://genius.com/songs/2385443/apple_music_player
+3334386|In the Studio|2017-11-24|2017|11|24|https://genius.com/songs/3334386/apple_music_player
+2292555|A.$.A.P Cypher (as stoned as possible)|||||https://genius.com/songs/2292555/apple_music_player
+2874480|M.O.B. (Money Over Bitches)|2015-01-13|2015|1|13|https://genius.com/songs/2874480/apple_music_player
+2105078|Covered In Money|2015-02-19|2015|2|19|https://genius.com/songs/2105078/apple_music_player
+3050824|Bad at Craftin'|2017-04-20|2017|4|20|https://genius.com/songs/3050824/apple_music_player
+3103187|No Heart (Freestyle)|2017-03-26|2017|3|26|https://genius.com/songs/3103187/apple_music_player
+3441892|Gucci Goggles|2017-01-20|2017|1|20|https://genius.com/songs/3441892/apple_music_player
+4116320|Be For You|2018-11-09|2018|11|9|https://genius.com/songs/4116320/apple_music_player
+3179102|You Ain't Shit (Hit Remix)|2017-07-23|2017|7|23|https://genius.com/songs/3179102/apple_music_player
+2420461|A.L.A.|2016-02-09|2016|2|9|https://genius.com/songs/2420461/apple_music_player
+2374722|Texaco|||||https://genius.com/songs/2374722/apple_music_player
+2940327|No Heart (Remix)|2016-12-25|2016|12|25|https://genius.com/songs/2940327/apple_music_player
+3248302|94 Savage|2017-03-24|2017|3|24|https://genius.com/songs/3248302/apple_music_player
+3780220|Pull Up|2018-06-12|2018|6|12|https://genius.com/songs/3780220/apple_music_player
+667203|Crib In My Closet (Freestyle)|||||https://genius.com/songs/667203/apple_music_player
+2454935|Welcome To My Hood|||||https://genius.com/songs/2454935/apple_music_player
+600274|Pull Up|2014-11-28|2014|11|28|https://genius.com/songs/600274/apple_music_player
+3132988|Until Next Time|2017-06-24|2017|6|24|https://genius.com/songs/3132988/apple_music_player
+3849376|She's A Bad Girl|2018-12-31|2018|12|31|https://genius.com/songs/3849376/apple_music_player
+3076381|Szampan robi ching ching|2017-02-07|2017|2|7|https://genius.com/songs/3076381/apple_music_player
+3145780|ERMGM|2015-09-01|2015|9|1|https://genius.com/songs/3145780/apple_music_player
+3038091|Check My Stats|||||https://genius.com/songs/3038091/apple_music_player
+2861666|No Heart (Remix)|2016-09-18|2016|9|18|https://genius.com/songs/2861666/apple_music_player
+4068651|Metro Boomin Interlude|2013-10-07|2013|10|7|https://genius.com/songs/4068651/apple_music_player
+2896323|New Things|2016-10-30|2016|10|30|https://genius.com/songs/2896323/apple_music_player
+3269156|323 CLOUT|||||https://genius.com/songs/3269156/apple_music_player
+2854782|19 Years Old|2016-05-13|2016|5|13|https://genius.com/songs/2854782/apple_music_player
+2253455|No Joke (Boss Top Version)|2015-07-20|2015|7|20|https://genius.com/songs/2253455/apple_music_player
+3415803|Mistrz Gry Mask Off Remix|2017-04-12|2017|4|12|https://genius.com/songs/3415803/apple_music_player
+3908613|Fuck The Rap Game|2013-10-07|2013|10|7|https://genius.com/songs/3908613/apple_music_player
+2381063|YungMan|||||https://genius.com/songs/2381063/apple_music_player
+2818955|ROXANNE|||||https://genius.com/songs/2818955/apple_music_player
+3011242|Both (Remix)|2017-03-03|2017|3|3|https://genius.com/songs/3011242/apple_music_player
+3302681|I Want It All (Remix)|2016-11-15|2016|11|15|https://genius.com/songs/3302681/apple_music_player
+3024902|Seesaw|2017-02-14|2017|2|14|https://genius.com/songs/3024902/apple_music_player
+2967063|Facts|2017-01-14|2017|1|14|https://genius.com/songs/2967063/apple_music_player
+3558979|Big Mad|2018-03-02|2018|3|2|https://genius.com/songs/3558979/apple_music_player
+3618420|Bank Account (Remix)|2017-12-03|2017|12|3|https://genius.com/songs/3618420/apple_music_player
+3315224|Why Wait ...|2017-11-13|2017|11|13|https://genius.com/songs/3315224/apple_music_player
+3100702|Savages|2017-05-29|2017|5|29|https://genius.com/songs/3100702/apple_music_player
+3099096|Mask Off (Remix)|2017-05-24|2017|5|24|https://genius.com/songs/3099096/apple_music_player
+3315275|Bad And Boujee|2017-03-08|2017|3|8|https://genius.com/songs/3315275/apple_music_player
+4087296|No More (Remix)|||||https://genius.com/songs/4087296/apple_music_player
+3568801|Offset|2018-02-21|2018|2|21|https://genius.com/songs/3568801/apple_music_player
+2957496|My Dawgs|2013-09-04|2013|9|4|https://genius.com/songs/2957496/apple_music_player
+3386402|How to kill a metro booming production part 1|2017-12-20|2017|12|20|https://genius.com/songs/3386402/apple_music_player
+3144393|Curious George|2014-10-08|2014|10|8|https://genius.com/songs/3144393/apple_music_player
+3592378|Poker|2018-03-19|2018|3|19|https://genius.com/songs/3592378/apple_music_player
+2172530|Famo|||||https://genius.com/songs/2172530/apple_music_player
+2286520|Where Ya At (Freestyle) [Snippet]|||||https://genius.com/songs/2286520/apple_music_player
+2977734|On Me|2016-12-09|2016|12|9|https://genius.com/songs/2977734/apple_music_player
+3139440|Remember|||||https://genius.com/songs/3139440/apple_music_player
+2443026|My God Freestyle (Future - Perky's Callin' Remix)|2016-03-21|2016|3|21|https://genius.com/songs/2443026/apple_music_player
+2855986|Where The Drugs At?|2016-08-10|2016|8|10|https://genius.com/songs/2855986/apple_music_player
+3155021|Fuck AX|||||https://genius.com/songs/3155021/apple_music_player
+2305245|Where Ya At Freestyle|||||https://genius.com/songs/2305245/apple_music_player
+3942492|Oscar Gohl is a tasty german, and some of his friends|1754-10-06|1754|10|6|https://genius.com/songs/3942492/apple_music_player
+3325392|I Got Cash|||||https://genius.com/songs/3325392/apple_music_player
+3440916|Onions|||||https://genius.com/songs/3440916/apple_music_player
+1023612|Fresh|1997-03-10|1997|3|10|https://genius.com/songs/1023612/apple_music_player
+3071369|Circus|||||https://genius.com/songs/3071369/apple_music_player
+2475066|Xannys & Perkys|2016-05-15|2016|5|15|https://genius.com/songs/2475066/apple_music_player
+4238370|CZERWONA SZMINKA|2018-08-02|2018|8|2|https://genius.com/songs/4238370/apple_music_player
+2820061|Wey Yuh Dey?|2016-07-13|2016|7|13|https://genius.com/songs/2820061/apple_music_player
+3041076|MASK OFF - Alistotle|2017-03-31|2017|3|31|https://genius.com/songs/3041076/apple_music_player
+3262412|No Complaints (Remix)|2017-07-13|2017|7|13|https://genius.com/songs/3262412/apple_music_player
+2365909|Jumpman (Freestyle)|2015-11-13|2015|11|13|https://genius.com/songs/2365909/apple_music_player
+3723228|Flipside|||||https://genius.com/songs/3723228/apple_music_player
+3042113|Forever Young (Freestyle)|2017-04-01|2017|4|1|https://genius.com/songs/3042113/apple_music_player
+3501663|Mask Off (Remix) - Diss Track|||||https://genius.com/songs/3501663/apple_music_player
+2958071|Bounce Back/Where Ya At? (Freestyle)|2017-01-20|2017|1|20|https://genius.com/songs/2958071/apple_music_player
+2986226|Get Out Here & Werk|2014-09-16|2014|9|16|https://genius.com/songs/2986226/apple_music_player
+3275549|Bess Nuh Stush|2017-10-14|2017|10|14|https://genius.com/songs/3275549/apple_music_player
+3991278|Speak Out|||||https://genius.com/songs/3991278/apple_music_player
+3358476|I Knew|2015-02-24|2015|2|24|https://genius.com/songs/3358476/apple_music_player
+3721029|Mask Off (NΣΣT Remix)|2017-06-06|2017|6|6|https://genius.com/songs/3721029/apple_music_player
+3468529|Commence|||||https://genius.com/songs/3468529/apple_music_player
+4232367|Papers|2019-11-18|2019|11|18|https://genius.com/songs/4232367/apple_music_player
+3405676|Run Up The Racks (REMIX)|2017-12-31|2017|12|31|https://genius.com/songs/3405676/apple_music_player
+2448901|XANTA CLAU$|||||https://genius.com/songs/2448901/apple_music_player
+3334123|Bez Surce|||||https://genius.com/songs/3334123/apple_music_player
+3430035|Me And You|||||https://genius.com/songs/3430035/apple_music_player
+3081150|Bad & Boujee Remix|2017-05-08|2017|5|8|https://genius.com/songs/3081150/apple_music_player
+3665060|Magna Carta|1215-12-12|1215|12|12|https://genius.com/songs/3665060/apple_music_player
+3083486|Beat My Meat|2017-04-08|2017|4|8|https://genius.com/songs/3083486/apple_music_player
+3586665|I Get The Zweig (feat. Bella Zweig)|2017-12-06|2017|12|6|https://genius.com/songs/3586665/apple_music_player
+2339571|Where Ya At (Dee-Mix)|2015-10-27|2015|10|27|https://genius.com/songs/2339571/apple_music_player
+2300373|Check Freestyle (Meek Mill)|||||https://genius.com/songs/2300373/apple_music_player
+3536232|McKenna|2018-04-01|2018|4|1|https://genius.com/songs/3536232/apple_music_player
+3078968|Digital Dash (Freestyle Cover)|2015-11-30|2015|11|30|https://genius.com/songs/3078968/apple_music_player
+2479490|Mystery Man|2016-07-04|2016|7|4|https://genius.com/songs/2479490/apple_music_player
+4133108|Tunnel Vision (Traduzione Italiana)|2017-02-16|2017|2|16|https://genius.com/songs/4133108/apple_music_player
+3810815|Ronald Reagan|2017-05-21|2017|5|21|https://genius.com/songs/3810815/apple_music_player
+2158968|P.K.C. (Pussy Kush Corona)|2015-06-26|2015|6|26|https://genius.com/songs/2158968/apple_music_player
+3179418|Bad & Boujee (Remix)|||||https://genius.com/songs/3179418/apple_music_player
+3288324|Okay|2017-12-01|2017|12|1|https://genius.com/songs/3288324/apple_music_player
+2486899|Live From The Gutter (Remix)|2016-02-01|2016|2|1|https://genius.com/songs/2486899/apple_music_player
+3569113|Mask On, Mask Off|2017-09-25|2017|9|25|https://genius.com/songs/3569113/apple_music_player
+3011124|Bad and Boujee (Remix)|2017-03-04|2017|3|4|https://genius.com/songs/3011124/apple_music_player
+702658|Metropolis|2015-02-11|2015|2|11|https://genius.com/songs/702658/apple_music_player
+3471402|Hagamos concienca|2017-04-20|2017|4|20|https://genius.com/songs/3471402/apple_music_player
+3562094|PAWEŁ 2|2018-03-02|2018|3|2|https://genius.com/songs/3562094/apple_music_player
+3088690|B.I.N.T.O|2017-05-11|2017|5|11|https://genius.com/songs/3088690/apple_music_player
+2972508|Crazy Far By Devin Torrez|2017-02-02|2017|2|2|https://genius.com/songs/2972508/apple_music_player
+3830659|Mindless*|||||https://genius.com/songs/3830659/apple_music_player
+3312531|Ras Long|2017-11-15|2017|11|15|https://genius.com/songs/3312531/apple_music_player
+3546528|Car Chase|2002-11-01|2002|11|1|https://genius.com/songs/3546528/apple_music_player
+4134477|1 Balle dans le Chargeur|2018-12-03|2018|12|3|https://genius.com/songs/4134477/apple_music_player
+3875766|Living Forever|||||https://genius.com/songs/3875766/apple_music_player
+3755927|No heart rmx|2017-08-25|2017|8|25|https://genius.com/songs/3755927/apple_music_player
+517861|Trophies|2014-08-29|2014|8|29|https://genius.com/songs/517861/apple_music_player
+2994080|Zay ~ nosleepontheblock|||||https://genius.com/songs/2994080/apple_music_player
+3730229|Bad & Boujee|2018-05-20|2018|5|20|https://genius.com/songs/3730229/apple_music_player
+3012187|Lil Zi - Big Rings (Lil Zi - Wassup Mixtape)|||||https://genius.com/songs/3012187/apple_music_player
+3568540|Dicky Big (Ric Flair Drip Remix)|2018-03-11|2018|3|11|https://genius.com/songs/3568540/apple_music_player
+3289579|Jackpot|2017-10-25|2017|10|25|https://genius.com/songs/3289579/apple_music_player
+3966919|Ric Flair Flood|2018-09-18|2018|9|18|https://genius.com/songs/3966919/apple_music_player
+3640183|Ric Flair Drip (Remix) (Lil Pump Diss) (Snippet)|2018-04-09|2018|4|9|https://genius.com/songs/3640183/apple_music_player
+2909156|Independent Women|||||https://genius.com/songs/2909156/apple_music_player
+3958385|Moottoriöljy|2019-03-17|2019|3|17|https://genius.com/songs/3958385/apple_music_player
+3043201|Bitch, Just Call Me Ryu|2017-04-01|2017|4|1|https://genius.com/songs/3043201/apple_music_player
+3427509|No Heart|2017-12-30|2017|12|30|https://genius.com/songs/3427509/apple_music_player
+2292306|So in Love with Yourself|1997-09-08|1997|9|8|https://genius.com/songs/2292306/apple_music_player
+395797|Peer Pressure|2014-02-09|2014|2|9|https://genius.com/songs/395797/apple_music_player
+2883430|Jersey|2015-12-25|2015|12|25|https://genius.com/songs/2883430/apple_music_player
+2980359|Spontan #1 (Bad and Boujee Remix)|2017-02-08|2017|2|8|https://genius.com/songs/2980359/apple_music_player
+803763|Ion Want It FAKE|2013-11-19|2013|11|19|https://genius.com/songs/803763/apple_music_player
+3071011|Hype|2017-01-28|2017|1|28|https://genius.com/songs/3071011/apple_music_player
+3370223|Faut l'faire|2017-12-05|2017|12|5|https://genius.com/songs/3370223/apple_music_player
+4033339|No Hook|2018-10-20|2018|10|20|https://genius.com/songs/4033339/apple_music_player
+3425232|Sbuccis|2017-12-12|2017|12|12|https://genius.com/songs/3425232/apple_music_player
+2428038|Forever - Wicked Freestyle|2016-02-23|2016|2|23|https://genius.com/songs/2428038/apple_music_player
+3908642|Mink On The Floor|2013-10-07|2013|10|7|https://genius.com/songs/3908642/apple_music_player
+3560178|Cross|2018-06-15|2018|6|15|https://genius.com/songs/3560178/apple_music_player
+3398808|Designer|||||https://genius.com/songs/3398808/apple_music_player
+731073|Nasty Freestyle|2015-02-28|2015|2|28|https://genius.com/songs/731073/apple_music_player
+3344378|Bartier Cardi|2017-12-22|2017|12|22|https://genius.com/songs/3344378/apple_music_player
+3105241|Rake It Up|2017-06-02|2017|6|2|https://genius.com/songs/3105241/apple_music_player
+3429382|King's Dead|2018-01-11|2018|1|11|https://genius.com/songs/3429382/apple_music_player
+3648112|STARGAZING|2018-08-03|2018|8|3|https://genius.com/songs/3648112/apple_music_player
+3553576|Gucci Flip Flops|2018-03-26|2018|3|26|https://genius.com/songs/3553576/apple_music_player
+3006067|Peek a Boo|2017-04-14|2017|4|14|https://genius.com/songs/3006067/apple_music_player
+3876998|WHO? WHAT!|2018-08-03|2018|8|3|https://genius.com/songs/3876998/apple_music_player
+3373214|Rock|2017-12-15|2017|12|15|https://genius.com/songs/3373214/apple_music_player
+3538533|CLOSE|2018-04-18|2018|4|18|https://genius.com/songs/3538533/apple_music_player
+3539595|MICKEY|2018-03-09|2018|3|9|https://genius.com/songs/3539595/apple_music_player
+2419709|Real Chill|2016-08-12|2016|8|12|https://genius.com/songs/2419709/apple_music_player
+4155511|​good day|2018-12-21|2018|12|21|https://genius.com/songs/4155511/apple_music_player
+362582|Nasty|2014-02-10|2014|2|10|https://genius.com/songs/362582/apple_music_player
+3338442|BABY DADDY|2018-03-09|2018|3|9|https://genius.com/songs/3338442/apple_music_player
+3564573|BOOM!|2018-03-09|2018|3|9|https://genius.com/songs/3564573/apple_music_player
+2896173|4 Lit|2016-10-22|2016|10|22|https://genius.com/songs/2896173/apple_music_player
+3040503|Corrlinks And JPay|2017-03-31|2017|3|31|https://genius.com/songs/3040503/apple_music_player
+3243129|Don't Judge Me|2017-10-18|2017|10|18|https://genius.com/songs/3243129/apple_music_player
+3060677|Dirty Mouth|2017-05-26|2017|5|26|https://genius.com/songs/3060677/apple_music_player
+3913739|Gucci Flip Flops Freestyle|||||https://genius.com/songs/3913739/apple_music_player
+4014113|BIGGEST ALLEY OOP|2018-10-11|2018|10|11|https://genius.com/songs/4014113/apple_music_player
+3565028|​she ready|2018-03-09|2018|3|9|https://genius.com/songs/3565028/apple_music_player
+3628219|Chanel|2018-04-05|2018|4|5|https://genius.com/songs/3628219/apple_music_player
+3060700|X Men|2017-05-18|2017|5|18|https://genius.com/songs/3060700/apple_music_player
+495596|Nasty (Remix)|2014-08-05|2014|8|5|https://genius.com/songs/495596/apple_music_player
+3617429|420 Freestyle|2018-03-31|2018|3|31|https://genius.com/songs/3617429/apple_music_player
+3271777|Drippy|2017-10-19|2017|10|19|https://genius.com/songs/3271777/apple_music_player
+3614667|Play Me Now (Freestyle)|2018-03-29|2018|3|29|https://genius.com/songs/3614667/apple_music_player
+2409435|MuhFuckn Tired|2016-01-18|2016|1|18|https://genius.com/songs/2409435/apple_music_player
+3782316|King's Dead (Album Version)|2018-06-15|2018|6|15|https://genius.com/songs/3782316/apple_music_player
+3565029|GET MONEY BROS.|2018-03-09|2018|3|9|https://genius.com/songs/3565029/apple_music_player
+3007476|Seize the Block|2017-04-14|2017|4|14|https://genius.com/songs/3007476/apple_music_player
+3095690|Come Thru|2018-03-23|2018|3|23|https://genius.com/songs/3095690/apple_music_player
+3557373|Perfect Flower|2018-03-16|2018|3|16|https://genius.com/songs/3557373/apple_music_player
+3197944|Olympian|2017-08-18|2017|8|18|https://genius.com/songs/3197944/apple_music_player
+4024054|Gimmie My Respect|2018-10-19|2018|10|19|https://genius.com/songs/4024054/apple_music_player
+3044954|Lost My Mind|2017-03-04|2017|3|4|https://genius.com/songs/3044954/apple_music_player
+4024082|Fallin' in Luv|2018-10-19|2018|10|19|https://genius.com/songs/4024082/apple_music_player
+3557370|Never Fold|2018-03-16|2018|3|16|https://genius.com/songs/3557370/apple_music_player
+3565037|FLEX|2018-03-09|2018|3|9|https://genius.com/songs/3565037/apple_music_player
+3557366|Reflecting|2018-03-16|2018|3|16|https://genius.com/songs/3557366/apple_music_player
+4086281|F.I.G.H.T.|2018-11-16|2018|11|16|https://genius.com/songs/4086281/apple_music_player
+3847396|Put You On|2018-07-18|2018|7|18|https://genius.com/songs/3847396/apple_music_player
+2899712|Moon Walk|2016-11-03|2016|11|3|https://genius.com/songs/2899712/apple_music_player
+3075578|Middle Man / Mr. Mister|2017-05-12|2017|5|12|https://genius.com/songs/3075578/apple_music_player
+1787405|Nasty Freestyle (Remix)|2015-05-08|2015|5|8|https://genius.com/songs/1787405/apple_music_player
+2452260|I'm Tellin Ya|2016-04-07|2016|4|7|https://genius.com/songs/2452260/apple_music_player
+4238273|2AM|2019-01-18|2019|1|18|https://genius.com/songs/4238273/apple_music_player
+3543387|34|2018-02-23|2018|2|23|https://genius.com/songs/3543387/apple_music_player
+3875366|Done Playing Nice|2018-10-05|2018|10|5|https://genius.com/songs/3875366/apple_music_player
+3075581|Finesse|2017-05-12|2017|5|12|https://genius.com/songs/3075581/apple_music_player
+3565121|Bartier Cardi (T-Mix)|2018-03-05|2018|3|5|https://genius.com/songs/3565121/apple_music_player
+3008327|Emotions Unlocked|2017-03-24|2017|3|24|https://genius.com/songs/3008327/apple_music_player
+2894335|Recipe|2016-10-28|2016|10|28|https://genius.com/songs/2894335/apple_music_player
+3557369|Same Year|2018-03-16|2018|3|16|https://genius.com/songs/3557369/apple_music_player
+3994964|Gucci Flip Flops [Remix]|2018-10-02|2018|10|2|https://genius.com/songs/3994964/apple_music_player
+704489|Functioning|2015-02-09|2015|2|9|https://genius.com/songs/704489/apple_music_player
+3557375|Deep|2018-03-16|2018|3|16|https://genius.com/songs/3557375/apple_music_player
+3458521|Blue Chips|2018-01-22|2018|1|22|https://genius.com/songs/3458521/apple_music_player
+2843920|Menace To Society|2016-08-23|2016|8|23|https://genius.com/songs/2843920/apple_music_player
+3075371|Xantastic|2017-05-03|2017|5|3|https://genius.com/songs/3075371/apple_music_player
+3095697|Pull Dat Cash Out / December|2018-03-23|2018|3|23|https://genius.com/songs/3095697/apple_music_player
+3570143|The Things We Can Do|2018-03-09|2018|3|9|https://genius.com/songs/3570143/apple_music_player
+3692479|Cap|2018-05-04|2018|5|4|https://genius.com/songs/3692479/apple_music_player
+2848204|Intro (I'm Tellin Ya)|2016-08-31|2016|8|31|https://genius.com/songs/2848204/apple_music_player
+3540522|Water*|||||https://genius.com/songs/3540522/apple_music_player
+2906302|Dat Way|2016-08-31|2016|8|31|https://genius.com/songs/2906302/apple_music_player
+2454268|Amazing|2016-04-07|2016|4|7|https://genius.com/songs/2454268/apple_music_player
+3557376|Foot  Soldier|2018-03-16|2018|3|16|https://genius.com/songs/3557376/apple_music_player
+2994422|Gangland|2017-02-18|2017|2|18|https://genius.com/songs/2994422/apple_music_player
+3910511|Start the Par-dee|2018-08-17|2018|8|17|https://genius.com/songs/3910511/apple_music_player
+2455407|Show Me|2016-04-13|2016|4|13|https://genius.com/songs/2455407/apple_music_player
+2439201|Standards|2016-02-04|2016|2|4|https://genius.com/songs/2439201/apple_music_player
+3916937|Knew This|2018-08-23|2018|8|23|https://genius.com/songs/3916937/apple_music_player
+4041874|Wein nicht|2018-11-30|2018|11|30|https://genius.com/songs/4041874/apple_music_player
+517279|100s and 50s|||||https://genius.com/songs/517279/apple_music_player
+471367|Money|||||https://genius.com/songs/471367/apple_music_player
+3148925|Di$respectful|2017-07-07|2017|7|7|https://genius.com/songs/3148925/apple_music_player
+1742046|Stick Up Kid|2015-03-23|2015|3|23|https://genius.com/songs/1742046/apple_music_player
+2365635|The Truth|||||https://genius.com/songs/2365635/apple_music_player
+3097944|Rowdy|2017-05-23|2017|5|23|https://genius.com/songs/3097944/apple_music_player
+3202730|Drug/Star|2017-08-17|2017|8|17|https://genius.com/songs/3202730/apple_music_player
+2452763|Fuckin Witcha|2016-04-07|2016|4|7|https://genius.com/songs/2452763/apple_music_player
+3568603|Long Way|2018-03-07|2018|3|7|https://genius.com/songs/3568603/apple_music_player
+3290667|Rake It Up (Diplo & Party Favor Remix)|2017-10-26|2017|10|26|https://genius.com/songs/3290667/apple_music_player
+359795|ATM|||||https://genius.com/songs/359795/apple_music_player
+2914487|Daddy D|2016-09-24|2016|9|24|https://genius.com/songs/2914487/apple_music_player
+645113|From The Jump|2014-01-01|2014|1|1|https://genius.com/songs/645113/apple_music_player
+2848568|All I Want|2016-08-31|2016|8|31|https://genius.com/songs/2848568/apple_music_player
+2907060|I Be Up|2016-03-11|2016|3|11|https://genius.com/songs/2907060/apple_music_player
+3710800|Bag Play|2018-05-11|2018|5|11|https://genius.com/songs/3710800/apple_music_player
+3197070|100 Choppaz*|2017-08-14|2017|8|14|https://genius.com/songs/3197070/apple_music_player
+4041871|Latina riecht nach Mango 2|2018-11-30|2018|11|30|https://genius.com/songs/4041871/apple_music_player
+3697010|Talking Shit*|||||https://genius.com/songs/3697010/apple_music_player
+2136067|Pay Check|2015-05-24|2015|5|24|https://genius.com/songs/2136067/apple_music_player
+2413868|Woodworks|2015-11-20|2015|11|20|https://genius.com/songs/2413868/apple_music_player
+2982586|Sipper|2017-02-09|2017|2|9|https://genius.com/songs/2982586/apple_music_player
+3012174|Prada|2017-03-04|2017|3|4|https://genius.com/songs/3012174/apple_music_player
+3182374|Water*|2017-08-14|2017|8|14|https://genius.com/songs/3182374/apple_music_player
+732408|Digg It|2015-03-24|2015|3|24|https://genius.com/songs/732408/apple_music_player
+640280|We Winnin'|||||https://genius.com/songs/640280/apple_music_player
+3271711|My Block|2017-10-13|2017|10|13|https://genius.com/songs/3271711/apple_music_player
+4314742|Like Me|2019-02-15|2019|2|15|https://genius.com/songs/4314742/apple_music_player
+3300231|Gettin It|2017-11-02|2017|11|2|https://genius.com/songs/3300231/apple_music_player
+701517|Grinded Up A Check|2014-12-15|2014|12|15|https://genius.com/songs/701517/apple_music_player
+3353457|Idaho Potato|2017-03-24|2017|3|24|https://genius.com/songs/3353457/apple_music_player
+3191862|Get High|||||https://genius.com/songs/3191862/apple_music_player
+4056835|SHELIKEIGNORANT!|||||https://genius.com/songs/4056835/apple_music_player
+4314740|Relapse|2019-02-15|2019|2|15|https://genius.com/songs/4314740/apple_music_player
+3928155|SZTYWNY MISZA (GUCCI FLIP FLOPS REMIX)|2018-07-01|2018|7|1|https://genius.com/songs/3928155/apple_music_player
+3603567|Timepiece Remix|2017-05-10|2017|5|10|https://genius.com/songs/3603567/apple_music_player
+2444326|Is That???|2016-03-23|2016|3|23|https://genius.com/songs/2444326/apple_music_player
+4314743|Block Me|2019-02-15|2019|2|15|https://genius.com/songs/4314743/apple_music_player
+384974|Juug|2014-02-26|2014|2|26|https://genius.com/songs/384974/apple_music_player
+3121380|God Willin pt. 2|2017-03-04|2017|3|4|https://genius.com/songs/3121380/apple_music_player
+4314744|Steppin Out|2019-02-15|2019|2|15|https://genius.com/songs/4314744/apple_music_player
+4314741|Splash|2019-02-15|2019|2|15|https://genius.com/songs/4314741/apple_music_player
+384970|Jugg|2014-02-26|2014|2|26|https://genius.com/songs/384970/apple_music_player
+3119186|On Sight|2014-08-05|2014|8|5|https://genius.com/songs/3119186/apple_music_player
+4222236|Oh Yeah|2019-01-11|2019|1|11|https://genius.com/songs/4222236/apple_music_player
+4136720|220 Drip|2018-12-03|2018|12|3|https://genius.com/songs/4136720/apple_music_player
+3634241|Lamborghini pt. 2|2017-12-29|2017|12|29|https://genius.com/songs/3634241/apple_music_player
+4239203|All That Shit|2018-07-16|2018|7|16|https://genius.com/songs/4239203/apple_music_player
+4008769|Freestyle|2015-12-10|2015|12|10|https://genius.com/songs/4008769/apple_music_player
+4245466|Neva Be The Same|||||https://genius.com/songs/4245466/apple_music_player
+1267|Gold Digger|2005-08-30|2005|8|30|https://genius.com/songs/1267/apple_music_player
+2488417|Champions|2016-06-12|2016|6|12|https://genius.com/songs/2488417/apple_music_player
+582|Show Me a Good Time|2010-06-15|2010|6|15|https://genius.com/songs/582/apple_music_player
+404|Make Her Say (I Poke Her Face)|2009-06-09|2009|6|9|https://genius.com/songs/404/apple_music_player
+887|Go!|2005-06-14|2005|6|14|https://genius.com/songs/887/apple_music_player
+230449|Smokin' and Drinkin'|2013-10-09|2013|10|9|https://genius.com/songs/230449/apple_music_player
+2415045|The Life of Pablo Studio Notepad|2016-02-14|2016|2|14|https://genius.com/songs/2415045/apple_music_player
+3120229|Prayers Up|2017-06-30|2017|6|30|https://genius.com/songs/3120229/apple_music_player
+2859098|Kitana|2016-09-01|2016|9|1|https://genius.com/songs/2859098/apple_music_player
+648197|Friendship Heights|2014-12-23|2014|12|23|https://genius.com/songs/648197/apple_music_player
+219008|Side A (Old)|2013-10-08|2013|10|8|https://genius.com/songs/219008/apple_music_player
+69511|Piss Test|2012-01-01|2012|1|1|https://genius.com/songs/69511/apple_music_player
+121984|Acceptance Speech|2013-02-26|2013|2|26|https://genius.com/songs/121984/apple_music_player
+103656|Piss Test (Remix)|2013-02-01|2013|2|1|https://genius.com/songs/103656/apple_music_player
+3164086|Believe|2017-07-20|2017|7|20|https://genius.com/songs/3164086/apple_music_player
+380208|NRG|2014-03-13|2014|3|13|https://genius.com/songs/380208/apple_music_player
+14339|Chi-City|2005-05-24|2005|5|24|https://genius.com/songs/14339/apple_music_player
+68924|Ray Ban Vision|2012-02-28|2012|2|28|https://genius.com/songs/68924/apple_music_player
+429725|Dipshits|2014-05-14|2014|5|14|https://genius.com/songs/429725/apple_music_player
+646935|Loyalty|2014-12-22|2014|12|22|https://genius.com/songs/646935/apple_music_player
+2308048|We All Fall Down|2015-10-02|2015|10|2|https://genius.com/songs/2308048/apple_music_player
+147308|H-Town|2013-06-16|2013|6|16|https://genius.com/songs/147308/apple_music_player
+3505319|Ride For Me|2018-02-07|2018|2|7|https://genius.com/songs/3505319/apple_music_player
+423019|Jack Tripper|2014-05-06|2014|5|6|https://genius.com/songs/423019/apple_music_player
+51266|Barbra Streisand (Album Edit)|2014-04-15|2014|4|15|https://genius.com/songs/51266/apple_music_player
+211975|Unite All Originals (Adidas Commercial)|||||https://genius.com/songs/211975/apple_music_player
+365455|100 Bottles|2014-05-06|2014|5|6|https://genius.com/songs/365455/apple_music_player
+423004|Frankie Lymon|2014-05-06|2014|5|6|https://genius.com/songs/423004/apple_music_player
+350307|Humphrey|2014-01-29|2014|1|29|https://genius.com/songs/350307/apple_music_player
+423013|100 Bottles (Remix)|||||https://genius.com/songs/423013/apple_music_player
+69583|Ray Ban Vision (Remix)|||||https://genius.com/songs/69583/apple_music_player
+59909|Pro Nails|||||https://genius.com/songs/59909/apple_music_player
+75347|Warrior|2012-05-04|2012|5|4|https://genius.com/songs/75347/apple_music_player
+701340|Push|2014-11-06|2014|11|6|https://genius.com/songs/701340/apple_music_player
+3630427|Prayer Hands|2018-04-05|2018|4|5|https://genius.com/songs/3630427/apple_music_player
+3876221|DJs Gotta Dance More|2018-08-01|2018|8|1|https://genius.com/songs/3876221/apple_music_player
+425229|Muscle|||||https://genius.com/songs/425229/apple_music_player
+3308731|What Lovers Do (A-Trak Remix)|2017-11-02|2017|11|2|https://genius.com/songs/3308731/apple_music_player
+59917|You Ain't Really Down|||||https://genius.com/songs/59917/apple_music_player
+2466525|Parallel Lines|2016-05-03|2016|5|3|https://genius.com/songs/2466525/apple_music_player
+2425505|Jabba Flow (Rick Rubin Re-Work)|2016-02-19|2016|2|19|https://genius.com/songs/2425505/apple_music_player
+2851835|Revenge|2016-11-22|2016|11|22|https://genius.com/songs/2851835/apple_music_player
+3705193|Just Friends|2018-06-15|2018|6|15|https://genius.com/songs/3705193/apple_music_player
+3230420|T.D.A.|2017-09-15|2017|9|15|https://genius.com/songs/3230420/apple_music_player
+679165|​aNYway|2009-10-25|2009|10|25|https://genius.com/songs/679165/apple_music_player
+1126875|Radio Stereo|2014-04-15|2014|4|15|https://genius.com/songs/1126875/apple_music_player
+422988|It's You|2013-06-25|2013|6|25|https://genius.com/songs/422988/apple_music_player
+708555|Who Wanna Play|2015-02-18|2015|2|18|https://genius.com/songs/708555/apple_music_player
+2012489|Ring Me|2014-04-15|2014|4|15|https://genius.com/songs/2012489/apple_music_player
+2473322|I Wish You Were Here (The Good, the Bad, the Ugly)|||||https://genius.com/songs/2473322/apple_music_player
+2831729|Lose My Mind|2016-08-03|2016|8|3|https://genius.com/songs/2831729/apple_music_player
+1958479|Push (feat. Andrew Wyatt) - The Chainsmokers Radio Mix|||||https://genius.com/songs/1958479/apple_music_player
+115406|Mastered|||||https://genius.com/songs/115406/apple_music_player
+2473334|Peace and Love (Two Words)|||||https://genius.com/songs/2473334/apple_music_player
+2955057|You Don't Get Me High Anymore (A-Track Remix)|2017-01-12|2017|1|12|https://genius.com/songs/2955057/apple_music_player
+3122619|Charlie Chazz & Rappin Ralph|2014-04-15|2014|4|15|https://genius.com/songs/3122619/apple_music_player
+59915|Get Fresh|||||https://genius.com/songs/59915/apple_music_player
+3122633|Everyone|2014-04-15|2014|4|15|https://genius.com/songs/3122633/apple_music_player
+966347|Time Waits For No-One|2014-04-15|2014|4|15|https://genius.com/songs/966347/apple_music_player
+1944853|Money makin'|||||https://genius.com/songs/1944853/apple_music_player
+3282431|Believe (Kende Remix)|2017-10-20|2017|10|20|https://genius.com/songs/3282431/apple_music_player
+1355618|Goody Two Shoes|2014-04-15|2014|4|15|https://genius.com/songs/1355618/apple_music_player
+1796912|Everything that Glitters|||||https://genius.com/songs/1796912/apple_music_player
+2838960|Up in Smoke|2016-01-29|2016|1|29|https://genius.com/songs/2838960/apple_music_player
+3122608|Chariots of the Gods|2014-04-15|2014|4|15|https://genius.com/songs/3122608/apple_music_player
+3122642|Spandex|2014-04-15|2014|4|15|https://genius.com/songs/3122642/apple_music_player
+41985|Think Twice|||||https://genius.com/songs/41985/apple_music_player
+3369181|Ray Ban Vision (Casper & B. Remix)|2017-12-14|2017|12|14|https://genius.com/songs/3369181/apple_music_player
+514587|#Hot16Challenge|||||https://genius.com/songs/514587/apple_music_player
+1243282|Life On Tv|||||https://genius.com/songs/1243282/apple_music_player
+3310657|Fern Gully|2017-11-09|2017|11|9|https://genius.com/songs/3310657/apple_music_player
+2070447|Step|||||https://genius.com/songs/2070447/apple_music_player
+3310659|Dumbo Drop|2017-11-09|2017|11|9|https://genius.com/songs/3310659/apple_music_player
+3354761|Tale of Five Cities|||||https://genius.com/songs/3354761/apple_music_player
+7258|Step Off|||||https://genius.com/songs/7258/apple_music_player
+1849913|Out the Speakers by A-Trak|||||https://genius.com/songs/1849913/apple_music_player
+4210490|Magnets (A-Trak Remix)|2015-11-27|2015|11|27|https://genius.com/songs/4210490/apple_music_player
+3217416|Regarde-les|2007-05-07|2007|5|7|https://genius.com/songs/3217416/apple_music_player
+3999888|Dumbo Drop (Gammer Remix)|2018-10-03|2018|10|3|https://genius.com/songs/3999888/apple_music_player
+4226522|Let You Go (A-Trak Remix)|||||https://genius.com/songs/4226522/apple_music_player
+2918453|Zamboni|||||https://genius.com/songs/2918453/apple_music_player
+4296868|Pro Nails (Snippet)|2007-05-25|2007|5|25|https://genius.com/songs/4296868/apple_music_player
+4308823|Lover|2016-11-07|2016|11|7|https://genius.com/songs/4308823/apple_music_player

@@ -1,0 +1,272 @@
+performer_id|performer_name|performer_img_url
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+69|J. Cole|https://images.genius.com/2cd936e786e1ab454043327d585c7702.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+2197|Future|https://images.genius.com/d3c864e3e8edaccf25a66ba49790f4d0.300x300x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+318|Big Boi|https://images.genius.com/6ab5c816aabfeaaf6d9419aff7e1e84c.1000x563x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+318|Big Boi|https://images.genius.com/6ab5c816aabfeaaf6d9419aff7e1e84c.1000x563x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+547|Killer Mike|https://images.genius.com/86239d3de00e4660583da44a02ffa821.820x546x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+1858|8Ball & MJG|https://s3.amazonaws.com/rapgenius/1372536056_8ball-mjg.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+1858|8Ball & MJG|https://s3.amazonaws.com/rapgenius/1372536056_8ball-mjg.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+304|Rich Boy|https://s3.amazonaws.com/rapgenius/Rich-Boy-u04.jpg
+190|Mystikal|https://images.genius.com/91266cfc0490eea4bc42a297aabb0b63.271x271x1.jpg
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+5653|Dungeon Family|https://images.genius.com/ed0ab4d4866b8d709da2e242954fd75f.517x251x1.gif
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+223|Common|https://images.genius.com/334bd07941665eb5b381fb51bced319d.1000x1000x1.jpg
+190|Mystikal|https://images.genius.com/91266cfc0490eea4bc42a297aabb0b63.271x271x1.jpg
+5653|Dungeon Family|https://images.genius.com/ed0ab4d4866b8d709da2e242954fd75f.517x251x1.gif
+105|OutKast|https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg
+547|Killer Mike|https://images.genius.com/86239d3de00e4660583da44a02ffa821.820x546x1.jpg
+748|Goodie Mob|https://s3.amazonaws.com/rapgenius/goodiemobb.jpg
+190|Mystikal|https://images.genius.com/91266cfc0490eea4bc42a297aabb0b63.271x271x1.jpg
+547|Killer Mike|https://images.genius.com/86239d3de00e4660583da44a02ffa821.820x546x1.jpg
+1183|Curren$y|https://images.genius.com/085b4a92f3ca5e9e5049371e0206bc7a.624x624x1.jpg
+8975|Nappy Roots|https://images.genius.com/a546262b12044412c069343b385bc3f8.415x233x1.jpg
+2204|Cool Breeze|https://images.genius.com/43a914d2ad6e4d45899fc27f8df31967.466x687x1.jpg
+5653|Dungeon Family|https://images.genius.com/ed0ab4d4866b8d709da2e242954fd75f.517x251x1.gif
+5653|Dungeon Family|https://images.genius.com/ed0ab4d4866b8d709da2e242954fd75f.517x251x1.gif
+3419|Witchdoctor|https://images.genius.com/7712298999a9195a003f269f806f7488.350x278x1.jpg
+24421|No Doubt|https://images.genius.com/ff79fed63cbba1e6c492331e5b9984c5.425x425x1.jpg
+3187|Bubba Sparxxx|https://images.genius.com/833d95a43077a70f767daf72d40464aa.400x320x1.jpg
+2204|Cool Breeze|https://images.genius.com/43a914d2ad6e4d45899fc27f8df31967.466x687x1.jpg
+4443|Jim Crow|https://images.genius.com/5ebe31f85eaa971df7ebc8aa95de5008.400x400x1.jpg
+1098685|Cherokee (R&B)|https://images.genius.com/2957892b79e406d0239fc5737a69107d.509x509x1.jpg
+4443|Jim Crow|https://images.genius.com/5ebe31f85eaa971df7ebc8aa95de5008.400x400x1.jpg
+2204|Cool Breeze|https://images.genius.com/43a914d2ad6e4d45899fc27f8df31967.466x687x1.jpg
+4980|Da Backwudz|https://assets.genius.com/images/default_avatar_300.png?1550796438
+1858|8Ball & MJG|https://s3.amazonaws.com/rapgenius/1372536056_8ball-mjg.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+782|Keyshia Cole|https://images.genius.com/f3cf06f938d72660f9dd5d48f9f06c18.600x387x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+782|Keyshia Cole|https://images.genius.com/f3cf06f938d72660f9dd5d48f9f06c18.600x387x1.jpg
+216527|Jack & Jack|https://images.genius.com/9da17305f5b720cbac31828259bde421.492x492x1.png
+1665|Machine Gun Kelly|https://images.genius.com/6a7ba9f284f19502cf719df6d7153c1d.720x720x1.jpg
+2122|Janet Jackson|https://images.genius.com/16bb22fe603f7c8d3fff6bbbdf25e9fa.479x479x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+7913|Tamar Braxton|https://images.genius.com/ee5cb12aa7efad119c065438e9d177eb.350x350x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+148412|Pia Mia|https://images.genius.com/eda6d288b90c9766abad1ebd0c26a8db.606x606x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+1236|Teyana Taylor|https://images.genius.com/719f45ad946afe62f49deddc22f526f9.579x579x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+17248|Jasmine V|https://images.genius.com/ac320ddeb2618fe7d36edd84bab06daf.421x421x1.jpg
+561499|Ella Mai|https://images.genius.com/e19d315ffd145980d6e4673ffea5f159.1000x1000x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+1444|Jennifer Hudson|https://images.genius.com/d9cf0983f88ecd03a2c4a0b77f9eac4b.400x400x1.jpg
+1546|New Boyz|https://images.genius.com/f2ad1bc65f5c455c2551daf3a9fc103b.1000x1000x1.jpg
+37463|Sevyn Streeter|https://images.genius.com/2ead358a3207cc64b8fddc4f791ba9d9.683x683x1.jpg
+2663|JoJo|https://images.genius.com/2d9c29738c00baabd5ab09c11152c3b4.418x418x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+1302|Kelly Rowland|https://images.genius.com/46f4f3a82e8a58fe42563c9d465bf018.293x293x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+375|Ne-Yo|https://images.genius.com/fc40344c8046c66aca1f3e51bbc1c7f2.744x744x1.jpg
+1665|Machine Gun Kelly|https://images.genius.com/6a7ba9f284f19502cf719df6d7153c1d.720x720x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+1302|Kelly Rowland|https://images.genius.com/46f4f3a82e8a58fe42563c9d465bf018.293x293x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+49728|B5|https://images.genius.com/37dd0e1fc69848e24cf3206a16a78e00.841x841x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+1665|Machine Gun Kelly|https://images.genius.com/6a7ba9f284f19502cf719df6d7153c1d.720x720x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+41168|SiR|https://images.genius.com/06c106b570df67ea378b0534598622db.1000x1000x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+4262|Angel|https://images.genius.com/0452be6787de310418aafa4d10129047.427x427x1.jpg
+1302|Kelly Rowland|https://images.genius.com/46f4f3a82e8a58fe42563c9d465bf018.293x293x1.jpg
+645103|Lauren Sanderson|https://images.genius.com/c9e33d58b340fe33acf82fd628a81d06.1000x1000x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+1236|Teyana Taylor|https://images.genius.com/719f45ad946afe62f49deddc22f526f9.579x579x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+645103|Lauren Sanderson|https://images.genius.com/c9e33d58b340fe33acf82fd628a81d06.1000x1000x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+24566|Mali Music|https://images.genius.com/b4bac202d35db2b9eb814336dbbeaeff.470x390x1.jpg
+640|King Los|https://images.genius.com/af979fd34aa3f95d652a83f4bdfdf39a.538x538x1.jpg
+438|Chris Brown|https://images.genius.com/2965b4467bf13c3fcac1675fa595c580.472x472x1.png
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+2487|Jennifer Lopez|https://images.genius.com/2d2c91b100e7aaccf6dcc0262d19fe50.1000x1000x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+24566|Mali Music|https://images.genius.com/b4bac202d35db2b9eb814336dbbeaeff.470x390x1.jpg
+17248|Jasmine V|https://images.genius.com/ac320ddeb2618fe7d36edd84bab06daf.421x421x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+1236|Teyana Taylor|https://images.genius.com/719f45ad946afe62f49deddc22f526f9.579x579x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+119302|Tiwa Savage|https://images.genius.com/64fd140a28096b01cbce857b536a42fd.1000x1000x1.jpg
+4262|Angel|https://images.genius.com/0452be6787de310418aafa4d10129047.427x427x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+1340|Estelle|https://images.genius.com/372bd264f904af765111c4a35bd63dfd.731x731x1.jpg
+1425|Brandy|https://images.genius.com/76c7b3dbc44d4c9e5d1c070b4d5201ce.421x421x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+119302|Tiwa Savage|https://images.genius.com/64fd140a28096b01cbce857b536a42fd.1000x1000x1.jpg
+43902|Zendaya|https://images.genius.com/a1a0debaa234be3acbcda4ef964a4b28.400x400x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+17248|Jasmine V|https://images.genius.com/ac320ddeb2618fe7d36edd84bab06daf.421x421x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+13539|Maroon 5|https://images.genius.com/52af76244f7392149389dfc653cd0ec1.960x960x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+17248|Jasmine V|https://images.genius.com/ac320ddeb2618fe7d36edd84bab06daf.421x421x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+1236|Teyana Taylor|https://images.genius.com/719f45ad946afe62f49deddc22f526f9.579x579x1.jpg
+1302|Kelly Rowland|https://images.genius.com/46f4f3a82e8a58fe42563c9d465bf018.293x293x1.jpg
+30675|Nathan Sykes|https://images.genius.com/137a34f76d582d5c321d5963e56822b9.336x336x1.jpg
+1546|New Boyz|https://images.genius.com/f2ad1bc65f5c455c2551daf3a9fc103b.1000x1000x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+211680|Kierra Sheard|https://images.genius.com/9896f1af90fbc6f26a8c2fc1db1748d6.296x296x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+129717|Nikki Yanofsky|https://images.genius.com/012c6c99bd6a88ed85e3b8aeebccdce1.534x534x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+12295|Jacob Latimore|https://images.genius.com/670920b7e5ca25a3d0d057e71bc49d37.646x646x1.jpg
+2122|Janet Jackson|https://images.genius.com/16bb22fe603f7c8d3fff6bbbdf25e9fa.479x479x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+41822|Marcus Canty|https://images.genius.com/feccb40c3025942389d472762aa47930.869x869x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+398425|Rhyon Brown|https://images.genius.com/3076c60bd850a988743c35ccb69bd704.1000x1000x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+1630|Ciara|https://images.genius.com/661ba9186ca36d1226fa7a1cc9215331.1000x1000x1.png
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+17248|Jasmine V|https://images.genius.com/ac320ddeb2618fe7d36edd84bab06daf.421x421x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+8545|Keke Palmer|https://images.genius.com/6f834f2b1d38aa882dc5e7806f9c4c83.900x900x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+4262|Angel|https://images.genius.com/0452be6787de310418aafa4d10129047.427x427x1.jpg
+60437|Fifth Harmony|https://images.genius.com/357e0be14e32a48ef2120ea81f0ebd64.400x400x1.jpg
+655907|La'Porsha Renae|https://images.genius.com/67e4268fb82f803f7f44fc72438127af.421x421x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+35338|William Matthews|https://images.genius.com/84f9eb56d9381bd7d2ddb34c3a1a813c.360x360x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+23362|Guy Sebastian|https://images.genius.com/f17dd378c52a470b4775a2d00490ce42.648x365x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+9248|Chip|https://images.genius.com/5f150aa43873e1af8407f965004f0c37.484x484x1.jpg
+26507|Ariana Grande|https://images.genius.com/285268c9b4e93680f6e01377fb478df9.814x814x1.jpg
+19233|Eric Bellinger|https://images.genius.com/981ba212b47b48ec9ca0611dd5de7c72.1000x1000x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+119302|Tiwa Savage|https://images.genius.com/64fd140a28096b01cbce857b536a42fd.1000x1000x1.jpg
+2122|Janet Jackson|https://images.genius.com/16bb22fe603f7c8d3fff6bbbdf25e9fa.479x479x1.jpg
+783|Janelle Monáe|https://images.genius.com/b8d2b82d71c34291aea0783839b83acf.1000x1000x1.jpg
+358|Mary J. Blige|https://images.genius.com/47fd446d9b1c2d5c747d3e28ba13a262.409x409x1.jpg
+1495320|OK MAYDAY|https://images.genius.com/e4a1ba559b199882082997aaaaaf71eb.692x692x1.jpg
+8609|Fantasia|https://images.genius.com/e713c2124bfbf1cb0a3ba6d71fdabff4.400x400x1.jpg
+104872|JLS|https://images.genius.com/6cf8dfae6c69aaeb8fda31b011a24d3e.929x622x1.jpg
+1495320|OK MAYDAY|https://images.genius.com/e4a1ba559b199882082997aaaaaf71eb.692x692x1.jpg
+645103|Lauren Sanderson|https://images.genius.com/c9e33d58b340fe33acf82fd628a81d06.1000x1000x1.jpg
+10207|Jordin Sparks|https://images.genius.com/93570c8c5eb85746223d1ce161d0772c.400x400x1.jpg
+35041|Michelle Williams|https://images.genius.com/a7c9626624c5acae11236b426dc29776.870x1000x1.jpg
+1235|Marsha Ambrosius|https://s3.amazonaws.com/rapgenius/MARSHA006.jpg
+1495320|OK MAYDAY|https://images.genius.com/e4a1ba559b199882082997aaaaaf71eb.692x692x1.jpg
+104872|JLS|https://images.genius.com/6cf8dfae6c69aaeb8fda31b011a24d3e.929x622x1.jpg
+645103|Lauren Sanderson|https://images.genius.com/c9e33d58b340fe33acf82fd628a81d06.1000x1000x1.jpg
+2663|JoJo|https://images.genius.com/2d9c29738c00baabd5ab09c11152c3b4.418x418x1.jpg
+10207|Jordin Sparks|https://images.genius.com/93570c8c5eb85746223d1ce161d0772c.400x400x1.jpg
+1041390|Ayo & Teo|https://images.genius.com/2269a7682205d4cd9acf47eb0950b27d.360x360x1.jpg
+45|Eminem|https://images.genius.com/b379811c1415017b9f3e3a71b9d26060.400x400x1.jpg
+177756|Rae Sremmurd|https://images.genius.com/abb56915f8a18612019e458c8cb8449b.492x492x1.jpg
+1041390|Ayo & Teo|https://images.genius.com/2269a7682205d4cd9acf47eb0950b27d.360x360x1.jpg
+388683|YFN Lucci|https://images.genius.com/7c15aa44e0f1179ed5d9538d5515ddb0.888x888x1.jpg
+37749|Two-9|https://images.genius.com/c305dae28a1d74e6721f258b1821acd7.640x640x1.jpg
+21964|Lil Durk|https://images.genius.com/6cc1d2541bb0317b97bce9cc960894c8.395x395x1.jpg
+1631|Kid Ink|https://images.genius.com/21bdd915768bba8a4230188219c45f1d.630x630x1.jpg
+931|Boosie Badazz|https://images.genius.com/681f4bb9ff46a631f887773f54f74156.1000x1000x1.jpg
+644753|Dimez|https://images.genius.com/48adc7a881f48c0da416e951c24a2e29.1000x1000x1.jpg
+1237094|Juice WRLD|https://images.genius.com/1ff8ab8d3ae5bb47f0797a87d42ddf66.1000x1000x1.jpg
+1015048|Zay Hilfigerrr|https://images.genius.com/ea9bb73b02adf7b9693749b28be94782.1000x1000x1.jpg
+1668922|NR (Singer)|https://images.genius.com/81b124876f2fa728a92a20544e493d5f.1000x1000x1.png
+647630|D-Jay Sremm|https://images.genius.com/fc86ee57a11453f1402c18cdea30650f.364x364x1.jpg
+23552|Young Scooter|https://images.genius.com/b6a07c2fccac1e875419d1537b5409ee.421x421x1.jpg
+130417|Wave Chapelle|https://images.genius.com/5632fb51e7c399d50831d8bbe15b4683.600x600x1.jpg
+656495|Coca Vango|https://images.genius.com/40400fcb289928fc37f734c4f83fb395.565x565x1.jpg
+733564|White Rice|https://assets.genius.com/images/default_avatar_300.png?1550796438
+647631|Riff 3x|https://images.genius.com/15062527cae2398fbaab9dfefdc20014.973x973x1.jpg
+65377|Young Greatness|https://images.genius.com/9641ccdaf475fa86ba32f401957ef8b6.1000x1000x1.jpg
+35762|Backpack|https://images.genius.com/d2d42354819c5da04ee40f1cb55e35a0.1000x1000x1.jpg

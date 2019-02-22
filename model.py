@@ -19,6 +19,7 @@ class Producer(db.Model):
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     producer_name = db.Column(db.String(50), nullable=False)
     producer_img_url = db.Column(db.Text, nullable=True)
+    # producer_tag_url = db.Column(db.String(50), nullable=True)
 
     # establish relationships
     # the Producer class has an albums attribute that is a list of Album objects 
@@ -31,6 +32,7 @@ class Producer(db.Model):
     def __repr__(self):
         """Provide helpful representation when printed."""
 
+        # return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url} producer_tag_url={self.producer_tag_url}>" # pyflakes does not like f-string; it prefers .format()
         return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url}>" # pyflakes does not like f-string; it prefers .format()
 
     @classmethod

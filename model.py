@@ -17,9 +17,9 @@ class Producer(db.Model):
 
     # primary keys are inherently unique
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    producer_name = db.Column(db.String(50), nullable=False)
+    producer_name = db.Column(db.Text, nullable=False)
     producer_img_url = db.Column(db.Text, nullable=True)
-    # producer_tag_url = db.Column(db.String(50), nullable=True)
+    producer_tag_url = db.Column(db.Text, nullable=True)
 
     # establish relationships
     # the Producer class has an albums attribute that is a list of Album objects 
@@ -32,8 +32,8 @@ class Producer(db.Model):
     def __repr__(self):
         """Provide helpful representation when printed."""
 
-        # return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url} producer_tag_url={self.producer_tag_url}>" # pyflakes does not like f-string; it prefers .format()
-        return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url}>" # pyflakes does not like f-string; it prefers .format()
+        return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url} producer_tag_url={self.producer_tag_url}>" # pyflakes does not like f-string; it prefers .format()
+        # return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url}>" # pyflakes does not like f-string; it prefers .format()
 
     @classmethod
     def get_producer_songs(cls, producer_name):
@@ -47,7 +47,7 @@ class Performer(db.Model):
     __tablename__ = "performers"
 
     performer_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    performer_name = db.Column(db.String(50), nullable=False)
+    performer_name = db.Column(db.Text, nullable=False)
     performer_img_url = db.Column(db.Text, nullable=True)
 
     songs = db.relationship("Song", secondary="produce_songs", backref="performers")
@@ -70,16 +70,16 @@ class Song(db.Model):
     __tablename__ = "songs"
 
     song_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    song_title = db.Column(db.String(50), nullable=False)
+    song_title = db.Column(db.Text, nullable=False)
     apple_music_player_url = db.Column(db.Text, nullable=True)
     song_release_date = db.Column(db.DateTime, nullable=True)
-    song_release_year = db.Column(db.DateTime, nullable=True)
-    song_release_month = db.Column(db.DateTime, nullable=True)
-    song_release_day = db.Column(db.DateTime, nullable=True)
+    # song_release_year = db.Column(db.DateTime, nullable=True)
+    # song_release_month = db.Column(db.DateTime, nullable=True)
+    # song_release_day = db.Column(db.DateTime, nullable=True)
 
     def __repr__(self):
-
-        return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
+        return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date}>"
+        # return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
 
     @classmethod
     def get_song_producers(cls, song_title):
@@ -93,7 +93,7 @@ class Album(db.Model):
     __tablename__ = "albums"
 
     album_id = db.Column(db.Integer, nullable=False, primary_key=True)
-    album_title = db.Column(db.String(50), nullable=False)
+    album_title = db.Column(db.Text, nullable=False)
     cover_art_url = db.Column(db.Text, nullable=True)
     album_release_date = db.Column(db.DateTime, nullable=True)
 

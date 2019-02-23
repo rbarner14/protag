@@ -15,10 +15,12 @@
         <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
         <!-- autoplay: https://www.youtube.com/embed/gN-JxixTeqg?autoplay=1 -->
         Signature: 
-<iframe width="40" height="40" src="https://www.youtube.com/embed/gN-JxixTeqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </iframe>
-        <br>
-        <br>
+        {% if producer.producer_tag_url %}
+            <iframe width="40" height="40" src="https://www.youtube.com/embed/{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </iframe>
+            <br>
+            <br>
+        {% endif %}
         {{ bio }}
 <br>
 <br>

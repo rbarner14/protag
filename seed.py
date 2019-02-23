@@ -16,11 +16,15 @@ def load_producers(producer_filename):
         row = row.rstrip()
         # assign variables to strings from file, using the pipe character
         # as a delimitor
-        producer_id, producer_name, producer_img_url = row.split("|")
+        producer_id, producer_name, producer_img_url, producer_tag_url_str = row.split("|")
+
+        if producer_tag_url_str == '':
+            producer_tag_url = None
 
         producer = Producer(producer_id=producer_id,
                     producer_name=producer_name,
-                    producer_img_url=producer_img_url)
+                    producer_img_url=producer_img_url,
+                    producer_tag_url=producer_tag_url)
 
         # add to the session
         db.session.add(producer)
@@ -66,37 +70,64 @@ def load_songs(song_filename):
         # The date is in the file as string; this converts it to an actual 
         # datetime object.
         # Corrects for None and None" values
-        if song_release_date_str and song_release_month_str not in('None', 'None"', ''):
-            song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y-%m-%d")
-        else:
-            song_release_date = None
+        # if song_release_date_str and song_release_date_str not in('None', 'None"', ''):
+        #     song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y-%m-%d")
+        # else:
+        #     song_release_date = None
 
-        if song_release_year_str and song_release_year_str not in('None', 'None"', ''):
-            song_release_year = datetime.datetime.strptime(song_release_year_str, "%Y")
-        else:
-            song_release_year = None
+        # if song_release_year_str and song_release_year_str not in('None', 'None"', ''):
+        #     song_release_year = datetime.datetime.strptime(song_release_year_str, "%Y")
+        # else:
+        #     song_release_year = None
 
-        if song_release_month_str and song_release_month_str not in('None', 'None"', ''):
-            song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
-        else:
-            song_release_month = None
+        # # if song_release_month_str and song_release_month_str not in('None', 'None"', ''):
+        # #     song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
+        # # else:
+        # #     song_release_month = None
 
-        if song_release_day_str and song_release_day_str not in('None', 'None"', ''):
+        # if song_release_month_str and song_release_month_str not in('None', 'None"', ''):
+        #     if len(song_release_month_str) == 1:
+        #         # if day value is one digit, a 0 is added to it for proper datetime conversion
+        #         song_release_month_new = "0" + song_release_month_str
+        #         song_release_month = datetime.datetime.strptime(song_release_month_new, "%m")
+        #     else:
+        #         song_release_month = datetime.datetime.strptime(song_release_month_str, "%m")
+        # else: 
+        #     song_release_month = None
+
+        # if song_release_day_str and song_release_day_str not in('None', 'None"', ''):
+        #     if len(song_release_day_str) == 1:
+        #         # if day value is one digit, a 0 is added to it for proper datetime conversion
+        #         song_release_day_new = "0" + song_release_day_str
+        #         song_release_day = datetime.datetime.strptime(song_release_day_new, "%d")
+        #     else:
+        #         song_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
+        # else: 
+        #     song_release_day = None
+
+        if not song_release_year_str or song_release_year_str in('None', 'None"', '') or len(song_release_year_str) != 4:
+            song_release_year_str = None
+
+        if not song_release_month_str or song_release_month_str in('None', 'None"', ''):
+            song_release_month_str = None
+        else:
+            if len(song_release_month_str) == 1:
+                song_release_month_str = "0" + song_release_month_str
+
+        if not song_release_day_str or song_release_day_str in('None', 'None"', ''):
+            song_release_day_str = None
+        else:
             if len(song_release_day_str) == 1:
-                # if day value is one digit, a 0 is added to it for proper datetime conversion
-                song_release_day_new = "0" + song_release_day_str
-                song_release_day = datetime.datetime.strptime(song_release_day_new, "%d")
-            else:
-                song_release_day = datetime.datetime.strptime(song_release_day_str, "%d")
-        else: 
-            song_release_day = None
+                song_release_day_str = "0" + song_release_day_str
+
+        if song_release_year_str and song_release_month_str and song_release_day_str:
+            song_release_date_str = " ".join([song_release_year_str, song_release_month_str, song_release_day_str])
+            song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y %m %d")
+
 
         song = Song(song_id=song_id, 
                 song_title=song_title, 
                 song_release_date=song_release_date, 
-                song_release_year=song_release_year, 
-                song_release_month=song_release_month, 
-                song_release_day=song_release_day, 
                 apple_music_player_url=apple_music_player_url)
 
         db.session.add(song)

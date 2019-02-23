@@ -28,12 +28,12 @@ class Producer(db.Model):
     # many songs and albums
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
     albums = db.relationship("Album", secondary="produce_songs", backref="producers")
+    performers = db.relationship("Performer", secondary="produce_songs", backref="producers")
 
     def __repr__(self):
         """Provide helpful representation when printed."""
 
         return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url} producer_tag_url={self.producer_tag_url}>" # pyflakes does not like f-string; it prefers .format()
-        # return f"<Producer producer_id={self.producer_id} producer_name={self.producer_name} producer_img_url={self.producer_img_url}>" # pyflakes does not like f-string; it prefers .format()
 
     @classmethod
     def get_producer_songs(cls, producer_name):

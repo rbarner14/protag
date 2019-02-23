@@ -63,7 +63,7 @@ def index():
 def get_graph_data():
     # call helper functions
     # read filename fed in as argument
-    nodes, paths = make_nodes_and_paths('ideas.csv')
+    nodes, paths = make_nodes_and_paths('performer_to_producer_query.csv')
     # create a json object of the list of nodes and list of paths 
     return jsonify({'nodes':nodes, 'paths':paths}) 
 

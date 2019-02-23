@@ -59,6 +59,11 @@ def index():
         return render_template("homepage.html")
 
 
+@app.route("/network")
+def graph():
+
+    return render_template("network.html")
+
 @app.route("/data.json")
 def get_graph_data():
     # call helper functions
@@ -209,7 +214,7 @@ def performer_detail(performer_id):
 
     performer = Performer.query.options(db.joinedload("albums")
                                           .joinedload("songs")
-                                          .joinedload("producers")
+                                          .joinedload("performers")
                                       ).get(performer_id)
     albums = performer.albums
 
@@ -284,9 +289,10 @@ def generate_performer_producer_frequency_donut_chart():
 @app.route("/songs")
 def song_list():
     """Show list of songs."""
-
-    songs = Song.query.options(db.joinedload("performers")
-                              ).order_by('song_title').all()
+    songs = Song.query.order_by('song_title').all()
+    # songs = Song.query.options(db.joinedload("performers")
+    #                              .joinedload("songs")
+    #                             ).order_by('song_title').all()
 
     return render_template("song_list.html", 
                             songs=songs
@@ -297,7 +303,9 @@ def song_list():
 @app.route("/songs/<int:song_id>", methods=["GET"])
 def song_detail(song_id):
 
-    song = Song.query.options(db.joinedload("producers")).get(song_id)
+    song = Song.query.options(db.joinedload("producers")
+                                .joinedload("songs")
+                               ).get(song_id)
 
     return render_template("song.html",
                             song=song
@@ -308,8 +316,8 @@ def song_detail(song_id):
 def album_list():
     """Show list of albums."""
 
-    albums = Album.query.options(db.joinedload("producers")
-                                   .joinedload("songs")
+    albums = Album.query.options(db.joinedload("performers")
+                                   .joinedload("albums")
                                   ).order_by('album_title').all()
 
     return render_template("album_list.html", 
@@ -323,7 +331,9 @@ def album_detail(album_id):
     # url from which to make API calls
     URL = "https://genius.com/api/albums/" + str(album_id)
 
-    album = Album.query.get(album_id)
+    album = Album.query.options(db.joinedload("songs")
+                                  .joinedload("albums")
+                                 ).get(album_id)
 
     session["album_id"] = album_id
 

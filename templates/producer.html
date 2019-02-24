@@ -105,6 +105,32 @@
 
         </script>
 
+<h4>Number of songs {{producer.producer_name}} has released from 1st song release to Feb 14, 2019</h4>
+
+        <div class="frequency-chart">
+        <canvas id="lineChart"></canvas>
+        <div id="lineLegend" class="chart-legend"></div>
+        </div>
+
+      <script>
+        const options = {
+          responsive: true
+        };
+
+        // Make Line Chart of Melon Sales over time
+        let ctx_line = $("#lineChart").get(0).getContext("2d");
+
+        $.get("/producer-productivity.json", function (data) {
+          let myLineChart = Chart.Line(ctx_line, {
+                                        data: data,
+                                        options: options
+                                    });
+          // $("#lineLegend").html(myLineChart.generateLegend());
+        });
+
+      </script>
+
+
     <br>
 <!-- return every song producer has producer by album and year -->
       <h2>Albums</h2>

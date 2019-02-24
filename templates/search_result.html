@@ -38,7 +38,7 @@
             {% for album in albums %}
                 <li>
                     <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
-                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }} - {{ album.performers[0].performer_name }}</a>
+                    <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
                 </li>
             {% endfor %}
         {% endif %}

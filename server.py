@@ -172,7 +172,52 @@ def generate_producer_bubbles():
 
     return jsonify(bubl_dict)
 
+@app.route('/producer-productivity.json')
+def producer_productivity_data():
+    """Return time series data of Melon Sales."""
+    producer_id = session["producer_id"]
 
+    producer_song_tuples = db.session.query(Song.song_release_year,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.producer_id==producer_id, Song.song_release_year != None).group_by(
+                            Song.song_release_year).order_by(Song.song_release_year).all()
+
+    data_dict = {
+        # "labels": ["January", "February", "March", "April", "May", "June", "July"],
+        "labels": [],
+        "datasets": [
+            {
+                "label": producer_id,
+                "fill": True,
+                "lineTension": 0.5,
+                "backgroundColor": "rgba(0,255,0,0.1)",
+                "borderColor": "rgba(220,220,220,1)",
+                "borderCapStyle": 'butt',
+                "borderDash": [],
+                "borderDashOffset": 0.0,
+                "borderJoinStyle": 'miter',
+                "pointBorderColor": "rgba(220,220,220,1)",
+                "pointBackgroundColor": "green",
+                "pointBorderWidth": 1,
+                "pointHoverRadius": 5,
+                "pointHoverBackgroundColor": "green",
+                "pointHoverBorderColor": "rgba(220,220,220,1)",
+                "pointHoverBorderWidth": 2,
+                "pointRadius": 3,
+                "pointHitRadius": 10,
+                # "data": [65, 59, 80, 81, 56, 55, 40],
+                "data": [],
+                "spanGaps": False
+            }
+        ]
+    }
+
+    for i in range(0, len(producer_song_tuples)):
+        data_dict["labels"].append(producer_song_tuples[i][0])
+        data_dict["datasets"][0]["data"].append(producer_song_tuples[i][1])
+
+    print(data_dict)
+    return jsonify(data_dict)
 
 @app.route('/producer-frequency.json')
 def generate_producer_performer_frequency_donut_chart():
@@ -299,7 +344,7 @@ def generate_performer_producer_frequency_donut_chart():
 
     performer_producer_tuples = db.session.query(Producer.producer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.performer_id==performer_id).group_by(
+                            ProduceSong.performer_id==performer_id, Producer.producer_id!=performer_id).group_by(
                             Producer.producer_name).all()
 
     # to build chart

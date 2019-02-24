@@ -1,9 +1,52 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProTag - {{album.album_title}}</title>
 
-    {% block title %}ProTag - {{ album.album_title }}{% endblock %}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="/static/style.css" rel="stylesheet"></link>
+  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-<!-- Show album's producers, and head page with album name and performer -->
-{% block content %}
+  <meta charset="utf-8">
+<style>
+.node {
+  cursor: pointer;
+}
+
+/*.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+*/
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+</style>
+
+</head>
+
+<body>
+      <!-- navigation bar -->
+    <div class="topnav">
+      <a class="active" href="/">Home</a>
+      <a href="/performers">Performers</a>
+      <a href="/producers">Producers</a>
+      <a href="/network">Network</a>
+      <a href="/resume">Hire Me!</a>
+    </div>
+
     <h1 align = "center"><i>{{ album.album_title }}</i> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h1>
     <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
     <br>
@@ -13,13 +56,90 @@
 <br>
 <br>
 <h3>Distribution of songs on <i>{{ album.album_title }}</i> by producer</h3>
-  <div class="melon-chart">
+
+        <div id="bubble-chart"></div>
+
+        <script>
+
+        var width = 700, height = 800,
+            color = d3.scale.category10();
+
+        var chart = d3.select("#bubble-chart")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(50,50)");
+
+        var pack = d3.layout.pack()
+            .size([width, height - 50])
+            .padding(10);
+
+        var force = d3.layout.force()
+            .size([width, height - 50]);
+
+        d3.json("/album-bubbles.json", function(data) {
+
+          force.nodes(data).start();
+
+          var nodes = pack.nodes(data);
+
+          var node = chart.selectAll(".node")
+              .data(nodes)
+              .enter()
+              .append("g")
+              .attr("class", "node")
+              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+              .call(force.drag);
+
+          node.append("circle")
+              .attr("r",function(d) { return d.r; })
+              .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
+              .attr("opacity", 0.6)
+
+          node.append("a")
+              .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2; })
+              .attr("dy", ".3em").style("text-anchor", "middle")
+              .text(function(d) { if(d.name.length < 10){return d.children ? "" : d.name; }})
+
+            node.append("a")
+              .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2.5; })
+              .attr("dy", ".3em").style("text-anchor", "middle")
+              .text(function(d) { if(d.name.length >= 10){return d.children ? "" : d.name; }})
+
+          node.append("a")
+              .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2.5; })
+              .style("text-anchor", "middle")
+              .attr("dy", "-1em")
+              .text(function(d) { return d.children ? "" : d.value; });
+
+          node.append("a")
+              .style("filter", function(d) { 
+                   return d._children ? "url(#image)" : "#fff"; 
+                }).on("mouseover",function(d){
+                           d3.select(this).style("cursor","pointer");
+                });
+        });
+
+
+        </script>
+
+
+
+
+<!--   <div class="melon-chart">
     <canvas id="donutChart"></canvas>
     <div id="donutLegend" class="chart-legend"></div>
-  </div>
+  </div> -->
 
 <!-- Chart 2 -->
-  <script>
+<!--   <script>
     const options = {
       responsive: true
     };
@@ -35,7 +155,7 @@
                                             });
       // $('#donutLegend').html(myDonutChart.generateLegend());
     });
-</script>
+</script> -->
 
 
 
@@ -52,4 +172,12 @@
               <br>
               <br>
       {% endfor %}
-{% endblock %}
+</body>
+
+<footer>
+    <br>
+    <br> 
+    Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+</footer>
+</html>
+

@@ -10,6 +10,31 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
   <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+  <meta charset="utf-8">
+<style>
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+</style>
+
 </head>
 
 <body>
@@ -43,79 +68,38 @@
         <br>
         <br>
         <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
-        <div id="bubble-chart"></div>
 
-        <script>
-
-        var width = 1000, height = 900,
-            color = d3.scale.category10();
-
-        var chart = d3.select("#bubble-chart").append("svg")
-            .attr("width", width).attr("height", height)
-            .append("g")
-            .attr("transform", "translate(50,50)");
-
-        var pack = d3.layout.pack()
-            .size([width, height - 50])
-            .padding(10);
-
-        var force = d3.layout.force()
-            .size([width, height - 50]);
-
-        d3.json("/producer-bubbles.json", function(data) {
-
-          force.nodes(data).start();
-
-          var nodes = pack.nodes(data);
-
-          var node = chart.selectAll(".node")
-              .data(nodes).enter()
-              .append("g")
-              .attr("class", "node")
-              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-              .call(force.drag);
-
-          node.append("circle")
-              .attr("r",function(d) { return d.r; })
-              .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
-              .attr("opacity", 0.6)
-
-          node.append("a")
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2; })
-              .attr("dy", ".3em").style("text-anchor", "middle")
-              .text(function(d) { if(d.name.length < 10){return d.children ? "" : d.name; }})
-
-            node.append("a")
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2.5; })
-              .attr("dy", ".3em").style("text-anchor", "middle")
-              .text(function(d) { if(d.name.length >= 10){return d.children ? "" : d.name; }})
-
-          node.append("a")
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2.5; })
-              .style("text-anchor", "middle")
-              .attr("dy", "-1em")
-              .text(function(d) { return d.children ? "" : d.value; });
-        });
-
-        </script>
-
-<h4>Number of songs {{producer.producer_name}} has released from 1st song release to Feb 14, 2019</h4>
-
+    <div class="producer-to-performer-chart">
+    <canvas id="donutChart"></canvas>
+    <div id="donutLegend" class="chart-legend"></div>
         <div class="frequency-chart">
         <canvas id="lineChart"></canvas>
         <div id="lineLegend" class="chart-legend"></div>
         </div>
+  </div>
 
-      <script>
-        const options = {
-          responsive: true
-        };
+
+<!-- Chart 2 -->
+  <script>
+    const options = {
+      responsive: true
+    };
+
+    // Make Donut Chart of percent of different types of Melons
+    let ctx_donut = $("#donutChart").get(0).getContext("2d");
+
+    $.get("/producer-frequency.json", function (data) {
+      let myDonutChart = new Chart(ctx_donut, {
+                                              type: 'doughnut',
+                                              data: data,
+                                              options: options
+                                            });
+      // $('#donutLegend').html(myDonutChart.generateLegend());
+    });
+
+        // const options = {
+        //   responsive: true
+        // };
 
         // Make Line Chart of Melon Sales over time
         let ctx_line = $("#lineChart").get(0).getContext("2d");

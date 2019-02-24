@@ -187,7 +187,7 @@ def producer_productivity_data():
         "labels": [],
         "datasets": [
             {
-                "label": producer_id,
+                "label": "Number of Songs Produced",
                 "fill": True,
                 "lineTension": 0.5,
                 "backgroundColor": "rgba(0,255,0,0.1)",
@@ -441,6 +441,37 @@ def album_detail(album_id):
                             album=album,
                             bio=bio
                           )
+
+
+@app.route('/album-bubbles.json')
+def generate_album_bubbles():
+
+    # retrieve producer_id from the session for producer_song_tuples query          
+    album_id = session["album_id"]
+
+    # query creates list of tuples
+    album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.album_id==album_id).group_by(
+                            Producer.producer_name, Producer.producer_img_url).all()
+
+    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
+    bubl_dict = {
+                "name": "performers",
+                "value": 100,
+                "children": []
+            }
+
+    for i in range(0, len(album_producer_tuples)):
+        bubl_pre_dic = {}
+        bubl_pre_dic["domain"] = album_producer_tuples[i][0]
+        bubl_pre_dic["name"] = album_producer_tuples[i][0]
+        bubl_pre_dic["link"] = album_producer_tuples[i][1]
+        bubl_pre_dic["value"] = album_producer_tuples[i][2]
+        bubl_dict["children"].append(bubl_pre_dic)
+        i+=1
+
+    return jsonify(bubl_dict)
 
 
 @app.route('/album-frequency.json')

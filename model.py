@@ -97,7 +97,7 @@ class Album(db.Model):
     cover_art_url = db.Column(db.Text, nullable=True)
     album_release_date = db.Column(db.DateTime, nullable=True)
 
-    songs = db.relationship("Song", secondary="produce_songs", backref="album")
+    songs = db.relationship("Song", secondary="produce_songs", backref="albums")
 
     def __repr__(self):
 

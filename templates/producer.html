@@ -1,10 +1,25 @@
-{% extends "base.html" %}
-    <!-- title each tab with the producer's name -->
-    <!-- Minified version  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProTag - {{producer.producer_name}}</title>
 
-    {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="/static/style.css" rel="stylesheet"></link>
+  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
 
-{% block content %}
+<body>
+      <!-- navigation bar -->
+    <div class="topnav">
+      <a class="active" href="/">Home</a>
+      <a href="/performers">Performers</a>
+      <a href="/producers">Producers</a>
+      <a href="/network">Network</a>
+      <a href="/resume">Hire Me!</a>
+    </div>
 
     <h1 align = "center">{{producer.producer_name}}</h1>
 
@@ -24,58 +39,56 @@
         <br>
         <br>
         {{ bio }}
-<br>
-<br>
-<h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
-  <div class="melon-chart">
-    <canvas id="donutChart"></canvas>
-    <div id="donutLegend" class="chart-legend"></div>
-  </div>
+        <br>
+        <br>
+        <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
+        <div id="bubble-chart">
 
-<!-- Chart 2 -->
-  <script>
-    const options = {
-      responsive: true
-    };
+        <script>
 
-    // JQuery selecting
-    // Make Donut Chart of percent of different types of Melons
-    let ctx_donut = $("#donutChart").get(0).getContext("2d");
+        var width = 960, height = 900,
+            color = d3.scale.category10();
 
-    $.get("/producer-frequency.json", function (data) {
-      let myDonutChart = new Chart(ctx_donut, {
-                                              type: 'doughnut',
-                                              data: data,
-                                              options: options
-                                            });
-      //bottom legend
-      // $('#donutLegend').html(myDonutChart.generateLegend());
-    });
-</script>
+        var chart = d3.select("#bubble-chart").append("svg")
+            .attr("width", width).attr("height", height)
+            .append("g")
+            .attr("transform", "translate(50,50)");
 
+        var pack = d3.layout.pack()
+            .size([width, height - 50])
+            .padding(10);
 
-    <!-- Chart Deprecated -->
-<!--     <div class="container">
-        <canvas id="myChart"></canvas>
-    </div>
+        var force = d3.layout.force()
+            .size([width, height - 50]);
 
-    <script>
-        let myChart = document.getElementById('myChart').getContext('2d');
+        d3.json("/producer-bubbles.json", function(data) {
 
-        // new chart element
-        let massPopChart = new Chart(myChart, {
-            type:"bar",// bar, horizontalBar, pie, line, donut, radar, polarArea
-            data: {
-                labels:['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'], //list of artist names
-                datasets:[{
-                    label: 'Population', //'Number of Songs'
-                    data: [617594, 181045, 153060, 106519, 105162, 95072] //numbers of songs
-                }]
-            },
-            options: {}
-        })
-    </script> -->
-<br>
+          force.nodes(data).start();
+
+          var nodes = pack.nodes(data);
+
+          var node = chart.selectAll(".node")
+              .data(nodes).enter()
+              .append("g")
+              .attr("class", "node")
+              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+              .call(force.drag);
+
+          node.append("circle")
+              .attr("r",function(d) { return d.r; })
+              .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
+              .attr("opacity", 0.6)
+
+          node.append("a")
+              .append("text")
+              .attr("dy", ".3em").style("text-anchor", "middle")
+              .text(function(d) { return d.children ? "" : (d.name + " (" + d.value + ")"); });
+        });
+
+        </script>
+        </div>
+
+    <br>
 <!-- return every song producer has producer by album and year -->
       <h2>Albums</h2>
         {% for year in album_years %}
@@ -96,5 +109,12 @@
                 {% endfor %}
         {% endfor %}
     {% endif %}
-{% endblock %}
 <!-- add songs not on albums and songs/albums without release dates -->
+</body>
+
+<footer>
+    <br>
+    <br> 
+    Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+</footer>
+</html>

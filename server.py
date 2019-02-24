@@ -142,6 +142,37 @@ def producer_detail(producer_id):
                             bio=bio
                           )
 
+@app.route('/producer-bubbles.json')
+def generate_producer_bubbles():
+
+    # retrieve producer_id from the session for producer_song_tuples query          
+    producer_id = session["producer_id"]
+
+    # query creates list of tuples
+    producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.producer_id==producer_id).group_by(
+                            Performer.performer_name, Performer.performer_id).all()
+
+    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
+    bubl_dict = {
+                "name": "performers",
+                "value": 100,
+                "children": []
+            }
+
+    for i in range(0, len(producer_song_tuples)):
+        bubl_pre_dic = {}
+        bubl_pre_dic["domain"] = producer_song_tuples[i][0]
+        bubl_pre_dic["name"] = producer_song_tuples[i][0]
+        bubl_pre_dic["link"] = producer_song_tuples[i][1]
+        bubl_pre_dic["value"] = producer_song_tuples[i][2]
+        bubl_dict["children"].append(bubl_pre_dic)
+        i+=1
+
+    return jsonify(bubl_dict)
+
+
 
 @app.route('/producer-frequency.json')
 def generate_producer_performer_frequency_donut_chart():
@@ -193,6 +224,7 @@ def generate_producer_performer_frequency_donut_chart():
         data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
         k+=1
 
+    # print(data_dict)
     return jsonify(data_dict)
 
 

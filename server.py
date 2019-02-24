@@ -217,7 +217,6 @@ def producer_productivity_data():
         data_dict["labels"].append(producer_song_tuples[i][0])
         data_dict["datasets"][0]["data"].append(producer_song_tuples[i][1])
 
-    print(data_dict)
     return jsonify(data_dict)
 
 @app.route('/producer-frequency.json')
@@ -270,7 +269,6 @@ def generate_producer_performer_frequency_donut_chart():
         random_green = random.randint(0,255)
         random_blue = random.randint(0,255)
         random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
-        print(random_color)
         data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
 

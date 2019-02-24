@@ -7,8 +7,9 @@
   <link href="/static/style.css" rel="stylesheet"></link>
   <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
-  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>   
 </head>
 
 <body>
@@ -42,7 +43,7 @@
         <br>
         <br>
         <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
-        <div id="bubble-chart">
+        <div id="bubble-chart"></div>
 
         <script>
 
@@ -55,15 +56,15 @@
             .attr("transform", "translate(50,50)");
 
         var pack = d3.layout.pack()
-            .size([width, height - 50])
+            .size([width, height])
             .padding(10);
 
         var force = d3.layout.force()
-            .size([width, height - 50]);
+            .size([width, height]);
 
         d3.json("/producer-bubbles.json", function(data) {
 
-          force.nodes(data).start();
+          // force.nodes(data).start();
 
           var nodes = pack.nodes(data);
 
@@ -72,7 +73,7 @@
               .append("g")
               .attr("class", "node")
               .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-              .call(force.drag);
+              // .call(force.drag);
 
           node.append("circle")
               .attr("r",function(d) { return d.r; })
@@ -81,12 +82,30 @@
 
           node.append("a")
               .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2; })
               .attr("dy", ".3em").style("text-anchor", "middle")
-              .text(function(d) { return d.children ? "" : (d.name + " (" + d.value + ")"); });
+              // .text(function(d) { return d.children ? "" : (d.name + " (" + d.value + ")"); })
+              .text(function(d) { if(d.name.length < 10){return d.children ? "" : d.name; }})
+
+            node.append("a")
+              .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2.5; })
+              .attr("dy", ".3em").style("text-anchor", "middle")
+              // .text(function(d) { return d.children ? "" : (d.name + " (" + d.value + ")"); })
+              .text(function(d) { if(d.name.length >= 10){return d.children ? "" : d.name; }})
+
+          node.append("a")
+              .append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", function(d){ return d.r/2.5; })
+              .style("text-anchor", "middle")
+              .attr("dy", "-1em")
+              .text(function(d) { return d.children ? "" : d.value; });
         });
 
         </script>
-        </div>
 
     <br>
 <!-- return every song producer has producer by album and year -->

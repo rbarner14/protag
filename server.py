@@ -9,6 +9,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
 # for api calls
 import requests
+import random
 
 # create Flask app
 app = Flask(__name__)
@@ -225,19 +226,11 @@ def generate_producer_performer_frequency_donut_chart():
     # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
     # can pass producer_id to query with session
     # https://www.randomlists.com/random-color?qty=20
-    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D"]
+    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32"]
 
     # retrieve producer_id from the session for producer_song_tuples query          
     producer_id = session["producer_id"]
@@ -246,7 +239,7 @@ def generate_producer_performer_frequency_donut_chart():
     producer_song_tuples = db.session.query(Performer.performer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.producer_id==producer_id).group_by(
-                            Performer.performer_name).all()
+                            Performer.performer_name).order_by(Performer.performer_name).all()
 
     # python dictionary to jsonfiy and pass to front end to build chartjs viz 
     data_dict = {
@@ -272,9 +265,13 @@ def generate_producer_performer_frequency_donut_chart():
         j+=1
 
     # loop through background color list
-    for k in range(0, len(background_colors)):
-        bgcolor = background_colors[k]
-        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+    for k in range(0, len(producer_song_tuples)):
+        random_red = random.randint(0,255)
+        random_green = random.randint(0,255)
+        random_blue = random.randint(0,255)
+        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
+        print(random_color)
+        data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
 
     # print(data_dict)
@@ -326,19 +323,21 @@ def generate_performer_producer_frequency_donut_chart():
     # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
     # can pass producer_id to query with session
     # https://www.randomlists.com/random-color?qty=20
-    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D"]
+    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6"]
 
     performer_id = session["performer_id"]
 
@@ -370,10 +369,18 @@ def generate_performer_producer_frequency_donut_chart():
         j+=1
 
     # loop through background color list
-    for k in range(0, len(background_colors)):
-        bgcolor = background_colors[k]
-        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+    # for k in range(0, len(background_colors)):
+    #     bgcolor = background_colors[k]
+    #     data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+    #     k+=1
+    for k in range(0, len(performer_producer_tuples)):
+        random_red = random.randint(0,255)
+        random_green = random.randint(0,255)
+        random_blue = random.randint(0,255)
+        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
+        data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
+
 
     return jsonify(data_dict)
 
@@ -457,7 +464,7 @@ def generate_album_bubbles():
 
     # python dictionary to jsonfiy and pass to front end to build chartjs viz 
     bubl_dict = {
-                "name": "performers",
+                "name": "producers",
                 "value": 100,
                 "children": []
             }
@@ -473,6 +480,46 @@ def generate_album_bubbles():
 
     return jsonify(bubl_dict)
 
+@app.route('/album-web.json')
+def generate_album_web():
+
+    # retrieve producer_id from the session for producer_song_tuples query          
+    album_id = session["album_id"]
+
+    # query creates list of tuples
+    album_img = db.session.query(Album.cover_art_url).filter(Album.album_id==album_id).one()
+
+    album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,Album.cover_art_url,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).join(Album).filter(
+                            ProduceSong.album_id==album_id, Album.album_id==ProduceSong.album_id).group_by(
+                            Producer.producer_name, Producer.producer_img_url, Album.cover_art_url).all()
+
+    album_dict = {
+         "name": album_id,
+         "img": album_img[0],
+         "children": [
+              {
+               "name": "Producers",
+               "children": []
+              }
+          ]
+    }
+
+    for i in range(0, len(album_producer_tuples)):
+        child_dic = {}
+        if album_producer_tuples[i][3] > 1:
+            child_dic["hero"] = str(album_producer_tuples[i][0]) +  " (" + str(album_producer_tuples[i][3]) + " songs)" 
+            child_dic["name"] = str(album_producer_tuples[i][0]) + " (" + str(album_producer_tuples[i][3]) + " songs)" 
+        else: 
+            child_dic["hero"] = str(album_producer_tuples[i][0]) +  " (" + str(album_producer_tuples[i][3]) + " song)" 
+            child_dic["name"] = str(album_producer_tuples[i][0]) + " (" + str(album_producer_tuples[i][3]) + " song)" 
+        child_dic["link"] = album_producer_tuples[i][1]
+        child_dic["img"] = album_producer_tuples[i][1]
+        child_dic["size"] = 40000
+        album_dict["children"].append(child_dic)
+        i+=1
+
+    return jsonify(album_dict)
 
 @app.route('/album-frequency.json')
 def generate_album_producer_frequency_donut_chart():
@@ -480,11 +527,11 @@ def generate_album_producer_frequency_donut_chart():
     # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
     # can pass producer_id to query with session
     # https://www.randomlists.com/random-color?qty=20
-    background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-                         "#A0522D"]
+    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+    #                      "#A0522D"]
 
     album_id = session["album_id"]
 
@@ -516,10 +563,18 @@ def generate_album_producer_frequency_donut_chart():
         j+=1
 
     # loop through background color list
-    for k in range(0, len(background_colors)):
-        bgcolor = background_colors[k]
-        data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+    # for k in range(0, len(background_colors)):
+    #     bgcolor = background_colors[k]
+    #     data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
+    #     k+=1
+    for k in range(0, len(album_producer_tuples)):
+        random_red = random.randint(0,255)
+        random_green = random.randint(0,255)
+        random_blue = random.randint(0,255)
+        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
+        data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
+
 
     return jsonify(data_dict)
 

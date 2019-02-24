@@ -152,7 +152,7 @@ def generate_producer_bubbles():
     # query creates list of tuples
     producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id,Performer.performer_id!=producer_id).group_by(
+                            ProduceSong.producer_id==producer_id).group_by(
                             Performer.performer_name, Performer.performer_id).all()
 
     # python dictionary to jsonfiy and pass to front end to build chartjs viz 
@@ -343,7 +343,7 @@ def generate_performer_producer_frequency_donut_chart():
 
     performer_producer_tuples = db.session.query(Producer.producer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.performer_id==performer_id, Producer.producer_id!=performer_id).group_by(
+                            ProduceSong.performer_id==performer_id).group_by(
                             Producer.producer_name).all()
 
     # to build chart
@@ -516,7 +516,7 @@ def generate_album_web():
         child_dic["link"] = album_producer_tuples[i][1]
         child_dic["img"] = album_producer_tuples[i][1]
         child_dic["size"] = 40000
-        album_dict["children"].append(child_dic)
+        album_dict["children"][0]["children"].append(child_dic)
         i+=1
 
     return jsonify(album_dict)

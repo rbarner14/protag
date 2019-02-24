@@ -165,7 +165,7 @@
 /*      header {padding: 20px; position: absolute; top: 0; left: 0;}*/
 /*      a:link { color: #EE3124; text-decoration: none;}
       a:visited { color: #EE3124; }*/
-      a:hover { color: #A4CD39; text-decoration: underline;}
+/*      a:hover { color: #A4CD39; text-decoration: underline;}*/
 /*      a:active { color: #EE3124; }*/
     </style>
 
@@ -218,12 +218,12 @@ function update() {
   force.nodes(nodes)
         .links(links)
         .gravity(0.05)
-    .charge(-1500)
-    .linkDistance(100)
-    .friction(0.5)
-    .linkStrength(function(l, i) {return 1; })
-    .size([w, h])
-    .on("tick", tick)
+        .charge(-1500)
+        .linkDistance(100)
+        .friction(0.5)
+        .linkStrength(function(l, i) {return 1; })
+        .size([w, h])
+        .on("tick", tick)
         .start();
  
    var path = vis.selectAll("path.link")
@@ -264,14 +264,14 @@ function update() {
         .attr("x", function(d) { return -25;})
         .attr("y", function(d) { return -25;})
         .attr("height", 50)
-        .attr("width", 50);
+        .attr("width", 50)
   
   // make the image grow a little on mouse over and add the text details on click
   var setEvents = images
           // Append hero text
           .on( 'click', function (d) {
-              d3.select("h1").html(d.hero); 
-              d3.select("h2").html(d.name); 
+              // d3.select("h1").html(d.hero); 
+              // d3.select("h2").html(d.name); 
               // d3.select("h3").html ("Take me to " + "<a href='" + d.link + "' >"  + d.hero + " web page ⇢"+ "</a>" ); 
            })
 

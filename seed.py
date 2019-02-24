@@ -127,6 +127,7 @@ def load_songs(song_filename):
 
         song = Song(song_id=song_id, 
                 song_title=song_title, 
+                song_release_year=song_release_year_str,
                 song_release_date=song_release_date, 
                 apple_music_player_url=apple_music_player_url)
 

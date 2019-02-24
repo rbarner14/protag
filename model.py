@@ -73,12 +73,12 @@ class Song(db.Model):
     song_title = db.Column(db.Text, nullable=False)
     apple_music_player_url = db.Column(db.Text, nullable=True)
     song_release_date = db.Column(db.DateTime, nullable=True)
-    # song_release_year = db.Column(db.DateTime, nullable=True)
+    song_release_year = db.Column(db.Text, nullable=True)
     # song_release_month = db.Column(db.DateTime, nullable=True)
     # song_release_day = db.Column(db.DateTime, nullable=True)
 
     def __repr__(self):
-        return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date}>"
+        return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year}>"
         # return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
 
     @classmethod

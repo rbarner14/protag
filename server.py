@@ -151,7 +151,7 @@ def generate_producer_bubbles():
     # query creates list of tuples
     producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id).group_by(
+                            ProduceSong.producer_id==producer_id,Performer.performer_id!=producer_id).group_by(
                             Performer.performer_name, Performer.performer_id).all()
 
     # python dictionary to jsonfiy and pass to front end to build chartjs viz 
@@ -181,6 +181,14 @@ def generate_producer_performer_frequency_donut_chart():
     # can pass producer_id to query with session
     # https://www.randomlists.com/random-color?qty=20
     background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
                          "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
                          "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
                          "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
@@ -274,6 +282,14 @@ def generate_performer_producer_frequency_donut_chart():
     # can pass producer_id to query with session
     # https://www.randomlists.com/random-color?qty=20
     background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
+                         "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
+                         "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
+                         "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
+                         "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
                          "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
                          "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
                          "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",

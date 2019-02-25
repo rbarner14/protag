@@ -10,6 +10,7 @@ from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSo
 # for api calls
 from sqlalchemy import cast, Numeric
 import requests
+#for Chartjs colors
 import random
 
 # create Flask app
@@ -20,7 +21,10 @@ app.jinja_env.auto_reload = True
 # Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
 
+
 def make_nodes_and_paths(filename):
+    """Make nods and paths for music industry D3 chart."""
+
     # file = export of sql query: 
     # psql -d music -t -A -F"," -c "select performer_name, 
     # producer_name from produce_song ps join performers p using (performer_id) 
@@ -34,7 +38,8 @@ def make_nodes_and_paths(filename):
     for pair in lines:
         split = pair.split(',') # split each line, using a comma as a delimitor
         if split: # if pair is not blank (line in file was not blank)
-            for node in split: # for loop through split list, each item bound to variable node
+            # for loop through split list, each item bound to variable node
+            for node in split: 
                 node = node.strip() #strip each pair in list of white space
                 if not nodes.get(node):
                     nodes[node] = split[1].strip()
@@ -57,17 +62,22 @@ def make_nodes_and_paths(filename):
 
 @app.route("/")
 def index():
+    """Show homepage."""
 
-        return render_template("homepage.html")
+    return render_template("homepage.html")
 
 
 @app.route("/network")
 def graph():
+    """Show music industry D3 Chart."""
 
     return render_template("network.html")
 
+
 @app.route("/data.json")
 def get_graph_data():
+    """JSON read to create music industry D3 Chart."""
+
     # call helper functions
     # read filename fed in as argument
     nodes, paths = make_nodes_and_paths('output3.csv')
@@ -77,46 +87,47 @@ def get_graph_data():
 
 @app.route("/search_result", methods=['GET'])
 def return_search_result():
+    """Return user's search results."""
 
-        # search string user enters gathered from the form on the homepage
-        search_str = request.args.get("search_str")
+    # search string user enters gathered from the form on the homepage
+    search_str = request.args.get("search_str")
 
-        # return the producer(s), performer(s), song(s), and album(s) 
-        # that match the search string (not case-sensitive), alphabetized
-        if len(search_str) > 0:
-            producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
-            performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
-            songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).all()
-            albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).all()
-        else:
-            producers = None
-            performers = None
-            songs = None
-            albums = None
+    # return the producer(s), performer(s), song(s), and album(s) 
+    # that match the search string (not case-sensitive), alphabetized
+    if len(search_str) > 0:
+        producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
+        performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
+        songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).all()
+        albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).all()
+    else:
+        producers = None
+        performers = None
+        songs = None
+        albums = None
 
-        return render_template("search_result.html",
-                                producers=producers,
-                                performers=performers,
-                                songs=songs,
-                                albums=albums
-                               )
+    return render_template("search_result.html",
+                            producers=producers,
+                            performers=performers,
+                            songs=songs,
+                            albums=albums
+                           )
 
 
 @app.route("/producers")
 def producer_list():
     """Show list of producers."""
 
-    # query for all producers in database; return results alphabetized
+    # Query for all producers in database; return results alphabetized.
     producers = Producer.query.order_by('producer_name').all()
 
     return render_template("producer_list.html", producers=producers)
 
 
-# each producer page's url will include the producer's database id
+# Each producer's page's url will include the producer's database id.
 @app.route("/producers/<int:producer_id>")
 def producer_detail(producer_id):
 
-    # url from which to make API calls
+    # URL from which to make API calls.
     URL = "https://genius.com/api/artists/" + str(producer_id)
 
     # joinedload reduces # of queries run for output
@@ -126,13 +137,13 @@ def producer_detail(producer_id):
                                       ).get(producer_id)
 
     albums = producer.albums # list
-    # returns the album release years in descending chronological order
+    # Returns the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
     r = requests.get(URL)
     j = r.json()
     
-    # if call is successful, access json object
+    # If call is successful, access JSON object.
     if j['meta']['status'] == 200:
         bio = j['response']['artist'].get('description_preview',"")
 

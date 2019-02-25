@@ -8,6 +8,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 # tables for jquery
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
 # for api calls
+from sqlalchemy import cast, Numeric
 import requests
 import random
 
@@ -180,8 +181,10 @@ def producer_productivity_data():
 
     producer_song_tuples = db.session.query(Song.song_release_year,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id, Song.song_release_year != None).group_by(
-                            Song.song_release_year).order_by(Song.song_release_year).all()
+                            ProduceSong.producer_id==producer_id 
+                            , Song.song_release_year != None
+                            , cast(Song.song_release_year, Numeric(10, 4)) > 1900
+                            , cast(Song.song_release_year, Numeric(10, 4)) < 2019).group_by(Song.song_release_year).order_by(Song.song_release_year).all()
 
     data_dict = {
         # "labels": ["January", "February", "March", "April", "May", "June", "July"],

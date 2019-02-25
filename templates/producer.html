@@ -52,8 +52,13 @@
 {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
 
 {% block content %}
-
-    <h1 align = "center">{{producer.producer_name}}</h1>
+    <h1 align = "center">{{producer.producer_name}}
+        {% if album_years[-1]|int < 2008 %}
+          INDUSTRY VET
+        {% else %}
+          INDUSTRY ROOKIE
+        {% endif %}
+</h1>
 
     {% if producer.songs %}
         <ul>

@@ -123,7 +123,7 @@ def producer_detail(producer_id):
     producer = Producer.query.options(db.joinedload("albums")
                                         .joinedload("songs")
                                         .joinedload("producers")
-                                      ).get(producer_id)
+                                      ).order_by(song_title).get(producer_id)
 
     albums = producer.albums # list
     # returns the album release years in descending chronological order

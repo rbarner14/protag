@@ -1,19 +1,19 @@
-# for feeding variables to templates
+# For feeding variables to templates.
 from jinja2 import StrictUndefined
 
-# for helpful debugging
+# For helpful debugging.
 from flask import Flask, redirect, render_template, request, session, flash, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
 
-# tables for jquery
+# Tables for jQuery.
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
-# for api calls
+# For API calls.
 from sqlalchemy import cast, Numeric
 import requests
-#for Chartjs colors
+# For Chartjs color generation.
 import random
 
-# create Flask app
+# Create Flask app.
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 app.jinja_env.auto_reload = True
@@ -23,24 +23,23 @@ app.secret_key = "ABC"
 
 
 def make_nodes_and_paths(filename):
-    """Make nods and paths for music industry D3 chart."""
+    """Make nodes and paths for music industry D3 chart."""
 
-    # file = export of sql query: 
+    # File = export of sql query entered at command line: 
     # psql -d music -t -A -F"," -c "select performer_name, 
     # producer_name from produce_song ps join performers p using (performer_id) 
-    # join producers using (producer_id)" > output.csv
+    # oin producers using (producer_id)" > output.csv.
     file_obj = open(filename)
     contents = file_obj.read()
-    lines = contents.split('\n') # creates a list of the rows in the file
-    # print(lines)
+    lines = contents.split('\n') # Create a list of the rows in the file.
 
-    nodes = {} # focal point of data (words)
+    nodes = {} # Focal point of data (words).
     for pair in lines:
         split = pair.split(',') # split each line, using a comma as a delimitor
-        if split: # if pair is not blank (line in file was not blank)
-            # for loop through split list, each item bound to variable node
+        if split: # If pair is not blank (line in file was not blank),
+            # for loop through split list, bind each item to variable node.
             for node in split: 
-                node = node.strip() #strip each pair in list of white space
+                node = node.strip() # Strip each pair in list of white space.
                 if not nodes.get(node):
                     nodes[node] = split[1].strip()
     
@@ -52,7 +51,7 @@ def make_nodes_and_paths(filename):
 
     paths = []
     for line in lines:
-        slt = line.split(',') # split line in csv by comma
+        slt = line.split(',') # Split line in csv by comma.
         if len(slt) == 2:
             source, target = slt
             paths.append({'source': index_nodes[source][0], 'target': index_nodes[target][0]  })
@@ -78,10 +77,10 @@ def graph():
 def get_graph_data():
     """JSON read to create music industry D3 Chart."""
 
-    # call helper functions
-    # read filename fed in as argument
+    # Call helper functions.
+    # Read filename fed in as argument.
     nodes, paths = make_nodes_and_paths('output3.csv')
-    # create a json object of the list of nodes and list of paths 
+    # Create a json object of the list of nodes and list of paths.
     return jsonify({'nodes':nodes, 'paths':paths}) 
 
 
@@ -89,11 +88,11 @@ def get_graph_data():
 def return_search_result():
     """Return user's search results."""
 
-    # search string user enters gathered from the form on the homepage
+    # Search string user enters gathered from the form on the homepage.
     search_str = request.args.get("search_str")
 
-    # return the producer(s), performer(s), song(s), and album(s) 
-    # that match the search string (not case-sensitive), alphabetized
+    # Return the producer(s), performer(s), song(s), and album(s)
+    # that match the search string (not case-sensitive), alphabetized.
     if len(search_str) > 0:
         producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
         performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
@@ -126,18 +125,19 @@ def producer_list():
 # Each producer's page's url will include the producer's database id.
 @app.route("/producers/<int:producer_id>")
 def producer_detail(producer_id):
+    """Show producer's details."""
 
     # URL from which to make API calls.
     URL = "https://genius.com/api/artists/" + str(producer_id)
 
-    # joinedload reduces # of queries run for output
+    # Method "joinedload" employed to reduce # of queries run for output.
     producer = Producer.query.options(db.joinedload("albums")
                                         .joinedload("songs")
                                         .joinedload("producers")
                                       ).get(producer_id)
 
     albums = producer.albums # list
-    # Returns the album release years in descending chronological order.
+    # Return the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
     r = requests.get(URL)
@@ -147,6 +147,7 @@ def producer_detail(producer_id):
     if j['meta']['status'] == 200:
         bio = j['response']['artist'].get('description_preview',"")
 
+    # Store producer_id in session.
     session["producer_id"] = producer_id
 
     return render_template("producer.html",
@@ -155,41 +156,48 @@ def producer_detail(producer_id):
                             bio=bio
                           )
 
-@app.route('/producer-bubbles.json')
-def generate_producer_bubbles():
+# @app.route('/producer-bubbles.json')
+# def generate_producer_bubbles():
+#     """Create bubbles on producer page of performer frequencies."""
 
-    # retrieve producer_id from the session for producer_song_tuples query          
-    producer_id = session["producer_id"]
+#     # Retrieve producer_id from the session for producer_song_tuples query.          
+#     producer_id = session["producer_id"]
 
-    # query creates list of tuples
-    producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id).group_by(
-                            Performer.performer_name, Performer.performer_id).all()
+#     # Create list of tuples.
+#     producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
+#                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+#                             ProduceSong.producer_id==producer_id).group_by(
+#                             Performer.performer_name, Performer.performer_id).all()
 
-    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
-    bubl_dict = {
-                "name": "performers",
-                "value": 100,
-                "children": []
-            }
+#     # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
+#     bubl_dict = {
+#                 "name": "performers",
+#                 "value": 100,
+#                 "children": []
+#             }
 
-    for i in range(0, len(producer_song_tuples)):
-        bubl_pre_dic = {}
-        bubl_pre_dic["domain"] = producer_song_tuples[i][0]
-        bubl_pre_dic["name"] = producer_song_tuples[i][0]
-        bubl_pre_dic["link"] = producer_song_tuples[i][1]
-        bubl_pre_dic["value"] = producer_song_tuples[i][2]
-        bubl_dict["children"].append(bubl_pre_dic)
-        i+=1
+#     for i in range(0, len(producer_song_tuples)):
+#         bubl_pre_dic = {}
+#         bubl_pre_dic["domain"] = producer_song_tuples[i][0]
+#         bubl_pre_dic["name"] = producer_song_tuples[i][0]
+#         bubl_pre_dic["link"] = producer_song_tuples[i][1]
+#         bubl_pre_dic["value"] = producer_song_tuples[i][2]
+#         bubl_dict["children"].append(bubl_pre_dic)
+#         i+=1
 
-    return jsonify(bubl_dict)
+#     return jsonify(bubl_dict)
+
 
 @app.route('/producer-productivity.json')
 def producer_productivity_data():
-    """Return time series data of Melon Sales."""
+    """Return producer productivity JSON for line Chartjs data viz."""
+    
+    # Get producer_id from id stored in session.
     producer_id = session["producer_id"]
 
+    # Return tuples of song_release_year and song counts for every producer from 
+    # the years 1900 - 2019.  Correcting for year data pulled from Genius API 
+    # that may be an incorrect year.
     producer_song_tuples = db.session.query(Song.song_release_year,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.producer_id==producer_id 
@@ -198,7 +206,6 @@ def producer_productivity_data():
                             , cast(Song.song_release_year, Numeric(10, 4)) < 2019).group_by(Song.song_release_year).order_by(Song.song_release_year).all()
 
     data_dict = {
-        # "labels": ["January", "February", "March", "April", "May", "June", "July"],
         "labels": [],
         "datasets": [
             {
@@ -220,41 +227,36 @@ def producer_productivity_data():
                 "pointHoverBorderWidth": 2,
                 "pointRadius": 3,
                 "pointHitRadius": 10,
-                # "data": [65, 59, 80, 81, 56, 55, 40],
                 "data": [],
                 "spanGaps": False
             }
         ]
     }
 
+    # Loop through producer song tuples, making the value of the 1st index in
+    # the tuple (year) the labels and the 2nd index value (song counts) the data
     for i in range(0, len(producer_song_tuples)):
         data_dict["labels"].append(producer_song_tuples[i][0])
         data_dict["datasets"][0]["data"].append(producer_song_tuples[i][1])
 
     return jsonify(data_dict)
 
+
 @app.route('/producer-frequency.json')
 def generate_producer_performer_frequency_donut_chart():
+    """Create producer to performer frequency donut chart."""
 
-    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
-    # can pass producer_id to query with session
-    # https://www.randomlists.com/random-color?qty=20
-    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32"]
-
-    # retrieve producer_id from the session for producer_song_tuples query          
+    # Retrieve producer_id from the session for producer_song_tuples query.
     producer_id = session["producer_id"]
 
-    # query creates list of tuples
+    # Create list of tuples; value @ 1st index = performer_name; 
+    # value @ 2nd = song count.
     producer_song_tuples = db.session.query(Performer.performer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.producer_id==producer_id).group_by(
                             Performer.performer_name).order_by(Performer.performer_name).all()
 
-    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
+    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
     data_dict = {
                 "labels": [],
                 "datasets": [
@@ -263,10 +265,10 @@ def generate_producer_performer_frequency_donut_chart():
                         "backgroundColor": [],
                         "hoverBackgroundColor": []
                     }]
-            }
+    }
 
-    # loop through range of song_count tuple to feed labels and data to 
-    # dictionary
+    # Loop through range of song tuple to feed labels (performer_name) 
+    # and data (song counts) to dictionary.
     for i in range(0, len(producer_song_tuples)):
         performer = producer_song_tuples[i][0]
         data_dict["labels"].append(performer)
@@ -277,7 +279,7 @@ def generate_producer_performer_frequency_donut_chart():
         data_dict["datasets"][0]["data"].append(song_count)
         j+=1
 
-    # loop through background color list
+    # Generate chart colors using random's randint method.
     for k in range(0, len(producer_song_tuples)):
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
@@ -286,7 +288,6 @@ def generate_producer_performer_frequency_donut_chart():
         data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
 
-    # print(data_dict)
     return jsonify(data_dict)
 
 
@@ -294,15 +295,16 @@ def generate_producer_performer_frequency_donut_chart():
 def performer_list():
     """Show list of performers."""
 
-    # query for all producers in database; return results alphabetized    
+    # Return producers in database; return results alphabetized.
     performers = Performer.query.order_by('performer_name').all()
 
     return render_template("performer_list.html", performers=performers)
 
 
-# each performer's page's url will include the performer's database id
+# Each performer's page's url will include the performer's database id.
 @app.route("/performers/<int:performer_id>", methods=["GET"])
 def performer_detail(performer_id):
+    """Show performer's detail."""
 
     URL = "https://genius.com/api/artists/" + str(performer_id)
 
@@ -312,13 +314,18 @@ def performer_detail(performer_id):
                                       ).get(performer_id)
     albums = performer.albums
 
+    # Return a set of performer's album release years in descending order.
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+    # Store performer_id in session.
     session["performer_id"] = performer_id
 
+    # API call for producer bio.
     r = requests.get(URL)
     j = r.json()
     
+    # If url request is successful and the bio JSON key exists, return that key
+    # value (description_preview); otherwise, return an empty string.
     if j['meta']['status'] == 200:
         bio = j['response']['artist'].get('description_preview',"")
 
@@ -331,34 +338,18 @@ def performer_detail(performer_id):
 
 @app.route('/performer-frequency.json')
 def generate_performer_producer_frequency_donut_chart():
+    """Create JSON of performer to producer frequency."""
 
-    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
-    # can pass producer_id to query with session
-    # https://www.randomlists.com/random-color?qty=20
-    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-    #                      "#A0522D","#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6"]
-
+    # Retrieve performer_id from session.
     performer_id = session["performer_id"]
 
+    # Return tuples of producer_names and song_counts for performer.
     performer_producer_tuples = db.session.query(Producer.producer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.performer_id==performer_id).group_by(
                             Producer.producer_name).all()
 
-    # to build chart
+    # Dictionary Chartjs will use to create donut chart.
     data_dict = {
                 "labels": [],
                 "datasets": [
@@ -369,7 +360,9 @@ def generate_performer_producer_frequency_donut_chart():
                     }]
             }
 
-    # loop through range of song_count tuple to feed data to chart
+    # Loop through range of song_count tuple to feed data to chart, setting 
+    # labels as the producer name and the song counts for each producer as the 
+    # data.
     for i in range(0, len(performer_producer_tuples)):
         performer = performer_producer_tuples[i][0]
         data_dict["labels"].append(performer)
@@ -380,11 +373,7 @@ def generate_performer_producer_frequency_donut_chart():
         data_dict["datasets"][0]["data"].append(song_count)
         j+=1
 
-    # loop through background color list
-    # for k in range(0, len(background_colors)):
-    #     bgcolor = background_colors[k]
-    #     data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
-    #     k+=1
+    # Generate random colors for donut chart using random's randint method.
     for k in range(0, len(performer_producer_tuples)):
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
@@ -393,28 +382,27 @@ def generate_performer_producer_frequency_donut_chart():
         data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
 
-
     return jsonify(data_dict)
-
 
 
 @app.route("/songs")
 def song_list():
     """Show list of songs."""
-    songs = Song.query.order_by('song_title').all()
-    # songs = Song.query.options(db.joinedload("performers")
-    #                              .joinedload("songs")
-    #                             ).order_by('song_title').all()
+
+    # SQLALchemy query to return all song titles.
+    songs = Song.query.order_by("song_title").all()
 
     return render_template("song_list.html", 
                             songs=songs
                           )
 
 
-# each song's page's url will include the song's database id
+# Each song's page's URL will include the song's database id.
 @app.route("/songs/<int:song_id>", methods=["GET"])
 def song_detail(song_id):
+    """Show song detail."""
 
+    # Return song objects using producers' and songs' relationship.
     song = Song.query.options(db.joinedload("producers")
                                 .joinedload("songs")
                                ).get(song_id)
@@ -428,6 +416,8 @@ def song_detail(song_id):
 def album_list():
     """Show list of albums."""
 
+    # Return album objects using performers' and albums' relationship, ordering
+    # results by album title.
     albums = Album.query.options(db.joinedload("performers")
                                    .joinedload("albums")
                                   ).order_by('album_title').all()
@@ -436,25 +426,31 @@ def album_list():
                             albums=albums
                           )
 
+
 # each album's page's url will include the album's database id
 @app.route("/albums/<int:album_id>", methods=["GET"])
 def album_detail(album_id):
+    """Show album details."""
 
     # url from which to make API calls
     URL = "https://genius.com/api/albums/" + str(album_id)
 
+    # SQLAlchemy query to return album objects using album_id argument using 
+    # songs' and albums' relationship.
     album = Album.query.options(db.joinedload("songs")
                                   .joinedload("albums")
                                  ).get(album_id)
 
+    # Storing album_id in session.
     session["album_id"] = album_id
 
+    # API call to return album bio.
     r = requests.get(URL)
     j = r.json()
     
-    # if call is successful, access json object
-    if j['meta']['status'] == 200:
-        bio = j['response']['album'].get('description_preview',"")
+    # If call is successful, return 'description_preview' value in JSON object.
+    if j["meta"]["status"] == 200:
+        bio = j["response"]["album"].get("description_preview","")
     
     return render_template("album.html",
                             album=album,
@@ -462,25 +458,30 @@ def album_detail(album_id):
                           )
 
 
-@app.route('/album-bubbles.json')
+@app.route("/album-bubbles.json")
 def generate_album_bubbles():
+    """Create producer to album frequency bubble Chartjs vis."""
 
-    # retrieve producer_id from the session for producer_song_tuples query          
+    # Retrieve producer_id from the session for album_producer_tuples query.          
     album_id = session["album_id"]
 
-    # query creates list of tuples
+    # SQLAlchemy query creates list of tuples of producer's name, image url, and
+    # count of songs.
     album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.album_id==album_id).group_by(
                             Producer.producer_name, Producer.producer_img_url).all()
 
-    # python dictionary to jsonfiy and pass to front end to build chartjs viz 
+    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
     bubl_dict = {
                 "name": "producers",
                 "value": 100,
                 "children": []
             }
 
+    # Loop through album_producer_tuples to create dictionaries for every
+    # producer and append them to dictionary that will be used to create D3
+    # pack-force graph.
     for i in range(0, len(album_producer_tuples)):
         bubl_pre_dic = {}
         bubl_pre_dic["domain"] = album_producer_tuples[i][0]
@@ -492,20 +493,26 @@ def generate_album_bubbles():
 
     return jsonify(bubl_dict)
 
-@app.route('/album-web.json')
-def generate_album_web():
 
-    # retrieve producer_id from the session for producer_song_tuples query          
+@app.route("/album-web.json")
+def generate_album_web():
+    """Create album web D3 viz."""
+
+    # Retrieve producer_id from the session for album_producer_tuples query.
     album_id = session["album_id"]
 
-    # query creates list of tuples
+    # SQLAlchemy query creates tuples of album cover art url for dictionary used 
+    # to create D3 viz.
     album_img = db.session.query(Album.cover_art_url).filter(Album.album_id==album_id).one()
 
+    # SQLAlchemy query creates tupes of producer's name, image, the cover art of
+    # the album they produced and the songs on that album they produced.
     album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,Album.cover_art_url,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).join(Album).filter(
                             ProduceSong.album_id==album_id, Album.album_id==ProduceSong.album_id).group_by(
                             Producer.producer_name, Producer.producer_img_url, Album.cover_art_url).all()
 
+    # JSON object that will be jsonified and used to create D3 viz.
     album_dict = {
          "name": album_id,
          "img": album_img[0],
@@ -517,6 +524,8 @@ def generate_album_web():
           ]
     }
 
+    # Loop through range for album_producer_tuples, updating album_dict with the
+    # necessary values from tuples generate w/SQLAlchemy query above.
     for i in range(0, len(album_producer_tuples)):
         child_dic = {}
         if album_producer_tuples[i][3] > 1:
@@ -533,26 +542,22 @@ def generate_album_web():
 
     return jsonify(album_dict)
 
+
 @app.route('/album-frequency.json')
 def generate_album_producer_frequency_donut_chart():
+    """Create album producer frequency donut chart."""
 
-    # producer_collabs = ProduceSong.query.options(db.joinedload("performer")).where(ProduceSong.producer_id==producer_id).group_by(Performer.performer_name)
-    # can pass producer_id to query with session
-    # https://www.randomlists.com/random-color?qty=20
-    # background_colors = ["#00BFFF", "#808000", "#F0E68C", "#9ACD32", "#FF0000", 
-    #                      "#B22222", "#FF00FF", "#FF7F50", "#008080", "#191970",
-    #                      "#B0E0E6", "#008000", "#8A2BE2", "#00FFFF", "#FFB6C1",
-    #                      "#FFD700", "#FF1493","#32CD32", "#BC8F8F", "#E6E6FA",
-    #                      "#A0522D"]
-
+    # Set value of album_id to the album_id value stored in session.
     album_id = session["album_id"]
 
+    # Retrun tuples of producer's name and the count of songs they have created
+    # on the album queries.
     album_producer_tuples = db.session.query(Producer.producer_name,
                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
                             ProduceSong.album_id==album_id).group_by(
                             Producer.producer_name).all()
 
-    # to build chart
+    # Used to build data dictionary Chartjs will use to create data viz.
     data_dict = {
                 "labels": [],
                 "datasets": [
@@ -563,7 +568,7 @@ def generate_album_producer_frequency_donut_chart():
                     }]
             }
 
-    # loop through range of song_count tuple to feed data to chart
+    # Loop through range of tuples to feed data to chart.
     for i in range(0, len(album_producer_tuples)):
         producers = album_producer_tuples[i][0]
         data_dict["labels"].append(producers)
@@ -574,11 +579,7 @@ def generate_album_producer_frequency_donut_chart():
         data_dict["datasets"][0]["data"].append(song_count)
         j+=1
 
-    # loop through background color list
-    # for k in range(0, len(background_colors)):
-    #     bgcolor = background_colors[k]
-    #     data_dict["datasets"][0]["backgroundColor"].append(bgcolor)
-    #     k+=1
+    # Generate chart's colors with random library's "randint" method.
     for k in range(0, len(album_producer_tuples)):
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
@@ -587,11 +588,12 @@ def generate_album_producer_frequency_donut_chart():
         data_dict["datasets"][0]["backgroundColor"].append(random_color)
         k+=1
 
-
     return jsonify(data_dict)
+
 
 @app.route('/resume')
 def resume():
+    """Show resume."""
 
     return render_template("resume.html")
 

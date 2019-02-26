@@ -2,30 +2,30 @@
 
 from flask_sqlalchemy import SQLAlchemy
 
-
+# Instantiate SQLAlchemy object, bound to variable "db".
 db = SQLAlchemy()
 
 
 ##############################################################################
-# Compose ORM
-# relying on Genius' ids
+# Compose ORM.
+# Relying on Genius' ids.
 
 class Producer(db.Model):
     """Producer model."""
 
     __tablename__ = "producers"
 
-    # primary keys are inherently unique
+    # Primary keys are inherently unique.
     producer_id = db.Column(db.Integer, nullable=False, primary_key=True)
     producer_name = db.Column(db.Text, nullable=False)
     producer_img_url = db.Column(db.Text, nullable=True)
     producer_tag_url = db.Column(db.Text, nullable=True)
 
-    # establish relationships
-    # the Producer class has an albums attribute that is a list of Album objects 
+    # Establish relationships.
+    # The Producer class has an albums attribute that is a list of Album objects 
     # using the relationship defined and "produce_song" as the association table 
-    # attributes are plural to communicate cardinaltiy: a Producer can have 
-    # many songs and albums
+    # Attributes are plural to communicate cardinaltiy: ie. a producer can have 
+    # many songs and albums.
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
     albums = db.relationship("Album", secondary="produce_songs", backref="producers")
     # performers = db.relationship("Performer", secondary="produce_songs", backref="producers")
@@ -64,7 +64,6 @@ class Performer(db.Model):
 
 
 class Song(db.Model):
-
     """Song model."""
 
     __tablename__ = "songs"
@@ -121,12 +120,12 @@ class ProduceSong(db.Model):
     song_id = db.Column(db.Integer, db.ForeignKey('songs.song_id'), nullable=False)
     album_id = db.Column(db.Integer, db.ForeignKey('albums.album_id'), nullable=True)
 
-    # because there is only one performer per song, a 1 to 1 relationship is 
-    # established with performer
+    # Because there is only one performer per song, a 1 to 1 relationship is 
+    # established with performer.
     # ProduceSong has an attribute performer that is a Performer object 
     # using the produce_songs reference (there is a direct relationship) between
-    # performer and ProduceSong which is the performer_id
-    # performer can have multiple songs
+    # Performer and ProduceSong which is the performer_id.
+    # Performer can have multiple songs.
     performer = db.relationship("Performer", backref="events")
 
     def __repr__(self):

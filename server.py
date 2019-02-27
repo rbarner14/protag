@@ -579,7 +579,7 @@ def get_graph_data():
 
     # Call helper functions.
     # Read filename fed in as argument.
-    nodes, paths = make_nodes_and_paths('output3.csv')
+    nodes, paths = make_nodes_and_paths('output_for_network.csv')
     # Create a json object of the list of nodes and list of paths.
     return jsonify({'nodes':nodes, 'paths':paths}) 
 

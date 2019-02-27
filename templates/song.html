@@ -1,23 +1,28 @@
 {% extends "base.html" %}
 
-    {% block title %}ProTag - {{song.song_title}}{% endblock %}
+{% block title %}ProTag - {{song.song_title}}{% endblock %}
 
-<!-- Show song's producers, and head page with song name and performer -->
+<!-- Show song's producers, album, and head page with song name & performer.-->
 {% block content %}
+
     <h1 align = "center"><i>{{song.song_title}}</i> - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a></h1>
-        <br>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="70" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{song.apple_music_player_url}}"></iframe>
     <br>
+    <!-- Apple Music player -->
+    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="70" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{song.apple_music_player_url}}"></iframe>
+    <br>
+
+    <!-- Show song album came from, if album exists. -->
     {% if song.albums %}
-    <h4>From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></h4></a> {% endif %}
+      <h4>From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></h4></a> 
+    {% endif %}
     <br>
+
+    <!-- Show producer's name and image, with link to producer's page. -->
     <h3>Produced by:</h3>
-        {% for producer in song.producers %}
-          <li>
-            <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">
-            <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-          </li>
-        {% endfor %}
+    {% for producer in song.producers %}
+      <li>
+        <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">
+        <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+    {% endfor %}
+
 {% endblock %}
-</body>
-</html>

@@ -84,6 +84,11 @@ def producer_detail(producer_id):
     # Return the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+    songs = producer.songs
+
+    # Return the song release years in descending chronological order.
+    song_years = sorted(set([song.song_release_date.strftime("%Y") for song in songs]),reverse=True)
+
     r = requests.get(URL)
     j = r.json()
     
@@ -97,6 +102,7 @@ def producer_detail(producer_id):
     return render_template("producer.html",
                             producer=producer,
                             album_years=album_years,
+                            song_years=song_years,
                             bio=bio
                           )
 
@@ -262,6 +268,12 @@ def performer_detail(performer_id):
     # Return a set of performer's album release years in descending order.
     album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
 
+
+    songs = performer.songs
+
+    # Return a set of performer's album release years in descending order.
+    song_years = sorted(set([song.song_release_date.strftime("%Y") for song in songs]),reverse=True)
+
     # Store performer_id in session.
     session["performer_id"] = performer_id
 
@@ -277,6 +289,7 @@ def performer_detail(performer_id):
     return render_template("performer.html",
                             performer=performer,
                             album_years=album_years,
+                            song_years=song_years,
                             bio=bio
                           )
 

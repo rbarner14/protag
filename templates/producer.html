@@ -129,6 +129,7 @@
     <br>
 <!-- return every song producer has producer by album and year -->
       <h2>Albums</h2>
+      <br>
         {% for year in album_years %}
                 <h2>{{year}}</h2>
                 {% for album in producer.albums %}
@@ -145,6 +146,23 @@
                         <br>
                     {% endif %}
                 {% endfor %}
+        {% endfor %}
+<br>
+      <h2>Singles</h2>
+      <br>
+              {% for year in song_years %}
+                <h2>{{year}}</h2>
+                {% for song in producer.songs %}
+                    {% if song.song_release_date.strftime("%Y") == year %} 
+                          {% if not song.albums %}
+                          <li>
+                          <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> - 
+                          <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+                          </li>
+                          {% endif %}
+                    {% endif %}
+                {% endfor %}
+              <br>
         {% endfor %}
     {% endif %}
 <!-- add songs not on albums and songs/albums without release dates -->

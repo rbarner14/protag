@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+
     <title>{% block title %}PAGE TITLE HERE {% endblock %}</title>
-<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
+
     <style>
 
-    .node {
-      fill: #ccc;
-      stroke-width: 2px;
-    }
+      .node {
+        fill: #ccc;
+        stroke-width: 2px;
+      }
 
-    .link {
-      stroke: #777;
-      stroke-width: 2px;
-    }
+      .link {
+        stroke: #777;
+        stroke-width: 2px;
+      }
 
-    text {
-      fill: #000;
-      font: 10px sans-serif;
-      pointer-events: none;
-    }
+      text {
+        fill: #000;
+        font: 10px sans-serif;
+        pointer-events: none;
+      }
 
-  </style>
+    </style>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link href="/static/style.css" rel="stylesheet"></link>
-  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-</head>
-<body>
-  <!-- navigation bar -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="/static/style.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+      <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  </head>
+
+  <body>
+    <!-- navigation bar -->
     <div class="topnav">
       <a class="active" href="/">Home</a>
       <a href="/performers">Performers</a>
@@ -43,18 +47,19 @@
     </div>
 
     {% block content %}PUT YOUR BODY HERE.{% endblock %}
+      
+    <!--  <script src="static/homepage.js"></script> -->
 
-    
-            <!--  <script src="static/homepage.js"></script> -->
+  </body>
 
-</body>
-
-<footer>
-  <!-- attribution link & trademark -->
+  <footer>
+    <!-- attribution link & trademark -->
     {% block footer%}   
-    <br>
-    <br> 
-    Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+      <br>
+      <br> 
+      Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
     {% endblock %}
-</footer>
+
+  </footer>
+
 </html>

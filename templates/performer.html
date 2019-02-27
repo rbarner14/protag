@@ -40,6 +40,7 @@
     });
 </script>
 
+      {% if album_years %}
       <h2>Albums</h2>
       <br>
       {% for year in album_years %}
@@ -67,30 +68,22 @@
               {% endfor %}
               <br>
       {% endfor %}
+      {% endif %}
       <br>
       <h2>Singles</h2>
-      <br>
-              {% for year in song_years %}
-                <h2>{{year}}</h2>
                 {% for song in performer.songs %}
-                    {% if song.song_release_date.strftime("%Y") == year %} 
                           {% if not song.albums %}
                           <li>
                           <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> produced by:
                             {% for producer in song.producers%}
-                              {% if loop.index == 1 %}
-                                <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                              {% else %}
-                                  , <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                              {% endif %}
+                                {% if loop.index == 1 %}
+                                  <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                                {% else %}
+                                    , <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                                {% endif %}
                             {% endfor %}
                           {% endif %}
-                  {% endif %}
                 {% endfor %}
-              <br>
-              <br>
-        {% endfor %}
-        <br>
     {% endif %}
 {% endblock %}
 <!-- add songs not on albums and songs/albums without release dates -->

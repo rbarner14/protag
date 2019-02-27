@@ -126,7 +126,8 @@ class ProduceSong(db.Model):
     # using the produce_songs reference (there is a direct relationship) between
     # Performer and ProduceSong which is the performer_id.
     # Performer can have multiple songs.
-    performer = db.relationship("Performer", backref="events")
+    performers = db.relationship("Performer", backref="produce_songs")
+    # albums = db.relationship("Album", backref="produce_songs")
 
     def __repr__(self):
 

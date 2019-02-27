@@ -21,67 +21,11 @@ app.jinja_env.auto_reload = True
 # Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
 
-
-def make_nodes_and_paths(filename):
-    """Make nodes and paths for music industry D3 chart."""
-
-    # File = export of sql query entered at command line: 
-    # psql -d music -t -A -F"," -c "select performer_name, 
-    # producer_name from produce_song ps join performers p using (performer_id) 
-    # oin producers using (producer_id)" > output.csv.
-    file_obj = open(filename)
-    contents = file_obj.read()
-    lines = contents.split('\n') # Create a list of the rows in the file.
-
-    nodes = {} # Focal point of data (words).
-    for pair in lines:
-        split = pair.split(',') # split each line, using a comma as a delimitor
-        if split: # If pair is not blank (line in file was not blank),
-            # for loop through split list, bind each item to variable node.
-            for node in split: 
-                node = node.strip() # Strip each pair in list of white space.
-                if not nodes.get(node):
-                    nodes[node] = split[1].strip()
-    
-    nodes = [{'name':node, 'parent': nodes[node]} for node in nodes.keys()]
-
-    index_nodes = {}
-    for idx, n in enumerate(nodes):
-        index_nodes[n['name']] = (idx, n['parent'])
-
-    paths = []
-    for line in lines:
-        slt = line.split(',') # Split line in csv by comma.
-        if len(slt) == 2:
-            source, target = slt
-            paths.append({'source': index_nodes[source][0], 'target': index_nodes[target][0]  })
-
-    return nodes, paths
-
-
 @app.route("/")
 def index():
     """Show homepage."""
 
     return render_template("homepage.html")
-
-
-@app.route("/network")
-def graph():
-    """Show music industry D3 Chart."""
-
-    return render_template("network.html")
-
-
-@app.route("/data.json")
-def get_graph_data():
-    """JSON read to create music industry D3 Chart."""
-
-    # Call helper functions.
-    # Read filename fed in as argument.
-    nodes, paths = make_nodes_and_paths('output3.csv')
-    # Create a json object of the list of nodes and list of paths.
-    return jsonify({'nodes':nodes, 'paths':paths}) 
 
 
 @app.route("/search_result", methods=['GET'])
@@ -96,8 +40,9 @@ def return_search_result():
     if len(search_str) > 0:
         producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
         performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
-        songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).all()
-        albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).all()
+        songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
+        albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
+        print(albums[0].songs)
     else:
         producers = None
         performers = None
@@ -155,6 +100,56 @@ def producer_detail(producer_id):
                             album_years=album_years,
                             bio=bio
                           )
+
+
+@app.route('/producer-frequency.json')
+def generate_producer_performer_frequency_donut_chart():
+    """Create producer to performer frequency donut chart."""
+
+    # Retrieve producer_id from the session for producer_song_tuples query.
+    producer_id = session["producer_id"]
+
+    # Create list of tuples; value @ 1st index = performer_name; 
+    # value @ 2nd = song count.
+    producer_song_tuples = db.session.query(Performer.performer_name,
+                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
+                            ProduceSong.producer_id==producer_id).group_by(
+                            Performer.performer_name).order_by(Performer.performer_name).all()
+
+    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
+    data_dict = {
+                "labels": [],
+                "datasets": [
+                    {
+                        "data": [],
+                        "backgroundColor": [],
+                        "hoverBackgroundColor": []
+                    }]
+    }
+
+    # Loop through range of song tuple to feed labels (performer_name) 
+    # and data (song counts) to dictionary.
+    for i in range(0, len(producer_song_tuples)):
+        performer = producer_song_tuples[i][0]
+        data_dict["labels"].append(performer)
+        i+=1
+
+    for j in range(0, len(producer_song_tuples)):
+        song_count = producer_song_tuples[j][1]
+        data_dict["datasets"][0]["data"].append(song_count)
+        j+=1
+
+    # Generate chart colors using random's randint method.
+    for k in range(0, len(producer_song_tuples)):
+        random_red = random.randint(0,255)
+        random_green = random.randint(0,255)
+        random_blue = random.randint(0,255)
+        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
+        data_dict["datasets"][0]["backgroundColor"].append(random_color)
+        k+=1
+
+    return jsonify(data_dict)
+
 
 # @app.route('/producer-bubbles.json')
 # def generate_producer_bubbles():
@@ -238,55 +233,6 @@ def producer_productivity_data():
     for i in range(0, len(producer_song_tuples)):
         data_dict["labels"].append(producer_song_tuples[i][0])
         data_dict["datasets"][0]["data"].append(producer_song_tuples[i][1])
-
-    return jsonify(data_dict)
-
-
-@app.route('/producer-frequency.json')
-def generate_producer_performer_frequency_donut_chart():
-    """Create producer to performer frequency donut chart."""
-
-    # Retrieve producer_id from the session for producer_song_tuples query.
-    producer_id = session["producer_id"]
-
-    # Create list of tuples; value @ 1st index = performer_name; 
-    # value @ 2nd = song count.
-    producer_song_tuples = db.session.query(Performer.performer_name,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id).group_by(
-                            Performer.performer_name).order_by(Performer.performer_name).all()
-
-    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
-    data_dict = {
-                "labels": [],
-                "datasets": [
-                    {
-                        "data": [],
-                        "backgroundColor": [],
-                        "hoverBackgroundColor": []
-                    }]
-    }
-
-    # Loop through range of song tuple to feed labels (performer_name) 
-    # and data (song counts) to dictionary.
-    for i in range(0, len(producer_song_tuples)):
-        performer = producer_song_tuples[i][0]
-        data_dict["labels"].append(performer)
-        i+=1
-
-    for j in range(0, len(producer_song_tuples)):
-        song_count = producer_song_tuples[j][1]
-        data_dict["datasets"][0]["data"].append(song_count)
-        j+=1
-
-    # Generate chart colors using random's randint method.
-    for k in range(0, len(producer_song_tuples)):
-        random_red = random.randint(0,255)
-        random_green = random.randint(0,255)
-        random_blue = random.randint(0,255)
-        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
-        data_dict["datasets"][0]["backgroundColor"].append(random_color)
-        k+=1
 
     return jsonify(data_dict)
 
@@ -591,11 +537,68 @@ def generate_album_producer_frequency_donut_chart():
     return jsonify(data_dict)
 
 
+def make_nodes_and_paths(filename):
+    """Make nodes and paths for music industry D3 chart."""
+
+    # File = export of sql query entered at command line: 
+    # psql -d music -t -A -F"," -c "select performer_name, 
+    # producer_name from produce_song ps join performers p using (performer_id) 
+    # oin producers using (producer_id)" > output.csv.
+    file_obj = open(filename)
+    contents = file_obj.read()
+    lines = contents.split('\n') # Create a list of the rows in the file.
+
+    nodes = {} # Focal point of data (words).
+    for pair in lines:
+        split = pair.split(',') # split each line, using a comma as a delimitor
+        if split: # If pair is not blank (line in file was not blank),
+            # for loop through split list, bind each item to variable node.
+            for node in split: 
+                node = node.strip() # Strip each pair in list of white space.
+                if not nodes.get(node):
+                    nodes[node] = split[1].strip()
+    
+    nodes = [{'name':node, 'parent': nodes[node]} for node in nodes.keys()]
+
+    index_nodes = {}
+    for idx, n in enumerate(nodes):
+        index_nodes[n['name']] = (idx, n['parent'])
+
+    paths = []
+    for line in lines:
+        slt = line.split(',') # Split line in csv by comma.
+        if len(slt) == 2:
+            source, target = slt
+            paths.append({'source': index_nodes[source][0], 'target': index_nodes[target][0]  })
+
+    return nodes, paths
+
+
+@app.route("/data.json")
+def get_graph_data():
+    """JSON read to create music industry D3 Chart."""
+
+    # Call helper functions.
+    # Read filename fed in as argument.
+    nodes, paths = make_nodes_and_paths('output3.csv')
+    # Create a json object of the list of nodes and list of paths.
+    return jsonify({'nodes':nodes, 'paths':paths}) 
+
+
+
+@app.route("/network")
+def graph():
+    """Show music industry D3 Chart."""
+
+    return render_template("network.html")
+
+
 @app.route('/resume')
 def resume():
     """Show resume."""
 
     return render_template("resume.html")
+
 
 ################################################################################
 

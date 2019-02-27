@@ -8,15 +8,15 @@
         <br>
         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="70" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{song.apple_music_player_url}}"></iframe>
     <br>
-    <h4>From the album {{ }}</h4>
+    <h4>From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></h4></a>
     <br>
     <h3>Produced by:</h3>
-      {% for producer in song.producers %}
-        <li>
-          <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">
-          <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-        </li>
-      {% endfor %}
+        {% for producer in song.producers %}
+          <li>
+            <img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}">
+            <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+          </li>
+        {% endfor %}
 {% endblock %}
 </body>
 </html>

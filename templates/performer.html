@@ -50,20 +50,21 @@
                       {% for song in album.songs %} 
                           <li>
                           <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
-                          <br>
                           produced by
-                          <br>
-                          <li>
                             <!-- consider for loop & accumulator for better producer display -->
                           {% for producer in song.producers %} 
-                          <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                          </li>
+                            {% if loop.index == 1%}
+                            <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                            {% else %}
+                            , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                            {% endif %}
                           {% endfor %}
                           <br>
                       {% endfor %}
                       <br>
                   {% endif %}
               {% endfor %}
+              <br>
       {% endfor %}
     {% endif %}
 {% endblock %}

@@ -28,7 +28,7 @@
             <h2>Songs</h2>
             {% for song in songs %}
                 <li>
-                    <a href="/songs/{{ song.song_id }}">{{ song.song_title }} - {{ song.performers[0].performer_name }}</a> <!-- add song performer -->
+                    <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}
                 </li>
             {% endfor %}
         {% endif %}
@@ -40,7 +40,7 @@
                     <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
                     <a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a>
                     {% if album.performers %}
-                        - <a href="/performers/{{ album.performers[0].performer_name }}">{{ album.performers[0].performer_name }}</a>
+                        - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
                     {% endif %}
                 </li>
             {% endfor %}

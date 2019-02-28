@@ -1,13 +1,15 @@
 {% extends "base.html" %}
-    {% block title %}ProTag - Performers{% endblock %}
 
+{% block title %}ProTag - Performers{% endblock %}
+
+<!-- List performers with their pictures and links to their page. -->
 {% block content %}
-    <h1 align = "center">Performers</h1>
+  <h1 align = "center">Performers</h1>
 
-    {% for performer in performers %}
-        <li>
-            <img src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">
-            <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
-        </li>
-    {% endfor %}
+  {% for performer in performers %}
+    <li>
+        <img src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">
+        <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
+    </li>
+  {% endfor %}
 {% endblock %}

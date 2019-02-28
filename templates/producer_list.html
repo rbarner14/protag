@@ -1,9 +1,11 @@
 {% extends "base.html" %}
-    {% block title %}ProTag - Producers{% endblock %}
+
+{% block title %}ProTag - Producers{% endblock %}
 
 {% block content %}
     <h1 align = "center">Producers</h1>
 
+    <!-- Show producer's image and link to their page. -->
     {% for producer in producers %}
         <li>
             <img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">

@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-    {% block title %}ProTag - Albums{% endblock %}
+    
+{% block title %}ProTag - Albums{% endblock %}
 
 {% block content %}
     <h1 align = "center">Albums</h1>
+    
     <!-- Return album and cover art and album's performer -->
     {% for album in albums %}
         <li>

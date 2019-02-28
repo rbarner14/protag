@@ -1,10 +1,12 @@
 {% extends "base.html" %}
-    {% block title %}ProTag - Songs{% endblock %}
+    
+{% block title %}ProTag - Songs{% endblock %}
 
 {% block content %}
     <h1 align = "center">Songs</h1>
-<!-- Show every song and song's primary performer -->
-<!-- for loop to handle songs with mulitple performers -->
+
+    <!-- Show every song and song's primary performer -->
+    <!-- for loop to handle songs with mulitple performers -->
     {% for song in songs %}
         <li>
             <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>

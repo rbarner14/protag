@@ -1,25 +1,20 @@
 {% extends "base.html" %}
 
-{% block title %}
-ProTag
-{% endblock %}
+{% block title %}ProTag{% endblock %}
 
 {% block content %}
     <h1 align = "center">ProTag</h1>
 
-    <!-- value = name on bar; name = value to be entered and used as variable for script -->
+    <!-- Show search bar. -->
     <form method="GET" action="/search_result">
       <div align = "center" class="form-group">
         <input id="field-name" class="form-control" type="text" name="search_str" required>
         <br>
+
         <input type="submit" value="ProTag It!" class="btn btn-primary">
         <input type="submit" value="I'm Feeling Musical" class="btn btn-primary">
       </div>
     </form>
-
-    
-    <!-- <div id="svg_container">  -->
-    <!-- </div> -->
 
 {% endblock %}
 

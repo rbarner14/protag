@@ -78,7 +78,7 @@ def producer_detail(producer_id):
     producer = Producer.query.options(db.joinedload("albums")
                                         .joinedload("songs")
                                         .joinedload("producers")
-                                      ).get(producer_id)
+                                    ).get(producer_id)
 
     albums = producer.albums # list
     # Return the album release years in descending chronological order.
@@ -256,7 +256,7 @@ def performer_detail(performer_id):
     performer = Performer.query.options(db.joinedload("albums")
                                           .joinedload("songs")
                                           .joinedload("performers")
-                                      ).get(performer_id)
+                                        ).get(performer_id)
     albums = performer.albums
 
     # Return a set of performer's album release years in descending order.

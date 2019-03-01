@@ -421,7 +421,7 @@
     <h4>Songs:</h4>
     {% for song in album.songs %}
       <li>
-        <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>produced by:
+        <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
         {% for producer in song.producers%} 
           {% if loop.index == 1%}
             <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>

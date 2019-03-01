@@ -34,15 +34,15 @@
     <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
 
     <!-- Show producer's performer frequency donut chart. -->
-    <div class="producer-to-performer-chart">
-      <canvas id="donutChart"></canvas>
-      <div id="donutLegend" class="chart-legend"></div>
+    <div class="donut_chart">
+      <canvas id="producer_song_donutChart"></canvas>
+      <div id="producer_song_donutLegend" class="chart-legend"></div>
     </div>
 
-    <!-- Show producer's performer frequency line chart. -->
-    <div class="frequency-chart">
-      <canvas id="lineChart"></canvas>
-      <div id="lineLegend" class="chart-legend"></div>
+    <!-- Show producer's song frequency line chart. -->
+    <div class="line_chart">
+      <canvas id="producer_song_lineChart"></canvas>
+      <div id="producer_song_lineLegend" class="chart-legend"></div>
     </div>
 
     <!-- Create Chartjs charts. -->
@@ -52,7 +52,7 @@
       };
 
       // Make donut chart of number of songs created per performer.
-      let ctx_donut = $("#donutChart").get(0).getContext("2d");
+      let ctx_donut = $("#producer_song_donutChart").get(0).getContext("2d");
 
       $.get("/producer-frequency.json", function (data) {
         let myDonutChart = new Chart(ctx_donut, {
@@ -61,38 +61,38 @@
                                                 options: options
                                               });
         // bottom legend
-        // $('#donutLegend').html(myDonutChart.generateLegend());
+        // $('#producer_song_donutLegend').html(myDonutChart.generateLegend());
       });
 
       // Make line chart of number of songs created over time, 
       // performer agnostic.
-      let ctx_line = $("#lineChart").get(0).getContext("2d");
+      let ctx_line = $("#producer_song_lineChart").get(0).getContext("2d");
 
       $.get("/producer-productivity.json", function (data) {
         let myLineChart = Chart.Line(ctx_line, {
                                       data: data,
                                       options: options
                                   });
-        // $("#lineLegend").html(myLineChart.generateLegend());
+        // $("#producer_song_lineLegend").html(myLineChart.generateLegend());
       });
     </script>
     <br>
     
-      <!-- Return songs producer has producer by album and year, if album exists. -->
+      <!-- Return songs producer has producer by album and year, if album exists, with links to the songs' pages. -->
     <h2>Albums</h2>
     <br>
     {% for year in album_years %}
       <h2>{{year}}</h2>
       {% for album in producer.albums %}
         {% if album.album_release_date.strftime("%Y") == year %}
-          <h3><a href="/albums/{{ album.album_id }}">{{ album.album_title }}</a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3>
+          <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3>
           <!-- Show album's cover art. -->
           <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
 
           {% for song in album.songs %} 
             {% if producer in song.producers %}
             <li>
-              <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a>
+              <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
             </li>
             {% endif %}
           {% endfor %}
@@ -103,13 +103,13 @@
     {% endfor %}
     <br>
 
-    <!-- Return songs without albums. -->
+    <!-- Return song details (title and performer and their respective pages) without albums. -->
     <h2>Singles</h2>
     <br>
     {% for song in producer.songs %}
       {% if not song.albums %}               
         <li>
-          <a href="/songs/{{ song.song_id }}">{{ song.song_title }}</a> - 
+          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> - 
           <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
         </li>
       {% endif %}

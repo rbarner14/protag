@@ -23,14 +23,14 @@ backing track) by the producer.  A producer's beat is often identified by the
 producer's signature, aka tag.
 
 <a name="techstack"/></a>
-## Tech Stack:
+## Tech Stack
 **Frontend:** Javascript, Jinja, jQuery, Bootstrap</br>
 **Backend:** Python, Flask, SQLAlchemy, PostgreSQL<br/>
 **Libraries:** D3, Chart.js<br/>
 **API:** Genius<br/>
 
 <a name="installation"/></a>
-## Setup/Installation:
+## Setup/Installation
 On local machine, go to desired directory.  Clone protag repository:
 ```
 $ git clone https://github.com/rbarner14/protag.git
@@ -66,7 +66,7 @@ $ python3 server.py
 Navigate to localhost:5000 in browser.
 
 <a name="demo"/></a>
-## Demo:
+## Demo
 
 **Enter a song, performer, album, or producer.**
 <br/><br/>

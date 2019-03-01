@@ -3,49 +3,59 @@
 {% block title %}ProTag - Search Result{% endblock %}
 
 {% block content %}
-    <h1 align = "center"> ProTag Search Result</h1>
+  <h1 align = "center"> ProTag Search Result</h1>
 
-    {% if producers or performers or songs or albums %}
-        {% if producers %}
-            <h2>Producers</h2>
-            {% for producer in producers %}
-                <li>
-                    <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                </li>
-            {% endfor %}
-        {% endif %}
-        <br>
-        {% if performers %}
-            <h2>Performers</h2>
-            {% for performer in performers %}
-                <li>
-                    <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
-                </li>
-            {% endfor %}
-        {% endif %}
-        <br>
-        {% if songs %}
-            <h2>Songs</h2>
-            {% for song in songs %}
-                <li>
-                    <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
-                </li>
-            {% endfor %}
-        {% endif %}
-        <br>
-        {% if albums %}
-            <h2>Albums</h2>
-            {% for album in albums %}
-                <li>
-                    <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
-                    <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a>
-                    {% if album.performers %}
-                        - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
-                    {% endif %}
-                </li>
-            {% endfor %}
-        {% endif %}
-    {% else %}
-        <h2>Sorry!  <a href="/">Try again?</a></h2>
-    {% endif%} 
+  {% if producers or performers or songs or albums %}
+
+    <!-- Show matching producers' name and link to their page. -->
+    {% if producers %}
+      <h2>Producers</h2>
+
+      {% for producer in producers %}
+        <li>
+          <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}"> {{ producer.producer_name }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+    <br>
+
+    <!-- Show matching performers' name and link to their page. -->
+    {% if performers %}
+      <h2>Performers</h2>
+
+      {% for performer in performers %}
+        <li>
+          <a href="/performers/{{ performer.performer_id }}"><img src="{{ performer.performer_img_url }}"  width="50" height="50" alt="{{ performer.performer_name }}"> {{ performer.performer_name }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+      <br>
+
+    <!-- Show matching songs' title and link to its page. -->
+    {% if songs %}
+      <h2>Songs</h2>
+
+      {% for song in songs %}
+          <li>
+            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+          </li>
+      {% endfor %}
+    {% endif %}
+    <br>
+
+    <!-- Show matching albums' title and link to its page. -->
+    {% if albums %}
+      <h2>Albums</h2>
+      {% for album in albums %}
+        <li>
+          <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
+          <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+  {% else %}
+    <h2>Sorry!  <a href="/">Try again?</a></h2>
+  {% endif%}
+
 {% endblock %}

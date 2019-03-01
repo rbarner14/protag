@@ -50,7 +50,10 @@
     </div>
 
     <!-- Show album title and performer, with link to performer's page -->
-    <h1 align = "center"><i>{{ album.album_title }}</i> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
+    <h1 align = "center"><i>{{ album.album_title }}</i> 
+      {% if album.performers %}
+        - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
+      {% endif %}
     </h1>
     <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
 
@@ -422,14 +425,17 @@
     <h4>Songs:</h4>
     {% for song in album.songs %}
       <li>
-        <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
-        {% for producer in song.producers%} 
-          {% if loop.index == 1%}
-            <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-          {% else %}
-            , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-          {% endif %}
-        {% endfor %}
+        <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+        {% if song.producers %}
+          produced by
+          {% for producer in song.producers%} 
+            {% if loop.index == 1%}
+              <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+            {% else %}
+              , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
       </li>
     {% endfor %}
   </body>

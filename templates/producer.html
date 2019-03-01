@@ -109,8 +109,10 @@
     {% for song in producer.songs %}
       {% if not song.albums %}               
         <li>
-          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> - 
-          <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+          {% if song.performers %}
+           - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+          {% endif %}
         </li>
       {% endif %}
     {% endfor %}

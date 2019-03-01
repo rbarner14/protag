@@ -37,7 +37,10 @@
 
       {% for song in songs %}
           <li>
-            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+            {% if song.performers %}
+              - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+            {% endif %}
           </li>
       {% endfor %}
     {% endif %}
@@ -49,7 +52,10 @@
       {% for album in albums %}
         <li>
           <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
-          <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
+          <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> 
+          {% if album.performers %}
+            - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
+          {% endif %}
         </li>
       {% endfor %}
     {% endif %}

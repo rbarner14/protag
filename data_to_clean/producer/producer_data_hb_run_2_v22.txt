@@ -1,8 +1,0 @@
-producer_id|producer_name|producer_img_url
-1324375|​iLOVEFRiDAY|https://images.genius.com/05ab9eecbb7435920673de19a14104c7.640x640x1.png
-27606|Young Chop|https://images.genius.com/97ae02ce3d96becb8a467776bc1c6ee5.1000x1000x1.jpg
-197662|Yung Shad|https://images.genius.com/9c53614b9983a98f07e81368804462a4.1000x1000x1.jpg
-39574|Yung Ladd|https://assets.genius.com/images/default_avatar_300.png?1550698131
-1646412|Bossman JD & Yung Lan|https://images.genius.com/3d0d0b14f1ea71633483656bb42099e3.939x939x1.jpg
-575822|Yung Skrrt|https://images.genius.com/96345fb76b8400eed786c9876f7af64e.970x970x1.jpg
-27822|Zaytoven|https://images.genius.com/05d12a4bdd0f48cf5505f47598cb1895.479x479x1.jpg

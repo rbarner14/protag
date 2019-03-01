@@ -1,2 +1,0 @@
-producer_id|producer_name|producer_img_url
-50896|WondaGurl|https://s3.amazonaws.com/rapgenius/WondaGurl.jpg

@@ -1,8 +1,0 @@
-producer_id|producer_name|producer_img_url
-27472|Sounwave|https://images.genius.com/77819bc25af866f53a92ebca0ee4a944.289x289x1.jpg
-1537529|G Herbo & Southside|https://images.genius.com/4db12207fa8a3d3be9d566ccf2badb4a.600x600x1.jpg
-27801|Speaker Knockerz|https://images.genius.com/b5ea576c708d5c93567f8ffbd253781a.385x385x1.jpg
-56599|Stack Boy Twaun|https://images.genius.com/9fbe91a2b23fd8c9f2e69a936d59c8e7.600x431x1.jpg
-7561|Static Major|https://images.genius.com/2f510e910251a5a57e4d9a19d4b389c7.244x244x1.jpg
-4736|Statik Selektah|https://images.genius.com/1c23d0a9e273826b3c92b5490125b781.650x406x1.jpg
-987335|Stickle|https://images.genius.com/1c525e9d17804c4a659e3ddfc33d492e.640x640x1.jpg

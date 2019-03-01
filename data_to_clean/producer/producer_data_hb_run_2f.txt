@@ -1,4 +1,0 @@
-producer_id|producer_name|producer_img_url
-14766|Bighead|https://images.genius.com/e97375bb76b845406035ac71ec02af1e.595x595x1.png
-932957|Cool & Dre|https://images.genius.com/3f88d95ec08dedcf86a3d21fedb1f06f.250x250x1.jpg
-6708|Deric "D-Dot" Angelettie|https://images.genius.com/bb26143bb6eedee437c863d5c2c83144.194x194x1.jpg

@@ -1,4 +1,0 @@
-producer_id|producer_name|producer_img_url
-37762|Nitti|https://images.genius.com/3db6d0f24d552041f6c738b8e5e97f3c.1000x1000x1.jpg
-4709|No I.D.|https://images.genius.com/d6b9ca2ad184ae7327c14c1f12de41a9.369x369x1.jpg
-16678|Nottz|https://s3.amazonaws.com/rapgenius/IMG_1532-760475.JPG.jpg

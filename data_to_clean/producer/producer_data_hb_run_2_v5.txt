@@ -1,7 +1,0 @@
-producer_id|producer_name|producer_img_url
-27511|DJ Spinz|https://images.genius.com/dff71569f49a11e6d55b092a71c09e9a.720x720x1.jpg
-1602238|DNA Music|https://images.genius.com/6b619d728c972bf8859409904f4c99e7.591x591x1.jpg
-1259866|Dnyc3 (of League Of Starz)|https://assets.genius.com/images/default_avatar_300.png?1550179390
-23691|DJ Don Cannon|https://images.genius.com/6156ca1935801d31a89bde5dfcc39d91.1000x1000x1.jpg
-11845|Dot Da Genius|https://s3.amazonaws.com/rapgenius/Scoop_DotDaGenius.jpg
-63770|DP Beats|https://images.genius.com/da7b74a33046ce63bedcc6b5284e06f3.750x750x1.jpg

@@ -461,7 +461,7 @@ def generate_album_bubbles():
 
         children.append(bubl_pre_dic)
 
-    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
+    # Python dictionary to jsonfiy and pass to front end to build Chart.js viz.
     return jsonify({
                 "name": "producers",
                 "value": 100,

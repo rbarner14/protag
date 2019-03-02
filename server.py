@@ -82,7 +82,7 @@ def return_search_result():
                             performers=performers,
                             songs=songs,
                             albums=albums
-                           )
+                          )
 
 
 @app.route("/producers")
@@ -128,7 +128,7 @@ def producer_detail(producer_id):
                             producer=producer,
                             album_years=album_years,
                             bio=bio
-                        )
+                          )
 
 
 @app.route('/producer-frequency.json')
@@ -141,7 +141,8 @@ def generate_producer_performer_frequency_donut_chart():
     # Create list of tuples; value @ 1st index = performer_name; 
     # value @ 2nd = song count.
     producer_song_tuples = db.session.query(
-        Performer.performer_name, db.func.count(ProduceSong.song_id)
+        Performer.performer_name, 
+        db.func.count(ProduceSong.song_id)
     ).join(
         ProduceSong
     ).filter(
@@ -160,6 +161,7 @@ def generate_producer_performer_frequency_donut_chart():
 
     for producer_song in producer_song_tuples:
         performer, song_count = producer_song
+
         labels.append(performer)
         data.append(song_count)
 
@@ -168,8 +170,10 @@ def generate_producer_performer_frequency_donut_chart():
         random_green = random.randint(0,255)
         random_blue = random.randint(0,255)
         random_color = f"rgba({random_red},{random_green},{random_blue},1)"
+
         background_color.append(random_color)
 
+    # Dictionary Chart.js will use to create donut chart.
     return jsonify({
         "labels": labels,
         "datasets": [
@@ -180,38 +184,6 @@ def generate_producer_performer_frequency_donut_chart():
             }
         ]
     })
-
-
-# @app.route('/producer-bubbles.json')
-# def generate_producer_bubbles():
-#     """Create bubbles on producer page of performer frequencies."""
-
-#     # Retrieve producer_id from the session for producer_song_tuples query.          
-#     producer_id = session["producer_id"]
-
-#     # Create list of tuples.
-#     producer_song_tuples = db.session.query(Performer.performer_name,Performer.performer_id,
-#                             db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-#                             ProduceSong.producer_id==producer_id).group_by(
-#                             Performer.performer_name, Performer.performer_id).all()
-
-#     # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
-#     bubl_dict = {
-#                 "name": "performers",
-#                 "value": 100,
-#                 "children": []
-#             }
-
-#     for i in range(0, len(producer_song_tuples)):
-#         bubl_pre_dic = {}
-#         bubl_pre_dic["domain"] = producer_song_tuples[i][0]
-#         bubl_pre_dic["name"] = producer_song_tuples[i][0]
-#         bubl_pre_dic["link"] = producer_song_tuples[i][1]
-#         bubl_pre_dic["value"] = producer_song_tuples[i][2]
-#         bubl_dict["children"].append(bubl_pre_dic)
-#         i+=1
-
-#     return jsonify(bubl_dict)
 
 
 @app.route('/producer-productivity.json')
@@ -229,7 +201,7 @@ def producer_productivity_data():
     ).join(
         ProduceSong
     ).filter(
-        ProduceSong.producer_id==producer_id,
+        ProduceSong.producer_id == producer_id,
         Song.song_release_year != None,
         cast(Song.song_release_year, Numeric(10, 4)) > 1900,
         cast(Song.song_release_year, Numeric(10, 4)) < 2019
@@ -246,9 +218,11 @@ def producer_productivity_data():
 
     for producer_song in producer_song_tuples:
         year, song_count = producer_song
+
         labels.append(year)
         data.append(song_count)
 
+    # Dictionary Chart.js will use to create line chart.
     return jsonify({
         "labels": labels,
         "datasets": [
@@ -302,7 +276,9 @@ def performer_detail(performer_id):
     albums = performer.albums
 
     # Return a set of performer's album release years in descending order.
-    album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
+    album_years = sorted(set([album.album_release_date.strftime("%Y")
+                         for album in albums]
+                        ),reverse=True)
 
     # Store performer_id in session.
     session["performer_id"] = performer_id
@@ -331,58 +307,49 @@ def generate_performer_producer_frequency_donut_chart():
     performer_id = session["performer_id"]
 
     # Return tuples of producer_names and song_counts for performer.
-    performer_producer_tuples = db.session.query(Producer.producer_name,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.performer_id==performer_id).group_by(
-                            Producer.producer_name).all()
-
-    # Dictionary Chartjs will use to create donut chart.
-    data_dict = {
-                "labels": [],
-                "datasets": [
-                    {
-                        "data": [],
-                        "backgroundColor": [],
-                        "hoverBackgroundColor": []
-                    }]
-            }
+    performer_producer_tuples = db.session.query(
+        Producer.producer_name, 
+        db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).filter(
+        ProduceSong.performer_id == performer_id
+    ).group_by(
+        Producer.producer_name
+    ).all()
 
     # Loop through range of song_count tuple to feed data to chart, setting 
     # labels as the producer name and the song counts for each producer as the 
     # data.
-    for i in range(0, len(performer_producer_tuples)):
-        performer = performer_producer_tuples[i][0]
-        data_dict["labels"].append(performer)
-        i+=1
+    labels = []
+    data = []
+    background_color = []
 
-    for j in range(0, len(performer_producer_tuples)):
-        song_count = performer_producer_tuples[j][1]
-        data_dict["datasets"][0]["data"].append(song_count)
-        j+=1
+    for performer_producer in performer_producer_tuples:
+        producer, song_count = performer_producer
 
-    # Generate random colors for donut chart using random's randint method.
-    for k in range(0, len(performer_producer_tuples)):
+        labels.append(producer)
+        data.append(song_count)
+
+        # Generate chart colors using random's randint method.
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
         random_blue = random.randint(0,255)
-        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
-        data_dict["datasets"][0]["backgroundColor"].append(random_color)
-        k+=1
+        random_color = f"rgba({random_red},{random_green},{random_blue},1)"
 
-    return jsonify(data_dict)
+        background_color.append(random_color)
 
-# def quantify_performer_similarity(p1_id, p2_id):
+    # Dictionary Chart.js will use to create donut chart.
+    return jsonify({
+                "labels": labels,
+                "datasets": [
+                    {
+                        "data": data,
+                        "backgroundColor": background_color,
+                        # "hoverBackgroundColor": []
+                    }]
+            })
 
-#     p1_producers = set(Performer.query.get(p1_id).producers)
-#     p2_producers = set(Performer.query.get(p2_id).producers)
-
-#     total_producers = len(p1_producers) + len(p2_producers)
-
-#     overlapping_producers = len(p1_producers & p2_producers)
-
-#     similarity_score = (overlapping_producers * 2) / total_producers
-
-#     return similarity_score
 
 @app.route("/songs")
 def song_list():
@@ -466,31 +433,40 @@ def generate_album_bubbles():
 
     # SQLAlchemy query creates list of tuples of producer's name, image url, and
     # count of songs.
-    album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.album_id==album_id).group_by(
-                            Producer.producer_name, Producer.producer_img_url).all()
-
-    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
-    bubl_dict = {
-                "name": "producers",
-                "value": 100,
-                "children": []
-            }
+    album_producer_tuples = db.session.query(
+        Producer.producer_name, 
+        Producer.producer_img_url,
+        db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).filter(
+        ProduceSong.album_id == album_id
+    ).group_by(
+        Producer.producer_name, 
+        Producer.producer_img_url
+    ).all()
 
     # Loop through album_producer_tuples to create dictionaries for every
     # producer and append them to dictionary that will be used to create D3
     # pack-force graph.
-    for i in range(0, len(album_producer_tuples)):
-        bubl_pre_dic = {}
-        bubl_pre_dic["domain"] = album_producer_tuples[i][0]
-        bubl_pre_dic["name"] = album_producer_tuples[i][0]
-        bubl_pre_dic["link"] = album_producer_tuples[i][1]
-        bubl_pre_dic["value"] = album_producer_tuples[i][2]
-        bubl_dict["children"].append(bubl_pre_dic)
-        i+=1
+    children = []
 
-    return jsonify(bubl_dict)
+    for album in album_producer_tuples:
+        name, link, value = album
+        bubl_pre_dic = {}
+        bubl_pre_dic["domain"] = name
+        bubl_pre_dic["name"] = name
+        bubl_pre_dic["link"] = link
+        bubl_pre_dic["value"] = value
+
+        children.append(bubl_pre_dic)
+
+    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
+    return jsonify({
+                "name": "producers",
+                "value": 100,
+                "children": children
+            })
 
 
 @app.route("/album-web.json")
@@ -502,14 +478,31 @@ def generate_album_web():
 
     # SQLAlchemy query creates tuples of album cover art url for dictionary used 
     # to create D3 viz.
-    album_img = db.session.query(Album.cover_art_url).filter(Album.album_id==album_id).one()
+    album_img = db.session.query(
+        Album.cover_art_url
+    ).filter(
+        Album.album_id == album_id
+    ).one()
 
     # SQLAlchemy query creates tupes of producer's name, image, the cover art of
     # the album they produced and the songs on that album they produced.
-    album_producer_tuples = db.session.query(Producer.producer_name, Producer.producer_img_url,Album.cover_art_url,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).join(Album).filter(
-                            ProduceSong.album_id==album_id, Album.album_id==ProduceSong.album_id).group_by(
-                            Producer.producer_name, Producer.producer_img_url, Album.cover_art_url).all()
+    album_producer_tuples = db.session.query(
+        Producer.producer_name, 
+        Producer.producer_img_url,
+        Album.cover_art_url,
+        db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).join(
+        Album
+    ).filter(
+        ProduceSong.album_id == album_id, 
+        Album.album_id == ProduceSong.album_id
+    ).group_by(
+        Producer.producer_name, 
+        Producer.producer_img_url, 
+        Album.cover_art_url
+    ).all()
 
     # JSON object that will be jsonified and used to create D3 viz.
     album_dict = {
@@ -525,21 +518,34 @@ def generate_album_web():
 
     # Loop through range for album_producer_tuples, updating album_dict with the
     # necessary values from tuples generate w/SQLAlchemy query above.
-    for i in range(0, len(album_producer_tuples)):
-        child_dic = {}
-        if album_producer_tuples[i][3] > 1:
-            child_dic["hero"] = str(album_producer_tuples[i][0]) +  " (" + str(album_producer_tuples[i][3]) + " songs)" 
-            child_dic["name"] = str(album_producer_tuples[i][0]) + " (" + str(album_producer_tuples[i][3]) + " songs)" 
-        else: 
-            child_dic["hero"] = str(album_producer_tuples[i][0]) +  " (" + str(album_producer_tuples[i][3]) + " song)" 
-            child_dic["name"] = str(album_producer_tuples[i][0]) + " (" + str(album_producer_tuples[i][3]) + " song)" 
-        child_dic["link"] = album_producer_tuples[i][1]
-        child_dic["img"] = album_producer_tuples[i][1]
-        child_dic["size"] = 40000
-        album_dict["children"][0]["children"].append(child_dic)
-        i+=1
+    children = []
 
-    return jsonify(album_dict)
+    for album_producer in album_producer_tuples:
+        child_dic = {}
+        name, img, cover_art_url, song_count = album_producer
+
+        if song_count > 1:
+            child_dic["hero"] = f"{name} ({song_count} songs)" 
+            child_dic["name"] = f"{name} ({song_count} songs)" 
+        else: 
+            child_dic["hero"] = f"{name} ({song_count} song)"
+            child_dic["name"] = f"{name} ({song_count} song)"
+        
+        child_dic["link"] = img
+        child_dic["img"] = img
+        child_dic["size"] = 40000
+        children.append(child_dic)
+
+    return jsonify({
+         "name": album_id,
+         "img": album_img[0],
+         "children": [
+              {
+               "name": "Producers",
+               "children": children
+              }
+          ]
+    })
 
 
 @app.route('/album-frequency.json')
@@ -551,10 +557,16 @@ def generate_album_producer_frequency_donut_chart():
 
     # Retrun tuples of producer's name and the count of songs they have created
     # on the album queries.
-    album_producer_tuples = db.session.query(Producer.producer_name,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.album_id==album_id).group_by(
-                            Producer.producer_name).all()
+    album_producer_tuples = db.session.query(
+        Producer.producer_name,
+        db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).filter(
+        ProduceSong.album_id == album_id
+    ).group_by(
+        Producer.producer_name
+    ).all()
 
     # Used to build data dictionary Chartjs will use to create data viz.
     data_dict = {
@@ -622,7 +634,12 @@ def make_nodes_and_paths(filename):
         slt = line.split(',') # Split line in csv by comma.
         if len(slt) == 2:
             source, target = slt
-            paths.append({'source': index_nodes[source][0], 'target': index_nodes[target][0]  })
+            paths.append(
+                {
+                    'source': index_nodes[source][0], 
+                    'target': index_nodes[target][0]
+                }
+            )
 
     return nodes, paths
 

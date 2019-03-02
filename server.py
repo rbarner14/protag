@@ -39,14 +39,38 @@ def return_search_result():
     # that match the search string (not case-sensitive), alphabetized.
     if len(search_str) > 0:
         sql_search_str = f'%{search_str}%'
+
         producers = Producer.query.order_by(
             'producer_name'
         ).filter(
             Producer.producer_name.ilike(sql_search_str)
         ).all()
-        performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
-        songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
-        albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
+
+        performers = Performer.query.order_by(
+            'performer_name'
+        ).filter(
+            Performer.performer_name.ilike(sql_search_str)
+        ).all()
+
+        songs = Song.query.order_by(
+            'song_title'
+        ).filter(
+            Song.song_title.ilike(sql_search_str)
+        ).options(
+            db.joinedload(
+                "performers"
+            )
+        ).all()
+
+        albums = Album.query.order_by(
+            'album_title'
+        ).filter(
+            Album.album_title.ilike(sql_search_str)
+        ).options(
+            db.joinedload(
+                "performers"
+            )
+        ).all()
     else:
         producers = None
         performers = None
@@ -104,7 +128,7 @@ def producer_detail(producer_id):
                             producer=producer,
                             album_years=album_years,
                             bio=bio
-                            )
+                        )
 
 
 @app.route('/producer-frequency.json')
@@ -121,18 +145,19 @@ def generate_producer_performer_frequency_donut_chart():
     ).join(
         ProduceSong
     ).filter(
-        ProduceSong.producer_id==producer_id
+        ProduceSong.producer_id == producer_id
     ).group_by(
         Performer.performer_name
     ).order_by(
         Performer.performer_name
     ).all()
 
+    # Loop through range of song tuple to feed labels (performer_name) 
+    # and data (song counts) to dictionary.
     labels = []
     data = []
     background_color = []
-    # Loop through range of song tuple to feed labels (performer_name) 
-    # and data (song counts) to dictionary.
+
     for producer_song in producer_song_tuples:
         performer, song_count = producer_song
         labels.append(performer)
@@ -142,7 +167,7 @@ def generate_producer_performer_frequency_donut_chart():
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
         random_blue = random.randint(0,255)
-        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
+        random_color = f"rgba({random_red},{random_green},{random_blue},1)"
         background_color.append(random_color)
 
     return jsonify({
@@ -214,8 +239,18 @@ def producer_productivity_data():
         Song.song_release_year
     ).all()
 
-    data_dict = {
-        "labels": [],
+    # Loop through producer song tuples, making the value of the 1st index in
+    # the tuple (year) the labels and the 2nd index value (song counts) the data
+    labels = []
+    data = []
+
+    for producer_song in producer_song_tuples:
+        year, song_count = producer_song
+        labels.append(year)
+        data.append(song_count)
+
+    return jsonify({
+        "labels": labels,
         "datasets": [
             {
                 "label": "Number of Songs Produced",
@@ -236,19 +271,11 @@ def producer_productivity_data():
                 "pointHoverBorderWidth": 2,
                 "pointRadius": 3,
                 "pointHitRadius": 10,
-                "data": [],
+                "data": data,
                 "spanGaps": False
             }
         ]
-    }
-
-    # Loop through producer song tuples, making the value of the 1st index in
-    # the tuple (year) the labels and the 2nd index value (song counts) the data
-    for i in range(0, len(producer_song_tuples)):
-        data_dict["labels"].append(producer_song_tuples[i][0])
-        data_dict["datasets"][0]["data"].append(producer_song_tuples[i][1])
-
-    return jsonify(data_dict)
+    })
 
 
 @app.route("/performers")

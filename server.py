@@ -344,6 +344,18 @@ def generate_performer_producer_frequency_donut_chart():
 
     return jsonify(data_dict)
 
+# def quantify_performer_similarity(p1_id, p2_id):
+
+#     p1_producers = set(Performer.query.get(p1_id).producers)
+#     p2_producers = set(Performer.query.get(p2_id).producers)
+
+#     total_producers = len(p1_producers) + len(p2_producers)
+
+#     overlapping_producers = len(p1_producers & p2_producers)
+
+#     similarity_score = (overlapping_producers * 2) / total_producers
+
+#     return similarity_score
 
 @app.route("/songs")
 def song_list():

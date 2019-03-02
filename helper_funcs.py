@@ -1,18 +1,23 @@
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
+from server import app
 
-def get_performer_id(desired_performer_id):
+def quantify_performer_similarity(p1_id, p2_id):
 
-    return Performer.query.get(desired_performer_id)
+    p1_producers = set(Performer.query.get(p1_id).producers)
+    p2_producers = set(Performer.query.get(p2_id).producers)
 
-def quantify_performer_similarity(performer_id_1, performer_id_2):
+    total_producers = len(p1_producers) + len(p2_producers)
 
-    performer_1_producers = get_performer_id(performer_id_1).producers
-    performer_2_producers = get_performer_id(performer_id_2).producers
+    overlapping_producers = len(p1_producers & p2_producers)
 
-    performer_1_producer_count = len(performer_1_producers)
-    performer_2_producer_count = len(performer_2_producers)
+    similarity_score = (overlapping_producers * 2) / total_producers
 
-    total_producers = performer_1_producer_count + performer_2_producer_count
+    return similarity_score
 
-    performer_1_producer_set = set(performer_1_producers)
-    performer_1_producer_set = set(performer_1_producers)
+    
+if __name__ == "__main__":
+    # Added for module interactive convenience to work directly with database.
+    
+    from server import app
+    connect_to_db(app)
+    print("Connected to DB.")

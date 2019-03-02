@@ -504,18 +504,6 @@ def generate_album_web():
         Album.cover_art_url
     ).all()
 
-    # JSON object that will be jsonified and used to create D3 viz.
-    album_dict = {
-         "name": album_id,
-         "img": album_img[0],
-         "children": [
-              {
-               "name": "Producers",
-               "children": []
-              }
-          ]
-    }
-
     # Loop through range for album_producer_tuples, updating album_dict with the
     # necessary values from tuples generate w/SQLAlchemy query above.
     children = []
@@ -536,6 +524,7 @@ def generate_album_web():
         child_dic["size"] = 40000
         children.append(child_dic)
 
+    # JSON object that will be jsonified and used to create D3 viz.
     return jsonify({
          "name": album_id,
          "img": album_img[0],
@@ -546,60 +535,6 @@ def generate_album_web():
               }
           ]
     })
-
-
-@app.route('/album-frequency.json')
-def generate_album_producer_frequency_donut_chart():
-    """Create album producer frequency donut chart."""
-
-    # Set value of album_id to the album_id value stored in session.
-    album_id = session["album_id"]
-
-    # Retrun tuples of producer's name and the count of songs they have created
-    # on the album queries.
-    album_producer_tuples = db.session.query(
-        Producer.producer_name,
-        db.func.count(ProduceSong.song_id)
-    ).join(
-        ProduceSong
-    ).filter(
-        ProduceSong.album_id == album_id
-    ).group_by(
-        Producer.producer_name
-    ).all()
-
-    # Used to build data dictionary Chartjs will use to create data viz.
-    data_dict = {
-                "labels": [],
-                "datasets": [
-                    {
-                        "data": [],
-                        "backgroundColor": [],
-                        "hoverBackgroundColor": []
-                    }]
-            }
-
-    # Loop through range of tuples to feed data to chart.
-    for i in range(0, len(album_producer_tuples)):
-        producers = album_producer_tuples[i][0]
-        data_dict["labels"].append(producers)
-        i+=1
-
-    for j in range(0, len(album_producer_tuples)):
-        song_count = album_producer_tuples[j][1]
-        data_dict["datasets"][0]["data"].append(song_count)
-        j+=1
-
-    # Generate chart's colors with random library's "randint" method.
-    for k in range(0, len(album_producer_tuples)):
-        random_red = random.randint(0,255)
-        random_green = random.randint(0,255)
-        random_blue = random.randint(0,255)
-        random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
-        data_dict["datasets"][0]["backgroundColor"].append(random_color)
-        k+=1
-
-    return jsonify(data_dict)
 
 
 def make_nodes_and_paths(filename):

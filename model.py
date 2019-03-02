@@ -28,7 +28,7 @@ class Producer(db.Model):
     # many songs and albums.
     songs = db.relationship("Song", secondary="produce_songs", backref="producers")
     albums = db.relationship("Album", secondary="produce_songs", backref="producers")
-    # performers = db.relationship("Performer", secondary="produce_songs", backref="producers")
+    performers = db.relationship("Performer", secondary="produce_songs", backref="producers")
 
     def __repr__(self):
         """Provide helpful representation when printed."""

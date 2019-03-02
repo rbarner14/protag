@@ -38,7 +38,12 @@ def return_search_result():
     # Return the producer(s), performer(s), song(s), and album(s)
     # that match the search string (not case-sensitive), alphabetized.
     if len(search_str) > 0:
-        producers = Producer.query.order_by('producer_name').filter(Producer.producer_name.ilike('%{}%'.format(search_str))).all()
+        sql_search_str = f'%{search_str}%'
+        producers = Producer.query.order_by(
+            'producer_name'
+        ).filter(
+            Producer.producer_name.ilike(sql_search_str)
+        ).all()
         performers = Performer.query.order_by('performer_name').filter(Performer.performer_name.ilike('%{}%'.format(search_str))).all()
         songs = Song.query.order_by('song_title').filter(Song.song_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
         albums = Album.query.order_by('album_title').filter(Album.album_title.ilike('%{}%'.format(search_str))).options(db.joinedload("performers")).all()
@@ -72,7 +77,7 @@ def producer_detail(producer_id):
     """Show producer's details."""
 
     # URL from which to make API calls.
-    URL = "https://genius.com/api/artists/" + str(producer_id)
+    URL = f"https://genius.com/api/artists/{producer_id}"
 
     # Method "joinedload" employed to reduce # of queries run for output.
     producer = Producer.query.options(db.joinedload("albums")
@@ -82,10 +87,11 @@ def producer_detail(producer_id):
 
     albums = producer.albums # list
     # Return the album release years in descending chronological order.
-    album_years = sorted(set([album.album_release_date.strftime("%Y") for album in albums]),reverse=True)
+    album_years = sorted(set([album.album_release_date.strftime("%Y")
+                              for album in albums]
+                             ),reverse=True)
 
-    r = requests.get(URL)
-    j = r.json()
+    j = requests.get(URL).json()
     
     # If call is successful, access JSON object.
     if j['meta']['status'] == 200:
@@ -98,7 +104,7 @@ def producer_detail(producer_id):
                             producer=producer,
                             album_years=album_years,
                             bio=bio
-                          )
+                            )
 
 
 @app.route('/producer-frequency.json')
@@ -110,44 +116,45 @@ def generate_producer_performer_frequency_donut_chart():
 
     # Create list of tuples; value @ 1st index = performer_name; 
     # value @ 2nd = song count.
-    producer_song_tuples = db.session.query(Performer.performer_name,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id).group_by(
-                            Performer.performer_name).order_by(Performer.performer_name).all()
+    producer_song_tuples = db.session.query(
+        Performer.performer_name, db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).filter(
+        ProduceSong.producer_id==producer_id
+    ).group_by(
+        Performer.performer_name
+    ).order_by(
+        Performer.performer_name
+    ).all()
 
-    # Python dictionary to jsonfiy and pass to front end to build chartjs viz.
-    data_dict = {
-                "labels": [],
-                "datasets": [
-                    {
-                        "data": [],
-                        "backgroundColor": [],
-                        "hoverBackgroundColor": []
-                    }]
-    }
-
+    labels = []
+    data = []
+    background_color = []
     # Loop through range of song tuple to feed labels (performer_name) 
     # and data (song counts) to dictionary.
-    for i in range(0, len(producer_song_tuples)):
-        performer = producer_song_tuples[i][0]
-        data_dict["labels"].append(performer)
-        i+=1
+    for producer_song in producer_song_tuples:
+        performer, song_count = producer_song
+        labels.append(performer)
+        data.append(song_count)
 
-    for j in range(0, len(producer_song_tuples)):
-        song_count = producer_song_tuples[j][1]
-        data_dict["datasets"][0]["data"].append(song_count)
-        j+=1
-
-    # Generate chart colors using random's randint method.
-    for k in range(0, len(producer_song_tuples)):
+        # Generate chart colors using random's randint method.
         random_red = random.randint(0,255)
         random_green = random.randint(0,255)
         random_blue = random.randint(0,255)
         random_color = "rgba(" + str(random_red) + "," + str(random_green) + "," + str(random_blue) + ",1)"
-        data_dict["datasets"][0]["backgroundColor"].append(random_color)
-        k+=1
+        background_color.append(random_color)
 
-    return jsonify(data_dict)
+    return jsonify({
+        "labels": labels,
+        "datasets": [
+            {
+                "data": data,
+                "backgroundColor": background_color,
+                # "hoverBackgroundColor": []
+            }
+        ]
+    })
 
 
 # @app.route('/producer-bubbles.json')
@@ -192,12 +199,20 @@ def producer_productivity_data():
     # Return tuples of song_release_year and song counts for every producer from 
     # the years 1900 - 2019.  Correcting for year data pulled from Genius API 
     # that may be an incorrect year.
-    producer_song_tuples = db.session.query(Song.song_release_year,
-                            db.func.count(ProduceSong.song_id)).join(ProduceSong).filter(
-                            ProduceSong.producer_id==producer_id 
-                            , Song.song_release_year != None
-                            , cast(Song.song_release_year, Numeric(10, 4)) > 1900
-                            , cast(Song.song_release_year, Numeric(10, 4)) < 2019).group_by(Song.song_release_year).order_by(Song.song_release_year).all()
+    producer_song_tuples = db.session.query(
+        Song.song_release_year, db.func.count(ProduceSong.song_id)
+    ).join(
+        ProduceSong
+    ).filter(
+        ProduceSong.producer_id==producer_id,
+        Song.song_release_year != None,
+        cast(Song.song_release_year, Numeric(10, 4)) > 1900,
+        cast(Song.song_release_year, Numeric(10, 4)) < 2019
+    ).group_by(
+        Song.song_release_year
+    ).order_by(
+        Song.song_release_year
+    ).all()
 
     data_dict = {
         "labels": [],

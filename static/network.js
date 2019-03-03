@@ -1,6 +1,6 @@
 // Request json from the server and execute callback when reponse is received.
 
-d3.json('/data.json', makeForceGraph);
+d3.json("/data.json", makeForceGraph);
 
 function makeForceGraph(data){
 
@@ -26,10 +26,10 @@ function makeForceGraph(data){
   // We start off by creating an SVG container to hold the visualization. 
   // We only need to specify the dimensions for this container.
 
-  let svg = d3.select('body')
-      .append('svg')
-      .attr('width', width)
-      .attr('height', height);
+  let svg = d3.select("body")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
 
   // Now we create a forceSimulation object and add several forces to
   // this simulation.

@@ -5,12 +5,12 @@ from jinja2 import StrictUndefined
 from flask import Flask, redirect, render_template, request, session, flash, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
 
-# Tables for jQuery.
+# Tables for jQuery and SQLAlchemy queries.
 from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
-# For API calls.
 from sqlalchemy import cast, Numeric
+# For API calls.
 import requests
-# For Chartjs color generation.
+# For Chart.js color generation.
 import random
 
 # Create Flask app.
@@ -28,7 +28,7 @@ def index():
     return render_template("homepage.html")
 
 
-@app.route("/search_result", methods=['GET'])
+@app.route("/search_result", methods=["GET"])
 def return_search_result():
     """Return user's search results."""
 
@@ -38,22 +38,22 @@ def return_search_result():
     # Return the producer(s), performer(s), song(s), and album(s)
     # that match the search string (not case-sensitive), alphabetized.
     if len(search_str) > 0:
-        sql_search_str = f'%{search_str}%'
+        sql_search_str = f"%{search_str}%"
 
         producers = Producer.query.order_by(
-            'producer_name'
+            "producer_name"
         ).filter(
             Producer.producer_name.ilike(sql_search_str)
         ).all()
 
         performers = Performer.query.order_by(
-            'performer_name'
+            "performer_name"
         ).filter(
             Performer.performer_name.ilike(sql_search_str)
         ).all()
 
         songs = Song.query.order_by(
-            'song_title'
+            "song_title"
         ).filter(
             Song.song_title.ilike(sql_search_str)
         ).options(
@@ -63,7 +63,7 @@ def return_search_result():
         ).all()
 
         albums = Album.query.order_by(
-            'album_title'
+            "album_title"
         ).filter(
             Album.album_title.ilike(sql_search_str)
         ).options(
@@ -90,7 +90,7 @@ def producer_list():
     """Show list of producers."""
 
     # Query for all producers in database; return results alphabetized.
-    producers = Producer.query.order_by('producer_name').all()
+    producers = Producer.query.order_by("producer_name").all()
 
     return render_template("producer_list.html", producers=producers)
 
@@ -118,8 +118,8 @@ def producer_detail(producer_id):
     j = requests.get(URL).json()
     
     # If call is successful, access JSON object.
-    if j['meta']['status'] == 200:
-        bio = j['response']['artist'].get('description_preview',"")
+    if j["meta"]["status"] == 200:
+        bio = j["response"]["artist"].get("description_preview","")
 
     # Store producer_id in session.
     session["producer_id"] = producer_id
@@ -131,7 +131,7 @@ def producer_detail(producer_id):
                           )
 
 
-@app.route('/producer-frequency.json')
+@app.route("/producer-frequency.json")
 def generate_producer_performer_frequency_donut_chart():
     """Create producer to performer frequency donut chart."""
 
@@ -186,7 +186,7 @@ def generate_producer_performer_frequency_donut_chart():
     })
 
 
-@app.route('/producer-productivity.json')
+@app.route("/producer-productivity.json")
 def producer_productivity_data():
     """Return producer productivity JSON for line Chartjs data viz."""
     
@@ -257,7 +257,7 @@ def performer_list():
     """Show list of performers."""
 
     # Return producers in database; return results alphabetized.
-    performers = Performer.query.order_by('performer_name').all()
+    performers = Performer.query.order_by("performer_name").all()
 
     return render_template("performer_list.html", performers=performers)
 
@@ -289,8 +289,8 @@ def performer_detail(performer_id):
     
     # If url request is successful and the bio JSON key exists, return that key
     # value (description_preview); otherwise, return an empty string.
-    if j['meta']['status'] == 200:
-        bio = j['response']['artist'].get('description_preview',"")
+    if j["meta"]["status"] == 200:
+        bio = j["response"]["artist"].get("description_preview","")
 
     return render_template("performer.html",
                             performer=performer,
@@ -299,7 +299,7 @@ def performer_detail(performer_id):
                           )
 
 
-@app.route('/performer-frequency.json')
+@app.route("/performer-frequency.json")
 def generate_performer_producer_frequency_donut_chart():
     """Create JSON of performer to producer frequency."""
 
@@ -546,11 +546,11 @@ def make_nodes_and_paths(filename):
     # oin producers using (producer_id)" > output.csv.
     file_obj = open(filename)
     contents = file_obj.read()
-    lines = contents.split('\n') # Create a list of the rows in the file.
+    lines = contents.split("\n") # Create a list of the rows in the file.
 
     nodes = {} # Focal point of data (words).
     for pair in lines:
-        split = pair.split(',') # split each line, using a comma as a delimitor
+        split = pair.split(",") # split each line, using a comma as a delimitor
         if split: # If pair is not blank (line in file was not blank),
             # for loop through split list, bind each item to variable node.
             for node in split: 
@@ -558,21 +558,21 @@ def make_nodes_and_paths(filename):
                 if not nodes.get(node):
                     nodes[node] = split[1].strip()
     
-    nodes = [{'name':node, 'parent': nodes[node]} for node in nodes.keys()]
+    nodes = [{"name":node, "parent": nodes[node]} for node in nodes.keys()]
 
     index_nodes = {}
     for idx, n in enumerate(nodes):
-        index_nodes[n['name']] = (idx, n['parent'])
+        index_nodes[n["name"]] = (idx, n["parent"])
 
     paths = []
     for line in lines:
-        slt = line.split(',') # Split line in csv by comma.
+        slt = line.split(",") # Split line in csv by comma.
         if len(slt) == 2:
             source, target = slt
             paths.append(
                 {
-                    'source': index_nodes[source][0], 
-                    'target': index_nodes[target][0]
+                    "source": index_nodes[source][0], 
+                    "target": index_nodes[target][0]
                 }
             )
 
@@ -585,9 +585,9 @@ def get_graph_data():
 
     # Call helper functions.
     # Read filename fed in as argument.
-    nodes, paths = make_nodes_and_paths('output_for_network.csv')
+    nodes, paths = make_nodes_and_paths("output_for_network.csv")
     # Create a json object of the list of nodes and list of paths.
-    return jsonify({'nodes':nodes, 'paths':paths}) 
+    return jsonify({"nodes":nodes, "paths":paths}) 
 
 
 
@@ -598,7 +598,7 @@ def graph():
     return render_template("network.html")
 
 
-@app.route('/resume')
+@app.route("/resume")
 def resume():
     """Show resume."""
 

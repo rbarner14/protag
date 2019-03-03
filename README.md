@@ -98,6 +98,11 @@ Navigate to localhost:5000 in browser.
 ![Producer](/static/images/readme/performer.gif)
 <br/>
 
+**Thanks for reading!.**
+<br/><br/>
+![Network](/static/images/readme/network.gif)
+<br/>
+
 <a name="future"/></a>
 ## Future Development
 * Enable user profile creation for favorites saving.

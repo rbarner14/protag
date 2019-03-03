@@ -98,7 +98,7 @@ Navigate to localhost:5000 in browser.
 ![Producer](/static/images/readme/performer.gif)
 <br/>
 
-**Thanks for reading!.**
+**Thanks for exploring!**
 <br/><br/>
 ![Network](/static/images/readme/network.gif)
 <br/>

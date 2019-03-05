@@ -106,6 +106,7 @@
           node.append("circle")
               .attr("r",function(d) { return d.r; })
               .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
+              .attr("background-img", d => `url("${d.link}")`)
               .attr("opacity", 0.6)
 
           node.append("a")

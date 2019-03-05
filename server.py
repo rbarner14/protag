@@ -271,7 +271,7 @@ def performer_detail(performer_id):
 
     performer = Performer.query.options(db.joinedload("albums")
                                           .joinedload("songs")
-                                          .joinedload("performers")
+                                          .joinedload("producers")
                                         ).get(performer_id)
     albums = performer.albums
 

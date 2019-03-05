@@ -609,6 +609,7 @@
 11240|The Soul Tape|https://images.genius.com/1e256b984c77a353a38369347eaba4a6.500x500x1.jpg|2011|4|21
 112402|Punk Goes Pop Volume 2|https://images.genius.com/2c4f29418a45213cc412dfa2ae1ba7ea.500x500x1.jpg|2009|3|10
 112407|Underestimated|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+112427|Tough Love|https://images.genius.com/266056f7017eef8fd1dc02b8f9b2c8aa.1000x1000x1.jpg|2014|8|4
 11243|Radioactive|https://images.genius.com/d55597aef7ddcd938a2bfc161537e7d5.1000x1000x1.jpg|2011|11|21
 112438|Hak|https://images.genius.com/56a9364d98d1acc6e23dc56e25a7ad62.500x501x1.png|2014|11|14
 11245|Pilot Talk II|https://images.genius.com/2ab3a014675c540407e098d33b72cc8f.800x800x1.jpg|2010|11|22
@@ -2100,6 +2101,7 @@
 140529|The Return of the Dragon: The Abstract Went On Vacation|https://images.genius.com/ce1161eafdb769470ee61ee1631cdc64.1000x1000x1.jpg|2015|12|25
 14056|Badazz Slow-Mixes|https://images.genius.com/06dabf59193ccd67785a2b5e115b8805.500x500x1.jpg|2011|None|None
 140564|36 Hours|https://images.genius.com/279146dcd6253751470a090601542e0f.500x500x1.jpg|2015|12|26
+140580|In The Building (Mixtape)|https://images.genius.com/9879cdfa4dd6e1fc2721f5907980cc54.900x900x1.png|||
 140615|The NewKingzTape Vol. 1|https://images.genius.com/67e49a36a095e754196ef38c8d298c35.240x237x1.jpg|2005|None|None
 140629|IDEAL|https://images.rapgenius.com/22c87beaa278399597c1d0922bbc9545.900x900x1.jpg|2015|None|None
 140635|unreleased|https://images.rapgenius.com/79ebeff9039e036fc51e08123269d434.960x960x1.jpg|2016|None|None
@@ -2768,7 +2770,7 @@
 15462|KM2 "The Free Bid Mixtape" hosted by DJ Dow Jones|https://assets.genius.com/images/default_cover_art.png?1550179390|||
 154623|NWA2016|https://images.genius.com/bef2b86344b5ae91fb912636e7c9ed33.1000x1000x1.jpg|2016|6|3
 154657|The Persona Tape|https://images.genius.com/04ffb5de87394e460d9d847e04955af4.500x500x1.jpg|2016|None|None
-154666|Before The EP|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+154666|Before The EP|https://assets.genius.com/images/default_cover_art.png?1551733989|||
 154670|8|https://images.genius.com/68e3d4eb540f530821b914ab36f6011a.600x600x1.jpg|2017|12|8
 15469|Blue Chips|https://images.genius.com/7a3649262f7c86b3e60cd3e672699bb1.400x400x1.jpg|2012|3|12
 154709|Motel|https://images.genius.com/547bdd7e8a4656651b0b39995b8db961.1000x1000x1.jpg|2012|None|None
@@ -2915,6 +2917,7 @@
 158579|Highway Music: Stuck In Traffic|https://images.genius.com/e3f87bcfdb16a74e9b2116a9d5ae5289.1000x1000x1.jpg|2016|None|None
 158582|Dead Again 3|https://images.genius.com/6b82fffcfc78cc537bf1633a3184ecaf.500x500x1.jpg|2016|7|3
 15860|Get Rich or Claim Benefit|https://assets.genius.com/images/default_cover_art.png?1549919799|||
+158626|We Move|https://images.genius.com/72f416d4ac73b8fb5cddf73b533c7482.1000x1000x1.jpg|2016|None|None
 158659|The Anti-Radio Mixtape|https://assets.genius.com/images/default_cover_art.png?1550179390|||
 158663|Rocketshipshawty 2 (RSS2)|https://images.genius.com/fe8606db676bfd6eae3a9c3f78652a96.1000x1000x1.jpg|2016|9|20
 158664|Upfall|https://images.genius.com/b6aa4698206241430cfdef0edd3079ed.1000x1000x1.jpg|2016|None|None
@@ -3246,6 +3249,7 @@
 166144|Process|https://images.genius.com/14b615ad2e63041feea5e12bdb1f8729.1000x1000x1.jpg|2017|2|3
 166206|GodSpeed|https://assets.genius.com/images/default_cover_art.png?1550698131|||
 166265|Classic|https://images.genius.com/4e921a3c395dd16314054590a1abb1fa.985x1000x1.jpg|2010|None|None
+166416|The Psychomodo|https://images.genius.com/086828f3cf3c20fed3ccccf8a03031fc.220x220x1.jpg|1974|2|None
 16660|Freaknik: The Musical (Soundtrack) - EP|https://images.genius.com/4e28b8f10de966fcd27680459552f825.1000x1000x1.jpg|2010|4|20
 166838|Unreleased Songs|https://images.genius.com/4cd4e749b3b4bdeb753f990fca05c2d6.500x500x1.jpg|||
 166952|En Attendant MMS Vol.1|https://images.genius.com/692079816847f1f733f8e66ec2439042.500x500x1.png|2016|None|None
@@ -3493,6 +3497,7 @@
 18658|Ceremonials|https://images.genius.com/b214fcbc906dc2c66e07385ffda54f64.1000x1000x1.jpg|2011|10|28
 18662|The Statik-Free - EP|https://images.genius.com/d28dcd8143f9eb08de2e83b539e6fc98.500x500x1.jpg|2011|None|None
 18667|Dirty Bass|https://images.genius.com/e9742e30fbc6eb1aa4cc613b16c35da9.640x640x1.jpg|2012|None|None
+186881|Supermassive Black Tux|https://images.genius.com/b9600ec9596c2b7e9b70613a30a11b24.1000x1000x1.jpg|2015|12|10
 186999|Forever in a Day|https://images.genius.com/b37797ee07d4edb2756d9cde98f71569.500x500x1.jpg|2009|None|None
 18715|Step Up: Revolution – Music from the Motion Picture|https://images.genius.com/3431c31daaee0d8013e3ce150d149280.1000x1000x1.jpg|2012|7|17
 18718|Ghost in the Shell|https://images.genius.com/2ee30451d16496feb483bbc3a9dd4b60.500x500x1.jpg|2005|None|None
@@ -6032,7 +6037,7 @@
 34091|The Gifted|https://images.genius.com/576d9a38f7c0a68bab0b765a5187bb65.640x640x1.jpg|2013|6|25
 340934|Rose|https://images.genius.com/db0bd6b47ba8d91dc94709db4f253b26.1000x1000x1.jpg|2017|None|None
 340959|The Heart Ep. By P.E.C.O. TheGuyOh|https://assets.genius.com/images/default_cover_art.png?1550179390|||
-340968|Sommaren i Zonen|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+340968|Sommaren i Zonen|https://assets.genius.com/images/default_cover_art.png?1551733989|||
 340972|Paranoia|https://images.genius.com/e95a29877cb00ef13ae7f46ddb68a349.1000x1000x1.jpg|2017|None|None
 340978|Diego & Friends|https://images.genius.com/047d2b1c1bd7a52e5cea295320df6547.500x500x1.jpg|2017|None|None
 340983|Mallys World, Vol. 1|https://images.genius.com/7ea79a24856922279ccfb7519a273ceb.500x500x1.jpg|2017|None|None
@@ -6066,6 +6071,7 @@
 34200|Still Sunny|https://assets.genius.com/images/default_cover_art.png?1550179390|||
 342059|Guru RIP|https://images.genius.com/d5547f27fa2d8ab1b968d2c4c4ce986e.300x300x1.jpg|2010|None|None
 342116|Cozy Tapes, Vol. 2: Too Cozy|https://images.genius.com/2495230df7bb9f606633eb839e1dfa73.1000x1000x1.jpg|2017|8|25
+342138|Carrie & Lowell Live|https://images.genius.com/fa86d9057d0d4d334c08e7d8b3f569ee.1000x1000x1.jpg|2017|None|None
 342143|Day 2|https://images.genius.com/461acbd6721eed678d9df5e25cefa378.1000x1000x1.jpg|2017|5|26
 342169|Pa'l Coche|https://images.genius.com/16608519bcf733b349e556700464d17c.1000x1000x1.jpg|2017|None|None
 34217|The Mystery Box|https://assets.genius.com/images/default_cover_art.png?1550160033|||
@@ -6130,7 +6136,7 @@
 343740|A Taste of Tical O (Part II)|https://images.genius.com/ef71878edb3e2101748fdd635355fc79.320x320x1.jpg|2005|None|None
 34375|Avalanche|https://images.genius.com/121107cfb53fce939d15e1808c6ef5e4.660x660x1.jpg|2013|5|31
 34378|Fast & Furious 6 (Original Motion Picture Soundtrack)|https://images.genius.com/c8bc8cdd6176cc5626af0b40e9e45ba7.1000x1000x1.jpg|2013|None|None
-34379|Something Extra II|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+34379|Something Extra II|https://assets.genius.com/images/default_cover_art.png?1551733989|||
 343823|650 Trip|https://images.genius.com/97d37ea088157bcd8b2cfddf0a1e5c62.500x500x1.jpg|2017|4|20
 343895|Rich Forever 3|https://images.genius.com/685c1c4b202b83024232e6d1db42037c.1000x1000x1.jpg|2017|6|16
 3439|Still Standing|https://images.genius.com/9919c43f01d70486f28f95c9108686cd.497x500x1.jpg|1998|4|7
@@ -9281,6 +9287,7 @@
 457175|wstrn best friend (single)|https://assets.genius.com/images/default_cover_art.png?1550608980|||
 45719|Skyline Mirages|https://assets.genius.com/images/default_cover_art.png?1550179390|||
 4572|The Way I Am|https://images.genius.com/6fade8c4fc0be289776bb35d74635cf6.640x640x1.jpg|2003|None|None
+457216|Don't Forget The Z|https://assets.genius.com/images/default_cover_art.png?1551733989|||
 45725|PA2: The Director's Cut|https://images.genius.com/eueyxqu5j4wgog00yr76iirve.640x640x1.jpg|2013|None|None
 45726|Crenshaw|https://images.genius.com/14d87b5a1274d9c46cdbcf986dc89810.500x500x1.jpg|2013|None|None
 457284|DAY69|https://images.genius.com/c6633dc78a68a4864367e72d070b7c59.1000x1000x1.jpg|2018|2|23
@@ -9589,7 +9596,7 @@
 469601|Dying to Live|https://images.genius.com/5dafbaa360c868e1021c9f7c66cbdf4a.1000x1000x1.jpg|2018|12|14
 469692|Arcade|https://images.genius.com/21c96f3bba251133a46110956356aedb.629x629x1.png|||
 469714|Don't Fail Me Now / Love Me Now - Single|https://images.genius.com/11ef21b84e2d4615c283ec901284a091.600x600x1.jpg|2012|9|18
-469806|Born Sinner II: The Peeky Blindaz EP|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+469806|Born Sinner II: The Peeky Blindaz EP|https://assets.genius.com/images/default_cover_art.png?1551733989|||
 469933|S4*|https://assets.genius.com/images/default_cover_art.png?1550698131|2019|None|None
 46994|My 1st Chemistry Set|https://images.genius.com/c262e3e16e205e57432001e745db05b4.400x400x1.jpg|2013|None|None
 469940|SIX SUMMERS|https://images.genius.com/b06864bdd96ec1cc9711f35b408ca0ca.300x300x1.jpg|2018|9|20
@@ -9891,6 +9898,7 @@
 48334|Mood Muzik: The Worst of Joe Budden|https://images.genius.com/808ae2f71a0fe3bcea1318a938d80fd5.500x505x1.jpg|2003|12|9
 483411|Jetski - Single|https://assets.genius.com/images/default_cover_art.png?1550179390|||
 483412|Neighbor - Single|https://assets.genius.com/images/default_cover_art.png?1550179390|||
+483418|Four Letter Word|https://assets.genius.com/images/default_cover_art.png?1551733989|2018|12|19
 483447|101% (Mixtape)|https://images.genius.com/1941700fd92957490884d50ca60e6222.500x500x1.jpg|2018|5|11
 483465|Wave Creator|https://assets.genius.com/images/default_cover_art.png?1550179390|2019|None|None
 483483|The Rejects|https://assets.genius.com/images/default_cover_art.png?1550179390|||
@@ -10977,6 +10985,7 @@
 68342|Blackout|https://images.genius.com/999e5561e4b61fae677d20c9f7cc6f93.1000x1000x1.jpg|2006|10|6
 6836|John P. Kelly|https://images.genius.com/6716af194798804846db733e37eca133.300x300x1.jpg|2001|None|None
 68437|I Am Flyylife (Mixtape)|https://assets.genius.com/images/default_cover_art.png?1550796438|||
+68580|Dear Sallie Mae EP|https://images.genius.com/256ca8b8e76dc07684860d958c6ff118.500x500x1.jpg|2013|None|None
 68663|White Christmas 2|https://images.genius.com/54ad140fee59a719134cd088af5564da.500x500x1.jpg|2013|12|24
 68750|The State vs Radric Davis 2: The Caged Bird Sings|https://images.genius.com/ed96462712d87ed0675a5df07b951a5b.640x640x1.jpg|2013|12|25
 6881|Expekt The Unexpekted|https://images.genius.com/db45804ddb559990c52ebf66a8fc9913.800x800x1.jpg|2000|None|None

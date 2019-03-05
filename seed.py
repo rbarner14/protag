@@ -16,9 +16,9 @@ def load_producers(producer_filename):
         row = row.rstrip()
         # assign variables to strings from file, using the pipe character
         # as a delimitor
-        producer_id, producer_name, producer_img_url, producer_tag_url_str = row.split("|")
+        producer_id, producer_name, producer_img_url, producer_tag_url = row.split("|")
 
-        if producer_tag_url_str == '':
+        if producer_tag_url == '':
             producer_tag_url = None
 
         producer = Producer(producer_id=producer_id,

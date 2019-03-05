@@ -1,15 +1,15 @@
-2268|Lex Luger|https://images.genius.com/d6b9ba63642dd038b56c47136109da73.432x432x1.jpg|https://www.youtube.com/watch?v=5j41jXG8Ou8
-29978|Mike WiLL Made-It|https://images.genius.com/1d29ef19a466f4bf49282b4d020cb593.895x895x1.jpg|https://www.youtube.com/watch?v=9Iz-zjXr78o
-27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg|https://www.youtube.com/watch?v=e-QWr3SR9-0
-27822|Zaytoven|https://images.genius.com/05d12a4bdd0f48cf5505f47598cb1895.479x479x1.jpg|https://www.youtube.com/watch?v=gN-JxixTeqg
-44575|London on da Track|https://images.genius.com/fcb14975af51a27a0ffb278a7524c81d.400x400x1.jpg|https://www.youtube.com/watch?v=ismsZ_hE5w8
-110|Pharrell Williams|https://images.genius.com/aa964e94a21e7b893801ed3a2bd389b8.1000x1000x1.jpg|https://www.youtube.com/watch?v=ixXNeUFdl3I
-270426|Tay Keith|https://images.genius.com/93ce688f505ad36233a91e1d0081b158.597x597x1.jpg|https://www.youtube.com/watch?v=JAGWw8Rc2oU
-17746|Jahlil Beats|https://images.genius.com/39e3d4a9a208f9c1f0090316a74faec0.761x761x1.jpg|https://www.youtube.com/watch?v=QpcPXkXdlNo
-29780|Mustard|https://s3.amazonaws.com/filepicker-images-rapgenius/a5Gy2GnyR0ijw96H739w_dj-mustard-bw-2016-billboard-1548.jpg|https://www.youtube.com/watch?v=r36msu-ZDJU
-27665|Bangladesh|https://s3.amazonaws.com/rapgenius/preview-style-suite-bangladesh.jpg|https://www.youtube.com/watch?v=t3huzFK2t0c
-27606|Young Chop|https://images.genius.com/97ae02ce3d96becb8a467776bc1c6ee5.1000x1000x1.jpg|https://www.youtube.com/watch?v=TJMNZUEEkxg
-45465|Bobby Johnson Beats|https://images.genius.com/dec172cc315efd1f0f98e29181f5fae3.320x320x1.jpg|https://www.youtube.com/watch?v=Ux6wDxrvgw0
+2268|Lex Luger|https://images.genius.com/d6b9ba63642dd038b56c47136109da73.432x432x1.jpg|https://www.youtube.com/embed/5j41jXG8Ou8
+29978|Mike WiLL Made-It|https://images.genius.com/1d29ef19a466f4bf49282b4d020cb593.895x895x1.jpg|https://www.youtube.com/embed/9Iz-zjXr78o
+27938|Sonny Digital|https://s3.amazonaws.com/rapgenius/sonnydigital.jpg|https://www.youtube.com/embed/e-QWr3SR9-0
+27822|Zaytoven|https://images.genius.com/05d12a4bdd0f48cf5505f47598cb1895.479x479x1.jpg|https://www.youtube.com/embed/gN-JxixTeqg
+44575|London on da Track|https://images.genius.com/fcb14975af51a27a0ffb278a7524c81d.400x400x1.jpg|https://www.youtube.com/embed/ismsZ_hE5w8
+110|Pharrell Williams|https://images.genius.com/aa964e94a21e7b893801ed3a2bd389b8.1000x1000x1.jpg|https://www.youtube.com/embed/ixXNeUFdl3I
+270426|Tay Keith|https://images.genius.com/93ce688f505ad36233a91e1d0081b158.597x597x1.jpg|https://www.youtube.com/embed/JAGWw8Rc2oU
+17746|Jahlil Beats|https://images.genius.com/39e3d4a9a208f9c1f0090316a74faec0.761x761x1.jpg|https://www.youtube.com/embed/QpcPXkXdlNo
+29780|Mustard|https://s3.amazonaws.com/filepicker-images-rapgenius/a5Gy2GnyR0ijw96H739w_dj-mustard-bw-2016-billboard-1548.jpg|https://www.youtube.com/embed/r36msu-ZDJU
+27665|Bangladesh|https://s3.amazonaws.com/rapgenius/preview-style-suite-bangladesh.jpg|https://www.youtube.com/embed/t3huzFK2t0c
+27606|Young Chop|https://images.genius.com/97ae02ce3d96becb8a467776bc1c6ee5.1000x1000x1.jpg|https://www.youtube.com/embed/TJMNZUEEkxg
+45465|Bobby Johnson Beats|https://images.genius.com/dec172cc315efd1f0f98e29181f5fae3.320x320x1.jpg|https://www.youtube.com/embed/Ux6wDxrvgw0
 1000140|MobSquad Nard|https://images.genius.com/109aed1a51928cfff439e2eabed19174.718x718x1.jpg|
 100291|Sub Focus|https://images.genius.com/142ddc347600d956a893f0fb981d2d7b.496x372x1.jpg|
 1007524|Ginseng|https://images.genius.com/c7580c5866cc1f8e6e7bfbdb30f7cf55.400x400x1.jpg|

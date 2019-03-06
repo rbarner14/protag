@@ -2,7 +2,7 @@ import datetime #imported for string to datetime conversions
 from sqlalchemy import func # will use when adding log-in functionality
 
 # import tables created in model.py
-from model import Producer, Performer, Song, Album, ProduceSong, connect_to_db, db
+from model import Producer, Performer, Song, Album, ProduceSong, Score, connect_to_db, db
 from server import app
 
 def load_producers(producer_filename):
@@ -21,10 +21,12 @@ def load_producers(producer_filename):
         if producer_tag_url == '':
             producer_tag_url = None
 
-        producer = Producer(producer_id=producer_id,
-                    producer_name=producer_name,
-                    producer_img_url=producer_img_url,
-                    producer_tag_url=producer_tag_url)
+        producer = Producer(
+            producer_id=producer_id,
+            producer_name=producer_name,
+            producer_img_url=producer_img_url,
+            producer_tag_url=producer_tag_url
+        )
 
         # add to the session
         db.session.add(producer)
@@ -46,9 +48,11 @@ def load_performers(performer_filename):
         row = row.rstrip()
         performer_id, performer_name, performer_img_url = row.split("|")
 
-        performer = Performer(performer_id=performer_id,
-                    performer_name=performer_name,
-                    performer_img_url=performer_img_url)
+        performer = Performer(
+            performer_id=performer_id,
+            performer_name=performer_name,
+            performer_img_url=performer_img_url
+        )
 
         db.session.add(performer)
 
@@ -125,11 +129,13 @@ def load_songs(song_filename):
             song_release_date = datetime.datetime.strptime(song_release_date_str, "%Y %m %d")
 
 
-        song = Song(song_id=song_id, 
-                song_title=song_title, 
-                song_release_year=song_release_year_str,
-                song_release_date=song_release_date, 
-                apple_music_player_url=apple_music_player_url)
+        song = Song(
+            song_id=song_id, 
+            song_title=song_title, 
+            song_release_year=song_release_year_str,
+            song_release_date=song_release_date, 
+            apple_music_player_url=apple_music_player_url
+        )
 
         db.session.add(song)
 
@@ -174,11 +180,12 @@ def load_albums(album_filename):
             album_release_date_str = " ".join([album_release_year_str, album_release_month_str, album_release_day_str])
             album_release_date = datetime.datetime.strptime(album_release_date_str, "%Y %m %d")
 
-        album = Album(album_id=album_id, 
-                album_title=album_title, 
-                cover_art_url=cover_art_url,
-                album_release_date=album_release_date
-                ) 
+        album = Album(
+            album_id=album_id, 
+            album_title=album_title, 
+            cover_art_url=cover_art_url,
+            album_release_date=album_release_date
+        ) 
 
         db.session.add(album)
 
@@ -202,12 +209,39 @@ def load_events(event_filename):
         if not album_id:
             album_id = None
 
-        song = ProduceSong(producer_id=producer_id, 
-                performer_id=performer_id, 
-                song_id=song_id, 
-                album_id=album_id)
+        song = ProduceSong(
+            producer_id=producer_id, 
+            performer_id=performer_id, 
+            song_id=song_id, 
+            album_id=album_id
+        )
 
         db.session.add(song)
+
+        if i % 1000 == 0:
+            print(i)
+
+            db.session.commit()
+
+    db.session.commit()
+
+
+def load_scores(score_filename):
+    """Load events from events.txt into database."""
+
+    print("Scores")
+
+    for i, row in enumerate(open(score_filename)):
+        row = row.rstrip()
+        performer_id, producer_id, score = row.split(",")
+
+        producer_score = Score(
+            performer_id=performer_id, 
+            producer_id=producer_id,
+            score=score
+        )
+
+        db.session.add(producer_score)
 
         if i % 1000 == 0:
             print(i)
@@ -226,8 +260,10 @@ if __name__ == "__main__":
     song_filename = "seed_data/songs.txt"
     album_filename = "seed_data/albums.txt"
     event_filename = "seed_data/events.txt"
+    score_filename = "seed_data/scores.csv"
     load_producers(producer_filename)
     load_performers(performer_filename)
     load_songs(song_filename)
     load_albums(album_filename)
     load_events(event_filename)
+    load_scores(score_filename)

@@ -6,7 +6,7 @@ from flask import Flask, redirect, render_template, request, session, flash, jso
 from flask_debugtoolbar import DebugToolbarExtension
 
 # Tables for jQuery and SQLAlchemy queries.
-from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
+from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong, Score
 from sqlalchemy import cast, Numeric
 # For API calls.
 import requests

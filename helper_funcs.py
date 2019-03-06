@@ -1,4 +1,4 @@
-from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong 
+from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong, Score
 from server import app
 
 def quantify_performer_similarity(p1_id, p2_id):

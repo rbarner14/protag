@@ -134,6 +134,20 @@ class ProduceSong(db.Model):
         return f"<ProduceSong event_id={self.event_id} producer_id={self.producer_id} performer_id={self.performer_id} song_id={self.song_id} album_id={self.album_id}>"
 
 
+class Score(db.Model):
+    """ProduceSong model."""
+
+    __tablename__ = "scores"
+
+    score_id = db.Column(db.Integer, autoincrement=True, nullable=False, primary_key=True)
+    performer_id = db.Column(db.Integer, db.ForeignKey('performers.performer_id'), nullable=False)
+    producer_id = db.Column(db.Integer, db.ForeignKey('producers.producer_id'), nullable=False)
+    score = db.Column(db.Integer, nullable=False)
+
+    def __repr__(self):
+
+        return f"<Score score_id={self.event_id} performer_id={self.performer_id} producer_id={self.producer_id} score={self.score}>"
+
 # may add Users class in 3.0
 
 

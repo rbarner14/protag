@@ -15,7 +15,7 @@ def quantify_performer_similarity(p1_id, p2_id):
     return similarity_score
 
 
-def generate_producer_vectors():
+def generate_producer_vector():
 
     # create list of producers
     producers = Producer.query.order_by("producer_id")
@@ -27,9 +27,9 @@ def generate_producer_vectors():
     return producer_ids
 
 
-def generate_performer_vectors():
+def generate_performer_vector():
 
-    # create list of producers
+    # create list of performers
     performers = Performer.query.order_by("performer_id")
     performer_ids = []
 
@@ -39,16 +39,13 @@ def generate_performer_vectors():
     return performer_ids
 
 
-def generate_performer_vectors():
+def generate_performer_vectors(performer_id):
 
-    # create list of producers
-    performers = Performer.query.order_by("performer_id")
-    performer_ids = []
+    producers = generate_producer_vector()
+    performer_vector = []
 
-    for performer in performers:
-        performer_ids.append(performer.performer_id)
-
-    return performer_ids
+    for producer in producers:
+        if ProduceSong.query.filter_by(producer)
 
 
 if __name__ == "__main__":

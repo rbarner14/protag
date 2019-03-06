@@ -10,4 +10,5 @@ data = pd.read_csv('seed_data/scores.csv')
 # data.set_index("performer_id")
 d = data.pivot(index='performer_id', columns='producer_id', values='score')
 
-print(d.head())
+# print(d.head())
+print(d)

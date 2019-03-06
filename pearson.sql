@@ -28,3 +28,34 @@ FROM
 ORDER BY
         r DESC,
         n DESC
+
+
+-- psql -d music -t -A -F"," -c "
+-- SELECT  
+--         user1, user2,
+--         ((psum - (sum1 * sum2 / n)) / sqrt((sum1sq - pow(sum1, 2.0) / n) * (sum2sq - pow(sum2, 2.0) / n))) AS r,
+--         n
+-- FROM
+--         (SELECT 
+--                 n1.performer_id AS user1,
+--                 n2.performer_id AS user2,
+--                 SUM(n1.score) AS sum1,
+--                 SUM(n2.score) AS sum2,
+--                 SUM(n1.score * n1.score) AS sum1sq,
+--                 SUM(n2.score * n2.score) AS sum2sq,
+--                 SUM(n1.score * n2.score) AS psum,
+--                 COUNT(*) AS n
+--         FROM
+--                 scores AS n1
+--     LEFT JOIN
+--         scores AS n2
+--     ON
+--         n1.producer_id = n2.producer_id
+--         WHERE   
+--                 n1.performer_id > n2.performer_id
+--     GROUP BY
+--         n1.performer_id, n2.performer_id) AS step1
+-- ORDER BY
+--         r DESC,
+--         n DESC LIMIT 10;
+-- " > query3.csv

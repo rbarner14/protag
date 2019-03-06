@@ -231,24 +231,31 @@ def load_scores(score_filename):
 
     print("Scores")
 
-    for i, row in enumerate(open(score_filename)):
-        row = row.rstrip()
-        performer_id, producer_id, score = row.split(",")
+    with open(score_filename) as f:
+        next(f)
 
-        producer_score = Score(
-            performer_id=performer_id, 
-            producer_id=producer_id,
-            score=score
-        )
+        i = 0
+        for row in f:
+        # enumerate(open(score_filename)):
+        # Skip 1st row (headers).
+            row = row.rstrip()
+            performer_id, producer_id, score = row.split(",")
 
-        db.session.add(producer_score)
+            producer_score = Score(
+                performer_id=performer_id, 
+                producer_id=producer_id,
+                score=score
+            )
 
-        if i % 1000 == 0:
-            print(i)
+            db.session.add(producer_score)
+            i += 1
 
-            db.session.commit()
+            if i % 1000 == 0:
+                print(i)
 
-    db.session.commit()
+                db.session.commit()
+
+        db.session.commit()
 
 
 if __name__ == "__main__":

@@ -7,24 +7,24 @@ SELECT
         n
 FROM
         (SELECT 
-                n1.user AS user1,
-                n2.user AS user2,
-                SUM(n1.rating) AS sum1,
-                SUM(n2.rating) AS sum2,
-                SUM(n1.rating * n1.rating) AS sum1sq,
-                SUM(n2.rating * n2.rating) AS sum2sq,
-                SUM(n1.rating * n2.rating) AS psum,
+                n1.performer_id AS user1,
+                n2.performer_id AS user2,
+                SUM(n1.score) AS sum1,
+                SUM(n2.score) AS sum2,
+                SUM(n1.score * n1.score) AS sum1sq,
+                SUM(n2.score * n2.score) AS sum2sq,
+                SUM(n1.score * n2.score) AS psum,
                 COUNT(*) AS n
         FROM
-                testdata AS n1
+                scores AS n1
     LEFT JOIN
-        testdata AS n2
+        scores AS n2
     ON
-        n1.movie = n2.movie
+        n1.producer_id = n2.producer_id
         WHERE   
-                n1.user > n2.user
+                n1.performer_id > n2.performer_id
     GROUP BY
-        n1.user, n2.user) AS step1
+        n1.performer_id, n2.performer_id) AS step1
 ORDER BY
         r DESC,
         n DESC

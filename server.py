@@ -12,6 +12,11 @@ from sqlalchemy import cast, Numeric
 import requests
 # For Chart.js color generation.
 import random
+import pandas as pd    # data formatting
+import numpy as np     # numeric library
+from sklearn.neighbors import KNeighborsClassifier  # machine learning
+from sklearn.externals import joblib
+from sklearn.metrics import confusion_matrix
 
 # Create Flask app.
 app = Flask(__name__)
@@ -291,6 +296,16 @@ def performer_detail(performer_id):
     # value (description_preview); otherwise, return an empty string.
     if j["meta"]["status"] == 200:
         bio = j["response"]["artist"].get("description_preview","")
+
+    data = pd.read_csv('seed_data/scores.csv')
+    d = data.pivot(index='performer_id', columns='producer_id', values='score')
+    # knn
+    model = joblib.load('trained-model.pkl')
+
+    dist, ind = model.kneighbors(d.iloc[300,:].values.reshape(1, -1))
+    # print(ind[0])
+    print([list(d.index)[i] for i in ind[0]])
+
 
     return render_template("performer.html",
                             performer=performer,

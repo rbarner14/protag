@@ -14,14 +14,15 @@
     {{ bio }}
     <br>
     <br>
+
     Related performers:
       
-      {% set comma = joiner(",") %}
-      {% for performer in all_performers %}
-          {% if performer.performer_id in related_performers %}
+    {% set comma = joiner(",") %}
+    {% for performer in all_performers %}
+        {% if performer.performer_id in related_performers %}
           {{ comma() }} <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
-          {% endif %}
-      {% endfor %}
+        {% endif %}
+    {% endfor %}
 
 
     <h3>Number of songs {{ performer.performer_name }} has created by producer</h3>

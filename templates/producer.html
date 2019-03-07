@@ -5,10 +5,12 @@
 {% block content %}
   <h1 align = "center">{{producer.producer_name}}
       <!-- Show producer's status depending on their album release years. -->
-      {% if album_years[-1]|int < 2008 %}
-        INDUSTRY VET
-      {% else %}
-        INDUSTRY ROOKIE
+      {% if album_years %}
+        {% if album_years[-1]|int < 2008 %}
+          INDUSTRY VET
+        {% else %}
+          INDUSTRY ROOKIE
+        {% endif %}
       {% endif %}
   </h1>
 
@@ -30,6 +32,15 @@
     {{ bio }}
     <br>
     <br>
+
+    Related producers:
+    
+    {% set comma = joiner(",") %}
+    {% for producer in all_producers %}
+        {% if producer.producer_id in related_producers %}
+          {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+        {% endif %}
+    {% endfor %}
 
     <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
 

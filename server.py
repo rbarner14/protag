@@ -114,6 +114,8 @@ def producer_detail(producer_id):
                                         .joinedload("producers")
                                     ).get(producer_id)
 
+    all_producers = Producer.query.all()
+
     albums = producer.albums # list
     # Return the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y")
@@ -129,10 +131,22 @@ def producer_detail(producer_id):
     # Store producer_id in session.
     session["producer_id"] = producer_id
 
+    # Return related performers with knn ML algorithm.
+    data = pd.read_csv('seed_data/scores.csv')
+    d = data.pivot(index='producer_id', columns='performer_id', values='score')
+    # knn
+    model = joblib.load('trained-model_producers.pkl')
+
+    dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
+    related_producers = [list(d.index)[i] for i in ind[0]]
+    related_producers.remove(producer_id)
+
     return render_template("producer.html",
                             producer=producer,
+                            all_producers=all_producers,
                             album_years=album_years,
-                            bio=bio
+                            bio=bio,
+                            related_producers=related_producers
                           )
 
 
@@ -300,7 +314,7 @@ def performer_detail(performer_id):
     if j["meta"]["status"] == 200:
         bio = j["response"]["artist"].get("description_preview","")
 
-    # Return related artists with knn ML algorithm.
+    # Return related performers with knn ML algorithm.
     data = pd.read_csv('seed_data/scores.csv')
     d = data.pivot(index='performer_id', columns='producer_id', values='score')
     # knn

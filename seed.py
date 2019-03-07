@@ -226,38 +226,6 @@ def load_events(event_filename):
     db.session.commit()
 
 
-def load_scores(score_filename):
-    """Load events from events.txt into database."""
-
-    print("Scores")
-
-    with open(score_filename) as f:
-        next(f)
-
-        i = 0
-        for row in f:
-        # enumerate(open(score_filename)):
-        # Skip 1st row (headers).
-            row = row.rstrip()
-            performer_id, producer_id, score = row.split(",")
-
-            producer_score = Score(
-                performer_id=performer_id, 
-                producer_id=producer_id,
-                score=score
-            )
-
-            db.session.add(producer_score)
-            i += 1
-
-            if i % 1000 == 0:
-                print(i)
-
-                db.session.commit()
-
-        db.session.commit()
-
-
 if __name__ == "__main__":
     connect_to_db(app)
     db.create_all()
@@ -267,10 +235,8 @@ if __name__ == "__main__":
     song_filename = "seed_data/songs.txt"
     album_filename = "seed_data/albums.txt"
     event_filename = "seed_data/events.txt"
-    score_filename = "seed_data/scores.csv"
     load_producers(producer_filename)
     load_performers(performer_filename)
     load_songs(song_filename)
     load_albums(album_filename)
     load_events(event_filename)
-    load_scores(score_filename)

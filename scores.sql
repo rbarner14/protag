@@ -24,4 +24,4 @@ CASE WHEN p.new_id = s.c THEN 1 else 0 END AS score
 LEFT JOIN prelim AS p 
       ON s.c = p.new_id
 
--- " > query2.csv
+-- " > scores.csv

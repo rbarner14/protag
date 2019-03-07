@@ -137,8 +137,11 @@ def producer_detail(producer_id):
     # knn
     model = joblib.load('trained-model_producers.pkl')
 
+    # Shape model to the dimensions of the dataset.
     dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
     related_producers = [list(d.index)[i] for i in ind[0]]
+    # The producer being searched is included in the neighbors list.  Remove it
+    # before passing list to Jinja.
     related_producers.remove(producer_id)
 
     return render_template("producer.html",
@@ -320,12 +323,11 @@ def performer_detail(performer_id):
     # knn
     model = joblib.load('trained-model.pkl')
 
+    # The performer being searched is included in the neighbors list.  Remove it
+    # before passing list to Jinja.
     dist, ind = model.kneighbors(d.loc[performer_id,:].values.reshape(1, -1))
     related_performers = [list(d.index)[i] for i in ind[0]]
     related_performers.remove(performer_id)
-
-    print(related_performers)
-
 
     return render_template("performer.html",
                             performer=performer,

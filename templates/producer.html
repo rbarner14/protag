@@ -33,11 +33,13 @@
     <br>
     <br>
 
+    <!-- Show related producers. -->
     Related producers:
     
     {% set comma = joiner(",") %}
     {% for producer in all_producers %}
         {% if producer.producer_id in related_producers %}
+          <!-- Comma separate related producer list. -->
           {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
         {% endif %}
     {% endfor %}

@@ -15,11 +15,13 @@
     <br>
     <br>
 
+    <!-- Show related performers. -->
     Related performers:
       
     {% set comma = joiner(",") %}
     {% for performer in all_performers %}
         {% if performer.performer_id in related_performers %}
+          <!-- Comma separate related producer list. -->
           {{ comma() }} <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
         {% endif %}
     {% endfor %}

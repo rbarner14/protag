@@ -83,7 +83,8 @@ Navigate to localhost:5000 in browser.
 ![Song](/static/images/readme/song.gif)
 <br/>
 
-**If performer selected, view performer's name, image, bio, Chart.js donut data visualization of songs performer made by producer, albums and singles.**
+**If performer selected, view performer's name, image, bio, related performers (generated with knn machine learning algorithm; nearest neighbors determined by 
+like producers) Chart.js donut data visualization of songs performer made by producer, albums and singles.**
 <br/><br/>
 ![Performer](/static/images/readme/performer.gif)
 <br/>
@@ -93,7 +94,8 @@ Navigate to localhost:5000 in browser.
 ![Album](/static/images/readme/album.gif)
 <br/>
 
-**If producer selected, view producer's name, image, bio, Chart.js donut and line data visualizations of songs producer made by performer, albums and singles.**
+**If producer selected, view producer's name, image, bio, related producers (generated with knn machine learning algorithm; nearest neighbors determined by 
+like performers) Chart.js donut and line data visualizations of songs producer made by performer, albums and singles.**
 <br/><br/>
 ![Producer](/static/images/readme/performer.gif)
 <br/>

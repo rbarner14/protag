@@ -14,6 +14,14 @@
     {{ bio }}
     <br>
     <br>
+    Related performers:
+      
+      {% for performer in all_performers %}
+          {% if performer.performer_id in related_performers %}
+          <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>,
+          {% endif %}
+      {% endfor %}
+
 
     <h3>Number of songs {{ performer.performer_name }} has created by producer</h3>
 
@@ -88,9 +96,9 @@
         {% if song.producers %}
           {% for producer in song.producers%}
               {% if loop.index == 1 %}
-                <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% else %}
-                , <a href="/performers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% endif %}
           {% endfor %}
         {% endif %}

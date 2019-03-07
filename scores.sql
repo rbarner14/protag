@@ -1,3 +1,5 @@
+-- psql -d music -t -A -F"," -c "
+
 WITH prelim AS(
     SELECT 
         CONCAT(performer_id, producer_id) AS new_id 
@@ -21,3 +23,5 @@ CASE WHEN p.new_id = s.c THEN 1 else 0 END AS score
      FROM secondary s 
 LEFT JOIN prelim AS p 
       ON s.c = p.new_id
+
+-- " > query2.csv

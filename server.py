@@ -109,21 +109,34 @@ def producer_detail(producer_id):
     URL = f"https://genius.com/api/artists/{producer_id}"
 
     # Method "joinedload" employed to reduce # of queries run for output.
-    producer = Producer.query.options(db.joinedload("albums")
-                                        .joinedload("songs")
+    producer = Producer.query.options(db.joinedload("songs")
+                                        .joinedload("albums")
                                         .joinedload("producers")
+                                      # db.joinedload("songs")
+                                      #   .joinedload("albums")
+                                      #   .joinedload("producers")
                                     ).get(producer_id)
+
+
+    # todo
+    #1 producer = load producer by id
+    #2 albums = load albums by producer
+    #3 songs = load song by the producer join (produce_songs with songs)
+    #
+    # cache the related producers in the db
+    # 4 releated = query...
 
     all_producers = Producer.query.all()
 
     albums = producer.albums # list
+    
     # Return the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y")
                               for album in albums]
                              ),reverse=True)
 
     j = requests.get(URL).json()
-    
+
     # If call is successful, access JSON object.
     if j["meta"]["status"] == 200:
         bio = j["response"]["artist"].get("description_preview","")

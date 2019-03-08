@@ -2,7 +2,7 @@ import datetime #imported for string to datetime conversions
 from sqlalchemy import func # will use when adding log-in functionality
 
 # import tables created in model.py
-from model import Producer, Performer, Song, Album, ProduceSong, Score, connect_to_db, db
+from model import Producer, Performer, Song, Album, ProduceSong, connect_to_db, db
 from server import app
 
 def load_producers(producer_filename):

@@ -6,7 +6,7 @@ from flask import Flask, redirect, render_template, request, session, flash, jso
 from flask_debugtoolbar import DebugToolbarExtension
 
 # Tables for jQuery and SQLAlchemy queries.
-from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong, Score
+from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong
 from sqlalchemy import cast, Numeric
 # For API calls.
 import requests
@@ -109,24 +109,14 @@ def producer_detail(producer_id):
     URL = f"https://genius.com/api/artists/{producer_id}"
 
     # Method "joinedload" employed to reduce # of queries run for output.
-    producer = Producer.query.options(db.joinedload("songs")
-                                        .joinedload("albums")
+    producer = Producer.query.options(db.joinedload("albums")
+                                        .joinedload("songs")
                                         .joinedload("producers")
-                                      # db.joinedload("songs")
-                                      #   .joinedload("albums")
-                                      #   .joinedload("producers")
                                     ).get(producer_id)
 
-
-    # todo
-    #1 producer = load producer by id
-    #2 albums = load albums by producer
-    #3 songs = load song by the producer join (produce_songs with songs)
-    #
-    # cache the related producers in the db
-    # 4 releated = query...
-
     all_producers = Producer.query.all()
+
+    print(producer)
 
     albums = producer.albums # list
     
@@ -338,6 +328,7 @@ def performer_detail(performer_id):
 
     # The performer being searched is included in the neighbors list.  Remove it
     # before passing list to Jinja.
+    # For future development: cache values to prevent doing operations in server.
     dist, ind = model.kneighbors(d.loc[performer_id,:].values.reshape(1, -1))
     related_performers = [list(d.index)[i] for i in ind[0]]
     related_performers.remove(performer_id)

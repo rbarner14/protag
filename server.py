@@ -93,6 +93,7 @@ def return_search_result():
                           )
 
 
+
 @app.route("/producers")
 def producer_list():
     """Show list of producers."""
@@ -119,7 +120,7 @@ def producer_list():
         producers=pagination_producers,
         page=page,
         per_page=per_page,
-        pagination=pagination,
+        pagination=pagination
     )
 
 
@@ -688,6 +689,20 @@ def resume():
     """Show resume."""
 
     return render_template("resume.html")
+
+
+
+@app.route("/resume.json")
+def complete_resume():
+    """Populate resume template."""
+
+    resume = {
+        "name": "Ryan Barner",
+        "title": "Full-Stack Software Engineer"
+    }
+
+    return jsonify(resume)
+
 
 
 ################################################################################

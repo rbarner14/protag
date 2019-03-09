@@ -372,7 +372,6 @@ def performer_detail(performer_id):
     # For future development: cache values to prevent doing operations in server.
     dist, ind = model.kneighbors(d.loc[performer_id,:].values.reshape(1, -1))
     related_performers = [list(d.index)[i] for i in ind[0]]
-    related_performers.remove(performer_id)
 
     return render_template("performer.html",
                             performer=performer,
@@ -703,7 +702,7 @@ def get_graph_data():
 
     # Call helper functions.
     # Read filename fed in as argument.
-    nodes, paths = make_nodes_and_paths("output_for_network.csv")
+    nodes, paths = make_nodes_and_paths("/static/output_for_network.csv")
     # Create a json object of the list of nodes and list of paths.
     return jsonify({"nodes":nodes, "paths":paths}) 
 

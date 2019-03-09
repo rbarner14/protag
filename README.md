@@ -24,7 +24,7 @@ producer's signature, aka tag.
 
 <a name="techstack"/></a>
 ## Tech Stack
-**Frontend:** JavaScript, Jinja, jQuery, Bootstrap</br>
+**Frontend:** JavaScript (React), Jinja, jQuery, Bootstrap</br>
 **Backend:** Python, Flask, SQLAlchemy, PostgreSQL<br/>
 **Libraries:** D3, Chart.js, Pandas, Scikit-learn<br/>
 **API:** Genius<br/>
@@ -51,13 +51,14 @@ Create database:
 ```
 $ createdb music
 ```
+Build database:
+```
+$ python3 -i model.py
+>>> db.create_all()
+```
 Seed database:
 ```
 $ python3 -i seed.py
-```
-Build database:
-```
-$ python3 model.py
 ```
 Run app:
 ```

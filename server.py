@@ -160,7 +160,7 @@ def producer_detail(producer_id):
     data = pd.read_csv('seed_data/scores.csv')
     d = data.pivot(index='producer_id', columns='performer_id', values='score')
     # knn
-    model = joblib.load('trained-model_producers.pkl')
+    model = joblib.load('static/model/trained-model_producers.pkl')
 
     # Shape model to the dimensions of the dataset.
     dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
@@ -365,7 +365,7 @@ def performer_detail(performer_id):
     data = pd.read_csv('seed_data/scores.csv')
     d = data.pivot(index='performer_id', columns='producer_id', values='score')
     # knn
-    model = joblib.load('trained-model.pkl')
+    model = joblib.load('static/model/trained-model.pkl')
 
     # The performer being searched is included in the neighbors list.  Remove it
     # before passing list to Jinja with pop left equivalent method.

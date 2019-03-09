@@ -2,11 +2,14 @@
 from jinja2 import StrictUndefined
 
 # For helpful debugging.
-from flask import Flask, redirect, render_template, request, session, flash, jsonify
+from flask import Flask, redirect, render_template, request, session, flash
+from flask import jsonify
+from flask_paginate import Pagination, get_page_args
 from flask_debugtoolbar import DebugToolbarExtension
 
 # Tables for jQuery and SQLAlchemy queries.
-from model import connect_to_db, db, Producer, Performer, Song, Album, ProduceSong
+from model import connect_to_db, db
+from model import Producer, Performer, Song, Album, ProduceSong
 from sqlalchemy import cast, Numeric
 # For API calls.
 import requests
@@ -97,7 +100,27 @@ def producer_list():
     # Query for all producers in database; return results alphabetized.
     producers = Producer.query.order_by("producer_name").all()
 
-    return render_template("producer_list.html", producers=producers)
+    page, per_page, offset = get_page_args(
+            page_parameter="page", per_page_parameter="per_page"
+        )
+
+    per_page = 100
+
+    offset = (page - 1) * per_page
+    total = len(producers)
+
+    pagination_producers = producers[offset : offset + per_page]
+    pagination = Pagination(
+        page=page, per_page=per_page, total=total, css_framework="bootstrap4"
+    )
+
+    return render_template(
+        "producer_list.html", 
+        producers=pagination_producers,
+        page=page,
+        per_page=per_page,
+        pagination=pagination,
+    )
 
 
 # Each producer's page's url will include the producer's database id.
@@ -284,8 +307,27 @@ def performer_list():
     # Return producers in database; return results alphabetized.
     performers = Performer.query.order_by("performer_name").all()
 
-    return render_template("performer_list.html", performers=performers)
+    page, per_page, offset = get_page_args(
+            page_parameter="page", per_page_parameter="per_page"
+        )
 
+    per_page = 100
+
+    offset = (page - 1) * per_page
+    total = len(performers)
+
+    pagination_performers = performers[offset : offset + per_page]
+    pagination = Pagination(
+        page=page, per_page=per_page, total=total, css_framework="bootstrap4"
+    )
+
+    return render_template(
+        "performer_list.html", 
+        performers=pagination_performers,
+        page=page,
+        per_page=per_page,
+        pagination=pagination
+    )
 
 # Each performer's page's url will include the performer's database id.
 @app.route("/performers/<int:performer_id>", methods=["GET"])
@@ -661,18 +703,3 @@ if __name__ == "__main__":
     DebugToolbarExtension(app)
 
     app.run(host="0.0.0.0")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

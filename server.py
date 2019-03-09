@@ -140,8 +140,6 @@ def producer_detail(producer_id):
 
     all_producers = Producer.query.all()
 
-    print(producer)
-
     albums = producer.albums # list
     
     # Return the album release years in descending chronological order.
@@ -444,8 +442,25 @@ def song_list():
     # SQLALchemy query to return all song titles.
     songs = Song.query.order_by("song_title").all()
 
+    page, per_page, offset = get_page_args(
+            page_parameter="page", per_page_parameter="per_page"
+        )
+
+    per_page = 100
+
+    offset = (page - 1) * per_page
+    total = len(songs)
+
+    pagination_songs = songs[offset : offset + per_page]
+    pagination = Pagination(
+        page=page, per_page=per_page, total=total, css_framework="bootstrap4"
+    )
+
     return render_template("song_list.html", 
-                            songs=songs
+                            songs=pagination_songs,
+                            page=page,
+                            per_page=per_page,
+                            pagination=pagination
                           )
 
 
@@ -474,8 +489,25 @@ def album_list():
                                    .joinedload("albums")
                                   ).order_by('album_title').all()
 
+    page, per_page, offset = get_page_args(
+            page_parameter="page", per_page_parameter="per_page"
+        )
+
+    per_page = 100
+
+    offset = (page - 1) * per_page
+    total = len(albums)
+
+    pagination_albums = albums[offset : offset + per_page]
+    pagination = Pagination(
+        page=page, per_page=per_page, total=total, css_framework="bootstrap4"
+    )
+
     return render_template("album_list.html", 
-                            albums=albums
+                            albums=pagination_albums,
+                            page=page,
+                            per_page=per_page,
+                            pagination=pagination
                           )
 
 
@@ -689,19 +721,6 @@ def resume():
     """Show resume."""
 
     return render_template("resume.html")
-
-
-
-@app.route("/resume.json")
-def complete_resume():
-    """Populate resume template."""
-
-    resume = {
-        "name": "Ryan Barner",
-        "title": "Full-Stack Software Engineer"
-    }
-
-    return jsonify(resume)
 
 
 

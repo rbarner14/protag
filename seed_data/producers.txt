@@ -50,7 +50,7 @@
 1324131|Hoodzone|https://images.genius.com/0a33af20a9ec15921fa7d674f06b7810.400x400x1.jpg|
 1324375|​iLOVEFRiDAY|https://images.genius.com/05ab9eecbb7435920673de19a14104c7.640x640x1.png|
 1336537|Uzeh|https://images.genius.com/019bdb8d7a5670a50866c55662055912.1000x1000x1.jpg|
-133929|TrapMoneyBenny|https://images.genius.com/378f4da6caa21fbd132ea1434441d3b0.1000x1000x1.jpg|
+133929|TrapMoneyBenny|https://www.bmi.com/images/news/2018/cache/TrapMoneyBenny_770_515_90_s.jpeg|https://www.youtube.com/embed/az6m9IE8h4o
 1341248|Red Drum|https://images.genius.com/646cc72aac0ecc7f5c9919e7a577f233.893x893x1.jpg|
 1349738|Jay Critch & Harry Fraud|https://assets.genius.com/images/default_avatar_300.png?1550179390|
 13585|Daft Punk|https://images.genius.com/a508888fd6a96cadcf835ecf95b1c1ae.1000x1000x1.jpg|

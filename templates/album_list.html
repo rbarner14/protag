@@ -12,4 +12,7 @@
             <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</a>
         </li>
     {% endfor %}
+    <br>
+
+    {{ pagination.links }}
 {% endblock %}

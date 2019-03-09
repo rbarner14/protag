@@ -7,8 +7,14 @@
 
     <!-- Show every song and song's performer. -->
     {% for song in songs %}
-        <li>
-            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
-        </li>
+        {% if song.song_title %}
+            <li>
+                <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+                - <a href="/songs/{{ song.performers[0].performer_id }}"><i>{{ song.performers[0].performer_name }}</i></a>
+            </li>
+        {% endif %}
     {% endfor %}
+    <br>
+
+    {{ pagination.links }}
 {% endblock %}

@@ -4,8 +4,6 @@
 
 <!-- Show host's bio. -->
 {% block content %}
-<!-- <div id="resume"/>
-</div> -->
   <br>
   <h4>Ryan Barner, Full-Stack Engineer</h4>
   Hackbright Academy, March 2019 Grad
@@ -13,7 +11,24 @@
   <br>
   <br>
 
-  <h5> ProTag's Inspiration</h5>
+  <!-- Show content title with React. -->
+  <div id="root"></div>
+  <script type="text/babel">
+
+  class Inspired extends React.Component {
+    render() {
+        return <h4>{this.props.message}</h4>;
+    }
+  }
+
+
+  ReactDOM.render(
+    <Inspired message="ProTag's Inspiration" />, 
+    document.getElementById("root")
+  );
+  
+  </script>
+
   Ryan's love for hip hop and data inspired her to create ProTag.  She grew
   up listening to 90s West Coast rap and considers this an ode her 14 year old
   self, who was often punished growing up for rapping the explicit lyrics of 
@@ -62,6 +77,4 @@
 
   <a href="https://www.linkedin.com/in/ryansbarner/"><img src="/static/images/linkedin_logo.png"></a>
   <a href="mailto:emailryanbarner@gmail.com"><img src="/static/images/gmail.png"></a>
-
-  <script src="/static/resume.jsx" type="text/jsx"></script>
 {% endblock %}

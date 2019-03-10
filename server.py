@@ -400,6 +400,8 @@ def generate_performer_producer_frequency_donut_chart():
         ProduceSong.performer_id == performer_id
     ).group_by(
         Producer.producer_name
+    ).order_by(
+        Producer.producer_name
     ).all()
 
     # Loop through range of song_count tuple to feed data to chart, setting 

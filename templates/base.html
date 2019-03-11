@@ -46,17 +46,17 @@
 
     <!-- Scripts. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
-    <link href="/static/style.css" rel="stylesheet"></link>
     <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link>
+    <link href="/static/style.css" rel="stylesheet"></link>
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- For Chart.js. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
       <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
     <!-- For React. -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://unpkg.com/react@15/dist/react.min.js"> </script><script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js">
-</script>
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
   </head>
 
@@ -67,7 +67,6 @@
       <a href="/performers">Performers</a>
       <a href="/producers">Producers</a>
       <a href="/songs">Songs</a>
-      <!-- <a href="/albums">Albums</a> -->
       <a href="/network">Network</a>
       <a href="/resume">Hire Me!</a>
     </div>
@@ -79,7 +78,9 @@
     <script>
       /* When the user scrolls down 20px from the top of the document, 
       show the button. */
-      window.onscroll = function() {scrollFunction()};
+      window.onscroll = function() {
+        console.log("hello");
+        scrollFunction()};
 
       function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -97,8 +98,6 @@
       }
     </script>
 
-  </body>
-
   <footer>
     <!-- Show attribution links & trademarks. -->
     {% block footer%}   
@@ -109,4 +108,5 @@
 
   </footer>
 
+  </body>
 </html>

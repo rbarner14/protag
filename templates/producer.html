@@ -1,8 +1,18 @@
 {% extends "base.html" %}
 
+{%block before_nav %}
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+{% endblock %}
+
 {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
 
 {% block content %}
+
+<div class="header"></div>
+<div class="content"></div>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
   <h1 align = "center">{{producer.producer_name}}
       <!-- Show producer's status depending on their album release years. -->
       {% if album_years %}
@@ -43,6 +53,7 @@
           {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
         {% endif %}
     {% endfor %}
+    <br>
     <br>
     <br>
 
@@ -133,4 +144,17 @@
     {% endfor %}
     <br>
   {% endif %}
+
+  <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function mySFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 {% endblock %}

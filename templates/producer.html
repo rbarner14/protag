@@ -13,6 +13,11 @@
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
   </div> 
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sticky sidenav">
+      <br>
   <h1 align = "center">{{producer.producer_name}}
       <!-- Show producer's status depending on their album release years. -->
       {% if album_years %}
@@ -24,7 +29,7 @@
       {% endif %}
   </h1>
 
-  {% if producer.songs %}
+<br>
     <!-- Show producer's image. -->
     <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
 
@@ -36,13 +41,11 @@
       <br>
       <br>
     {% endif %}
-
     <br>
     <br>
     {{ bio }}
     <br>
     <br>
-
     <!-- Show related producers. -->
     Related producers:
     
@@ -56,6 +59,9 @@
     <br>
     <br>
     <br>
+</div>
+    <div class="col-sm-9">
+  {% if producer.songs %}
 
     <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
 
@@ -144,7 +150,9 @@
     {% endfor %}
     <br>
   {% endif %}
-
+  </div>
+    </div>
+      </div>
   <script>
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};

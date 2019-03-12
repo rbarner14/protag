@@ -35,6 +35,65 @@ body {
 .nav-link {
     color: #FAA916;
 }
+    .row.content {height: 1500px}
+
+.holy-grail {
+    min-height: 100vh;
+}
+
+.holy-grail,
+.holy-grail-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.holy-grail-content {
+    flex: 1 1 auto;
+}
+
+.holy-grail-sidebar-1 {
+    order: -1;
+}
+
+    .sidenav {
+      background-color: #f1f1f1;
+/*      height: 100%;*/
+/*      position: -webkit-sticky;
+      position: sticky;*/
+/*    position: fixed;*/
+/*      top: 0;*/
+/*  margin: 0;
+  padding: 0;
+  width: 500px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;*/
+/*  overflow: auto;*/
+    }
+
+/*    .sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}*/
+
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
 
 /* Style the video: 100% width and height to cover the entire window */
 .video-bg {
@@ -55,7 +114,7 @@ body {
   align-items: center;
   top: 0;
   right: 0;
-/*  bottom: 0;*/
+  bottom: 0;
   background: rgba(0, 0, 0, 0.2);
   /*color: #f1f1f1;*/
   width: 100%;
@@ -69,7 +128,7 @@ body {
   font-size:100px;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: 'Rock Salt', cursive;
 }
 

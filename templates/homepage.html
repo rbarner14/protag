@@ -8,18 +8,20 @@
       <source autoplay="" loop="" muted="" src="/static/Plug-and-Play.mp4" type="video/mp4">
     </video>
 </div>
+<script>
+$('video').on('click', e => e.preventDefault());
+</script>
 {% endblock %}
 
 {% block content %}
 <div id="homepage">
-    <div id="homepage_title" align = "center">ProTag</div>
+    <h1>ProTag</h1>
 
     <!-- Show search bar. -->
         <form method="GET" action="/search_result">
           <div align = "center" class="form-group">
             <input type="search" class="form-control" name="search_str" required>
             <br>
-
             <input type="submit" value="ProTag It!" class="btn btn-dark">
           </div>
         </form>

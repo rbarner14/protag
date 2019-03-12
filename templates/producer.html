@@ -8,58 +8,65 @@
 
 {% block content %}
 
-<div class="header"></div>
+
+<!-- <div class="header"></div>
 <div class="content"></div>
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
-  </div> 
+  </div>  -->
 
 <div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sticky sidenav">
-      <br>
-  <h1 align = "center">{{producer.producer_name}}
-      <!-- Show producer's status depending on their album release years. -->
-      {% if album_years %}
-        {% if album_years[-1]|int < 2008 %}
-          INDUSTRY VET
-        {% else %}
-          INDUSTRY ROOKIE
-        {% endif %}
+  <div class="row">
+    <aside class="col-sm-3 sidebar">
+      <nav class="sidebar-sticky">
+        <div class="producer-info">
+          <div class="producer-info-header">
+            <h1 align = "center">
+              {{producer.producer_name}}
+              <!-- Show producer's status depending on their album release years. -->
+              {% if album_years %}
+                {% if album_years[-1]|int < 2008 %}
+                  INDUSTRY VET
+                {% else %}
+                  INDUSTRY ROOKIE
+                {% endif %}
+              {% endif %}
+            </h1>
+      <!-- Show producer's image. -->
+            <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
+          </div>
+          <div class="producer-info-content">
+
+      <!-- Show producer's signature. -->
+      {% if producer.producer_tag_url %}
+        Signature: 
+        <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br>
+        <br>
       {% endif %}
-  </h1>
-
-<br>
-    <!-- Show producer's image. -->
-    <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
-
-    <!-- Show producer's signature. -->
-    {% if producer.producer_tag_url %}
-      Signature: 
-      <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
       <br>
       <br>
-    {% endif %}
-    <br>
-    <br>
-    {{ bio }}
-    <br>
-    <br>
-    <!-- Show related producers. -->
-    Related producers:
-    
-    {% set comma = joiner(",") %}
-    {% for producer in all_producers %}
-        {% if producer.producer_id in related_producers %}
-          <!-- Comma separate related producer list. -->
-          {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-        {% endif %}
-    {% endfor %}
-    <br>
-    <br>
-    <br>
-</div>
+      {{ bio }}
+      <br>
+      <br>
+        </div>
+      </div>
+      <!-- Show related producers. -->
+      Related producers:
+      
+      {% set comma = joiner(",") %}
+      {% for producer in all_producers %}
+          {% if producer.producer_id in related_producers %}
+            <!-- Comma separate related producer list. -->
+            {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+          {% endif %}
+      {% endfor %}
+      <br>
+      <br>
+      <br>
+  </nav>
+</aside>
     <div class="col-sm-9">
   {% if producer.songs %}
 

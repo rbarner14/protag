@@ -64,13 +64,11 @@
   <body>
     {% block before_nav %}
     {% endblock %}
-
+<!-- 
     {% if request.script_root == '' %}
       <div>
-    {% else %}
-      <div>
     {% endif %}
-        
+         -->
         <!-- Show navigation bar. -->
 <!--         <div class="topnav">
           <a class="active" href="/">Home</a>
@@ -80,8 +78,8 @@
           <a href="/network">Network</a>
           <a href="/resume">Hire Me!</a>
         </div> -->
-
-        <nav class="navbar sticky-top navbar-expand-lg">
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="/">ProTag</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">_list
     <span class="navbar-toggler-icon"></span>
@@ -125,6 +123,8 @@
     </form>
   </div>
 </nav>
+  <!-- {% raw %}progress bar?{% endraw %} -->
+</header>
 
         {% block content %}PUT YOUR BODY HERE.{% endblock %}
 

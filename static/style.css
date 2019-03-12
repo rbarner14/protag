@@ -24,8 +24,7 @@ body {
     width:100%*/;
     background-color: #000000;
     color: #FAA916;
-/*    font-family: 'Roboto', sans-serif;*/
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand{
@@ -123,9 +122,11 @@ body {
   color: #FAA916;
 }
 
-#homepage_title {
+#homepage h1 {
   font-family: 'Rock Salt', cursive;
   font-size:100px;
+  text-shadow: black 0px 0px 10px;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -156,6 +157,11 @@ h1, h2, h3, h4, h5 {
   background-color: #f1f1f1;
 }
 
+.producer-info-header h1 {
+    margin: 1em 0
+
+}
+
 .progress-container {
   width: 100%;
   height: 8px;
@@ -166,6 +172,12 @@ h1, h2, h3, h4, h5 {
   height: 8px;
   background: #4caf50;
   width: 0%;
+}
+
+.sidebar-sticky {
+    height: calc(100vh - 48px);
+    position: sticky;
+    top: 71px;
 }
 
 /*.content {

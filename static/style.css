@@ -18,12 +18,12 @@ body {
 }*/
 
 .navbar {
-/*    position: fixed;*/
-/*    top: 0;
-    height:50px;
-    width:100%*/;
+/*    position: fixed;
+    top: 0;*/
+/*    height:50px;*/
+    width:100%;
     background-color: #000000;
-    color: #FAA916;
+    color: #;
     font-family: 'Roboto', sans-serif;
 }
 

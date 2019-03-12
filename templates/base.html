@@ -46,7 +46,8 @@
 
     <!-- Scripts. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
-    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link>
+<!--     <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link> -->
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link href="/static/style.css" rel="stylesheet"></link>
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- For Chart.js. -->
@@ -59,54 +60,62 @@
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
   </head>
-
   <body>
-    <!-- Show navigation bar. -->
-    <div class="topnav">
-      <a class="active" href="/">Home</a>
-      <a href="/performers">Performers</a>
-      <a href="/producers">Producers</a>
-      <a href="/songs">Songs</a>
-      <a href="/network">Network</a>
-      <a href="/resume">Hire Me!</a>
-    </div>
-
-    {% block content %}PUT YOUR BODY HERE.{% endblock %}
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-    <script>
-      /* When the user scrolls down 20px from the top of the document, 
-      show the button. */
-      window.onscroll = function() {
-        console.log("hello");
-        scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("myBtn").style.display = "block";
-        } else {
-          document.getElementById("myBtn").style.display = "none";
-        }
-      }
-
-      /* When the user clicks on the button, scroll to the top of the document. 
-      */
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-
-  <footer>
-    <!-- Show attribution links & trademarks. -->
-    {% block footer%}   
-      <br>
-      <br> 
-      Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+    {% block before_nav %}
     {% endblock %}
 
-  </footer>
+    {% if request.script_root == '' %}
+      <div>
+    {% else %}
+      <div>
+    {% endif %}
+        
+        <!-- Show navigation bar. -->
+        <div class="topnav">
+          <a class="active" href="/">Home</a>
+          <a href="/performers">Performers</a>
+          <a href="/producers">Producers</a>
+          <a href="/songs">Songs</a>
+          <a href="/network">Network</a>
+          <a href="/resume">Hire Me!</a>
+        </div>
 
+        {% block content %}PUT YOUR BODY HERE.{% endblock %}
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+          /* When the user scrolls down 20px from the top of the document, 
+          show the button. */
+          window.onscroll = function() {
+            console.log("hello");
+            scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+            } else {
+              document.getElementById("myBtn").style.display = "none";
+            }
+          }
+
+          /* When the user clicks on the button, scroll to the top of the document. 
+          */
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+
+      <footer>
+        <!-- Show attribution links & trademarks. -->
+        {% block footer%}   
+          <br>
+          <br> 
+          Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+        {% endblock %}
+
+      </footer>
+    </div>
   </body>
 </html>

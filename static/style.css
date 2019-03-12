@@ -28,6 +28,10 @@ body {
 
 }
 
+.navbar-brand{
+    color: #FAA916;
+}
+
 .nav-link {
     color: #FAA916;
 }

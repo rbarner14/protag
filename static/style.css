@@ -37,6 +37,14 @@ body {
     font-size: 29px;
 }
 
+#homepage-search {
+    position:center;
+/*    top:0;
+    left:0;*/
+    z-index:1;
+/*    width: 50px;*/
+}
+
 
 .navbar {
         position: sticky;
@@ -54,7 +62,7 @@ body {
     font-weight:700;
 }
 
-.nav-link {
+.btn, .nav-link {
     color: #FFFFFF;
     font-family: 'Roboto', 'sans-serif';
     font-weight:700;

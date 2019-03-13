@@ -19,7 +19,7 @@ body {
 
 #song-content {
   /* The image used */
-  background-image: url("audience-band-blur-1587927.jpg");
+  background-image: url("audience-band-concert-110.jpg");
   /* Full height */
   height: 100%; 
 
@@ -305,6 +305,37 @@ h2{
 /*    font-size: 50px;*/
 }
 
+
+#resume-row {
+/*    margin: 3em 0;*/
+    height: 90vh;
+/*    margin-left: auto;
+    margin-right: auto;*/
+/*    background-color: #f1f1f1;*/
+}
+
+#my-name{
+    font-family: 'Rock Salt', 'cursive';
+    font-size:50px;
+}
+
+#resume-name-and-title {
+/*    font-style:'medium';*/
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-style: "light";
+    margin-left: auto;
+    margin-right: auto;
+/*    width: 40%;*/
+padding: 400px 0;
+/*background-color: #f1f1f1;*/
+text-align: left;
+}
+
+#inspired-box {
+/*    position: center;*/
+padding: 90px 0;
+}
 /*.content {
   padding: 100px 0;
   margin: 50px auto 0 auto;

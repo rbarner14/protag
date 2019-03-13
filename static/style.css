@@ -17,14 +17,16 @@ body {
 
 }*/
 
+
 .navbar {
-/*    position: fixed;
-    top: 0;*/
+        position: sticky;
+/*    position: fixed;*/
+    top: 0;
 /*    height:50px;*/
     width:100%;
     background-color: #000000;
-    color: #;
-    font-family: 'Roboto', sans-serif;
+/*    color: #FFFFFF;*/
+/*    font-family: 'Roboto', sans-serif;*/
 }
 
 .navbar-brand{
@@ -32,9 +34,13 @@ body {
 }
 
 .nav-link {
-    color: #FAA916;
+    color: #FFFFFF;
+    font-family: 'Roboto', 'sans-serif';
 }
-    .row.content {height: 1500px}
+
+.row.content {
+    height: 1500px
+}
 
 .holy-grail {
     min-height: 100vh;
@@ -70,6 +76,19 @@ body {
   height: 100%;*/
 /*  overflow: auto;*/
     }
+
+    .sticky-top{
+        position: fixed;
+        top:0;
+        width:100%;
+    }
+
+/*#page-contents{
+   height:100%; 
+       height: calc(100vh - 48px);
+    position: sticky;
+    top: 71px;
+}*/
 
 /*    .sidenav {
   height: 100%;
@@ -178,6 +197,22 @@ h1, h2, h3, h4, h5 {
     height: calc(100vh - 48px);
     position: sticky;
     top: 71px;
+    background-color: #f1f1f1;
+/*    position: fixed;
+    width: 150px;*/
+    overflow-y: scroll;
+/*    top: 0;
+    bottom: 0;*/
+}
+
+
+.col-sm-3 {
+    background-color: #f1f1f1;
+}
+
+.bio {
+    font-size: 12px;
+    font-style:'regular';
 }
 
 /*.content {

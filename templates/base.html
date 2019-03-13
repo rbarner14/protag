@@ -47,7 +47,7 @@
     <!-- Scripts. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <!--     <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link> -->
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:700" rel="stylesheet">
     <link href="/static/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -79,52 +79,52 @@
           <a href="/resume">Hire Me!</a>
         </div> -->
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="/">ProTag</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">_list
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <a class="navbar-brand" href="/">ProTag</a>
+<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">_list
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/performers">Performers</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/performers">Performers</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="/producers">Producers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/songs">Songs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/network">Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/resume">Hire Me!</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" method="GET" action="/search_result">
+            <input class="form-control mr-sm-2" type="search" name="search_str" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="/producers">Producers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/songs">Songs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/network">Network</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/resume">Hire Me!</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0" method="GET" action="/search_result">
-      <input class="form-control mr-sm-2" type="search" name="search_str" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+      </nav>
   <!-- {% raw %}progress bar?{% endraw %} -->
-</header>
+    </header>
 
         {% block content %}PUT YOUR BODY HERE.{% endblock %}
 

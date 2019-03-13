@@ -26,11 +26,15 @@
 
     <!-- Show producer's name and image, with link to producer's page. -->
     {% if song.producers %}
+        <div class="song-producer-row"
         <h3>Produced by:</h3>
         {% for producer in song.producers %}
-            <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}" class="song-avatar">{{ producer.producer_name }}
+            <div class="avatar-container">
+            <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}" class="song-avatar"><br>{{ producer.producer_name }}
             </a>
+            </div>
         {% endfor %}
+        </div>
     </div>
     {% endif %}
 </div>

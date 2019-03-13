@@ -125,26 +125,48 @@
       <!-- Return songs producer has producer by album and year, if album exists, with links to the songs' pages. -->
     <div class="album-header">Albums</div>
     <br>
+<!--     <div class="card-group"> -->
     {% for year in album_years %}
       <div class="year">{{year}}</div>
+              <div class="row">
       {% for album in producer.albums %}
         {% if album.album_release_date.strftime("%Y") == year %}
-          <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3>
+<!--          <div class="col-sm-2"> -->
+        <div class="card" style="width: 18rem;">
           <!-- Show album's cover art. -->
-          <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-
-          {% for song in album.songs %} 
+<!--           width="250" height="200 -->
+          <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+          <div class="card-body">
+            <h5 class="card-title"><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h5>
+          </div>
+          <div class="card-text">
+            {% for song in album.songs %} 
             {% if producer in song.producers %}
             <li>
               <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
             </li>
             {% endif %}
           {% endfor %}
-          <br>
-          <br>
+          </div>
+<!--         </div> -->
+      </div>
+<!--                     <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3> -->
+
+<!--           {% for song in album.songs %} 
+            {% if producer in song.producers %}
+            <li>
+              <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
+            </li>
+            {% endif %}
+          {% endfor %} -->
+<!--           <br>
+          <br> -->
         {% endif %}
       {% endfor %}
+<!--     </div> -->
+    </div>
     {% endfor %}
+<!--   </div> -->
     <br>
 
     <!-- Return song details (title and performer and their respective pages) without albums. -->

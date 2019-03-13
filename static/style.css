@@ -109,6 +109,7 @@ html, body {
 /*    height:50px;*/
     width:100%;
     background-color: #000000;
+    opacity: 0.7;
 /*    color: #FFFFFF;*/
 /*    font-family: 'Roboto', sans-serif;*/
 }
@@ -191,15 +192,23 @@ html, body {
 }*/
 
 .avatar {
-    width:300px;
+    width:280px;
+    height:280px;
 /*    margin: 10px;*/
 display: block;
     margin-left: auto;
     margin-right: auto;
     border:3px solid black;
     border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
+/*    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;*/
+}
+
+.song-avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
     @media screen and (max-width: 767px) {
@@ -257,7 +266,8 @@ h2{
 #list-title {
     font-family: 'Roboto', 'sans-serif';
     font-weight:700;
-    margin: 5em 0 0 0;
+    font-size:50px;
+    margin: 1em 0 0 0;
 }
 
 .artist_name {

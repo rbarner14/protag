@@ -4,7 +4,7 @@
 
 <!-- Show song's producers, album, and head page with song name & performer.-->
 {% block content %}
-
+<div id="song-content">
     <h1 align = "center"><i>{{song.song_title}}</i>
     {% if song.performers %} 
         - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a>
@@ -13,7 +13,9 @@
     <br>
     
     <!-- Apple Music player -->
+    <div id="song-player">
     <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="70" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="{{song.apple_music_player_url}}"></iframe>
+    </div>
     <br>
 
     <!-- Show song album came from, if album exists. -->
@@ -32,4 +34,5 @@
           </li>
         {% endfor %}
     {% endif %}
+</div>
 {% endblock %}

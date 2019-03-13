@@ -93,14 +93,19 @@
         - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
       {% endif %}
     </h1>
-    <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-
-    <br>
-    <br>
-    {{ bio }}
-    <br>
-    <br>
-
+<!--           <div class="row">
+            <div id="album-col" class="col"> -->
+          <img src="{{ album.cover_art_url }}" width="500" height="500" alt="{{ album.album_title }}">
+<!--         </div> -->
+          <br>
+          <br>
+<!--           <div id="album-bio-col" class="col"> -->
+          {{ bio }}
+<!--         </div> -->
+          <br>
+          <br>
+<!--           <br>
+        </div> -->
     {% if album.songs %}
       <h3>Distribution of songs on <i>{{ album.album_title }}</i> by producer</h3>
 

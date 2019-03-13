@@ -17,6 +17,43 @@ body {
 
 }*/
 
+#song-content {
+  /* The image used */
+  background-image: url("audience-band-blur-1587927.jpg");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#song-player {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+/*  background: rgba(0, 0, 0, 0.2);*/
+  /*color: #f1f1f1;*/
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: #FAA916;
+}
+
+#album-col {
+
+}
+
+#album-bio-col{
+
+}
+
 .charts-header, .album-header, .singles-header {
     font-family: 'Roboto', 'sans-serif';
 /*    font-style: "thin";

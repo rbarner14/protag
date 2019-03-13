@@ -3,9 +3,9 @@ html, body {
     height: 100%; 
 }
 
-body { 
+/*body { 
     position: relative; 
-}
+}*/
 /*
 .topnav {
     position: fixed;
@@ -16,6 +16,25 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }*/
+
+/* top | right | bottom | left */
+#list-group-row{
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+ /*   font-family: Programme,sans-serif;*/
+    margin: auto;
+    width:50%;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: "medium";
+    font-weight:700;
+    font-size: 15px;
+
+}
+
+.pagination {
+    margin: auto;
+}
+
 
 #song-content {
   /* The image used */
@@ -235,13 +254,21 @@ h2{
     font-size: 50px;*/
 }
 
+#list-title {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight:700;
+    margin: 5em 0 0 0;
+}
+
 .artist_name {
     font-family: 'Rock Salt', cursive;
 }
 
 /* Style the button used to pause/play the video */
 #myBtn {
-  width: 200px;
+  width: 50px;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight:700;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -334,8 +361,9 @@ text-align: left;
 
 #inspired-box {
 /*    position: center;*/
-padding: 90px 0;
+padding: 160px 0;
 }
+
 /*.content {
   padding: 100px 0;
   margin: 50px auto 0 auto;

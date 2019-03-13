@@ -150,8 +150,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+/*h1, h2, h3, h4, h5 {
   font-family: 'Rock Salt', cursive;
+}
+*/
+.artist_name {
+    font-family: 'Rock Salt', cursive;
 }
 
 /* Style the button used to pause/play the video */
@@ -179,8 +183,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .producer-info-header h1 {
-    margin: 1em 0
-
+    margin: 1em 0;
 }
 
 .progress-container {
@@ -202,7 +205,7 @@ h1, h2, h3, h4, h5 {
     background-color: #f1f1f1;
 /*    position: fixed;
     width: 150px;*/
-    overflow-y: scroll;
+    overflow-y: auto;
 /*    top: 0;
     bottom: 0;*/
 }

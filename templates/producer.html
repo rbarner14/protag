@@ -21,14 +21,16 @@
       <nav class="sidebar-sticky">
         <div class="producer-info">
           <div class="producer-info-header">
-            <h1 align = "center">
+            <h1 align= "center" class="artist_name">
               {{producer.producer_name}}
+              <br>
+              <br>
               <!-- Show producer's status depending on their album release years. -->
               {% if album_years %}
                 {% if album_years[-1]|int < 2008 %}
-                  INDUSTRY VET
+                  (INDUSTRY VET)
                 {% else %}
-                  INDUSTRY ROOKIE
+                  (INDUSTRY ROOKIE)
                 {% endif %}
               {% endif %}
             </h1>

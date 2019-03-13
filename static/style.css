@@ -83,12 +83,14 @@ body {
         width:100%;
     }
 
-/*#page-contents{
-   height:100%; 
+#page-contents{
+/*   height:100%; 
        height: calc(100vh - 48px);
     position: sticky;
-    top: 71px;
-}*/
+    top: 71px;*/
+      margin: 4em 0
+
+}
 
 /*    .sidenav {
   height: 100%;

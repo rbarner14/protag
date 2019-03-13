@@ -35,7 +35,8 @@
               {% endif %}
             </h1>
       <!-- Show producer's image. -->
-            <img src="{{ producer.producer_img_url }}" width="250" height="200" alt="{{ producer.producer_name }}">
+      <!-- width="250" height="200" -->
+            <img src="{{ producer.producer_img_url }}" class="avatar" alt="{{ producer.producer_name }}">
           </div>
           <div class="producer-info-content">
 
@@ -57,7 +58,7 @@
         </div>
       </div>
       <!-- Show related producers. -->
-      Related producers:
+      <b>Related producers</b>:
       
       {% set comma = joiner(",") %}
       {% for producer in all_producers %}
@@ -74,20 +75,20 @@
     <div id="page-contents" class="col-sm-9">
   {% if producer.songs %}
 
-    <h3>Number of songs {{ producer.producer_name }} has produced by performer</h3>
+    <div class="charts-header">Number of songs {{ producer.producer_name }} has produced by performer</div>
 
     <!-- Show producer's performer frequency donut chart. -->
     <div class="donut_chart">
       <canvas id="producer_song_donutChart"></canvas>
       <div id="producer_song_donutLegend" class="chart-legend"></div>
     </div>
-
+    <br>
     <!-- Show producer's song frequency line chart. -->
     <div class="line_chart">
       <canvas id="producer_song_lineChart"></canvas>
       <div id="producer_song_lineLegend" class="chart-legend"></div>
     </div>
-
+    <br>
     <!-- Create Chartjs charts. -->
     <script>
       const options = {
@@ -122,10 +123,10 @@
     <br>
     
       <!-- Return songs producer has producer by album and year, if album exists, with links to the songs' pages. -->
-    <h2>Albums</h2>
+    <div class="album-header">Albums</div>
     <br>
     {% for year in album_years %}
-      <h2>{{year}}</h2>
+      <div class="year">{{year}}</div>
       {% for album in producer.albums %}
         {% if album.album_release_date.strftime("%Y") == year %}
           <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3>
@@ -147,7 +148,7 @@
     <br>
 
     <!-- Return song details (title and performer and their respective pages) without albums. -->
-    <h2>Singles</h2>
+    <div class= "singles-header">Singles</div>
     <br>
     {% for song in producer.songs %}
       {% if not song.albums %}               

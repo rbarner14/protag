@@ -17,6 +17,26 @@ body {
 
 }*/
 
+.charts-header, .album-header, .singles-header {
+    font-family: 'Roboto', 'sans-serif';
+/*    font-style: "thin";
+    font-weight:100;
+    font-size: 50px;*/
+    font-style: "medium";
+    font-weight:700;
+    font-size: 30px;
+}
+
+.year {
+    font-family: 'Roboto', 'sans-serif';
+/*    font-style: "thin";
+    font-weight:100;
+    font-size: 50px;*/
+    font-style: "medium";
+    font-weight:700;
+    font-size: 29px;
+}
+
 
 .navbar {
         position: sticky;
@@ -31,11 +51,13 @@ body {
 
 .navbar-brand{
     color: #FAA916;
+    font-weight:700;
 }
 
 .nav-link {
     color: #FFFFFF;
     font-family: 'Roboto', 'sans-serif';
+    font-weight:700;
 }
 
 .row.content {
@@ -104,6 +126,17 @@ body {
   padding-top: 20px;
 }*/
 
+.avatar {
+    width:300px;
+/*    margin: 10px;*/
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
 
     @media screen and (max-width: 767px) {
       .sidenav {
@@ -150,10 +183,13 @@ body {
   text-align: center;
 }
 
-/*h1, h2, h3, h4, h5 {
-  font-family: 'Rock Salt', cursive;
+h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight:700;
+/*    font-style: "medium";
+    font-size: 50px;*/
 }
-*/
+
 .artist_name {
     font-family: 'Rock Salt', cursive;
 }
@@ -216,8 +252,12 @@ body {
 }
 
 .bio {
-    font-size: 12px;
-    font-style:'regular';
+    font-size: 14px;
+/*    font-style:'medium';*/
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-style: "light";
+/*    font-size: 50px;*/
 }
 
 /*.content {

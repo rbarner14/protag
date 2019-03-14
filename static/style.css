@@ -529,16 +529,23 @@ h2 {
 padding: 400px 0;
 /*background-color: #f1f1f1;*/
 text-align: left;
+
 }
 
 #my-title {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 700;
+/*    background-color: #FAA916;*/
+/*    text-align: left;*/
+/*    width: 70%;*/
+/*    opacity: 0.8;*/
+    margin: 1em;
+/*    border: 3px solid black;*/
 }
 
 #inspired-box {
 /*    position: center;*/
-padding: 160px 0;
+  padding: 160px 0;
 }
 
 .split {
@@ -547,7 +554,7 @@ padding: 160px 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  overflow-x: hidden;
+/*  overflow-x: hidden;*/
   padding-top: 20px;
 }
 
@@ -556,8 +563,19 @@ padding: 160px 0;
     background-color: #f1f1f1;
 /*  background-color: #111;*/
   text-align: center;
+  border: 8px solid black;
 }
 
+
+.left-test{
+
+  text-align: left;
+  margin-top: 3em;
+  background-color: #FAA916;
+  width: 15%;
+  padding: 20px;
+  display: flex;
+}
 .right {
     right: 0;
     background-color: white;

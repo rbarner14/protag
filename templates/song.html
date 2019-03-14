@@ -19,6 +19,11 @@
 
     <!-- Show song album came from, if album exists. -->
     <div class="song-info">
+            <div class="song-title" ><i>{{song.song_title}}</i>
+    {% if song.performers %} 
+        - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a>
+    {% endif %}
+    </div>
     {% if song.albums %}
     <div class="song-album">
       From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></a>

@@ -106,19 +106,18 @@
     </form>
   </div>
 </nav>
-
-    <!-- Show album title and performer, with link to performer's page -->
-<!--     <h1 align = "center"><i>{{ album.album_title }}</i> 
-      {% if album.performers %}
-        - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
-      {% endif %}
-    </h1> -->
 <!--           <div class="row">
             <div id="album-col" class="col"> -->
         <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6">
-          <div class="cover-art-large">
+              <!-- Show album title and performer, with link to performer's page -->
+    <div id="album-description" align = "center"><i>{{ album.album_title }}</i> 
+      {% if album.performers %}
+        - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
+      {% endif %}
+    </div>
+          <div id="cover-art-large">
           <img id="album-cover-art-large" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
         </div>
           <br>

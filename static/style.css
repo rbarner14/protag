@@ -1,6 +1,7 @@
 html, body { 
     width: 100%; 
     height: 100%; 
+/*    background-color: #111;*/
 /*    background-color: #FAA916;*/
 }
 
@@ -17,6 +18,13 @@ html, body {
     font-family: 'Roboto', sans-serif;
 
 }*/
+
+.producer-status {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
 
 .song-info {
     margin: 3em 0 0 2em;
@@ -80,14 +88,6 @@ html, body {
   color: #FAA916;
 }
 
-#album-col {
-
-}
-
-#album-bio-col{
-
-}
-
 .charts-header, .album-header, .singles-header {
     font-family: 'Roboto', 'sans-serif';
 /*    font-style: "thin";
@@ -106,6 +106,7 @@ html, body {
     font-style: "medium";
     font-weight:700;
     font-size: 29px;
+    margin: 1.5em 0 0.5em 0;
 }
 
 #homepage-search {
@@ -190,8 +191,12 @@ html, body {
        height: calc(100vh - 48px);
     position: sticky;
     top: 71px;*/
-      margin: 4em 0
+      margin: 4em 0;
 
+}
+
+#sub-page-contents {
+    margin: 0 0 0 2em;
 }
 
 /*    .sidenav {
@@ -206,6 +211,23 @@ html, body {
   padding-top: 20px;
 }*/
 
+.card-title {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+}
+
+.album-title {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.album-performer-name {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 15px;
+}
+
 .avatar {
     width:280px;
     height:280px;
@@ -216,6 +238,7 @@ html, body {
     border:3px solid black;
 /*    border-radius: 500px;*/
     border-radius: 50%;
+    box-shadow: 5px 10px 18px #888888;
 /*    -webkit-border-radius: 500px;
     -moz-border-radius: 500px;*/
 }
@@ -226,6 +249,7 @@ html, body {
     height: 100px;
     border:3px solid black;
     border-radius: 50%;
+
 }
 
 .avatar-container {
@@ -309,6 +333,10 @@ h2 {
     font-family: 'Rock Salt', cursive;
 }
 
+.related_artists{
+    margin: 1em;
+}
+
 /* Style the button used to pause/play the video */
 #myBtn {
   width: 50px;
@@ -336,7 +364,7 @@ h2 {
 }
 
 .producer-info-header h1 {
-    margin: 1em 0;
+    margin: 1em 0 0 0;
 }
 
 .progress-container {
@@ -375,6 +403,7 @@ h2 {
     font-weight: 300;
     font-style: "light";
 /*    font-size: 50px;*/
+    margin: 1em;
 }
 
 
@@ -441,6 +470,11 @@ padding: 160px 0;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.card {
+    margin: 0.5em;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 

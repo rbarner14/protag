@@ -23,17 +23,9 @@
           <div class="producer-info-header">
             <h1 align= "center" class="artist_name">
               {{producer.producer_name}}
-              <br>
+              </h1>
               <br>
               <!-- Show producer's status depending on their album release years. -->
-              {% if album_years %}
-                {% if album_years[-1]|int < 2008 %}
-                  (INDUSTRY VET)
-                {% else %}
-                  (INDUSTRY ROOKIE)
-                {% endif %}
-              {% endif %}
-            </h1>
       <!-- Show producer's image. -->
       <!-- width="250" height="200" -->
             <img src="{{ producer.producer_img_url }}" class="avatar" alt="{{ producer.producer_name }}">
@@ -46,16 +38,22 @@
         <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       {% endif %}
-      <br>
-      <br>
+                    <div class="producer-status">
+              {% if album_years %}
+                {% if album_years[-1]|int < 2008 %}
+                  (Industry Vet)
+                {% else %}
+                  (Industry Rookie)
+                {% endif %}
+              {% endif %}
+            </div>
       <div class="bio">
       {{ bio }}
     </div>
-      <br>
-      <br>
         </div>
       </div>
       <!-- Show related producers. -->
+      <div class="related_artists">
       <b>Related producers</b>:
       
       {% set comma = joiner(",") %}
@@ -65,14 +63,12 @@
             {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
           {% endif %}
       {% endfor %}
-      <br>
-      <br>
-      <br>
+    </div>
       </nav>
     </aside>
     <div id="page-contents" class="col-sm-9">
+      <div id="sub-page-contents">
   {% if producer.songs %}
-
     <div class="charts-header">Number of songs {{ producer.producer_name }} has produced by performer</div>
 
     <!-- Show producer's performer frequency donut chart. -->
@@ -135,17 +131,18 @@
 <!--           width="250" height="200 -->
           <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
           <div class="card-body">
-            <h5 class="card-title"><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h5>
+            <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br><a class="album-performer-name" href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></header>
           </div>
-          <div class="card-text">
+          <ul class="list-group list-group-flush">
             {% for song in album.songs %} 
             {% if producer in song.producers %}
-            <li>
+
+            <li class="list-group-item">
               <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
             </li>
             {% endif %}
+          </ul>
           {% endfor %}
-          </div>
 <!--         </div> -->
       </div>
 <!--                     <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3> -->
@@ -185,6 +182,7 @@
   </div>
     </div>
       </div>
+    </div>
   <script>
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};

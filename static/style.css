@@ -49,13 +49,20 @@ html, body {
     width:50%;
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
-    font-weight:700;
+    font-weight: 700;
     font-size: 15px;
 
 }
 
+/*.list-group-item-action {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: "medium";
+    font-weight: 700;
+    font-size: 15px;
+}
+*/
 
-.list-group-flush {
+#song-list-group-flush {
     margin:auto;
     width: 50%;
 }
@@ -270,7 +277,7 @@ html, body {
     font-size: 15px;
 }
 
-.list-group-item {
+#artist-song-list {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
     font-size: 15px;

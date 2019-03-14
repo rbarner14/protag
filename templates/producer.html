@@ -136,7 +136,7 @@
             {% for song in album.songs %} 
             {% if producer in song.producers %}
 
-            <li class="list-group-item">
+            <li id="artist-song-list" class="list-group-item">
               <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
             </li>
             {% endif %}

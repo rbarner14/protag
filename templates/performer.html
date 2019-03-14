@@ -20,7 +20,7 @@
               <br>
 <!--   <h1 align = "center">{{performer.performer_name}}</h1> -->
     <!-- Show producer's image. -->
-    <img src="{{ performer.performer_img_url }}" width="250" height="200" alt="{{ performer.performer_name }}">
+    <img src="{{ performer.performer_img_url }}" class="avatar" alt="{{ performer.performer_name }}">
           </div>
       <div class="bio">
     {{ bio }}
@@ -42,11 +42,10 @@
       </nav>
     </aside>
 
-    <div id="page-contents" class="col-sm-9">
-      <div id="sub-page-contents">
+    <div id="performer-page-contents" class="col-sm-9">
+      <div id="performer-sub-page-contents">
           {% if performer.songs %}
     <div class="charts-header">Number of songs {{ performer.performer_name }} has created by producer</div>
-
     <!-- Show performer to producer frequency donut chart. -->
     <div class="donut-chart">
       <canvas id="performer_song_donutChart"></canvas>
@@ -74,65 +73,65 @@
     <div class="album-header">Albums</div>
     {% if album_years %}
 
-      <!-- Loop through album_years. -->
-      {% for year in album_years %}
-        <!-- Show album year. -->
-              <div class="year">{{year}}</div>
-              <div class="row">
-                      <!-- Loop through albums. -->
-        {% for album in performer.albums %}
-          <!-- Show album details (title, production) by album release year. -->
-          {% if album.album_release_date.strftime("%Y") == year %}
-        <div class="card" style="width: 18rem;">
+        <!-- Loop through album_years. -->
+        {% for year in album_years %}
+          <!-- Show album year. -->
+                <div class="year">{{year}}</div>
+                <div class="row">
+                        <!-- Loop through albums. -->
+          {% for album in performer.albums %}
+            <!-- Show album details (title, production) by album release year. -->
+            {% if album.album_release_date.strftime("%Y") == year %}
+          <div class="card" style="width: 18rem;">
 
-<!--             <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a></h3>
-            <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
- -->
-<img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
-          <div class="card-body">
-            <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br></header>
+  <!--             <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a></h3>
+              <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
+   -->
+            <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+            <div class="card-body">
+              <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br></header>
+            </div>
+
+
+            <ul class="list-group list-group-flush">
+                  {% for song in album.songs %} 
+                      {% if song.producers %}
+                      <li id="performer-song-list" class="list-group-item">
+                      <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
+                        produced by
+                          {% for producer in song.producers %} 
+                              {% if loop.index == 1%}
+                                <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                              {% else %}
+                                , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                              {% endif %}
+                          {% endfor %}
+                      {% endif %}
+                      </li>
+                  {% endfor %}
+                                </ul>
+            </div>
+            {% endif %}
+          {% endfor %}
           </div>
-
-
-          <ul class="list-group list-group-flush">
-            {% for song in album.songs %} 
- <li id="artist-song-list" class="list-group-item">
-              <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
-              {% if song.producers %}
-                produced by
-                {% for producer in song.producers %} 
-                  {% if loop.index == 1%}
-                    <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                  {% else %}
-                    , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-              </li>
-            {% endfor %}
-            <br>
-          {% endif %}
         {% endfor %}
-        <br>
-          </ul>
-      {% endfor %}
-          <br>
-  </div>
+                  </div>
     {% endif %}
-
+<!--     </div>
+  </div> -->
     <!-- Show details (title and production) for songs that do not have albums. -->
     <div class="singles-header">Singles</div>
-    <ul id="singles-list-group-flush" class="list-group list-group-flush">
+    <ul id="performer-singles-list-group-flush" class="list-group list-group-flush">
     {% for song in performer.songs %}
       {% if not song.albums %}
-        <li id="singles-list-item" class="list-group-item">
-          <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
+        <li id="performer-singles-list-item" class="list-group-item">
+          <a id="performer-singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
         {% if song.producers %}
           {% for producer in song.producers%}
               {% if loop.index == 1 %}
-                <a id="song-list-item-performer-name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                <a id="performer-song-list-item-performer-name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% else %}
-                , <a hid="song-list-item-performer-name"ref="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                , <a id="performer-song-list-item-performer-name"ref="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% endif %}
           {% endfor %}
         {% endif %}
@@ -141,7 +140,6 @@
     {% endfor %}
 </ul>
   {% endif %}
-    </div>
     </div>
       </div>
     </div>

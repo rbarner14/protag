@@ -67,22 +67,22 @@ html, body {
     width: 50%;
 }
 
-#singles-list-group-flush {
+#singles-list-group-flush, #performer-singles-list-group-flush {
     margin: 0 6em 0 0;
     width: 40%;
 }
 
-#song-list-item, #singles-list-item {
+#song-list-item, #singles-list-item, #performer-singles-list-item {
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
     font-weight:700;
 }
 
-#song-list-item-song-title, #singles-list-item-song-title {
+#song-list-item-song-title, #singles-list-item-song-title, #performer-singles-list-item-song-title {
     font-size: 16px;
 }
 
-#song-list-item-performer-name, #singles-list-item-performer-name {
+#song-list-item-performer-name, #singles-list-item-performer-name, #performer-song-list-item-performer-name{
     font-size: 13px;
 }
 
@@ -239,7 +239,7 @@ html, body {
         width:100%;
     }
 
-#page-contents{
+#page-contents, #performer-page-contents{
 /*   height:100%; 
        height: calc(100vh - 48px);
     position: sticky;
@@ -248,7 +248,7 @@ html, body {
 
 }
 
-#sub-page-contents {
+#sub-page-contents, #performer-sub-page-contents {
     margin: 0 0 0 2em;
 }
 
@@ -285,7 +285,7 @@ html, body {
     font-size: 15px;
 }
 
-#artist-song-list {
+#artist-song-list, #performer-song-list {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
     font-size: 15px;

@@ -3,18 +3,26 @@
 {% block title %}ProTag - Songs{% endblock %}
 
 {% block content %}
-    <h1 align = "center">Songs</h1>
+    <div class="list-title" align = "center">Songs</div>
 
     <!-- Show every song and song's performer. -->
+<!--     <div id="song-list-group-row"> -->
+    <ul class="list-group list-group-flush">
     {% for song in songs %}
         {% if song.song_title %}
-            <li>
-                <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
-                - <a href="/performers/{{ song.performers[0].performer_id }}"><i>{{ song.performers[0].performer_name }}</i></a>
+            <li id="song-list-item" class="list-group-item">
+<!--             <div class="list-group"> -->
+<!--                     <a href="/songs/{{ song.song_id }}" class="list-group-item list-group-item-action"><i>{{ song.song_title }}</i> -->
+                <a id="song-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
+                - 
+                <a id="song-list-item-performer-name" href="/performers/{{ song.performers[0].performer_id }}"><i>{{ song.performers[0].performer_name }}
+                </i></a>
             </li>
         {% endif %}
     {% endfor %}
+        </div>
+<!--     </div> -->
     <br>
-
-    {{ pagination.links }}
+    
+    <div class="pagination">{{ pagination.links }}</div>
 {% endblock %}

@@ -1,6 +1,7 @@
 html, body { 
     width: 100%; 
     height: 100%; 
+/*    background-color: #FAA916;*/
 }
 
 /*body { 
@@ -279,7 +280,7 @@ html, body {
   /*color: #f1f1f1;*/
   width: 100%;
   height: 100%;
-  padding: 20px;
+/*  padding: 20px;*/
   color: #FAA916;
 }
 
@@ -403,10 +404,45 @@ padding: 400px 0;
 text-align: left;
 }
 
+#my-title {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+}
+
 #inspired-box {
 /*    position: center;*/
 padding: 160px 0;
 }
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #f1f1f1;
+/*  background-color: #111;*/
+}
+
+.right {
+    right: 0;
+    background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 /*.content {
   padding: 100px 0;

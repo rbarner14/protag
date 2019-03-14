@@ -428,7 +428,7 @@ h2 {
     font-family: 'Rock Salt', 'cursive';
 /*    font-weight:700;*/
     font-size: 30px;
-    margin: 2em 0 0 2em;
+    margin: 3em 0 0 2em;
 }
 
 /* Style the button used to pause/play the video */
@@ -597,6 +597,45 @@ padding: 160px 0;
   margin-top: 3em;
   margin-bottom: 2em;
 }
+
+      .node {
+        cursor: pointer;
+      }
+
+      /*.node circle {
+          fill: #fff;
+          stroke: steelblue;
+          stroke-width: 1.5px;
+      }*/
+
+      .node text {
+        font: 10px sans-serif;
+      }
+
+      .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+      }
+
+      #vis {
+        width: 280px;
+        height: 280px;
+      }
+
+      #bubble-title {
+        margin-top: 2em;
+        text-align: center;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 700;
+        font-size: 25px;
+      }
+
+      #album-song-content {
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 700;
+/*        font-size: 20px;*/
+      }
 /*.justify-content-between{
   position:center;
 }*/

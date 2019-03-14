@@ -4,15 +4,20 @@
 
 <!-- List performers with their pictures and links to their page. -->
 {% block content %}
-  <h1 align = "center">Performers</h1>
+  <div class="list-title" align = "center">Performers</div>
 
+<!-- Show producer's image and link to their page. -->
+    <div id="performer-list-group-row">
   {% for performer in performers %}
-    <li>
-        <img src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">
-        <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
-    </li>
+  <div class="list-group">
+    <div class="list-group">
+        <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"> <img class="list-image" src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}
+        </a>
+
   {% endfor %}
-  <br>
+    </div>
+    </div>
+    <br>
   
-  {{ pagination.links }}
+  <div class="pagination">{{ pagination.links }}</div>
 {% endblock %}

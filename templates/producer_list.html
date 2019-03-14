@@ -3,10 +3,10 @@
 {% block title %}ProTag - Producers{% endblock %}
 
 {% block content %}
-    <div id="list-title" align = "center">Producers</div>
+    <div class="list-title" align = "center">Producers</div>
 
     <!-- Show producer's image and link to their page. -->
-    <div id="list-group-row">
+    <div id="producer-list-group-row">
     {% for producer in producers %}
         <div class="list-group">
             <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action" ><img class="list-image" src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>

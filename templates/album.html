@@ -88,22 +88,27 @@
 </nav>
 
     <!-- Show album title and performer, with link to performer's page -->
-    <h1 align = "center"><i>{{ album.album_title }}</i> 
+<!--     <h1 align = "center"><i>{{ album.album_title }}</i> 
       {% if album.performers %}
         - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
       {% endif %}
-    </h1>
+    </h1> -->
 <!--           <div class="row">
             <div id="album-col" class="col"> -->
-          <img src="{{ album.cover_art_url }}" width="500" height="500" alt="{{ album.album_title }}">
+        <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <img id="album-cover-art-large" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+          <br>
+          <div class="bio">{{ bio }}</div>
+        </div>
+        <div class="col-sm-6">
+          
 <!--         </div> -->
-          <br>
-          <br>
+<!--           <br> -->
 <!--           <div id="album-bio-col" class="col"> -->
-          {{ bio }}
+<!--           {{ bio }} -->
 <!--         </div> -->
-          <br>
-          <br>
 <!--           <br>
         </div> -->
     {% if album.songs %}
@@ -493,5 +498,8 @@
       <br> 
       Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
   </footer>
+</div>
+        </div>
+      </div>
 </html>
 

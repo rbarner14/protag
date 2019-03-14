@@ -17,8 +17,8 @@ function makeForceGraph(data){
   // Define the dimensions of the visualization.
 
   $container = $("#svg_container");
-  const width = 900;
-  const height = 1000;
+  const width = 1318;
+  const height = 779;
 
   ////////////////////////////////////////////////////////////////////////////////
   // D3 Visualization //

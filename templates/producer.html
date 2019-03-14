@@ -164,17 +164,19 @@
     <br>
 
     <!-- Return song details (title and performer and their respective pages) without albums. -->
-    <div class= "singles-header">Singles</div>
+    <div class="singles-header">Singles</div>
+    <ul id="singles-list-group-flush" class="list-group list-group-flush">
     {% for song in producer.songs %}
       {% if not song.albums %}               
-        <li>
-          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+        <li id="singles-list-item" class="list-group-item">
+          <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
           {% if song.performers %}
-           - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+           - <a id="song-list-item-performer-name" href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
           {% endif %}
         </li>
       {% endif %}
     {% endfor %}
+  </ul>
     <br>
   {% endif %}
   </div>

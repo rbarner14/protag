@@ -67,17 +67,22 @@ html, body {
     width: 50%;
 }
 
-#song-list-item {
+#singles-list-group-flush {
+    margin: 0 6em 0 0;
+    width: 40%;
+}
+
+#song-list-item, #singles-list-item {
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
     font-weight:700;
 }
 
-#song-list-item-song-title {
+#song-list-item-song-title, #singles-list-item-song-title {
     font-size: 16px;
 }
 
-#song-list-item-performer-name {
+#song-list-item-performer-name, #singles-list-item-performer-name {
     font-size: 13px;
 }
 

@@ -36,6 +36,26 @@
         stroke: #ccc;
         stroke-width: 1.5px;
       }
+
+      #vis {
+        width: 280px;
+        height: 280px;
+      }
+
+      #bubble-title {
+        margin-top: 2em;
+        text-align: center;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 700;
+        font-size: 25px;
+      }
+
+      #album-song-content {
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 700;
+/*        font-size: 20px;*/
+      }
+
     </style>
 
   </head>
@@ -98,7 +118,9 @@
         <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6">
+          <div class="cover-art-large">
           <img id="album-cover-art-large" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+        </div>
           <br>
           <div class="bio">{{ bio }}</div>
         </div>
@@ -111,16 +133,9 @@
 <!--         </div> -->
 <!--           <br>
         </div> -->
-        <div class="carousel-item">
-  <img src="..." alt="...">
-  <div class="carousel-caption d-none d-md-block">
-    <h5>...</h5>
-    <p>...</p>
-  </div>
-</div>
 
     {% if album.songs %}
-      <h3>Distribution of songs on <i>{{ album.album_title }}</i> by producer</h3>
+      <div id="bubble-title">Distribution of songs on <i>{{ album.album_title }}</i> by producer</div>
 
       <!-- Show bubble chart, centered. -->
       <div id="bubble-chart" align="center"></div>
@@ -480,34 +495,40 @@
 
       </script>
 
+</div>
       <!-- Show songs on album. -->
-      <h4>Songs:</h4>
+    <div class="row justify-content-between">
+      <div class="album-song-content">
+        <div class="singles-header">Songs</div>
+    <ul id="album-songs-list-group-flush" class="list-group list-group-flush">
       {% for song in album.songs %}
-        <li>
-          <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+        <li id="album-songs-list-item" class="list-group-item">
+          <a id="album-songs-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
           {% if song.producers %}
             produced by
             {% for producer in song.producers%} 
               {% if loop.index == 1%}
-                <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                <a class="album-songs-list-item-performer_name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% else %}
-                , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                , <a class="album-songs-list-item-performer_name" href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% endif %}
             {% endfor %}
           {% endif %}
         </li>
       {% endfor %}
+      <ul>
     {% endif %}
+  </div>
+  </div>
   </body>
+  </div>
 
   <!-- Show accreditation links. -->
-  <footer>
+<!--   <footer>
       <br>
       <br> 
       Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
-  </footer>
-</div>
-        </div>
+  </footer> -->
       </div>
 </html>
 

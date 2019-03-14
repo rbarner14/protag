@@ -96,6 +96,18 @@ html, body {
     font-style: "medium";
     font-weight:700;
     font-size: 30px;
+    margin: 1em 0 0 0;
+}
+
+.singles-header {
+    font-family: 'Roboto', 'sans-serif';
+/*    font-style: "thin";
+    font-weight:100;
+    font-size: 50px;*/
+    font-style: "medium";
+    font-weight:700;
+    font-size: 30px;
+    margin: 1em 0 0.5em 0;
 }
 
 .year {
@@ -379,7 +391,7 @@ h2 {
 }
 
 .sidebar-sticky {
-    height: calc(100vh - 48px);
+    height: calc(100vh - 70px);
     position: sticky;
     top: 71px;
     background-color: #f1f1f1;

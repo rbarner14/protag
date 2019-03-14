@@ -89,6 +89,9 @@ html, body {
 .pagination {
     margin: auto;
     margin-bottom: 0.5em;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: "medium";
+    font-weight:700;
 }
 
 

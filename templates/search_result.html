@@ -9,7 +9,7 @@
 
     <!-- Show matching producers' name and link to their page. -->
     {% if producers %}
-      <div class="list-title" align = "center">Producers</div>
+      <div class="list-title" align = "center"><a href="/producers">Producers</a></div>
 
       <div id="producer-list-group-row">
       {% for producer in producers %}
@@ -24,7 +24,7 @@
 
     <!-- Show matching performers' name and link to their page. -->
     {% if performers %}
-    <div class="list-title" align = "center">Performers</div>
+    <div class="list-title" align = "center"><a href="/performers">Performers</a></div>
 
     <div id="performer-list-group-row">
       {% for performer in performers %}
@@ -38,7 +38,7 @@
 
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
-      <div class="list-title" align = "center">Songs</div>
+      <div class="list-title" align = "center"><a href="/performers">Songs</a></div>
       <ul id="song-list-group-flush" class="list-group list-group-flush">
       {% for song in songs %}
           <li id="song-list-item" class="list-group-item">

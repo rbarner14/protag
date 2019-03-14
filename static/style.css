@@ -279,7 +279,6 @@ html, body {
 }
 
 
-
 /* Style the video: 100% width and height to cover the entire window */
 .video-bg {
   position: absolute;
@@ -334,7 +333,7 @@ h2 {
 }
 
 .related_artists{
-    margin: 1em;
+    margin: 1em 0 3em 0;
 }
 
 /* Style the button used to pause/play the video */
@@ -477,7 +476,13 @@ padding: 160px 0;
     box-shadow: 5px 10px 18px #888888;
 }
 
+#producer_song_donutChart {
+    margin: 0 0 2em 0;
+}
 
+.signature {
+    margin: 1em;
+}
 /*.content {
   padding: 100px 0;
   margin: 50px auto 0 auto;

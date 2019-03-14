@@ -31,13 +31,6 @@
             <img src="{{ producer.producer_img_url }}" class="avatar" alt="{{ producer.producer_name }}">
           </div>
           <div class="producer-info-content">
-
-      <!-- Show producer's signature. -->
-      {% if producer.producer_tag_url %}
-        <b>Signature</b>: 
-        <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-      {% endif %}
                     <div class="producer-status">
               {% if album_years %}
                 {% if album_years[-1]|int < 2008 %}
@@ -47,6 +40,14 @@
                 {% endif %}
               {% endif %}
             </div>
+      <!-- Show producer's signature. -->
+      {% if producer.producer_tag_url %}
+        <div class="signature">
+        <b>Signature</b>: 
+        <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+      {% endif %}
       <div class="bio">
       {{ bio }}
     </div>
@@ -76,13 +77,11 @@
       <canvas id="producer_song_donutChart"></canvas>
       <div id="producer_song_donutLegend" class="chart-legend"></div>
     </div>
-    <br>
     <!-- Show producer's song frequency line chart. -->
     <div class="line_chart">
       <canvas id="producer_song_lineChart"></canvas>
       <div id="producer_song_lineLegend" class="chart-legend"></div>
     </div>
-    <br>
     <!-- Create Chartjs charts. -->
     <script>
       const options = {

@@ -16,6 +16,16 @@ html, body {
     font-family: 'Roboto', sans-serif;
 
 }*/
+
+.song-info {
+    margin: 3em 0 0 2em;
+    font-family: 'Roboto', 'sans-serif';
+/*    font-style: "medium";*/
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+}
+
 .song-info a {
    color: #FFFFFF
 /*   color: #000000*/
@@ -101,7 +111,7 @@ html, body {
     position:center;
 /*    top:0;
     left:0;*/
-    z-index:1;
+    z-index: 1;
 /*    width: 50px;*/
 }
 

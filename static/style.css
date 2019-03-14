@@ -16,6 +16,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 
 }*/
+.song-info a {
+   color: #FFFFFF
+/*   color: #000000*/
+}
 
 /* top | right | bottom | left */
 #list-group-row{
@@ -195,7 +199,7 @@ html, body {
     width:280px;
     height:280px;
 /*    margin: 10px;*/
-display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border:3px solid black;
@@ -216,8 +220,10 @@ display: block;
 .avatar-container {
     align-items: center;
     padding: 1em;
-    text-align:center;
+    text-align: center;
     z-index: 1;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
 }
 
 .song-producer-row {
@@ -226,13 +232,16 @@ display: block;
     display: flex;
 }
 
-    @media screen and (max-width: 767px) {
-      .sidenav {
+@media screen and (max-width: 767px) {
+    .sidenav {
         height: auto;
         padding: 15px;
-      }
-      .row.content {height: auto;} 
     }
+
+    .row.content {
+        height: auto;
+    }
+}
 
 
 
@@ -271,7 +280,7 @@ display: block;
   text-align: center;
 }
 
-h2{
+h2 {
     font-family: 'Roboto', 'sans-serif';
     font-weight:700;
 /*    font-style: "medium";

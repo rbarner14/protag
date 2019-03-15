@@ -11,33 +11,36 @@
     <!-- Show matching producers' name and link to their page. -->
     {% if producers %}
     <div class="search-sub-container">
-      <div class="list-title" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
+      <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
 
       {% for producer in producers %}
         <div class="list-group">
-          <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
+          <a href="/producers/{{ producer.producer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
                   </div>
       {% endfor %}
     {% endif %}
   </div>
-
+</div>
     <!-- Show matching performers' name and link to their page. -->
+<div class="search-container">
     {% if performers %}
     <div class="search-sub-container">
-    <div class="list-title" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
+    <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
 
       {% for performer in performers %}
         <div class="list-group">
-          <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="55" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
+          <a href="/performers/{{ performer.performer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="55" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
       {% endfor %}
     </div>
     {% endif %}
       </div>
+</div>
 
+<div class="search-container">
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
         <div class="search-sub-container">
-      <div class="list-title" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
+      <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
       <ul id="song-list-group-flush2" class="list-group list-group-flush">
       {% for song in songs %}
           <li id="song-list-item" class="list-group-item">
@@ -50,11 +53,13 @@
     </ul>
     {% endif %}
   </div>
+</div>
 
+<div class="search-container">
     <!-- Show matching albums' title and link to its page. -->
     {% if albums %}
-        <div class="search-sub-container">
-        <div id="album-title-search-result" class="list-title" align="center" class="search-result-subtitle">Albums</div>
+        <div class="album-search-sub-container">
+        <div id="album-title-search-result" class="list-subtitle" align="center" class="search-result-subtitle">Albums</div>
       <ul id="list-group">
       {% for album in albums %}
         <li id="song-list-item" class="list-group-item">
@@ -66,11 +71,25 @@
         </li>
       {% endfor %}
     </ul>
+      </div>
     {% endif %}
-  </div>
 
   {% else %}
     <div class="no-results"><h2>Sorry!  <a href="/">Try again?</a></h2></div>
+    </div>
   {% endif%}
-</div>
+ <div id="search-end"class="search-container">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ </div>
 {% endblock %}

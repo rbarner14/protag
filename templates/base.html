@@ -64,11 +64,15 @@
   <body>
     {% block before_nav %}
     {% endblock %}
-<!-- 
-    {% if request.script_root == '' %}
-      <div>
-    {% endif %}
-         -->
+
+<!--     {% if request.script_root == '' %}
+      <div id="homepage-main">
+    {% elif request.script_root == "producers" or request.script_root == "performers" or request.script_root == "/search_result" %}
+      <div id="other-pages">
+    {% else %}
+      <div id="no-background">
+    {% endif %} -->
+        
         <!-- Show navigation bar. -->
 <!--         <div class="topnav">
           <a class="active" href="/">Home</a>
@@ -161,5 +165,6 @@
 <!-- 
       </footer> -->
     </div>
+<!--   </div> -->
   </body>
 </html>

@@ -124,7 +124,7 @@
     <ul id="singles-list-group-flush" class="list-group list-group-flush">
     {% for song in performer.songs %}
       {% if not song.albums %}
-        <li id="singles-list-item" class="list-group-item">
+        <li id="singles-list-item-song-title" class="list-group-item">
           <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
         {% if song.producers %}
           {% for producer in song.producers%}

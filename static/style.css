@@ -183,9 +183,18 @@ html, body {
 .search-container {
     padding-right: 30%;
     padding-left: 30%;
-      background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
+.search-sub-container {
+    background-color: #f1f1f1;
+}
+
+.album-search-sub-container {
+    padding-right: 10%;
+    padding-left: 10%;  
+    background-color: #f1f1f1;
+}
 
 #list-container {
 /*  padding-right: auto;
@@ -195,6 +204,13 @@ html, body {
 /*  margin: 0 0 0 1em;*/
 }
 
+#search-end, #other-pages{
+  background-color: #f1f1f1;
+}
+
+#main-search-bar {
+  width: 400px;
+}
 /*.singles-header {
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
@@ -441,6 +457,13 @@ h2 {
     font-weight:700;
     font-size:50px;
     margin: 1em 0 0 0;
+}
+
+.list-subtitle {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight:700;
+    font-size:50px;
+    margin: 0 0 0 0;
 }
 
 .artist_name {

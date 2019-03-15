@@ -10,7 +10,7 @@
 
     <!-- Show matching producers' name and link to their page. -->
     {% if producers %}
-    <div class="search-sub-container">
+    <div class="album-search-sub-container">
       <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
 
       {% for producer in producers %}
@@ -22,9 +22,9 @@
   </div>
 </div>
     <!-- Show matching performers' name and link to their page. -->
-<div class="search-container">
+<!-- <div class="search-container"> -->
     {% if performers %}
-    <div class="search-sub-container">
+    <div class="album-search-sub-container">
     <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
 
       {% for performer in performers %}
@@ -36,12 +36,12 @@
       </div>
 </div>
 
-<div class="search-container">
+<!-- <div class="search-container"> -->
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
-        <div class="search-sub-container">
+        <div class="album-search-sub-container">
       <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
-      <ul id="song-list-group-flush2" class="list-group list-group-flush">
+      <ul id="list-group">
       {% for song in songs %}
           <li id="song-list-item" class="list-group-item">
             <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
@@ -51,11 +51,12 @@
           </li>
       {% endfor %}
     </ul>
+    <br>
     {% endif %}
   </div>
 </div>
 
-<div class="search-container">
+<!-- <div class="search-container"> -->
     <!-- Show matching albums' title and link to its page. -->
     {% if albums %}
         <div class="album-search-sub-container">
@@ -71,6 +72,7 @@
         </li>
       {% endfor %}
     </ul>
+        <br>
       </div>
     {% endif %}
 

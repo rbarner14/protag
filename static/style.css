@@ -191,9 +191,10 @@ html, body {
 }
 
 .album-search-sub-container {
-    padding-right: 10%;
-    padding-left: 10%;  
+    padding-right: 20%;
+    padding-left: 20%;  
     background-color: #f1f1f1;
+/*    justify-content: center;*/
 }
 
 #list-container {

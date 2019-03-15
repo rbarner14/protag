@@ -67,8 +67,14 @@ html, body {
     padding-left: 30%;
 }
 
+.vet-tag {
+  width: 10%;
+  height: 10%;
+}
+
 .no-results {
-  margin: 0 0 0 1em ;
+  margin: 3em 0 0 1em ;
+  text-align:center;
 }
 
 #song-list-group-flush2 {

@@ -22,7 +22,15 @@
         <div class="producer-info">
           <div class="producer-info-header">
             <h1 align= "center" class="artist_name">
-              {{producer.producer_name}}
+                {% if album_years %}
+                {% if album_years[-1]|int < 2008 %}
+                  {{producer.producer_name}} <img src="/static/Blank-Tag-PNG-Pic.png" class="vet-tag" data-toggle="tooltip" data-placement="right" title="Industry Vet">
+<!--                   (Industry Vet) -->
+                {% else %}
+                {{producer.producer_name}}
+<!--                   (Industry Rookie) -->
+                {% endif %}
+              {% endif %}
               </h1>
               <br>
               <!-- Show producer's status depending on their album release years. -->
@@ -31,7 +39,7 @@
             <img src="{{ producer.producer_img_url }}" class="avatar" alt="{{ producer.producer_name }}">
           </div>
           <div class="producer-info-content">
-                    <div class="producer-status">
+<!--                     <div class="producer-status">
               {% if album_years %}
                 {% if album_years[-1]|int < 2008 %}
                   (Industry Vet)
@@ -39,7 +47,7 @@
                   (Industry Rookie)
                 {% endif %}
               {% endif %}
-            </div>
+            </div> -->
       <!-- Show producer's signature. -->
       {% if producer.producer_tag_url %}
         <div class="signature">

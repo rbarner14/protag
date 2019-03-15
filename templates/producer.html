@@ -120,7 +120,7 @@
 <!--     <div class="card-group"> -->
     {% for year in album_years %}
       <div class="year">{{year}}</div>
-              <div class="row">
+        <div class="card-columns">
       {% for album in producer.albums %}
         {% if album.album_release_date.strftime("%Y") == year %}
 <!--          <div class="col-sm-2"> -->
@@ -129,7 +129,7 @@
 <!--           width="250" height="200 -->
           <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
           <div class="card-body">
-            <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br><a class="album-performer-name" href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></header>
+            <header class=""><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br><a class="album-performer-name" href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></header>
           </div>
           <ul class="list-group list-group-flush">
             {% for song in album.songs %} 
@@ -139,8 +139,8 @@
               <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
             </li>
             {% endif %}
-          </ul>
           {% endfor %}
+          </ul>
 <!--         </div> -->
       </div>
 <!--                     <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a></h3> -->

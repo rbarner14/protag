@@ -116,6 +116,7 @@
     <br>
     
       <!-- Return songs producer has producer by album and year, if album exists, with links to the songs' pages. -->
+    {% if album_years %}
     <div class="album-header">Albums</div>
 <!--     <div class="card-group"> -->
     {% for year in album_years %}
@@ -159,8 +160,9 @@
 <!--     </div> -->
     </div>
     {% endfor %}
+    {% endif %}
 <!--   </div> -->
-    <br>
+
 
     <!-- Return song details (title and performer and their respective pages) without albums. -->
     <div class="singles-header">Singles</div>

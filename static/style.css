@@ -41,8 +41,8 @@ html, body {
 }
 
 /* top | right | bottom | left */
-#producer-list-group-row, #performer-list-group-row {
-    align-items: center;
+#producer-list-group-row, #performer-list-group-row, #song-list-group-flush {
+/*    align-items: center;*/
     border-bottom: 1px solid #ccc;
  /*   font-family: Programme,sans-serif;*/
     margin: auto;
@@ -54,6 +54,22 @@ html, body {
 
 }
 
+.no-results {
+  margin: 0 0 0 1em ;
+}
+
+#song-list-group-flush2 {
+/*    align-items: center;*/
+    border-bottom: 1px solid #ccc;
+ /*   font-family: Programme,sans-serif;*/
+/*    margin: auto;*/
+    width:80%;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: "medium";
+    font-weight: 700;
+    font-size: 15px;
+}
+
 /*.list-group-item-action {
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
@@ -61,11 +77,6 @@ html, body {
     font-size: 15px;
 }
 */
-
-#song-list-group-flush {
-    margin:auto;
-    width: 50%;
-}
 
 #singles-list-group-flush, #performer-singles-list-group-flush {
     margin: 0 6em 0 0;
@@ -140,16 +151,13 @@ html, body {
     margin: 1em 0 0 0;
 }
 
-.singles-header {
+/*.singles-header {
     font-family: 'Roboto', 'sans-serif';
-/*    font-style: "thin";
-    font-weight:100;
-    font-size: 50px;*/
     font-style: "medium";
     font-weight:700;
     font-size: 30px;
     margin: 1em 0 0.5em 0;
-}
+}*/
 
 .year {
     font-family: 'Roboto', 'sans-serif';

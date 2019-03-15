@@ -14,10 +14,9 @@
       <div id="producer-list-group-row">
       {% for producer in producers %}
         <div class="list-group">
-          <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
-        </li>
+          <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
+                  </div>
       {% endfor %}
-        </div>
       </div>
     {% endif %}
     <br>
@@ -29,17 +28,17 @@
     <div id="performer-list-group-row">
       {% for performer in performers %}
         <div class="list-group">
-          <a href="/performers/{{ performer.performer_id }}"><img src="{{ performer.performer_img_url }}"  width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
-        </div>
+          <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
       {% endfor %}
+    </div>
     </div>
     {% endif %}
       <br>
 
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
-      <div class="list-title" align = "center"><a href="/performers">Songs</a></div>
-      <ul id="song-list-group-flush" class="list-group list-group-flush">
+      <div class="list-title" align = "center"><a href="/songs">Songs</a></div>
+      <ul id="song-list-group-flush2" class="list-group list-group-flush">
       {% for song in songs %}
           <li id="song-list-item" class="list-group-item">
             <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
@@ -55,7 +54,7 @@
     <!-- Show matching albums' title and link to its page. -->
     {% if albums %}
         <div class="list-title" align = "center">Albums</div>
-      <ul id="song-list-group-flush" class="list-group list-group-flush">
+      <ul id="song-list-group-flush2" class="list-group list-group-flush">
       {% for album in albums %}
         <li id="song-list-item" class="list-group-item">
           <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
@@ -69,7 +68,7 @@
     {% endif %}
 
   {% else %}
-    <h2>Sorry!  <a href="/">Try again?</a></h2>
+    <div class="no-results"><h2>Sorry!  <a href="/">Try again?</a></h2></div>
   {% endif%}
 
 {% endblock %}

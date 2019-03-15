@@ -9,7 +9,7 @@
     <div id="producer-list-group-row">
     {% for producer in producers %}
         <div class="list-group">
-            <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action" ><img class="list-image" src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
+            <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img class="list-image" src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
     {% endfor %}
         </div>
     </div>

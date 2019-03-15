@@ -24,7 +24,7 @@
             <div align= "center" class="artist_name">
                 {% if album_years %}
                 {% if album_years[-1]|int < 2008 %}
-                  {{producer.producer_name}} <img src="/static/Blank-Tag-PNG-Pic.png" class="vet-tag" data-toggle="tooltip" data-placement="right" title="Industry Vet">
+                  {{producer.producer_name}} <img src="/static/Blank-Tag-PNG-Pic.png" class="vet-tag" data-toggle="tooltip" data-placement="right" data-delay="-1" title="Industry Vet">
 <!--                   (Industry Vet) -->
                 {% else %}
                 {{producer.producer_name}}

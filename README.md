@@ -69,14 +69,9 @@ Navigate to localhost:5000 in browser.
 <a name="demo"/></a>
 ## Demo
 
-**Enter a song, performer, album, or producer.**
+**Enter a song, performer, album, or producer.  Select desired result.**
 <br/><br/>
 ![Homepage](/static/images/readme/homepage.gif)
-<br/>
-
-**Select desired result.**
-<br/><br/>
-![Select Search Result](/static/images/readme/search_result.gif)
 <br/>
 
 **If song selected, view song's title, album, performer, Apple Music player, and producers.**

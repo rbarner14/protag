@@ -776,9 +776,27 @@ text-align: left;
     background-size: cover;
 }*/
 
-/*footer {
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.page-end {
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 700;
+  color:#000000;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 1em;
+  justify-content:center;
+}
+
+/*footer {*/
+/*    position:absolute;*/
+/*    bottom: 0;
+    padding-right: 30%;
+    padding-left: 45%;*/
+/*    left: 0;
+    right: 0;*/
+/*    margin: 0 0 2em 0;*/
+/*    text-align: center;*/
+ /*   justify-content: center;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    display: flex;
 }*/

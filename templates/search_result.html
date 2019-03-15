@@ -3,15 +3,15 @@
 {% block title %}ProTag - Search Result{% endblock %}
 
 {% block content %}
-  <div id="search-result-title" align = "center"> ProTag Search Result</div>
 
 <div class="search-container">
+    <div class="list-title" align = "center"> ProTag Search Result</div>
   {% if producers or performers or songs or albums %}
 
     <!-- Show matching producers' name and link to their page. -->
     {% if producers %}
     <div class="search-sub-container">
-      <div class="list-title" align = "center"><a href="/producers">Producers</a></div>
+      <div class="list-title" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
 
       {% for producer in producers %}
         <div class="list-group">
@@ -25,11 +25,11 @@
     <!-- Show matching performers' name and link to their page. -->
     {% if performers %}
     <div class="search-sub-container">
-    <div class="list-title" align = "center"><a href="/performers">Performers</a></div>
+    <div class="list-title" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
 
       {% for performer in performers %}
         <div class="list-group">
-          <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
+          <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="55" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
       {% endfor %}
     </div>
     {% endif %}
@@ -39,7 +39,7 @@
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
         <div class="search-sub-container">
-      <div class="list-title" align = "center"><a href="/songs">Songs</a></div>
+      <div class="list-title" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
       <ul id="song-list-group-flush2" class="list-group list-group-flush">
       {% for song in songs %}
           <li id="song-list-item" class="list-group-item">
@@ -57,7 +57,7 @@
     <!-- Show matching albums' title and link to its page. -->
     {% if albums %}
         <div class="search-sub-container">
-        <div class="list-title" align = "center">Albums</div>
+        <div id="album-title-search-result" class="list-title" align="center" class="search-result-subtitle">Albums</div>
       <ul id="list-group">
       {% for album in albums %}
         <li id="song-list-item" class="list-group-item">

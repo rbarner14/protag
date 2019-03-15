@@ -54,6 +54,14 @@ html, body {
 
 }
 
+.search-result-subtitle, #album-title-search-result {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: "medium";
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
 .no-results {
   margin: 0 0 0 1em ;
 }
@@ -83,6 +91,7 @@ html, body {
     width: 50%;
 }
 
+
 #song-list-item, #singles-list-item, #performer-singles-list-item {
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
@@ -90,6 +99,16 @@ html, body {
     left: 0;
     flex-flow: 
     /*width: 50%;*/
+}
+
+#song-list-item2 {
+  font-family: 'Roboto', 'sans-serif';
+  font-style: "medium";
+  font-weight:700;
+  left: 0;
+  justify-content: center;
+  /*flex-flow: */
+
 }
 
 #song-list-item-song-title, #singles-list-item-song-title, #performer-singles-list-item-song-title {
@@ -108,11 +127,11 @@ html, body {
 .pagination {
 /*    margin-right: auto;
     margin-left: auto;*/
-    margin-bottom: 0.5em;
     font-family: 'Roboto', 'sans-serif';
     font-style: "medium";
     font-weight:700;
     justify-content: center;
+    background-color: #f1f1f1;
 }
 
 
@@ -157,12 +176,18 @@ html, body {
 }
 
 .search-container {
-    justify-content: center;
+    padding-right: 30%;
+    padding-left: 30%;
+      background-color: #f1f1f1;
 }
 
-#song-container{
-  padding-right: 30%;
-  padding-left: 30%;
+
+#list-container {
+/*  padding-right: auto;
+  padding-left: auto;*/
+  justify-content: center;
+  background-color: #f1f1f1;
+/*  margin: 0 0 0 1em;*/
 }
 
 /*.singles-header {

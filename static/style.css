@@ -515,7 +515,9 @@ h2 {
 
 #my-name{
     font-family: 'Rock Salt', 'cursive';
-    font-size:50px;
+    font-size:90px;
+/*    position: absolute;*/
+    text-align: right; 
 }
 
 #resume-name-and-title {
@@ -526,21 +528,27 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 /*    width: 40%;*/
-padding: 400px 0;
+/*padding: 400px 0;*/
 /*background-color: #f1f1f1;*/
 text-align: left;
+    right: 0;
 
 }
 
 #my-title {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 700;
-/*    background-color: #FAA916;*/
-/*    text-align: left;*/
-/*    width: 70%;*/
-/*    opacity: 0.8;*/
-    margin: 1em;
+    background-color: #FAA916;
+    text-align: right;
+    right: 0;
+    width: 104%;
+    opacity: 0.7;
+    position: bottom;
+    padding-right: 2px;
+/*    margin: 1em;*/
 /*    border: 3px solid black;*/
+/*    position: absolute;*/
+    /*align-content: right;*/
 }
 
 #inspired-box {
@@ -560,22 +568,31 @@ text-align: left;
 
 .left {
     left: 0;
-    background-color: #f1f1f1;
+/*    background-color: #f1f1f1;*/
 /*  background-color: #111;*/
   text-align: center;
-  border: 8px solid black;
+  border-right: 30px solid black;
+  background-image: url("architecture-attractions-bay-236513.jpg");
+  background-size: cover;
+/*  background-opacity: ;*/
 }
+
+/*#left-resume {
+    background-image: url("business-computer-connection-1054397.jpg");
+  background-size: cover;
+  opacity: 0.5;
+}*/
 
 
 .left-test{
-
   text-align: left;
   margin-top: 3em;
   background-color: #FAA916;
-  width: 15%;
+  width: 20%;
   padding: 20px;
   display: flex;
 }
+
 .right {
     right: 0;
     background-color: white;

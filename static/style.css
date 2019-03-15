@@ -62,6 +62,11 @@ html, body {
 
 }
 
+#song-list-group-row {
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
 .no-results {
   margin: 0 0 0 1em ;
 }

@@ -121,11 +121,11 @@
   </div> -->
     <!-- Show details (title and production) for songs that do not have albums. -->
     <div class="singles-header">Singles</div>
-    <ul id="song-list-group-flush2" class="list-group list-group-flush">
+    <ul id="singles-list-group-flush" class="list-group list-group-flush">
     {% for song in performer.songs %}
       {% if not song.albums %}
-        <li id="performer-singles-list-item" class="list-group-item">
-          <a id="performer-singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
+        <li id="singles-list-item" class="list-group-item">
+          <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
         {% if song.producers %}
           {% for producer in song.producers%}
               {% if loop.index == 1 %}

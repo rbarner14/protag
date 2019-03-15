@@ -5,38 +5,40 @@
 {% block content %}
   <div id="search-result-title" align = "center"> ProTag Search Result</div>
 
+<div class="search-container">
   {% if producers or performers or songs or albums %}
 
     <!-- Show matching producers' name and link to their page. -->
     {% if producers %}
+    <div class="search-sub-container">
       <div class="list-title" align = "center"><a href="/producers">Producers</a></div>
 
-      <div id="producer-list-group-row">
       {% for producer in producers %}
         <div class="list-group">
           <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
                   </div>
       {% endfor %}
-      </div>
     {% endif %}
+  </div>
     <br>
 
     <!-- Show matching performers' name and link to their page. -->
     {% if performers %}
+    <div class="search-sub-container">
     <div class="list-title" align = "center"><a href="/performers">Performers</a></div>
 
-    <div id="performer-list-group-row">
       {% for performer in performers %}
         <div class="list-group">
           <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
       {% endfor %}
     </div>
-    </div>
     {% endif %}
+      </div>
       <br>
 
     <!-- Show matching songs' title and link to its page. -->
     {% if songs %}
+        <div class="search-sub-container">
       <div class="list-title" align = "center"><a href="/songs">Songs</a></div>
       <ul id="song-list-group-flush2" class="list-group list-group-flush">
       {% for song in songs %}
@@ -49,12 +51,14 @@
       {% endfor %}
     </ul>
     {% endif %}
+  </div>
     <br>
 
     <!-- Show matching albums' title and link to its page. -->
     {% if albums %}
+        <div class="search-sub-container">
         <div class="list-title" align = "center">Albums</div>
-      <ul id="song-list-group-flush2" class="list-group list-group-flush">
+      <ul id="list-group">
       {% for album in albums %}
         <li id="song-list-item" class="list-group-item">
           <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
@@ -66,9 +70,10 @@
       {% endfor %}
     </ul>
     {% endif %}
+  </div>
 
   {% else %}
     <div class="no-results"><h2>Sorry!  <a href="/">Try again?</a></h2></div>
   {% endif%}
-
+</div>
 {% endblock %}

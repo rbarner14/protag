@@ -77,7 +77,7 @@
         {% for year in album_years %}
           <!-- Show album year. -->
                 <div class="year">{{year}}</div>
-                <div class="row">
+                <div class="card-columns">
                         <!-- Loop through albums. -->
           {% for album in performer.albums %}
             <!-- Show album details (title, production) by album release year. -->
@@ -129,9 +129,9 @@
         {% if song.producers %}
           {% for producer in song.producers%}
               {% if loop.index == 1 %}
-                <a id="performer-song-list-item-performer-name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                <a id="performer-song-list-item-performer-name-2"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% else %}
-                , <a id="performer-song-list-item-performer-name"ref="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                , <a id="performer-song-list-item-performer-name-3"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% endif %}
           {% endfor %}
         {% endif %}

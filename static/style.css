@@ -68,8 +68,8 @@ html, body {
 }
 
 .vet-tag {
-  width: 10%;
-  height: 10%;
+  width: 5%;
+  height: 5%;
 }
 
 .no-results {
@@ -213,6 +213,7 @@ html, body {
 
 #search-end, #other-pages{
   background-color: #f1f1f1;
+  padding: 11em 0 11em 0;
 }
 
 #main-search-bar {
@@ -475,6 +476,7 @@ h2 {
 
 .artist_name {
     font-family: 'Rock Salt', cursive;
+    font-size: 30px;
 }
 
 .related_artists{

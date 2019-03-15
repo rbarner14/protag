@@ -21,7 +21,7 @@
       <nav class="sidebar-sticky">
         <div class="producer-info">
           <div class="producer-info-header">
-            <h1 align= "center" class="artist_name">
+            <div align= "center" class="artist_name">
                 {% if album_years %}
                 {% if album_years[-1]|int < 2008 %}
                   {{producer.producer_name}} <img src="/static/Blank-Tag-PNG-Pic.png" class="vet-tag" data-toggle="tooltip" data-placement="right" title="Industry Vet">
@@ -31,7 +31,7 @@
 <!--                   (Industry Rookie) -->
                 {% endif %}
               {% endif %}
-              </h1>
+              </div>
               <br>
               <!-- Show producer's status depending on their album release years. -->
       <!-- Show producer's image. -->

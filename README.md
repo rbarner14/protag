@@ -17,7 +17,7 @@ data visualization for it.
 ProTag was inspired by the need for production information of songs.  The major 
 components of song production are:
 
-* The recording of the rapper (performer) delivering his lyrics.
+* The recording of the performer delivering her lyrics.
 * The making of the beat (song's instrumental, non-lyrical/non-vocal rhythmic 
 backing track) by the producer.  A producer's beat is often identified by the 
 producer's signature, aka tag.
@@ -103,7 +103,7 @@ machine learning algorithm; nearest neighbors determined by like performers).**
 <br/>
 
 **Similar views are provided for performers, except the frequency at which they work with producers is visualized.**
-<br/><br/>
+<br/>
 
 **If album is selected, view album's title, cover art, performer, D3 data visualizations (bubble and web) of songs on album by producer.**
 <br/><br/>
@@ -115,15 +115,18 @@ machine learning algorithm; nearest neighbors determined by like performers).**
 ![Album_Bubbles](/static/images/readme/album_bubbles.png)
 <br/>
 
-**Electric charge on particles is simulated to visualize the 
-network of performers and producers in the music industry.**
+**D3 force directed graph of album's producers.**
+<br/><br/>
 ![Album_Web](/static/images/readme/album_web.gif)
 <br/>
 
-**Thanks for exploring!**
+**Electric charge on particles is simulated to visualize the 
+network of performers and producers.**
 <br/><br/>
 ![Network](/static/images/readme/network.gif)
 <br/>
+
+**Thanks for exploring!**
 
 <a name="future"/></a>
 ## Future Development

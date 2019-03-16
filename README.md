@@ -1,9 +1,6 @@
 # ProTag
 ProTag leverages Genius' API to provide users data visualizations of their 
-favorite songs.  
-
-A user can search their favorite song, performer, album, or producer to return a 
-data visualization for it.
+favorite song, performer, album, or producer.
 
 ## Table of Contents
 * [Overview](#overview)</br>
@@ -24,7 +21,7 @@ producer's signature, aka tag.
 
 <a name="techstack"/></a>
 ## Tech Stack
-**Frontend:** JavaScript (React), Jinja, jQuery, Bootstrap</br>
+**Frontend:** JavaScript (AJAX, JSON, React), Jinja, jQuery, Bootstrap</br>
 **Backend:** Python, Flask, SQLAlchemy, PostgreSQL<br/>
 **Libraries:** D3, Chart.js, Pandas, Scikit-learn<br/>
 **API:** Genius<br/>

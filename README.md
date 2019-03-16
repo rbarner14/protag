@@ -84,7 +84,7 @@ machine learning algorithm; nearest neighbors determined by like performers).**
 <br/><br/>
 ![Producer_Landing](/static/images/readme/producer_landing.gif)
 <br/>
-![Producer_Sidenav](/static/images/readme/producer_sidenav.gif)
+![Producer_Sidenav](/static/images/readme/producer_sidenav.png)
 <br/>
 
 **If producer has been making songs for at least 10 years, a ProTag Verified Industry Vet tag will accompany their name.**

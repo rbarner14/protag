@@ -16,7 +16,6 @@ html, body {
     width:100%;
     background: #212121;
     font-family: 'Roboto', sans-serif;
-
 }*/
 
 .producer-status {
@@ -505,7 +504,6 @@ h2 {
 /*.cover-art-large {
     margin-left: auto;
   margin-right: auto;
-
 }*/
 
 #album-description {
@@ -602,6 +600,7 @@ h2 {
     font-size:90px;
 /*    position: absolute;*/
     text-align: right; 
+    padding: 30px;
 }
 
 #resume-name-and-title {
@@ -626,7 +625,7 @@ text-align: left;
     text-align: right;
     right: 0;
     width: 104%;
-    opacity: 0.7;
+    opacity: 0.8;
     position: bottom;
     padding-right: 2px;
 /*    margin: 1em;*/
@@ -655,8 +654,8 @@ text-align: left;
 /*    background-color: #f1f1f1;*/
 /*  background-color: #111;*/
   text-align: center;
-  border-right: 30px solid black;
-  background-image: url("architecture-attractions-bay-236513.jpg");
+  border-right: 3px solid black;
+  background-image: url("sasha-stories-746530-unsplash.jpg");
   background-size: cover;
 /*  background-opacity: ;*/
 }
@@ -772,7 +771,6 @@ text-align: left;
     padding: 0;
     margin: 0;
 }
-
 #homepage {
     background: url(autumn.jpg) no-repeat center center;
     background-size: cover;

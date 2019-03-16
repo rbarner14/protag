@@ -11,7 +11,9 @@
   <div class="split left">
     <div class="centered">
         <div id="my-name">
-        Ryan Barner
+        Ryan
+        <br>
+        Barner
         <br>
       </div>
             <div id="my-title">
@@ -36,14 +38,11 @@
 <!--   <div id="inspired-box" class="col"> -->
   <div id="root"></div>
   <script type="text/babel">
-
   class Inspired extends React.Component {
     render() {
         return <b>{this.props.message}</b>;
     }
   }
-
-
   ReactDOM.render(
     <Inspired message="ProTag's Inspiration" />, 
     document.getElementById("root")

@@ -600,7 +600,8 @@ h2 {
     font-size:90px;
 /*    position: absolute;*/
     text-align: right; 
-    padding: 30px;
+    padding-left: 30px;
+
 }
 
 #resume-name-and-title {
@@ -628,6 +629,7 @@ text-align: left;
     opacity: 0.8;
     position: bottom;
     padding-right: 2px;
+    margin: 0 0 10em 0;
 /*    margin: 1em;*/
 /*    border: 3px solid black;*/
 /*    position: absolute;*/

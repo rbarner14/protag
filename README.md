@@ -1,6 +1,6 @@
 # ProTag
 ProTag leverages Genius' API to provide users data visualizations of their 
-favorite rap songs.  
+favorite songs.  
 
 A user can search their favorite song, performer, album, or producer to return a 
 data visualization for it.
@@ -15,7 +15,7 @@ data visualization for it.
 <a name="overview"/></a>
 ## Overview
 ProTag was inspired by the need for production information of songs.  The major 
-components of hip hop song production are:
+components of song production are:
 
 * The recording of the rapper (performer) delivering his lyrics.
 * The making of the beat (song's instrumental, non-lyrical/non-vocal rhythmic 
@@ -79,21 +79,45 @@ Navigate to localhost:5000 in browser.
 ![Song](/static/images/readme/song.gif)
 <br/>
 
-**If performer selected, view performer's name, image, bio, related performers (generated with knn machine learning algorithm; nearest neighbors determined by 
-like producers) Chart.js donut data visualization of songs performer made by producer, albums and singles.**
+**If producer selected, view producer's name, image, bio, and data visualizations.  Related producers are provided, generated with a k-means 
+machine learning algorithm; nearest neighbors determined by like performers).**
 <br/><br/>
-![Performer](/static/images/readme/performer.gif)
+![Producer_Landing](/static/images/readme/producer_landing.gif)
+<br/>
+![Producer_Sidenav](/static/images/readme/producer_sidenav.gif)
 <br/>
 
-**If album selected, view album's title, cover art, performer, D3 data visualizations (bubble and web) of songs on album by producer.**
+**If producer has been making songs for at least 10 years, a ProTag Verified Industry Vet tag will accompany their name.**
+<br/><br/>
+![Producer_Tag](/static/images/readme/producer_tag.gif)
+<br/>
+
+**Chart.js donut graph shows songs producer made by performer.**
+<br/><br/>
+![Producer_Donut](/static/images/readme/producer_donut.gif)
+<br/>
+
+**Chart.js line graph shows songs producer made over his career tenure.**
+<br/><br/>
+![Producer_Line](/static/images/readme/producer_line.gif)
+<br/>
+
+**Similar views are provided for performers, except the frequency at which they work with producers is visualized.**
+<br/><br/>
+
+**If album is selected, view album's title, cover art, performer, D3 data visualizations (bubble and web) of songs on album by producer.**
 <br/><br/>
 ![Album](/static/images/readme/album.gif)
 <br/>
 
-**If producer selected, view producer's name, image, bio, related producers (generated with knn machine learning algorithm; nearest neighbors determined by 
-like performers) Chart.js donut and line data visualizations of songs producer made by performer, albums and singles.**
+**Each node represents a producer.  Weights are assigned according to the number of songs that producer has made on that album.**
 <br/><br/>
-![Producer](/static/images/readme/performer.gif)
+![Album_Bubbles](/static/images/readme/album_bubbles.png)
+<br/>
+
+**Electric charge on particles is simulated to visualize the 
+network of performers and producers in the music industry.**
+![Album_Web](/static/images/readme/album_web.gif)
 <br/>
 
 **Thanks for exploring!**

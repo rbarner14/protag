@@ -3,27 +3,26 @@
 {% block title %}ProTag - Songs{% endblock %}
 
 {% block content %}
-<div id="list-container">
+  <div id="list-container">
 
     <div class="list-title" align = "center">Songs</div>
     <!-- Show every song and song's performer. -->
     <div id="song-list-group-row">
-    <ul id="singles-list-group-flush2" class="list-group list-group-flush">
-    {% for song in songs %}
-        {% if song.song_title %}
+      <ul id="singles-list-group-flush2" class="list-group list-group-flush">
+        {% for song in songs %}
+          {% if song.song_title %}
             <li id="song-list-item2" class="list-group-item">
-<!--             <div class="list-group"> -->
-<!--                     <a href="/songs/{{ song.song_id }}" class="list-group-item list-group-item-action"><i>{{ song.song_title }}</i> -->
-                <a id="song-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
-                - 
-                <a id="song-list-item-performer-name" href="/performers/{{ song.performers[0].performer_id }}"><i>{{ song.performers[0].performer_name }}
-                </i></a>
+              <a id="song-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
+              - 
+              <a id="song-list-item-performer-name" href="/performers/{{ song.performers[0].performer_id }}"><i>{{ song.performers[0].performer_name }}
+              </i></a>
             </li>
-        {% endif %}
-    </ul>
-    {% endfor %}
-        </div>
-        <br>
-           </div> 
-    <div class="pagination">{{ pagination.links }}</div>
+          {% endif %}
+      </ul>
+        {% endfor %}
+    </div>
+    <br>
+  </div> 
+  
+  <div class="pagination">{{ pagination.links }}</div>
 {% endblock %}

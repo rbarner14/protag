@@ -4,19 +4,19 @@
 
 <!-- List performers with their pictures and links to their page. -->
 {% block content %}
-<div id="list-container">
-  <div class="list-title" align = "center">Performers</div>
+  <div id="list-container">
+    <div class="list-title" align = "center">Performers</div>
 
-<!-- Show producer's image and link to their page. -->
-    <div id="performer-list-group-row">
-  {% for performer in performers %}
-    <div class="list-group">
-        <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img class="list-image" src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}
-        </a>
-
-  {% endfor %}
-    </div>
-    <br>
-  </div> 
-  <div class="pagination">{{ pagination.links }}</div>
+  <!-- Show producer's image and link to their page. -->
+      <div id="performer-list-group-row">
+        {% for performer in performers %}
+          <div class="list-group">
+              <a href="/performers/{{ performer.performer_id }}" class="list-group-item list-group-item-action"><img class="list-image" src="{{ performer.performer_img_url }}" width="50" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}
+              </a>
+        {% endfor %}
+          </div>
+          <br>
+      </div> 
+    <div class="pagination">{{ pagination.links }}</div>
+  </div>
 {% endblock %}

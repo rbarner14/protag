@@ -4,84 +4,81 @@
 
 {% block content %}
 
-<div class="search-container">
-    <div class="list-title" align = "center"> ProTag Search Result</div>
-  {% if producers or performers or songs or albums %}
+  <div class="search-container">
+      <div class="list-title" align = "center"> ProTag Search Result</div>
+    {% if producers or performers or songs or albums %}
 
-    <!-- Show matching producers' name and link to their page. -->
-    {% if producers %}
-    <div class="album-search-sub-container">
-      <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
+      <!-- Show matching producers' name and link to their page. -->
+      {% if producers %}
+      <div class="album-search-sub-container">
+        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
 
-      {% for producer in producers %}
-        <div class="list-group">
-          <a href="/producers/{{ producer.producer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
-                  </div>
-      {% endfor %}
-    {% endif %}
-  </div>
-</div>
-    <!-- Show matching performers' name and link to their page. -->
-<!-- <div class="search-container"> -->
-    {% if performers %}
-    <div class="album-search-sub-container">
-    <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
-
-      {% for performer in performers %}
-        <div class="list-group">
-          <a href="/performers/{{ performer.performer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="55" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
-      {% endfor %}
-    </div>
-    {% endif %}
+        {% for producer in producers %}
+          <div class="list-group">
+            <a href="/producers/{{ producer.producer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
+          </div>
+        {% endfor %}
+      {% endif %}
       </div>
-</div>
 
-<!-- <div class="search-container"> -->
-    <!-- Show matching songs' title and link to its page. -->
-    {% if songs %}
-        <div class="album-search-sub-container">
-      <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
-      <ul id="list-group">
-      {% for song in songs %}
-          <li id="song-list-item" class="list-group-item">
-            <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
-            {% if song.performers %}
-              - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
-            {% endif %}
-          </li>
-      {% endfor %}
-    </ul>
-    <br>
-    {% endif %}
-  </div>
-</div>
+      <!-- Show matching performers' name and link to their page. -->
+      {% if performers %}
+      <div class="album-search-sub-container">
+        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
 
-<!-- <div class="search-container"> -->
-    <!-- Show matching albums' title and link to its page. -->
-    {% if albums %}
+        {% for performer in performers %}
+          <div class="list-group">
+            <a href="/performers/{{ performer.performer_id }}" id="song-list-item" class="list-group-item list-group-item-action"><img src="{{ performer.performer_img_url }}"  width="55" height="50" alt="{{ performer.performer_name }}">&nbsp;&nbsp;{{ performer.performer_name }}</a>
+        {% endfor %}
+          </div>
+      {% endif %}
+      </div>
+
+      <!-- Show matching songs' title and link to its page. -->
+      {% if songs %}
         <div class="album-search-sub-container">
-        <div id="album-title-search-result" class="list-subtitle" align="center" class="search-result-subtitle">Albums & EPs</div>
-      <ul id="list-group">
-      {% for album in albums %}
-        <li id="song-list-item" class="list-group-item">
-          <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
-          <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> 
-          {% if album.performers %}
-            - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+          <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
+          <ul id="list-group">
+            {% for song in songs %}
+                <li id="song-list-item" class="list-group-item">
+                  <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+                  {% if song.performers %}
+                    - <a href="/performers/{{ song.performers[0].performer_id }}">{{ song.performers[0].performer_name }}</a>
+                  {% endif %}
+                </li>
+            {% endfor %}
+          </ul>
+          <br>
+      {% endif %}
+          </div>
+
+      <!-- Show matching albums' title and link to its page. -->
+      {% if albums %}
+          <div class="album-search-sub-container">
+            <div id="album-title-search-result" class="list-subtitle" align="center" class="search-result-subtitle">Albums & EPs</div>
+            <ul id="list-group">
+              {% for album in albums %}
+                <li id="song-list-item" class="list-group-item">
+                  <img src="{{ album.cover_art_url }}" width="55" height="50" alt="{{ album.album_title }}">
+                  <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a> 
+                  {% if album.performers %}
+                    - <a href="/performers/{{ album.performers[0].performer_id}}">{{ album.performers[0].performer_name }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+            <br>
+          </div>
+      {% endif %}
+
+    {% else %}
+      <div class="no-results"><h2>Sorry!  <a href="/">Try again?</a></h2></div>
         <br>
       </div>
-    {% endif %}
-
-  {% else %}
-    <div class="no-results"><h2>Sorry!  <a href="/">Try again?</a></h2></div>
+    {% endif%}
+   <div id="search-end"class="search-container">
     <br>
-    </div>
-  {% endif%}
- <div id="search-end"class="search-container">
-<br>
- </div>
+  </div>
+
 {% endblock %}
+

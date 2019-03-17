@@ -3,18 +3,18 @@
 {% block title %}ProTag - Producers{% endblock %}
 
 {% block content %}
-<div id="list-container">
+  <div id="list-container">
     <div class="list-title" align = "center">Producers</div>
 
     <!-- Show producer's image and link to their page. -->
     <div id="producer-list-group-row">
     {% for producer in producers %}
-        <div class="list-group">
-            <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img class="list-image" src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
+      <div class="list-group">
+          <a href="/producers/{{ producer.producer_id }}" class="list-group-item list-group-item-action"><img class="list-image" src="{{ producer.producer_img_url }}" width="50" height="50" alt="{{ producer.producer_name }}">&nbsp;&nbsp;{{ producer.producer_name }}</a>
     {% endfor %}
         </div>
     </div>
     <br>
-</div>    
-    <div class="pagination">{{ pagination.links }}</div>
+  </div>    
+  <div class="pagination">{{ pagination.links }}</div>
 {% endblock %}

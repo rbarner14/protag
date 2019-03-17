@@ -4,100 +4,93 @@
 
 <!-- Show host's bio. -->
 {% block content %}
-<div class="container-fluid">
-<!--   <div id="resume-row" class="row"> -->
-<!--     <div id="resume-name-and-title" class="col"> -->
-      <div id="left-resume">
-  <div class="split left">
-    <div class="centered">
-        <div id="my-name">
-        Ryan
-        <br>
-        Barner
-        <br>
-      </div>
+  <div class="container-fluid">
+    <div id="left-resume">
+      <div class="split left">
+        <div class="centered">
+            <div id="my-name">
+              Ryan
+              <br>
+              Barner
+              <br>
+            </div>
             <div id="my-title">
             Full-Stack Engineer | Hackbright Academy, March 2019 Grad
             </div>
+        </div>
+        <div class="left-test">
+            <a href="https://www.linkedin.com/in/ryansbarner/"><img width="40px" height="28px" src="/static/images/linkedin_logo.png">
+            </a>
+            <a href="mailto:emailryanbarner@gmail.com"><img width="32px" height="32px" src="/static/images/gmail.png"></a>&nbsp;&nbsp;
+            <a href="https://www.github.com/rbarner14/"><img width="32px" height="28px" src="/static/images/GitHub.png">
+            </a>
+        </div>
       </div>
-    <div class="left-test">
-        <a href="https://www.linkedin.com/in/ryansbarner/"><img width="40px" height="28px" src="/static/images/linkedin_logo.png">
-        </a>
-  <a href="mailto:emailryanbarner@gmail.com"><img width="32px" height="32px" src="/static/images/gmail.png"></a>&nbsp;&nbsp;
-        <a href="https://www.github.com/rbarner14/"><img width="32px" height="28px" src="/static/images/GitHub.png">
-        </a>
+    </div>
+
+    <div class="split right">
+      <div class="centered">
+        <div id="root"></div>
+        <script type="text/babel">
+          class Inspired extends React.Component {
+            render() {
+                return <b>{this.props.message}</b>;
+            }
+          }
+          ReactDOM.render(
+            <Inspired message="ProTag's Inspiration" />, 
+            document.getElementById("root")
+          );
+          
+        </script>
+        <!-- Show inspiration body. -->
+        Ryan's love for hip hop and data inspired her to create ProTag.  She grew
+        up listening to 90s West Coast rap and considers this an ode her 14 year old
+        self, who was often punished growing up for rapping the explicit lyrics of 
+        her favorite rap songs.  
+
+        <br>
+        <br>
+
+        In middle school, she developed a stan-like interest in the music by 
+        Pharrell Williams.  Through her research of Williams, Ryan learned he was
+        one-half of the production duo, 
+        <a href="/producers/4617"> The Neptunes</a>, who, by 
+        2003, produced 43% of the songs played on US radio.  This got her interested 
+        in learning about the beat makers of her other favorite songs to see how 
+        they compared to The Neptunes.  There was a wealth of information on the web 
+        about a song's performers, but, unfortunately, not much about its producers, 
+        and certainly not in a digestible format.  
+
+        <br>
+        <br>
+
+        She appreciated Genius' (formerly Rap Genius) documentation of producers and 
+        thus chose their API for ProTag.  Her goal is to shed more light on the 
+        people behind the scenes of her favorite genre of music and mesh her 
+        interests and experiences data analyzing and modeling as a former Financial 
+        Data Analyst and Economics grad to visualize the ever-tangling web of the 
+        hip-hop music industry.  
+
+        <br>
+        <br>
+
+        Ryan hopes to share ProTag with The Neptunes and every producer she features
+        on her site and expand it to visualize the production data of other genres 
+        of music.
+
+        <br>
+        <br>
+        <br>
+
+        Want to learn more about ProTag or Ryan, leave feedback, request a feature 
+        of your favorite producer, or introduce her to a music producer?!  
+
+        <b>Contact her!</b> 
+
+        <br>
+
+      </div>
     </div>
   </div>
-    </div>
-
-  <div class="split right">
-    <div class="centered">
-<!--   </div>
- -->
-  <!-- Show content title with React. -->
-<!--   <div id="inspired-box" class="col"> -->
-  <div id="root"></div>
-  <script type="text/babel">
-  class Inspired extends React.Component {
-    render() {
-        return <b>{this.props.message}</b>;
-    }
-  }
-  ReactDOM.render(
-    <Inspired message="ProTag's Inspiration" />, 
-    document.getElementById("root")
-  );
-  
-  </script>
-  Ryan's love for hip hop and data inspired her to create ProTag.  She grew
-  up listening to 90s West Coast rap and considers this an ode her 14 year old
-  self, who was often punished growing up for rapping the explicit lyrics of 
-  her favorite rap songs.  
-
-  <br>
-  <br>
-
-  In middle school, she developed a stan-like interest in the music by 
-  Pharrell Williams.  Through her research of Williams, Ryan learned he was
-  one-half of the production duo, 
-  <a href="/producers/4617"> The Neptunes</a>, who, by 
-  2003, produced 43% of the songs played on US radio.  This got her interested 
-  in learning about the beat makers of her other favorite songs to see how 
-  they compared to The Neptunes.  There was a wealth of information on the web 
-  about a song's performers, but, unfortunately, not much about its producers, 
-  and certainly not in a digestible format.  
-
-  <br>
-  <br>
-
-  She appreciated Genius' (formerly Rap Genius) documentation of producers and 
-  thus chose their API for ProTag.  Her goal is to shed more light on the 
-  people behind the scenes of her favorite genre of music and mesh her 
-  interests and experiences data analyzing and modeling as a former Financial 
-  Data Analyst and Economics grad to visualize the ever-tangling web of the 
-  hip-hop music industry.  
-
-  <br>
-  <br>
-
-  Ryan hopes to share ProTag with The Neptunes and every producer she features
-  on her site and expand it to visualize the production data of other genres 
-  of music.
-
-  <br>
-  <br>
-  <br>
-
-  Want to learn more about ProTag or Ryan, leave feedback, request a feature 
-  of your favorite producer, or introduce her to a music producer?!  
-
-  <b>Contact her!</b> 
-
-  <br>
-
-<!-- </div>
-</div> -->
-</div>
-</div>
-</div>
 {% endblock %}

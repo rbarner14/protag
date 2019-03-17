@@ -1,20 +1,11 @@
 {% extends "base.html" %}
 
 {%block before_nav %}
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 {% endblock %}
 
 {% block title %}ProTag - {{producer.producer_name}}{% endblock %}
 
 {% block content %}
-
-
-<!-- <div class="header"></div>
-<div class="content"></div>
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>  -->
-
 <div class="container-fluid">
   <div class="row">
     <aside class="col-sm-3 sidebar">
@@ -197,16 +188,5 @@
     </div>
       </div>
     </div>
-  <script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-function mySFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-</script>
 
 {% endblock %}

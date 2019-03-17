@@ -7,25 +7,18 @@
     <!-- Scripts. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
     <link href="/static/style.css" rel="stylesheet"></link>
-<!--     <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"></link> -->
-<link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:300,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<!--     <meta charset="utf-8"> -->
 
+    <!-- D3 bubble styling. -->
     <style>
       .node {
         cursor: pointer;
       }
-
-      /*.node circle {
-          fill: #fff;
-          stroke: steelblue;
-          stroke-width: 1.5px;
-      }*/
 
       .node text {
         font: 10px sans-serif;
@@ -53,32 +46,17 @@
       #album-song-content {
         font-family: 'Roboto', 'sans-serif';
         font-weight: 700;
-/*        font-size: 20px;*/
       }
-
     </style>
 
   </head>
 
   <body>
-    <!-- Show navigation bar. -->
-  <!-- 
-    {% if request.script_root == '' %}
-      <div>
-    {% endif %}
-         -->
-        <!-- Show navigation bar. -->
-<!--         <div class="topnav">
-          <a class="active" href="/">Home</a>
-          <a href="/performers">Performers</a>
-          <a href="/producers">Producers</a>
-          <a href="/songs">Songs</a>
-          <a href="/network">Network</a>
-          <a href="/resume">Hire Me!</a>
-        </div> -->
+    <!-- Show nav bar. -->
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-fixed-top">
         <a class="navbar-brand" href="/">ProTag</a>
+<!--         Show toggler. -->
 <!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">_list
           <span class="navbar-toggler-icon"></span>
         </button> -->
@@ -86,7 +64,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/performers">Performers</a>
@@ -121,423 +99,406 @@
           </form>
         </div>
       </nav>
-  <!-- {% raw %}progress bar?{% endraw %} -->
     </header>
-<!--           <div class="row">
-            <div id="album-col" class="col"> -->
-        <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
               <!-- Show album title and performer, with link to performer's page -->
-    <div id="album-description" align = "center"><i>{{ album.album_title }}</i> 
-      {% if album.performers %}
-        - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
-      {% endif %}
-    </div>
-          <div id="cover-art-large">
-          <img id="album-cover-art-large" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
-        </div>
-          <br>
-          <div class="bio">{{ bio }}</div>
-        </div>
-        <div class="col-sm-6">
-          
-<!--         </div> -->
-<!--           <br> -->
-<!--           <div id="album-bio-col" class="col"> -->
-<!--           {{ bio }} -->
-<!--         </div> -->
-<!--           <br>
-        </div> -->
+            <div id="album-description" align = "center"><i>{{ album.album_title }}</i> 
+              {% if album.performers %}
+                - <a href="/performers/{{ album.performers[0].performer_id }}">{{ album.performers[0].performer_name }}</a>
+              {% endif %}
+            </div>
+            <div id="cover-art-large">
+              <img id="album-cover-art-large" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+            </div>
+            <br>
+            <div class="bio">{{ bio }}</div>
+          </div>
+          <div class="col-sm-6">
 
-    {% if album.songs %}
-      <div id="bubble-title">Distribution of songs on <i>{{ album.album_title }}</i> by producer</div>
+            {% if album.songs %}
+              <div id="bubble-title">Distribution of songs on <i>{{ album.album_title }}</i> by producer
+              </div>
 
-      <!-- Show bubble chart, centered. -->
-      <div id="bubble-chart" align="center"></div>
+              <!-- Show bubble chart, centered. -->
+              <div id="bubble-chart" align="center"></div>
 
-      <script>
+              <script>
 
-        var width = 600, 
-            height = 500, 
-            color = d3.scale.category10();
+                var width = 600, 
+                    height = 500, 
+                    color = d3.scale.category10();
 
-        var chart = d3.select("#bubble-chart")
-                      .append("svg")
-                      .attr("width", width)
-                      .attr("height", height)
+                var chart = d3.select("#bubble-chart")
+                              .append("svg")
+                              .attr("width", width)
+                              .attr("height", height)
+                              .append("g")
+                              .attr("transform", "translate(50,50)");
+
+                var pack = d3.layout.pack()
+                                    .size([width, height - 50])
+                                    .padding(10);
+
+                var force = d3.layout.force()
+                    .size([width, height - 50]);
+
+                d3.json("/album-bubbles.json", function(data) {
+
+                  force.nodes(data).start();
+
+                  var nodes = pack.nodes(data);
+
+                  var node = chart.selectAll(".node")
+                      .data(nodes)
+                      .enter()
                       .append("g")
-                      .attr("transform", "translate(50,50)");
+                      .attr("class", "node")
+                      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+                      .call(force.drag);
 
-        var pack = d3.layout.pack()
-                            .size([width, height - 50])
-                            .padding(10);
+                  node.append("circle")
+                      .attr("r",function(d) { return d.r; })
+                      .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
+                      .attr("background-img", d => `url("${d.link}")`)
+                      .attr("opacity", 0.6)
 
-        var force = d3.layout.force()
-            .size([width, height - 50]);
+                  node.append("a")
+                      .append("text")
+                      .attr("font-family", "sans-serif")
+                      .attr("font-size", function(d){ return d.r/2; })
+                      .attr("dy", ".3em").style("text-anchor", "middle")
+                      .text(function(d) { if(d.name.length < 10){return d.children ? "" : d.name; }})
 
-        d3.json("/album-bubbles.json", function(data) {
+                  node.append("a")
+                      .append("text")
+                      .attr("font-family", "sans-serif")
+                      .attr("font-size", function(d){ return d.r/2.5; })
+                      .attr("dy", ".3em").style("text-anchor", "middle")
+                      .text(function(d) { if(d.name.length >= 10){return d.children ? "" : d.name; }})
 
-          force.nodes(data).start();
+                  node.append("a")
+                      .attr("href", function(d){ return d.link; })
+                      .append("text")
+                      .attr("font-family", "sans-serif")
+                      .attr("font-size", function(d){ return d.r/2.5; })
+                      .style("text-anchor", "middle")
+                      .attr("dy", "-1em")
+                      .text(function(d) { return d.children ? "" : d.value; })
 
-          var nodes = pack.nodes(data);
+                  // Show producer's picture in bubble.
+                  // node.append("svg:image")
+                  //     .attr("xlink:href",  function(d) { return d.link;})
+                  //     .attr("x", function(d) { return -25;})
+                  //     .attr("y", function(d) { return -25;})
+                  //     .attr("height", 50)
+                  //     .attr("width", 50);
 
-          var node = chart.selectAll(".node")
-              .data(nodes)
-              .enter()
-              .append("g")
-              .attr("class", "node")
-              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-              .call(force.drag);
+                  // node.append("image")
+                  //     .attr("xlink:href", function(d){
+                  //     return  d.link;})
+                  //     .attr("width", function(d) { 
+                  //     console.log("d.r:"+d.r);
+                  //     return d.r; })
+                  //     .attr("height", function(d) { return d.r; })
+                  //     .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+                  //     .attr('class', function(d) { return d.className; });
 
-          node.append("circle")
-              .attr("r",function(d) { return d.r; })
-              .attr("fill", function(d){ return d.children ? "#fff" : color(d.domain); }) //make nodes with children invisible
-              .attr("background-img", d => `url("${d.link}")`)
-              .attr("opacity", 0.6)
-
-          node.append("a")
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2; })
-              .attr("dy", ".3em").style("text-anchor", "middle")
-              .text(function(d) { if(d.name.length < 10){return d.children ? "" : d.name; }})
-
-          node.append("a")
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2.5; })
-              .attr("dy", ".3em").style("text-anchor", "middle")
-              .text(function(d) { if(d.name.length >= 10){return d.children ? "" : d.name; }})
-
-          node.append("a")
-              .attr("href", function(d){ return d.link; })
-              .append("text")
-              .attr("font-family", "sans-serif")
-              .attr("font-size", function(d){ return d.r/2.5; })
-              .style("text-anchor", "middle")
-              .attr("dy", "-1em")
-              .text(function(d) { return d.children ? "" : d.value; })
-
-          // Show producer's picture in bubble.
-          // node.append("svg:image")
-          //     .attr("xlink:href",  function(d) { return d.link;})
-          //     .attr("x", function(d) { return -25;})
-          //     .attr("y", function(d) { return -25;})
-          //     .attr("height", 50)
-          //     .attr("width", 50);
-
-          // node.append("image")
-          //     .attr("xlink:href", function(d){
-          //     return  d.link;})
-          //     .attr("width", function(d) { 
-          //     console.log("d.r:"+d.r);
-          //     return d.r; })
-          //     .attr("height", function(d) { return d.r; })
-          //     .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
-          //     .attr('class', function(d) { return d.className; });
-
-          // node.append("a")
-          //     .style("filter", function(d) { 
-          //          return d._children ? "url(#image)" : "#fff"; 
-          //       }).on("mouseover",function(d){
-          //                  d3.select(this).style("cursor","pointer");
-          //       });
-        });
-
-      </script>
-        
-      <!-- Show album web (force layout visualisation). -->
-      <section id="vis"></section> 
-
-      <style>
-  /*        @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
-        #vis {
-          font-family: "Source Code Pro", Consolas, monaco, monospace; 
-          line-height: 160%; 
-          font-size: 16px;  
-          margin: 0; 
-        }*/
-
-        path.link {
-          fill: none;
-          stroke-width: 2px;
-        }
-
-        .node:not(:hover) .nodetext {
-          display: none;
-        }
-  /*
-        h1 { 
-          font-size: 36px; 
-          margin: 10px 0; 
-          text-transform: uppercase; 
-          font-weight: normal;
-        }
-
-        h2, h3 { 
-          font-size: 18px; 
-          margin: 5px 0; 
-          font-weight: normal;
-        }
-
-        header {
-          padding: 20px; 
-          position: absolute; 
-          top: 0; 
-          left: 0;
-        }
-
-        a:link { 
-          color: #EE3124; 
-          text-decoration: none;
-        }
-
-        a:visited { 
-          color: #EE3124; 
-        }
-
-        a:hover { 
-          color: #A4CD39; 
-          text-decoration: underline;
-        }
-
-        a:active { 
-          color: #EE3124; 
-        }*/
-      </style>
-
-      <script>
-
-        var tcBlack = "#130C0E";
-
-        var w = 600,
-            h = 400,
-            maxNodeSize = 50,
-            x_browser = 20,
-            y_browser = 25,
-            root;
-       
-        var vis;
-        var force = d3.layout.force(); 
-
-        vis = d3.select("#vis")
-                .append("svg")
-                .attr("width", w)
-                .attr("height", h);
-       
-        // Read from route defined in server.
-        d3.json("/album-web.json", function(json) {
-       
-          root = json;
-          root.fixed = true;
-          root.x = w / 2;
-          root.y = h / 4;
-       
-          // Build the path
-          var defs = vis.insert("svg:defs")
-              .data(["end"]);
-       
-       
-          defs.enter().append("svg:path")
-                      .attr("d", "M0,-5L10,0L0,5");
-
-           update();
-        });
-
-
-        function update() {
-          var nodes = flatten(root),
-              links = d3.layout.tree().links(nodes);
-       
-          // Restart the force layout.
-          force.nodes(nodes)
-                .links(links)
-                .gravity(0.05)
-                .charge(-1500)
-                .linkDistance(100)
-                .friction(0.5)
-                .linkStrength(function(l, i) {return 1; })
-                .size([w, h])
-                .on("tick", tick)
-                .start();
-       
-          var path = vis.selectAll("path.link")
-                        .data(links, function(d) { return d.target.id; });
-       
-          path.enter().insert("svg:path")
-                      .attr("class", "link")
-                      // .attr("marker-end", "url(#end)")
-                      .style("stroke", "#eee");
-         
-          // Exit any old paths.
-          path.exit().remove();
-       
-          // Update the nodes.
-          var node = vis.selectAll("g.node")
-                        .data(nodes, function(d) { return d.id; });
-       
-          // Enter any new nodes.
-          var nodeEnter = node.enter().append("svg:g")
-                                      .attr("class", "node")
-                                      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-                                      .on("click", click)
-                                      .call(force.drag);
-           
-          // Append a circle.
-          nodeEnter.append("svg:circle")
-                   .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
-                   .style("fill", "#eee");
-         
-          // Append images.
-          var images = nodeEnter.append("svg:image")
-                                .attr("xlink:href",  function(d) { return d.img;})
-                                .attr("x", function(d) { return -25;})
-                                .attr("y", function(d) { return -25;})
-                                .attr("height", 50)
-                                .attr("width", 50)
-          
-          // Make the image grow a little on mouse over and add the text details on click.
-          var setEvents = images
-                  // // Append hero text
-                  // .on('click', function (d) {
-                  //     // d3.select("h1").html(d.hero); 
-                  //     // d3.select("h2").html(d.name); 
-                  //     // d3.select("h3").html ("Take me to " + "<a href='" + d.link + "' >"  + d.hero + " web page ⇢"+ "</a>" ); 
-                  //  })
-
-                .on('mouseenter', function() {
-                  // select element in current context
-                  d3.select( this )
-                    .transition()
-                    .attr("x", function(d) { return -60;})
-                    .attr("y", function(d) { return -60;})
-                    .attr("height", 100)
-                    .attr("width", 100);
-                })
-                // set back
-                .on('mouseleave', function() {
-                  d3.select( this )
-                    .transition()
-                    .attr("x", function(d) { return -25;})
-                    .attr("y", function(d) { return -25;})
-                    .attr("height", 50)
-                    .attr("width", 50);
+                  // node.append("a")
+                  //     .style("filter", function(d) { 
+                  //          return d._children ? "url(#image)" : "#fff"; 
+                  //       }).on("mouseover",function(d){
+                  //                  d3.select(this).style("cursor","pointer");
+                  //       });
                 });
 
-          // Append hero name on roll over next to the node as well
-          nodeEnter.append("text")
-              .attr("class", "nodetext")
-              .attr("x", x_browser)
-              .attr("y", y_browser +15)
-              .attr("fill", tcBlack)
-              .text(function(d) { return d.hero; });
-       
-       
-          // Exit any old nodes.
-          node.exit().remove();
-         
-         
-          // Re-select for update.
-          path = vis.selectAll("path.link");
-          node = vis.selectAll("g.node");
-       
-          function tick() {
-           
-            path.attr("d", function(d) {
-         
-             var dx = d.target.x - d.source.x,
-                   dy = d.target.y - d.source.y,
-                   dr = Math.sqrt(dx * dx + dy * dy);
+              </script>
+                
+              <!-- Show album web (force layout visualisation). -->
+              <section id="vis"></section> 
 
-             return "M" + d.source.x + "," 
-                        + d.source.y 
-                        + "A" + dr + "," 
-                        + dr + " 0 0,1 " 
-                        + d.target.x + "," 
-                        + d.target.y;
-            });
+              <!-- D3 web styling. -->
+              <style>
 
-            node.attr("transform", nodeTransform); 
-          }
-        }
+                path.link {
+                  fill: none;
+                  stroke-width: 2px;
+                }
+
+                .node:not(:hover) .nodetext {
+                  display: none;
+                }
+                /*
+                h1 { 
+                  font-size: 36px; 
+                  margin: 10px 0; 
+                  text-transform: uppercase; 
+                  font-weight: normal;
+                }
+
+                h2, h3 { 
+                  font-size: 18px; 
+                  margin: 5px 0; 
+                  font-weight: normal;
+                }
+
+                header {
+                  padding: 20px; 
+                  position: absolute; 
+                  top: 0; 
+                  left: 0;
+                }
+
+                a:link { 
+                  color: #EE3124; 
+                  text-decoration: none;
+                }
+
+                a:visited { 
+                  color: #EE3124; 
+                }
+
+                a:hover { 
+                  color: #A4CD39; 
+                  text-decoration: underline;
+                }
+
+                a:active { 
+                  color: #EE3124; 
+                }*/
+              </style>
+
+              <script>
+
+                var tcBlack = "#130C0E";
+
+                var w = 600,
+                    h = 400,
+                    maxNodeSize = 50,
+                    x_browser = 20,
+                    y_browser = 25,
+                    root;
+               
+                var vis;
+                var force = d3.layout.force(); 
+
+                vis = d3.select("#vis")
+                        .append("svg")
+                        .attr("width", w)
+                        .attr("height", h);
+               
+                // Read from route defined in server.
+                d3.json("/album-web.json", function(json) {
+               
+                  root = json;
+                  root.fixed = true;
+                  root.x = w / 2;
+                  root.y = h / 4;
+               
+                  // Build the path
+                  var defs = vis.insert("svg:defs")
+                      .data(["end"]);
+               
+               
+                  defs.enter().append("svg:path")
+                              .attr("d", "M0,-5L10,0L0,5");
+
+                   update();
+                });
 
 
-        // Gives the coordinates of the border for keeping the nodes inside a frame
-        // http://bl.ocks.org/mbostock/1129492
-        function nodeTransform(d) {
-          d.x =  Math.max(maxNodeSize, Math.min(w - (d.imgwidth/2 || 16), d.x));
-          d.y =  Math.max(maxNodeSize, Math.min(h - (d.imgheight/2 || 16), d.y));
+                function update() {
+                  var nodes = flatten(root),
+                      links = d3.layout.tree().links(nodes);
+               
+                  // Restart the force layout.
+                  force.nodes(nodes)
+                        .links(links)
+                        .gravity(0.05)
+                        .charge(-1500)
+                        .linkDistance(100)
+                        .friction(0.5)
+                        .linkStrength(function(l, i) {return 1; })
+                        .size([w, h])
+                        .on("tick", tick)
+                        .start();
+               
+                  var path = vis.selectAll("path.link")
+                                .data(links, function(d) { return d.target.id; });
+               
+                  path.enter().insert("svg:path")
+                              .attr("class", "link")
+                              // .attr("marker-end", "url(#end)")
+                              .style("stroke", "#eee");
+                 
+                  // Exit any old paths.
+                  path.exit().remove();
+               
+                  // Update the nodes.
+                  var node = vis.selectAll("g.node")
+                                .data(nodes, function(d) { return d.id; });
+               
+                  // Enter any new nodes.
+                  var nodeEnter = node.enter().append("svg:g")
+                                              .attr("class", "node")
+                                              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+                                              .on("click", click)
+                                              .call(force.drag);
+                   
+                  // Append a circle.
+                  nodeEnter.append("svg:circle")
+                           .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
+                           .style("fill", "#eee");
+                 
+                  // Append images.
+                  var images = nodeEnter.append("svg:image")
+                                        .attr("xlink:href",  function(d) { return d.img;})
+                                        .attr("x", function(d) { return -25;})
+                                        .attr("y", function(d) { return -25;})
+                                        .attr("height", 50)
+                                        .attr("width", 50)
+                  
+                  // Make the image grow a little on mouse over and add the text details on click.
+                  var setEvents = images
+                          // // Append hero text
+                          // .on('click', function (d) {
+                          //     // d3.select("h1").html(d.hero); 
+                          //     // d3.select("h2").html(d.name); 
+                          //     // d3.select("h3").html ("Take me to " + "<a href='" + d.link + "' >"  + d.hero + " web page ⇢"+ "</a>" ); 
+                          //  })
 
-          return "translate(" + d.x + "," + d.y + ")";
-        }
-       
+                        .on('mouseenter', function() {
+                          // select element in current context
+                          d3.select( this )
+                            .transition()
+                            .attr("x", function(d) { return -60;})
+                            .attr("y", function(d) { return -60;})
+                            .attr("height", 100)
+                            .attr("width", 100);
+                        })
+                        // set back
+                        .on('mouseleave', function() {
+                          d3.select( this )
+                            .transition()
+                            .attr("x", function(d) { return -25;})
+                            .attr("y", function(d) { return -25;})
+                            .attr("height", 50)
+                            .attr("width", 50);
+                        });
 
-        // Toggle children on click.
-        function click(d) {
-          if (d.children) {
-            d._children = d.children;
-            d.children = null;
-          } else {
-            d.children = d._children;
-            d._children = null;
-          }
-         
-          update();
-        }
-       
-       
-        // Returns a list of all nodes under the root.
-        function flatten(root) {
-          var nodes = []; 
-          var i = 0;
-         
-          function recurse(node) {
-            if(node.children){
-              node.children.forEach(recurse);
-            }
+                  // Append hero name on roll over next to the node as well
+                  nodeEnter.append("text")
+                      .attr("class", "nodetext")
+                      .attr("x", x_browser)
+                      .attr("y", y_browser +15)
+                      .attr("fill", tcBlack)
+                      .text(function(d) { return d.hero; });
+               
+               
+                  // Exit any old nodes.
+                  node.exit().remove();
+                 
+                 
+                  // Re-select for update.
+                  path = vis.selectAll("path.link");
+                  node = vis.selectAll("g.node");
+               
+                  function tick() {
+                   
+                    path.attr("d", function(d) {
+                 
+                     var dx = d.target.x - d.source.x,
+                           dy = d.target.y - d.source.y,
+                           dr = Math.sqrt(dx * dx + dy * dy);
 
-            if(!node.id){
-              node.id = ++i;
-            }
+                     return "M" + d.source.x + "," 
+                                + d.source.y 
+                                + "A" + dr + "," 
+                                + dr + " 0 0,1 " 
+                                + d.target.x + "," 
+                                + d.target.y;
+                    });
 
-            nodes.push(node);
-          }
-         
-          recurse(root);
+                    node.attr("transform", nodeTransform); 
+                  }
+                }
 
-          return nodes;
-        } 
 
-      </script>
+                // Gives the coordinates of the border for keeping the nodes inside a frame
+                // http://bl.ocks.org/mbostock/1129492
+                function nodeTransform(d) {
+                  d.x =  Math.max(maxNodeSize, Math.min(w - (d.imgwidth/2 || 16), d.x));
+                  d.y =  Math.max(maxNodeSize, Math.min(h - (d.imgheight/2 || 16), d.y));
 
-</div>
-      <!-- Show songs on album. -->
-    <div class="row justify-content-between">
-      <div class="album-song-content">
-        <div class="singles-header">Songs</div>
-    <ul id="album-songs-list-group-flush" class="list-group list-group-flush">
-      {% for song in album.songs %}
-        <li id="album-songs-list-item" class="list-group-item">
-          <a id="album-songs-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
-          {% if song.producers %}
-            produced by
-            {% for producer in song.producers%} 
-              {% if loop.index == 1%}
-                <a class="album-songs-list-item-performer_name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-              {% else %}
-                , <a class="album-songs-list-item-performer_name" href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-        </li>
-      {% endfor %}
-      <ul>
-    {% endif %}
-  </div>
-  </div>
+                  return "translate(" + d.x + "," + d.y + ")";
+                }
+               
+
+                // Toggle children on click.
+                function click(d) {
+                  if (d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                  } else {
+                    d.children = d._children;
+                    d._children = null;
+                  }
+                 
+                  update();
+                }
+               
+               
+                // Returns a list of all nodes under the root.
+                function flatten(root) {
+                  var nodes = []; 
+                  var i = 0;
+                 
+                  function recurse(node) {
+                    if(node.children){
+                      node.children.forEach(recurse);
+                    }
+
+                    if(!node.id){
+                      node.id = ++i;
+                    }
+
+                    nodes.push(node);
+                  }
+                 
+                  recurse(root);
+
+                  return nodes;
+                } 
+
+              </script>
+
+          </div>
+        <!-- Show songs on album. -->
+        <div class="row justify-content-between">
+          <div class="album-song-content">
+            <div class="singles-header">Songs</div>
+                <ul id="album-songs-list-group-flush" class="list-group list-group-flush">
+                  {% for song in album.songs %}
+                    <li id="album-songs-list-item" class="list-group-item">
+                      <a id="album-songs-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> 
+                      {% if song.producers %}
+                        produced by
+                        {% for producer in song.producers%} 
+                          {% if loop.index == 1%}
+                            <a class="album-songs-list-item-performer_name"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                          {% else %}
+                            , <a class="album-songs-list-item-performer_name" href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                  <ul>
+            {% endif %}
+            </div>
+          </div>
   </body>
-  </div>
-      </div>
 </html>
 

@@ -25,13 +25,5 @@ class ProTagTests(unittest.TestCase):
         result = self.client.get("/resume")
         self.assertIn(b"Ryan Barner, Full-Stack Engineer", result.data)
 
-    # def test_search(self):
-    #     result = self.client.get("/search_result",
-    #                               data={'search_str': "Wonda"})
-    #     self.assertIn(b"WondaGurl", result.data)
-    #     self.assertNotIn(b"Pharrell", result.data)
-
-
-
 if __name__ == "__main__":
     unittest.main()

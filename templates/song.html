@@ -4,7 +4,7 @@
 
 <!-- Show song's producers, album, and head page with song name & performer.-->
 {% block content %}
-<div id="song-content">
+  <div id="song-content">
 <!--     <h1 align = "center"><i>{{song.song_title}}</i>
     {% if song.performers %} 
         - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a>
@@ -19,29 +19,29 @@
 
     <!-- Show song album came from, if album exists. -->
     <div class="song-info">
-            <div class="song-title" ><i>{{song.song_title}}</i>
-    {% if song.performers %} 
-        - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a>
-    {% endif %}
-    </div>
-    {% if song.albums %}
-    <div class="song-album">
-      From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></a>
-  </div>
-      <br> 
-    {% endif %}
-        Produced by:
+      <div class="song-title" ><i>{{song.song_title}}</i>
+        {% if song.performers %} 
+          - <a href="/performers/{{ song.performers[0].performer_id }}">{{song.performers[0].performer_name}}</a>
+        {% endif %}
+      </div>
+      {% if song.albums %}
+        <div class="song-album">
+          From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></a>
+        </div>
+        <br> 
+      {% endif %}
+      Produced by:
     <!-- Show producer's name and image, with link to producer's page. -->
-    {% if song.producers %}
+      {% if song.producers %}
         <div class="song-producer-row">
         {% for producer in song.producers %}
             <div class="avatar-container">
-            <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}" class="song-avatar"><br>{{ producer.producer_name }}
-            </a>
+              <a href="/producers/{{ producer.producer_id }}"><img src="{{ producer.producer_img_url }}" width="55" height="50" alt="{{ producer.producer_name }}" class="song-avatar"><br>{{ producer.producer_name }}
+              </a>
             </div>
         {% endfor %}
         </div>
     </div>
-    {% endif %}
-</div>
+      {% endif %}
+  </div>
 {% endblock %}

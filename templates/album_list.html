@@ -3,16 +3,16 @@
 {% block title %}ProTag - Albums{% endblock %}
 
 {% block content %}
-    <h1 align = "center">Albums</h1>
-    
-    <!-- Return album and cover art and album's performer with link to album's page. -->
-    {% for album in albums %}
-        <li>
-            <img src="{{ album.cover_art_url }}" width="50" height="50" alt="{{ album.album_title }}">
-            <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</a>
-        </li>
-    {% endfor %}
-    <br>
+  <h1 align = "center">Albums</h1>
 
-    {{ pagination.links }}
+  <!-- Return album and cover art and album's performer with link to album's page. -->
+  {% for album in albums %}
+    <li>
+      <img src="{{ album.cover_art_url }}" width="50" height="50" alt="{{ album.album_title }}">
+      <a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</a>
+    </li>
+  {% endfor %}
+  <br>
+
+  {{ pagination.links }}
 {% endblock %}

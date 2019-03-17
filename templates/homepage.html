@@ -3,33 +3,32 @@
 {% block title %}ProTag{% endblock %}
 
 {% block before_nav %}
-<div class="video-bg">
-    <video autoplay="" muted="" loop="" id="myVideo">
-      <source autoplay="" loop="" muted="" src="/static/Plug-and-Play.mp4" type="video/mp4">
-    </video>
-</div>
-<script>
-$('video').on('click', e => e.preventDefault());
-</script>
+  <div class="video-bg">
+      <video autoplay="" muted="" loop="" id="myVideo">
+        <source autoplay="" loop="" muted="" src="/static/Plug-and-Play.mp4" type="video/mp4">
+      </video>
+  </div>
+  <script>
+  $('video').on('click', e => e.preventDefault());
+  </script>
 {% endblock %}
 
 {% block content %}
-<div id="homepage">
-    <h1>ProTag</h1>
+  <div id="homepage">
+      <h1>ProTag</h1>
 
-    <!-- Show search bar. -->
-        <form id="homepage-search" method="GET" action="/search_result">
-          <div align = "center" class="form-group">
-            <input id="main-search-bar" type="search" class="form-control" name="search_str" placeholder="Search song, producer, performer or album" required>
-            <br>
-            <input type="submit" value="ProTag It!" class="btn btn-dark">
-          </div>
-        </form>
-        <div class="page-end">
+      <!-- Show search bar. -->
+      <form id="homepage-search" method="GET" action="/search_result">
+        <div align = "center" class="form-group">
+          <input id="main-search-bar" type="search" class="form-control" name="search_str" placeholder="Search song, producer, performer or album" required>
+          <br>
+          <input type="submit" value="ProTag It!" class="btn btn-dark">
+        </div>
+      </form>
+      <div class="page-end">
         Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
       </div>
-<!--         <img class="downarrow" src="//cdn.shopify.com/s/files/1/0081/4697/6835/t/2/assets/downarrow.svg?15999676924523281771"> -->
-</div>
+  </div>
 {% endblock %}
 
 

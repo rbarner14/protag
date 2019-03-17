@@ -8,142 +8,134 @@
 
 {% block content %}
 
-<div class="container-fluid">
-  <div class="row">
-    <aside class="col-sm-3 sidebar">
-      <nav class="sidebar-sticky">
-        <div class="producer-info">
-          <div class="producer-info-header">
-            <h1 align= "center" class="artist_name">
-              {{performer.performer_name}}
-              </h1>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-sm-3 sidebar">
+        <nav class="sidebar-sticky">
+          <div class="producer-info">
+            <div class="producer-info-header">
+              <h1 align= "center" class="artist_name">{{performer.performer_name}}</h1>
               <br>
-<!--   <h1 align = "center">{{performer.performer_name}}</h1> -->
-    <!-- Show producer's image. -->
-    <img src="{{ performer.performer_img_url }}" class="avatar" alt="{{ performer.performer_name }}">
-          </div>
-      <div class="bio">
-    {{ bio }}
+              <img src="{{ performer.performer_img_url }}" class="avatar" alt="{{ performer.performer_name }}">
+            </div>
+            <div class="bio">{{ bio }}</div>
+
+      <!-- Show related performers. -->
+            <div class="related_artists">
+            Related performers:
+              
+            {% set comma = joiner(",") %}
+            {% for performer in all_performers %}
+                {% if performer.performer_id in related_performers %}
+                  <!-- Comma separate related producer list. -->
+                  {{ comma() }} <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
+                {% endif %}
+            {% endfor %}
+              <div id="attribution-links">
+                  Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+              </div>
+            </div>
+        </nav>
+      </aside>
+
+      <div id="performer-page-contents" class="col-sm-9">
+        <div id="performer-sub-page-contents">
+            {% if performer.songs %}
+              <div class="charts-header">Number of songs {{ performer.performer_name }} has created by producer
+              </div>
+      <!-- Show performer to producer frequency donut chart. -->
+              <div class="donut-chart">
+                <canvas id="performer_song_donutChart"></canvas>
+                <div id="performer_song_donutLegend" class="chart-legend"></div>
+              </div>
+
+              <script>
+                const options = {
+                  responsive: true
+                };
+
+                // Make donut chart of number of songs created per producer.
+                let ctx_donut = $("#performer_song_donutChart").get(0).getContext("2d");
+
+                $.get("/performer-frequency.json", function (data) {
+                  let myDonutChart = new Chart(ctx_donut, {
+                                                          type: 'doughnut',
+                                                          data: data,
+                                                          options: options
+                                                        });
+                  // $('#performer_song_donutLegend').html(myDonutChart.generateLegend());
+                });
+              </script>
+
+              {% if album_years %}
+                <div class="album-header">Albums & EPs</div>
+
+                <!-- Loop through album_years. -->
+                {% for year in album_years %}
+                    <!-- Show album year. -->
+                    <div class="year">{{year}}</div>
+                    <div class="card-columns">
+                                      <!-- Loop through albums. -->
+                      {% for album in performer.albums %}
+                            <!-- Show album details (title, production) by album release year. -->
+                        {% if album.album_release_date.strftime("%Y") == year %}
+                          <div class="card" style="width: 18rem;">
+
+                  <!--             <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a></h3>
+                              <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
+                   -->
+                            <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
+                            <div class="card-body">
+                              <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br></header>
+                            </div>
+
+
+                            <ul class="list-group list-group-flush">
+                                  {% for song in album.songs %} 
+                                      {% if song.producers %}
+                                      <li id="performer-song-list" class="list-group-item">
+                                      <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
+                                        produced by
+                                          {% for producer in song.producers %} 
+                                              {% if loop.index == 1%}
+                                                <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                                              {% else %}
+                                                , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                                              {% endif %}
+                                          {% endfor %}
+                                      {% endif %}
+                                      </li>
+                                  {% endfor %}
+                            </ul>
+                          </div>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                {% endfor %}
         </div>
-
-
-    <!-- Show related performers. -->
-          <div class="related_artists">
-    Related performers:
-      
-    {% set comma = joiner(",") %}
-    {% for performer in all_performers %}
-        {% if performer.performer_id in related_performers %}
-          <!-- Comma separate related producer list. -->
-          {{ comma() }} <a href="/performers/{{ performer.performer_id }}">{{ performer.performer_name }}</a>
-        {% endif %}
-    {% endfor %}
-        <div id="attribution-links">
-            Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
-          </div>
-    </div>
-      </nav>
-    </aside>
-
-    <div id="performer-page-contents" class="col-sm-9">
-      <div id="performer-sub-page-contents">
-          {% if performer.songs %}
-    <div class="charts-header">Number of songs {{ performer.performer_name }} has created by producer</div>
-    <!-- Show performer to producer frequency donut chart. -->
-    <div class="donut-chart">
-      <canvas id="performer_song_donutChart"></canvas>
-      <div id="performer_song_donutLegend" class="chart-legend"></div>
-    </div>
-
-    <script>
-      const options = {
-        responsive: true
-      };
-
-      // Make donut chart of number of songs created per producer.
-      let ctx_donut = $("#performer_song_donutChart").get(0).getContext("2d");
-
-      $.get("/performer-frequency.json", function (data) {
-        let myDonutChart = new Chart(ctx_donut, {
-                                                type: 'doughnut',
-                                                data: data,
-                                                options: options
-                                              });
-        // $('#performer_song_donutLegend').html(myDonutChart.generateLegend());
-      });
-    </script>
-
-    {% if album_years %}
-    <div class="album-header">Albums & EPs</div>
-
-        <!-- Loop through album_years. -->
-        {% for year in album_years %}
-          <!-- Show album year. -->
-                <div class="year">{{year}}</div>
-                <div class="card-columns">
-                        <!-- Loop through albums. -->
-          {% for album in performer.albums %}
-            <!-- Show album details (title, production) by album release year. -->
-            {% if album.album_release_date.strftime("%Y") == year %}
-          <div class="card" style="width: 18rem;">
-
-  <!--             <h3><a href="/albums/{{ album.album_id }}"><i>{{ album.album_title }}</i></a></h3>
-              <img src="{{ album.cover_art_url }}" width="250" height="200" alt="{{ album.album_title }}">
-   -->
-            <img class="card-img-top" src="{{ album.cover_art_url }}" alt="{{ album.album_title }}">
-            <div class="card-body">
-              <header class="card-title"><a class="album-title" href="/albums/{{ album.album_id }}"><b><i>{{ album.album_title }}</b></i></a><br></header>
-            </div>
-
-
-            <ul class="list-group list-group-flush">
-                  {% for song in album.songs %} 
-                      {% if song.producers %}
-                      <li id="performer-song-list" class="list-group-item">
-                      <a href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a>
-                        produced by
-                          {% for producer in song.producers %} 
-                              {% if loop.index == 1%}
-                                <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                              {% else %}
-                                , <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                              {% endif %}
-                          {% endfor %}
-                      {% endif %}
-                      </li>
-                  {% endfor %}
-                                </ul>
-            </div>
-            {% endif %}
-          {% endfor %}
-          </div>
-        {% endfor %}
-                  </div>
-    {% endif %}
-<!--     </div>
-  </div> -->
-    <!-- Show details (title and production) for songs that do not have albums. -->
-    <div class="singles-header">Singles</div>
-    <ul id="singles-list-group-flush" class="list-group list-group-flush">
-    {% for song in performer.songs %}
-      {% if not song.albums %}
-        <li id="singles-list-item-song-title" class="list-group-item">
-          <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
-        {% if song.producers %}
-          {% for producer in song.producers%}
-              {% if loop.index == 1 %}
-                <a id="performer-song-list-item-performer-name-2"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-              {% else %}
-                , <a id="performer-song-list-item-performer-name-3"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
               {% endif %}
-          {% endfor %}
-        {% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-</ul>
-  {% endif %}
-    </div>
+                <!-- Show details (title and production) for songs that do not have albums. -->
+                <div class="singles-header">Singles</div>
+                <ul id="singles-list-group-flush" class="list-group list-group-flush">
+                {% for song in performer.songs %}
+                  {% if not song.albums %}
+                    <li id="singles-list-item-song-title" class="list-group-item">
+                      <a id="singles-list-item-song-title" href="/songs/{{ song.song_id }}"><i>{{ song.song_title }}</i></a> produced by
+                      {% if song.producers %}
+                        {% for producer in song.producers%}
+                            {% if loop.index == 1 %}
+                              <a id="performer-song-list-item-performer-name-2"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                            {% else %}
+                              , <a id="performer-song-list-item-performer-name-3"href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
+                            {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                </ul>
+            {% endif %}
+                </div>
       </div>
-    </div>
+        </div>
 {% endblock %}

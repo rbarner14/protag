@@ -11,6 +11,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 from model import connect_to_db, db
 from model import Producer, Performer, Song, Album, ProduceSong
 from sqlalchemy import cast, Numeric
+from sqlalchemy.ext import baked
 # For API calls.
 import requests
 # For Chart.js color generation.
@@ -25,6 +26,7 @@ from sklearn.metrics import confusion_matrix
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 app.jinja_env.auto_reload = True
+bakery = baked.bakery()
 
 # Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
@@ -168,6 +170,8 @@ def producer_detail(producer_id):
     # The producer being searched is included in the neighbors list.  Remove it
     # before passing list to Jinja with pop left equivalent method.
     related_producers.pop(0)
+
+    print(f"total_time = {end_time - start_time}")
 
     return render_template("producer.html",
                             producer=producer,
@@ -731,7 +735,7 @@ def resume():
 if __name__ == "__main__":
     # debug=True as it has to be True at when DebugToolbarExtension is invoked.
     
-    app.debug = False
+    app.debug = True
 
     connect_to_db(app)
 

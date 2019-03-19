@@ -78,7 +78,6 @@ class Song(db.Model):
 
     def __repr__(self):
         return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year}>"
-        # return f"<Song song_id={self.song_id} song_title={self.song_title} apple_music_player_url={self.apple_music_player_url} song_release_date={self.song_release_date} song_release_year={self.song_release_year} song_release_month={self.song_release_month} song_release_day={self.song_release_day}>"
 
     @classmethod
     def get_song_producers(cls, song_title):
@@ -100,7 +99,6 @@ class Album(db.Model):
 
     def __repr__(self):
 
-        # return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_year={self.album_release_year} release_month={self.album_release_month} release_day={self.album_release_day}>"
         return f"<Album album_id={self.album_id} album_title={self.album_title} cover_art_url={self.cover_art_url} release_date={self.album_release_date}>"
 
     @classmethod

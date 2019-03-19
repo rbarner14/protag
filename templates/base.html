@@ -44,11 +44,12 @@
 
     </style>
 
-    <!-- Scripts. -->
+    <!-- Styling. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:300,700" rel="stylesheet">
     <link href="/static/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/static/images/ProTag2.png">
+    <!-- Scripts. -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- For Chart.js. -->
@@ -124,27 +125,8 @@
         {% block content %}PUT YOUR BODY HERE.{% endblock %}
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-        <script>
-          /* When the user scrolls down 20px from the top of the document, 
-          show the button. */
-          window.onscroll = function() {scrollFunction()};
-
-          function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              document.getElementById("myBtn").style.display = "block";
-            } else {
-              document.getElementById("myBtn").style.display = "none";
-            }
-          }
-
-          /* When the user clicks on the button, scroll to the top of the document. 
-          */
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-        </script>
+        
+        <script src="/static/top_scroll.js"></script>
 
 <!--       <footer> -->
         <!-- Show attribution links & trademarks. -->

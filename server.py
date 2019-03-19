@@ -171,7 +171,8 @@ def producer_detail(producer_id):
     # before passing list to Jinja with pop left equivalent method.
     related_producers.pop(0)
 
-    print(f"total_time = {end_time - start_time}")
+    # Calculate page_runtime.
+    # print(f"total_time = {end_time - start_time}")
 
     return render_template("producer.html",
                             producer=producer,

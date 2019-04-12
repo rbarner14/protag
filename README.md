@@ -77,7 +77,7 @@ Navigate to localhost:5000 in browser.
 <br/>
 
 **If producer selected, view producer's name, image, bio, and data visualizations.  Related producers are provided, generated with a k-means 
-machine learning algorithm; nearest neighbors determined by like performers).**
+machine learning algorithm; nearest neighbors determined by like performers.**
 <br/><br/>
 ![Producer_Landing](/static/images/readme/producer_landing.gif)
 <br/>

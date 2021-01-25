@@ -159,6 +159,16 @@ def producer_detail(producer_id):
     # Store producer_id in session.
     session["producer_id"] = producer_id
 
+    if producer_id == 2139214:
+        related_producers = []
+        return render_template("producer.html",
+                               producer=producer,
+                               all_producers=all_producers,
+                               album_years=album_years,
+                               bio=bio,
+                               related_producers=related_producers
+                               )
+
     # Return related performers with knn ML algorithm.
     data = pd.read_csv('seed_data/scores.csv')
     d = data.pivot(index='producer_id', columns='performer_id', values='score')

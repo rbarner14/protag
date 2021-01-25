@@ -5,3 +5,4 @@ crawler.py
 notes/
 ./idea*
 .DS_Store*
+.idea*

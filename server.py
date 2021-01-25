@@ -16,8 +16,8 @@ from sqlalchemy.ext import baked
 import requests
 # For Chart.js color generation.
 import random
-import pandas as pd    # data formatting
-import numpy as np     # numeric library
+import pandas as pd  # data formatting
+import numpy as np  # numeric library
 from sklearn.neighbors import KNeighborsClassifier  # machine learning
 from sklearn.externals import joblib
 from sklearn.metrics import confusion_matrix
@@ -31,6 +31,7 @@ bakery = baked.bakery()
 
 # Required for Flask sessions and debug toolbar use
 app.secret_key = "ABC"
+
 
 @app.route("/")
 def index():
@@ -89,12 +90,11 @@ def return_search_result():
         albums = None
 
     return render_template("search_result.html",
-                            producers=producers,
-                            performers=performers,
-                            songs=songs,
-                            albums=albums
-                          )
-
+                           producers=producers,
+                           performers=performers,
+                           songs=songs,
+                           albums=albums
+                           )
 
 
 @app.route("/producers")
@@ -105,21 +105,21 @@ def producer_list():
     producers = Producer.query.order_by("producer_name").all()
 
     page, per_page, offset = get_page_args(
-            page_parameter="page", per_page_parameter="per_page"
-        )
+        page_parameter="page", per_page_parameter="per_page"
+    )
 
     per_page = 100
 
     offset = (page - 1) * per_page
     total = len(producers)
 
-    pagination_producers = producers[offset : offset + per_page]
+    pagination_producers = producers[offset: offset + per_page]
     pagination = Pagination(
         page=page, per_page=per_page, total=total, css_framework="bootstrap4"
     )
 
     return render_template(
-        "producer_list.html", 
+        "producer_list.html",
         producers=pagination_producers,
         page=page,
         per_page=per_page,
@@ -137,24 +137,24 @@ def producer_detail(producer_id):
 
     # Method "joinedload" employed to reduce # of queries run for output.
     producer = Producer.query.options(db.joinedload("albums")
-                                        .joinedload("songs")
-                                        .joinedload("producers")
-                                    ).get(producer_id)
+                                      .joinedload("songs")
+                                      .joinedload("producers")
+                                      ).get(producer_id)
 
     all_producers = Producer.query.all()
 
-    albums = producer.albums # list
-    
+    albums = producer.albums  # list
+
     # Return the album release years in descending chronological order.
     album_years = sorted(set([album.album_release_date.strftime("%Y")
                               for album in albums]
-                             ),reverse=True)
+                             ), reverse=True)
 
     j = requests.get(URL).json()
 
     # If call is successful, access JSON object.
     if j["meta"]["status"] == 200:
-        bio = j["response"]["artist"].get("description_preview","")
+        bio = j["response"]["artist"].get("description_preview", "")
 
     # Store producer_id in session.
     session["producer_id"] = producer_id
@@ -166,7 +166,7 @@ def producer_detail(producer_id):
     model = joblib.load('static/model/trained-model_producers.pkl')
 
     # Shape model to the dimensions of the dataset.
-    dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
+    dist, ind = model.kneighbors(d.loc[producer_id, :].values.reshape(1, -1))
     related_producers = [list(d.index)[i] for i in ind[0]]
     # The producer being searched is included in the neighbors list.  Remove it
     # before passing list to Jinja with pop left equivalent method.
@@ -176,12 +176,12 @@ def producer_detail(producer_id):
     # print(f"total_time = {end_time - start_time}")
 
     return render_template("producer.html",
-                            producer=producer,
-                            all_producers=all_producers,
-                            album_years=album_years,
-                            bio=bio,
-                            related_producers=related_producers
-                          )
+                           producer=producer,
+                           all_producers=all_producers,
+                           album_years=album_years,
+                           bio=bio,
+                           related_producers=related_producers
+                           )
 
 
 @app.route("/producer-frequency.json")
@@ -194,7 +194,7 @@ def generate_producer_performer_frequency_donut_chart():
     # Create list of tuples; value @ 1st index = performer_name; 
     # value @ 2nd = song count.
     producer_song_tuples = db.session.query(
-        Performer.performer_name, 
+        Performer.performer_name,
         db.func.count(ProduceSong.song_id)
     ).join(
         ProduceSong
@@ -219,9 +219,9 @@ def generate_producer_performer_frequency_donut_chart():
         data.append(song_count)
 
         # Generate chart colors using random's randint method.
-        random_red = random.randint(0,255)
-        random_green = random.randint(0,255)
-        random_blue = random.randint(0,255)
+        random_red = random.randint(0, 255)
+        random_green = random.randint(0, 255)
+        random_blue = random.randint(0, 255)
         random_color = f"rgba({random_red},{random_green},{random_blue},1)"
 
         background_color.append(random_color)
@@ -242,7 +242,7 @@ def generate_producer_performer_frequency_donut_chart():
 @app.route("/producer-productivity.json")
 def producer_productivity_data():
     """Return producer productivity JSON for line Chartjs data viz."""
-    
+
     # Get producer_id from id stored in session.
     producer_id = session["producer_id"]
 
@@ -313,26 +313,27 @@ def performer_list():
     performers = Performer.query.order_by("performer_name").all()
 
     page, per_page, offset = get_page_args(
-            page_parameter="page", per_page_parameter="per_page"
-        )
+        page_parameter="page", per_page_parameter="per_page"
+    )
 
     per_page = 100
 
     offset = (page - 1) * per_page
     total = len(performers)
 
-    pagination_performers = performers[offset : offset + per_page]
+    pagination_performers = performers[offset: offset + per_page]
     pagination = Pagination(
         page=page, per_page=per_page, total=total, css_framework="bootstrap4"
     )
 
     return render_template(
-        "performer_list.html", 
+        "performer_list.html",
         performers=pagination_performers,
         page=page,
         per_page=per_page,
         pagination=pagination
     )
+
 
 # Each performer's page's url will include the performer's database id.
 @app.route("/performers/<int:performer_id>", methods=["GET"])
@@ -342,8 +343,8 @@ def performer_detail(performer_id):
     URL = "https://genius.com/api/artists/" + str(performer_id)
 
     performer = Performer.query.options(db.joinedload("albums")
-                                          .joinedload("songs")
-                                          .joinedload("producers")
+                                        .joinedload("songs")
+                                        .joinedload("producers")
                                         ).get(performer_id)
 
     all_performers = Performer.query.all()
@@ -352,8 +353,8 @@ def performer_detail(performer_id):
 
     # Return a set of performer's album release years in descending order.
     album_years = sorted(set([album.album_release_date.strftime("%Y")
-                         for album in albums]
-                        ),reverse=True)
+                              for album in albums]
+                             ), reverse=True)
 
     # Store performer_id in session.
     session["performer_id"] = performer_id
@@ -361,11 +362,11 @@ def performer_detail(performer_id):
     # API call for producer bio.
     r = requests.get(URL)
     j = r.json()
-    
+
     # If url request is successful and the bio JSON key exists, return that key
     # value (description_preview); otherwise, return an empty string.
     if j["meta"]["status"] == 200:
-        bio = j["response"]["artist"].get("description_preview","")
+        bio = j["response"]["artist"].get("description_preview", "")
 
     # Return related performers with knn ML algorithm.
     data = pd.read_csv('seed_data/scores.csv')
@@ -376,17 +377,17 @@ def performer_detail(performer_id):
     # The performer being searched is included in the neighbors list.  Remove it
     # before passing list to Jinja with pop left equivalent method.
     # For future development: cache values to prevent doing operations in server.
-    dist, ind = model.kneighbors(d.loc[performer_id,:].values.reshape(1, -1))
+    dist, ind = model.kneighbors(d.loc[performer_id, :].values.reshape(1, -1))
     related_performers = [list(d.index)[i] for i in ind[0]]
     related_performers.pop(0)
 
     return render_template("performer.html",
-                            performer=performer,
-                            all_performers=all_performers,
-                            album_years=album_years,
-                            bio=bio,
-                            related_performers=related_performers
-                          )
+                           performer=performer,
+                           all_performers=all_performers,
+                           album_years=album_years,
+                           bio=bio,
+                           related_performers=related_performers
+                           )
 
 
 @app.route("/performer-frequency.json")
@@ -398,7 +399,7 @@ def generate_performer_producer_frequency_donut_chart():
 
     # Return tuples of producer_names and song_counts for performer.
     performer_producer_tuples = db.session.query(
-        Producer.producer_name, 
+        Producer.producer_name,
         db.func.count(ProduceSong.song_id)
     ).join(
         ProduceSong
@@ -424,23 +425,23 @@ def generate_performer_producer_frequency_donut_chart():
         data.append(song_count)
 
         # Generate chart colors using random's randint method.
-        random_red = random.randint(0,255)
-        random_green = random.randint(0,255)
-        random_blue = random.randint(0,255)
+        random_red = random.randint(0, 255)
+        random_green = random.randint(0, 255)
+        random_blue = random.randint(0, 255)
         random_color = f"rgba({random_red},{random_green},{random_blue},1)"
 
         background_color.append(random_color)
 
     # Dictionary Chart.js will use to create donut chart.
     return jsonify({
-                "labels": labels,
-                "datasets": [
-                    {
-                        "data": data,
-                        "backgroundColor": background_color,
-                        # "hoverBackgroundColor": []
-                    }]
-            })
+        "labels": labels,
+        "datasets": [
+            {
+                "data": data,
+                "backgroundColor": background_color,
+                # "hoverBackgroundColor": []
+            }]
+    })
 
 
 @app.route("/songs")
@@ -451,25 +452,25 @@ def song_list():
     songs = Song.query.order_by("song_title").all()
 
     page, per_page, offset = get_page_args(
-            page_parameter="page", per_page_parameter="per_page"
-        )
+        page_parameter="page", per_page_parameter="per_page"
+    )
 
     per_page = 100
 
     offset = (page - 1) * per_page
     total = len(songs)
 
-    pagination_songs = songs[offset : offset + per_page]
+    pagination_songs = songs[offset: offset + per_page]
     pagination = Pagination(
         page=page, per_page=per_page, total=total, css_framework="bootstrap4"
     )
 
-    return render_template("song_list.html", 
-                            songs=pagination_songs,
-                            page=page,
-                            per_page=per_page,
-                            pagination=pagination
-                          )
+    return render_template("song_list.html",
+                           songs=pagination_songs,
+                           page=page,
+                           per_page=per_page,
+                           pagination=pagination
+                           )
 
 
 # Each song's page's URL will include the song's database id.
@@ -479,11 +480,11 @@ def song_detail(song_id):
 
     # Return song objects using producers' and songs' relationship.
     song = Song.query.options(db.joinedload("producers")
-                                .joinedload("songs")
-                               ).get(song_id)
+                              .joinedload("songs")
+                              ).get(song_id)
 
     return render_template("song.html",
-                            song=song
+                           song=song
                            )
 
 
@@ -494,29 +495,29 @@ def album_list():
     # Return album objects using performers' and albums' relationship, ordering
     # results by album title.
     albums = Album.query.options(db.joinedload("performers")
-                                   .joinedload("albums")
-                                  ).order_by('album_title').all()
+                                 .joinedload("albums")
+                                 ).order_by('album_title').all()
 
     page, per_page, offset = get_page_args(
-            page_parameter="page", per_page_parameter="per_page"
-        )
+        page_parameter="page", per_page_parameter="per_page"
+    )
 
     per_page = 100
 
     offset = (page - 1) * per_page
     total = len(albums)
 
-    pagination_albums = albums[offset : offset + per_page]
+    pagination_albums = albums[offset: offset + per_page]
     pagination = Pagination(
         page=page, per_page=per_page, total=total, css_framework="bootstrap4"
     )
 
-    return render_template("album_list.html", 
-                            albums=pagination_albums,
-                            page=page,
-                            per_page=per_page,
-                            pagination=pagination
-                          )
+    return render_template("album_list.html",
+                           albums=pagination_albums,
+                           page=page,
+                           per_page=per_page,
+                           pagination=pagination
+                           )
 
 
 # each album's page's url will include the album's database id
@@ -530,8 +531,8 @@ def album_detail(album_id):
     # SQLAlchemy query to return album objects using album_id argument using 
     # songs' and albums' relationship.
     album = Album.query.options(db.joinedload("songs")
-                                  .joinedload("albums")
-                                 ).get(album_id)
+                                .joinedload("albums")
+                                ).get(album_id)
 
     # Storing album_id in session.
     session["album_id"] = album_id
@@ -539,15 +540,15 @@ def album_detail(album_id):
     # API call to return album bio.
     r = requests.get(URL)
     j = r.json()
-    
+
     # If call is successful, return 'description_preview' value in JSON object.
     if j["meta"]["status"] == 200:
-        bio = j["response"]["album"].get("description_preview","")
-    
+        bio = j["response"]["album"].get("description_preview", "")
+
     return render_template("album.html",
-                            album=album,
-                            bio=bio
-                          )
+                           album=album,
+                           bio=bio
+                           )
 
 
 @app.route("/album-bubbles.json")
@@ -560,7 +561,7 @@ def generate_album_bubbles():
     # SQLAlchemy query creates list of tuples of producer's name, image url, and
     # count of songs.
     album_producer_tuples = db.session.query(
-        Producer.producer_name, 
+        Producer.producer_name,
         Producer.producer_img_url,
         db.func.count(ProduceSong.song_id)
     ).join(
@@ -568,7 +569,7 @@ def generate_album_bubbles():
     ).filter(
         ProduceSong.album_id == album_id
     ).group_by(
-        Producer.producer_name, 
+        Producer.producer_name,
         Producer.producer_img_url
     ).all()
 
@@ -589,10 +590,10 @@ def generate_album_bubbles():
 
     # Python dictionary to jsonfiy and pass to front end to build Chart.js viz.
     return jsonify({
-                "name": "producers",
-                "value": 100,
-                "children": children
-            })
+        "name": "producers",
+        "value": 100,
+        "children": children
+    })
 
 
 @app.route("/album-web.json")
@@ -613,7 +614,7 @@ def generate_album_web():
     # SQLAlchemy query creates tupes of producer's name, image, the cover art of
     # the album they produced and the songs on that album they produced.
     album_producer_tuples = db.session.query(
-        Producer.producer_name, 
+        Producer.producer_name,
         Producer.producer_img_url,
         Album.cover_art_url,
         db.func.count(ProduceSong.song_id)
@@ -622,11 +623,11 @@ def generate_album_web():
     ).join(
         Album
     ).filter(
-        ProduceSong.album_id == album_id, 
+        ProduceSong.album_id == album_id,
         Album.album_id == ProduceSong.album_id
     ).group_by(
-        Producer.producer_name, 
-        Producer.producer_img_url, 
+        Producer.producer_name,
+        Producer.producer_img_url,
         Album.cover_art_url
     ).all()
 
@@ -639,12 +640,12 @@ def generate_album_web():
         name, img, cover_art_url, song_count = album_producer
 
         if song_count > 1:
-            child_dic["hero"] = f"{name} ({song_count} songs)" 
-            child_dic["name"] = f"{name} ({song_count} songs)" 
-        else: 
+            child_dic["hero"] = f"{name} ({song_count} songs)"
+            child_dic["name"] = f"{name} ({song_count} songs)"
+        else:
             child_dic["hero"] = f"{name} ({song_count} song)"
             child_dic["name"] = f"{name} ({song_count} song)"
-        
+
         child_dic["link"] = img
         child_dic["img"] = img
         child_dic["size"] = 40000
@@ -652,14 +653,14 @@ def generate_album_web():
 
     # JSON object that will be jsonified and used to create D3 viz.
     return jsonify({
-         "name": album_id,
-         "img": album_img[0],
-         "children": [
-              {
-               "name": "Producers",
-               "children": children
-              }
-          ]
+        "name": album_id,
+        "img": album_img[0],
+        "children": [
+            {
+                "name": "Producers",
+                "children": children
+            }
+        ]
     })
 
 
@@ -672,19 +673,19 @@ def make_nodes_and_paths(filename):
     # oin producers using (producer_id)" > output.csv.
     file_obj = open(filename)
     contents = file_obj.read()
-    lines = contents.split("\n") # Create a list of the rows in the file.
+    lines = contents.split("\n")  # Create a list of the rows in the file.
 
-    nodes = {} # Focal point of data (words).
+    nodes = {}  # Focal point of data (words).
     for pair in lines:
-        split = pair.split(",") # split each line, using a comma as a delimitor
-        if split: # If pair is not blank (line in file was not blank),
+        split = pair.split(",")  # split each line, using a comma as a delimitor
+        if split:  # If pair is not blank (line in file was not blank),
             # for loop through split list, bind each item to variable node.
-            for node in split: 
-                node = node.strip() # Strip each pair in list of white space.
+            for node in split:
+                node = node.strip()  # Strip each pair in list of white space.
                 if not nodes.get(node):
                     nodes[node] = split[1].strip()
-    
-    nodes = [{"name":node, "parent": nodes[node]} for node in nodes.keys()]
+
+    nodes = [{"name": node, "parent": nodes[node]} for node in nodes.keys()]
 
     index_nodes = {}
     for idx, n in enumerate(nodes):
@@ -692,12 +693,12 @@ def make_nodes_and_paths(filename):
 
     paths = []
     for line in lines:
-        slt = line.split(",") # Split line in csv by comma.
+        slt = line.split(",")  # Split line in csv by comma.
         if len(slt) == 2:
             source, target = slt
             paths.append(
                 {
-                    "source": index_nodes[source][0], 
+                    "source": index_nodes[source][0],
                     "target": index_nodes[target][0]
                 }
             )
@@ -713,8 +714,7 @@ def get_graph_data():
     # Read filename fed in as argument.
     nodes, paths = make_nodes_and_paths("static/output_for_network.csv")
     # Create a json object of the list of nodes and list of paths.
-    return jsonify({"nodes":nodes, "paths":paths}) 
-
+    return jsonify({"nodes": nodes, "paths": paths})
 
 
 @app.route("/network")
@@ -731,12 +731,11 @@ def resume():
     return render_template("resume.html")
 
 
-
 ################################################################################
 
 if __name__ == "__main__":
     # debug=True as it has to be True at when DebugToolbarExtension is invoked.
-    
+
     app.debug = False
 
     connect_to_db(app)

@@ -2841,7 +2841,7 @@
 145639|Ars-Nova|https://assets.genius.com/images/default_avatar_300.png?1550698131
 1456539|Gabriel Vellet|https://assets.genius.com/images/default_avatar_300.png?1550796438
 1456715|OG Jonah|https://assets.genius.com/images/default_avatar_300.png?1550179390
-1456758|Lil Bersa|https://images.genius.com/dee3b6739a6f4b483e8b508b5a0f613e.1000x1000x1.jpg
+1456758|Lil Bersa|https://assets.genius.com/images/default_avatar_300.png?1550698131
 1457113|Yates XV|https://images.genius.com/5f46fa1bf93c474f4c0e2d23e40c6c83.500x500x1.jpg
 1457302|ReptileLegit|https://images.genius.com/cb3c1e166462d1b3a16fed503a4172f3.500x500x1.jpg
 1457385|Rocky jez|https://assets.genius.com/images/default_avatar_300.png?1550179390
@@ -9663,3 +9663,4 @@
 1163499|Asha Imuno|https://images.genius.com/e3b22d3594cd87bbb852dc83e5cc9996.1000x1000x1.jpg
 160314|Marz Ferrer|https://images.genius.com/c7a1da4db433d0768bca234daa0a05ff.545x545x1.jpg
 622839|Legal Knievel, Codey Banks|https://assets.genius.com/images/default_avatar_300.png?1551733989
+2119381|Xacchi|https://i.imgur.com/QxmmdsP.jpg

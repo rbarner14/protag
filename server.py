@@ -26,6 +26,7 @@ from sklearn.metrics import confusion_matrix
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 app.jinja_env.auto_reload = True
+app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 bakery = baked.bakery()
 
 # Required for Flask sessions and debug toolbar use

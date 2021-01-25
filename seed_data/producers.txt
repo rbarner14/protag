@@ -305,3 +305,4 @@
 99899|GAWVI|https://images.genius.com/fc496a1c56a097629923c2dca2da54ac.761x761x1.jpg|
 64581|Nineteen85|https://images.genius.com/552cc3e0e81342a8f8fe386f00592a3e.1000x1000x1.jpg|
 55555|IMakeBeats|https://static1.squarespace.com/static/55d11566e4b058cb5c0c32af/t/5a03e38f71c10b1577cadccc/1510204305404/beat+large+color.jpg|
+2139214|Bliser|https://assets.genius.com/images/default_avatar_300.png?1550179390|

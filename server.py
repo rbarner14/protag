@@ -368,6 +368,16 @@ def performer_detail(performer_id):
     if j["meta"]["status"] == 200:
         bio = j["response"]["artist"].get("description_preview", "")
 
+    if performer_id == 2119381:
+        related_performers = [1456758]
+        return render_template("performer.html",
+                               performer=performer,
+                               all_performers=all_performers,
+                               album_years=album_years,
+                               bio=bio,
+                               related_performers=related_performers
+                               )
+
     # Return related performers with knn ML algorithm.
     data = pd.read_csv('seed_data/scores.csv')
     d = data.pivot(index='performer_id', columns='producer_id', values='score')

@@ -9664,3 +9664,6 @@
 160314|Marz Ferrer|https://images.genius.com/c7a1da4db433d0768bca234daa0a05ff.545x545x1.jpg
 622839|Legal Knievel, Codey Banks|https://assets.genius.com/images/default_avatar_300.png?1551733989
 2119381|Xacchi|https://i.imgur.com/QxmmdsP.jpg
+1488302|Cr00k|https://images.genius.com/5ae9847d38db0c51c6aaaaf953c7b0e8.500x500x1.jpg
+2552084|CP Tridents|https://images.genius.com/ab55e92d39a6815ee29cd77a0ce1edf2.1000x1000x1.jpg
+2139215|MAJ0RA|https://assets.genius.com/images/default_avatar_300.png?1611332193

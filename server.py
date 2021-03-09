@@ -753,14 +753,15 @@ def resume():
 
 ################################################################################
 
-# if __name__ == "__main__":
-#     # debug=True as it has to be True at when DebugToolbarExtension is invoked.
-#
-#     app.debug = False
-#
+
+if __name__ == "__main__":
+    # debug=True as it has to be True at when DebugToolbarExtension is invoked.
+
+    app.debug = False
+
 #     connect_to_db(app)
-#
-#     # Using the DebugToolbar.
-#     DebugToolbarExtension(app)
-#
-#     app.run(host="0.0.0.0")
+
+    # Using the DebugToolbar.
+    DebugToolbarExtension(app)
+
+    app.run(host="0.0.0.0")
